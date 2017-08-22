@@ -9,11 +9,11 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from misc.cyverse_sphinx_conf import *  # noqa
 
-project = 'CyVerse Learning Center Home'
+project = 'CyVerse Tools and Services Workshop'
 copyright = '2017, CyVerse'
 author = 'CyVerse'
-version = '0.1b.0'
-release = '0.1b.0'
+version = '0.1.0'
+release = '0.1.0'
 
 epub_title = project
 epub_author = author
