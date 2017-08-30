@@ -119,12 +119,12 @@ Agenda
       - Notes/Links
     * - 9:30-10:00
       - Introduction to CyVerse
-      - `slides <>`__
+      - `slides <./slides/tsw_intro.pptx>`__
       -
       -
     * - 10:00-10:30
       - Data Management Basics and Data upload with Cyberduck
-      - `slides <>`__
+      - `slides <./slides/data_store.pptx>`__
       - `guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/>`__
       - - `Download Cyberduck`_
         - `Download CyVerse Cyberduck connection profile`_
@@ -140,7 +140,7 @@ Agenda
       -
     * - 11:00-12:00
       - CyVerse Discovery Environment walkthrough and exercises
-      - `slides <>`__
+      - `slides <./slides/discovery_environment.pptx>`__
       - `guide <http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/>`__
       - - `FastQC Exercise <https://cyverse-fastqc-quickstart.readthedocs-hosted.com/en/latest/>`_
         - `Trimmomatic Exercise <https://cyverse-trimmomatic-quickstart.readthedocs-hosted.com/en/latest/>`_
@@ -151,7 +151,7 @@ Agenda
       -
     * - 01:00-01:45
       - Cloud Computing with CyVerse Atmosphere
-      - `slides <>`__
+      - `slides <./slides/atmosphere>`__
       - `guide <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`__
       -
     * - 01:45-02:15
