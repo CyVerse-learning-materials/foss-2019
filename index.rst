@@ -119,12 +119,12 @@ Agenda
       - Notes/Links
     * - 9:30-10:00
       - Introduction to CyVerse
-      - `slides <./slides/tsw_intro.pptx>`__
+      - `slides <https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/tsw_intro.pptx>`__
       -
       -
     * - 10:00-10:30
       - Data Management Basics and Data upload with Cyberduck
-      - `slides <./slides/data_store.pptx>`__
+      - `slides <https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/data_store.pptx>`__
       - `guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/>`__
       - - `Download Cyberduck`_
         - `Download CyVerse Cyberduck connection profile`_
@@ -140,7 +140,7 @@ Agenda
       -
     * - 11:00-12:00
       - CyVerse Discovery Environment walkthrough and exercises
-      - `slides <./slides/discovery_environment.pptx>`__
+      - `slides <https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/discovery_enviornment.pptx>`__
       - `guide <http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/>`__
       - - `FastQC Exercise <https://cyverse-fastqc-quickstart.readthedocs-hosted.com/en/latest/>`_
         - `Trimmomatic Exercise <https://cyverse-trimmomatic-quickstart.readthedocs-hosted.com/en/latest/>`_
@@ -151,14 +151,15 @@ Agenda
       -
     * - 01:00-01:45
       - Cloud Computing with CyVerse Atmosphere
-      - `slides <./slides/atmosphere>`__
+      - `slides <https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/atmosphere.pptx>`__
       - `guide <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`__
       -
     * - 01:45-02:15
       - Introduction to New RNA-Seq Methods
       - `Kallisto Tutorial <https://cyverse-kallisto-tutorial.readthedocs-hosted.com/en/latest/>`_
       -
-      - `Kallisto Paper <>`_
+      - - `RNA-Seq Best Practicies <https://wiki.cyverse.org/wiki/download/attachments/36470870/Best_Practices_RNA_Seq_ConesaEtal_2016.pdf?version=1&modificationDate=1499770226000&api=v2>`_
+        - `Kallisto Paper <https://www.nature.com/nbt/journal/v34/n5/full/nbt.3519.html>`_
     * - 02:15-02:30
       - Break
       -
