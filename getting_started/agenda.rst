@@ -1,11 +1,11 @@
 **Agenda**
 ==========
 
-Below are the schedule and classroom materials for Container Camp at The University of Arizona, which will run from March 6th to 8th, 2019. Container Camp will be held in U Arizona's Drachman Hall, Rm A116.  You can find a map of that location `here <https://goo.gl/7Yv4PA>`_. For nearest parking garage, it is the Highland Street Garage, where daily parking is $8/day; it's about a 2 block walk (east) to Drachman from the garage.
+Schedule and classroom info here
 
 This workshop runs under a `Code of Conduct <../getting_started/main.html>`_. Please respect it and be excellent to each other!
 
-Twitter hash tag: #cc2019
+Twitter hash tag: #cyverse_foss
 
 .. list-table::
     :header-rows: 1
@@ -14,9 +14,9 @@ Twitter hash tag: #cc2019
       - Time
       - Topic/Activity
       - Notes/Links
-    * - 03/06/19 (Wednesday)
+    * - 06/13/19 (Monday)
       - 8:30-9:00
-      - General introduction to CyVerse and Camp logistics (Nirav Merchant & Upendra Devisetty)
+      - General introduction to CyVerse and Camp logistics (Instructor Name Here)
       - `Intro slides <https://docs.google.com/presentation/d/1shHJKmmLO8VfBfhhhm7cjFhD-5F1b-2fHWtRtaW-pIA/edit?usp=sharing>`_
     * - 
       - 9:00-9:30
