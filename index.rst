@@ -7,6 +7,8 @@ CyVerse Learning Institute Foundations of Open Science Skills (FOSS) Camp 2019
 
 **Who Should Attend**
 
+ - Prior to the workshop, please take the `Pre-workshop Survey <link>`_.
+
 
 
 **Workshop Level**
@@ -86,13 +88,16 @@ Expected outcomes:
 
 ----
 
-Agenda
---------
+Course Instructors
+---------------------
+- Tyson Swetnam​
+- Ramona Walls
+- Jason Williams
+- Amanda Cooksey
 
- - Prior to the workshop, please take the `Pre-workshop Survey <https://www.surveymonkey.com/r/ToolsServices_pre>`_.
-
-
-
+Guest instructors:
+- Fernando Rios (UA Libraries)
+-
 
 About CyVerse
 -------------
