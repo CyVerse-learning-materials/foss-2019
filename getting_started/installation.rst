@@ -1,7 +1,7 @@
 **Pre-Workshop Setup**
 ======================
 
-Please complete the minimum Setup Instructions to prepare for the Container Camp workshop at CyVerse, The University of Arizona, which will run from March 6-8, 2019.
+Please complete the minimum Setup Instructions to prepare for the FOSS Camp at CyVerse, The University of Arizona, which will run from June 3-14, 2019.
 
 .. list-table::
     :header-rows: 1
@@ -23,12 +23,22 @@ Please complete the minimum Setup Instructions to prepare for the Container Camp
       - Please ensure that you have a Dockerhub account if you don't have one already
       - Register for your Dockerhub account at `https://hub.docker.com/ <https://hub.docker.com/>`_.
     * - Text Editor
-      - Please ensure that you have a Text editor of your choice. Any decent text editor would be sufficient and
-        recommended ones include Sublime2 and Atom
+      - Please ensure that you have a Text editor of your choice. Any decent text editor would be sufficient, 
+      and many operating systems come with a text editor installed.
+      suggested ones include Sublime2 and Atom. 
       - Register for Sublime at `https://www.sublimetext.com/ <https://www.sublimetext.com/>`_. Register for Atom at `https://atom.io/ <https://atom.io/>`_.
     * - Slack for networking
       - We will be using Slack extensively for communication and networking purposes
       - Register for Slack at `https://slack.com/ <https://slack.com/>`_.
+      - Once you have registered for Slack, let us know your email, and we can invite you to cyversefoss.slack.com
+    * - SSH Clients (Windows)
+      - PuTTY allows SSH connection to a remote machine, and is designed for
+        Windows users who do not have a Mac/Linux terminal. MobaXterm is a single 
+        Windows application that provides a ton of functions for programmers, webmasters, 
+        IT administrators, and anybody is looking to manage system remotely
+      - - `Download PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_
+        - `Download mobaXterm <https://mobaxterm.mobatek.net>`_
+        - `Update Windows 10 to use Linux Bash <https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/>`_ 
 
 **Optional Downloads**
 
@@ -40,14 +50,6 @@ Listed below are some extra downloads that are not required for the workshop, bu
     * - Tool
       - Notes
       - Link
-    * - SSH Clients (Windows)
-      - PuTTY allows SSH connection to a remote machine, and is designed for
-        Windows users who do not have a Mac/Linux terminal. MobaXterm is a single 
-        Windows application that provides a ton of functions for programmers, webmasters, 
-        IT administrators, and anybody is looking to manage system remotely
-      - - `Download PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_
-        - `Download mobaXterm <https://mobaxterm.mobatek.net>`_
-        - `Update Windows 10 to use Linux Bash <https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/>`_ 
     * - Cyberduck
       - Cyberduck is a third-party tool for uploading/downloading data to CyVerse Data Store.
         Currently, this tool is available for Windows/MacOS only. You will need
