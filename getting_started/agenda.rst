@@ -408,7 +408,7 @@ Twitter hash tag: #cyverse_foss
       - 
     * - 
       - 8:30-12:00
-      - Theme 1: 
+      - Theme 1: Classroom to Lab with Jupyter Hub
       -
     * - 
       - 8:30-12:00
