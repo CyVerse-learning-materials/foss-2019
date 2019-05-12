@@ -38,7 +38,7 @@ Twitter hash tag: #cyverse_foss
       - 10:30-11:00
       - Clarify objectives and how course topics address participants’ goals 
       - general summary from pre-camp surveys
-  * - 
+    * - 
       - 11:00-12:00
       - Reproducible Science (Walt Klimecki)
       - `Talk Slides <link-here>`_     
@@ -174,7 +174,7 @@ Twitter hash tag: #cyverse_foss
       - 1:30-2:30
       - Intro to Cloud Computing: Starting your first VM
       - Use CyVerse Atmosphere 
-     * - 
+    * - 
       - 2:30-3:30
       - Intro to Cloud Computing: OpenStack? (Edwin)
       - Cloud Native Computing `Talk Slides <link-here>`_
