@@ -352,8 +352,8 @@ Twitter hash tag: #cyverse_foss
       - 
     * - 
       - 8:30-12:00
-      - Theme 1: Creating workflows in CyVerse
-      - 
+      - Theme 1: Research Objects
+      - The Whole Enchilada
     * - 
       - 8:30-12:00
       - Theme 2: Proposal Writing
@@ -380,12 +380,12 @@ Twitter hash tag: #cyverse_foss
       - 
     * - 
       - 8:30-12:00
-      - Theme 1: Working with XSEDE 
-      - 
+      - Theme 1: High Performance Workflows and Pipelines
+      - Workflow Orchestration and Automation
     * - 
       - 8:30-12:00
-      - Theme 2: Proposal Writing
-      - 
+      - Theme 2: Continuous Integration
+      - Circle CI, Jenkins, Travis
     * -
       - 12:00-1:00
       - Lunch Break (on your own)
@@ -408,8 +408,7 @@ Twitter hash tag: #cyverse_foss
       - 
     * - 
       - 8:30-12:00
-      - Theme 1: High Performance Workflows and Pipelines
-      - Workflow Orchestration and Automation
+      - Theme 1: 
     * - 
       - 8:30-12:00
       - Theme 2: 
