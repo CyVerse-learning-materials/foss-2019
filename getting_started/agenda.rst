@@ -161,7 +161,7 @@ Twitter hash tag: #cyverse_foss
     * - 
       - 11:00-12:00
       - Introduction to CyVerse: Visual Interactive Computing Environment (Tyson)
-      - Creating, Running Interactive Apps  `Talk Slides <link-here>`_    
+      - Create & Run Interactive Apps: `VICE ReadTheDocs <http://learning.cyverse.org/projects/vice/en/latest/>`_
     * -
       - 12:00-1:00
       - Lunch Break (on your own)
@@ -169,11 +169,11 @@ Twitter hash tag: #cyverse_foss
     * - 
       - 1:00-1:30
       - Intro to Cloud Computing: CyVerse Atmosphere, XSEDE Jetstream, OpenStack (Tyson)
-      - Welcome to Cloud
+      - `Talk Slides <link-here>`_  
     * - 
       - 1:30-2:30
-      - Intro to Cloud Computing: Starting your first VM
-      - Use CyVerse Atmosphere 
+      - Intro to Cloud Computing: Starting your first VM (Tyson)
+      - Hands On: `Atmosphere ReadTheDocs <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`_ 
     * - 
       - 2:30-3:30
       - Intro to Cloud Computing: OpenStack? (Edwin)
@@ -185,11 +185,11 @@ Twitter hash tag: #cyverse_foss
     * - 
       - 3:45-4:15
       - Intro to Cloud Computing: XSEDE Allocations (Tyson)
-      - How to submit an allocation request to XSEDE 
+      - How to submit an allocation request to XSEDE `Talk Slides <link-here>`_  
     * - 
       - 4:15-4:45
       - Intro to High Performance and Throughput Computing: XSEDE, TACC, Open Science Grid (Tyson)
-      - Hands On
+      - Hands On 
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
