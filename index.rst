@@ -29,9 +29,9 @@ Expected outcomes:
    :caption: Getting Started
 
    getting_started/main
-   getting_started/installation
    getting_started/agenda
    getting_started/about_cyverse
+   getting_started/installation
 
 .. toctree::
    :maxdepth: 1
