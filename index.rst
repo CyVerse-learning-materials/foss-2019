@@ -1,18 +1,22 @@
 |foss-main|
 
-CyVerse Learning Institute Foundations of Open Science Skills (FOSS) Camp 2019
+CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) Camp 2019
 ------------------------------------
 
 
 
 **Who Should Attend**
+<<<<<<< HEAD
 
  - Prior to the workshop, please take the `Pre-workshop Survey <link>`_.
 
+=======
+Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
+>>>>>>> d0362fd012a179ae6e4186e793e56fe128666986
 
 
 **Workshop Level**
-
+There are no pre-requisites for FOSS, but the course will cover a lot of material in a short time. Participants who have limited computational experience should try to view the Software Carpentry Core Lessons (https://software-carpentry.org/lessons/) before attending.
 
 -----
 
