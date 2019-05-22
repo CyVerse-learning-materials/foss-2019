@@ -8,7 +8,7 @@ CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) Camp 2019
 **Who Should Attend**
 <<<<<<< HEAD
 
- - Prior to the workshop, please take the `Pre-workshop Survey <link>`_.
+ - Prior to the workshop, please visit the Getting Started page.
 
 =======
 Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
@@ -39,51 +39,25 @@ Expected outcomes:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Workshop Topics
+   :caption: Containers
 
-   topics/train_docker
-   topics/train_singularity
-   topics/breakout_session
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Docker
-
-   docker/dockerintro
-   docker/dockeradvanced
-   docker/dockerhandson
+   Docker/dockerintro
+   Docker/dockeradvanced
+   Docker/dockerhandson
 
 .. toctree::
    :maxdepth: 1
-   :caption: Singularity
+   :caption: CyVerse
 
-   singularity/singularityintro
-   singularity/singularityadvanced
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Breakout Sessions
-
-   breakout/biocontainers
-   breakout/nvidia-docker
-   breakout/workflows
-   breakout/datascience
+   CyVerse/cyverse_intro
+   CyVerse/de
+   CyVerse/vice
 
 .. toctree::
    :maxdepth: 1
-   :caption: CyVerse Topics
+   :caption: Software Essentials
 
-   cyverse/boot
-   cyverse/de_docker
-   cyverse/vice_docker
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Useful Resources
-
-   useful_resources/usefulresources_docker
-   useful_resources/usefulresources_singularity
-   useful_resources/usefulresources_other
+   Software_essentials/shell
 
 .. toctree::
    :maxdepth: 1
@@ -98,10 +72,11 @@ Course Instructors
 - Ramona Walls
 - Jason Williams
 - Amanda Cooksey
+- Tina Lee
 
 Guest instructors:
 - Fernando Rios (UA Libraries)
--
+- Michael Mandel (UA Eller College of Management)
 
 About CyVerse
 -------------
@@ -110,7 +85,9 @@ About CyVerse
 
 **CyVerse Mission:** Design, deploy, and expand a national
 cyberinfrastructure for life sciences research and train scientists in
-its use. CyVerse provides life scientists with powerful computational
+its use. 
+
+CyVerse provides life scientists with powerful computational
 infrastructure to handle huge datasets and complex analyses, thus
 enabling data-driven discovery. Our powerful extensible platforms
 provide data storage, bioinformatics tools, image analyses, cloud
@@ -121,10 +98,7 @@ U.S. plant science communities, CyVerse cyberinfrastructure is germane
 to all life sciences disciplines and works equally well on data from
 plants, animals, or microbes. By democratizing access to supercomputing
 capabilities, we provide a crucial resource to enable scientists to find
-solutions for the future. CyVerse is of, by, and for the community, and community-driven needs
-shape our mission. We rely on your feedback to provide the
-infrastructure you need most to advance your science, development, and
-educational agenda.
+solutions for the future.
 
 **CyVerse Homepage:** `http://www.cyverse.org <http://www.cyverse.org>`_
 
@@ -132,11 +106,10 @@ Funding and Citations
 ---------------------
 
 CyVerse is funded by the National Science Foundation under
-Award Numbers DBI-0735191 and DBI-1265383.
+Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
 
 Please cite CyVerse appropriately when you make use of our resources,
-`CyVerse citation
-policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
+`CyVerse citation policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
 	:width: 500
