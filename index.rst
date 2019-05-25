@@ -1,6 +1,6 @@
 |foss-main|
 
-CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) Camp 2019
+CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) 2019
 ------------------------------------
 
 
@@ -39,14 +39,6 @@ Expected outcomes:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Containers
-
-   Docker/dockerintro
-   Docker/dockeradvanced
-   Docker/dockerhandson
-
-.. toctree::
-   :maxdepth: 1
    :caption: CyVerse
 
    CyVerse/cyverse_intro
@@ -55,9 +47,17 @@ Expected outcomes:
 
 .. toctree::
    :maxdepth: 1
+   :caption: Containers
+
+   containers/dockerintro
+   containers/dockeradvanced
+   containers/dockerhandson
+
+.. toctree::
+   :maxdepth: 1
    :caption: Software Essentials
 
-   Software_essentials/shell
+   software_essentials/shell
 
 .. toctree::
    :maxdepth: 1
