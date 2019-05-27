@@ -25,6 +25,7 @@ Expected outcomes:
    :caption: Getting Started
 
    getting_started/main
+   getting_started/code_of_conduct
    getting_started/agenda
    getting_started/about_cyverse
    getting_started/installation
@@ -62,11 +63,11 @@ Expected outcomes:
 
 Course Instructors
 ---------------------
+- Amanda Cooksey
+- Tina Lee
 - Tyson Swetnam
 - Ramona Walls
 - Jason Williams
-- Amanda Cooksey
-- Tina Lee
 
 Guest instructors:
 - Fernando Rios (UA Libraries)
