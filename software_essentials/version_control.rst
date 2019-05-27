@@ -9,9 +9,9 @@
 Version Control 
 ---------------
 
-`Version Control <https://en.wikipedia.org/wiki/Version_control>`_ is an important component of software development which manage changes in documents, websites, code, or other digital information.
+`Version Control <https://en.wikipedia.org/wiki/Version_control>`_ is an important component in software development which manages changes to documents, websites, code, or other digital information.
 
-The `most commmon version control software <https://en.wikipedia.org/wiki/List_of_version-control_software>`_ in data science are `git`, `svn`, `cvs`, and `bzr`.
+The `most commmon version control software <https://en.wikipedia.org/wiki/List_of_version-control_software>`_ in data science are ``git``, ``svn``, ``cvs``, and ``bzr``.
 
 Version control enable reproducibility in data science.
 
@@ -19,9 +19,9 @@ Version control enable reproducibility in data science.
 
 **Some things to remember about these platforms**
 
-- For the sake of time, we are only going to cover `Git <https://git-scm.com/`_ and one web-based hosting service (`Github <https://github.com/>`_).
+- For the sake of time, we are only going to cover `Git <https://git-scm.com/>`_ and one web-based hosting service (`Github <https://github.com/>`_).
 - Determine what your community is using, and learn that first. 
-- The most popular software for data science applications are `git` and `svn` and are integrated with IDE like `RStudio <https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN>`_ and `Jupyter Lab <https://github.com/jupyterlab/jupyterlab-git>`_
+- The most popular software for data science applications are ``git`` and ``svn`` and are integrated with IDE like `RStudio <https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN>`_ and `Jupyter Lab <https://github.com/jupyterlab/jupyterlab-git>`_
 
 
 ----
@@ -34,7 +34,7 @@ Version control enable reproducibility in data science.
 
   2. Create a Github Account
       - Website <https://github.com/join?source=header-home>`_
-      - **Important: If you are an academic and have a `*.edu` email address you can get Educational Account benefits.** 
+      - **Important: If you are an academic and have a ``@ .edu`` email address you can get Educational Account benefits.** 
 ..
 	#### Comment: Suggested style guide:
 	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
