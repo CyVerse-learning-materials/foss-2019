@@ -186,39 +186,36 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       -
     * - 
       - 9:00-9:15
-      - Introduction and overview of the day's activities (Walls)
+      - Introduction and overview of the day's activities (Ramona)
       - AM: Data Management, PM: Cloud Computing     
-    * - 9:15-10:15
-      - Introduction to Data Management: The FAIR principles (Ramona)
-      - Findable, Accessible, Interoperable, and Reusable
+    * -
+      - 9:15-10:15
+      - Introduction to Data Management (Ramona)
+      - FAIR data principles, organization, metadata
     * - 
       - 10:15-10:30
       - Coffee break
       - 
     * - 
       - 10:30-11:00
-      - Introduction to Data Management: Writing a Data Management Plans 
-      - Non-Interactive apps, `Talk Slides <link-here>`_  
+      - Budgeting for open, reproducible science (Fernando, Tina)
+      -   
     * - 
       - 11:00-12:00
-      - Introduction to Data Management: Budgeting (Fernando, Tina)
-      - Creating a Budget for open, reproducable science  `Talk Slides <link-here>`_  
+      - Data management tools (Ramona, Fernando)
+      -   
     * -
       - 12:00-1:00
       - Lunch Break (on your own)
       -
     * - 
-      - 1:00-1:30
-      - Intro to Containers: Docker (Tyson)
-      - `Talk Slides <link-here>`_  
+      - 1:00-2:45
+      - Introduction Cloud Computing (Tyson)
+      - Using Atmosphere  
     * - 
       - 1:30-2:30
       -  Intro to Containers: BioContainers (Amanda)
       -  `Talk Slides <link-here>`_  
-    * - 
-      - 2:30-3:30
-      - Intro to Containers: Singularity (Tyson)
-      - Cloud Native Computing 
     * - 
       - 3:30-3:45
       - Coffee and snacks with networking
@@ -240,16 +237,16 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Instructor Debrief
       - 
     * - 06/07/19 (Friday)
-      - 8:00-8:30
-      - Coffee & Snacks
+      - 8:45-9:00
+      - Assemble near BSRL elevators
+      -
+    * - 
+      - 9:00-9:15
+      - Introduction and overview of the day's activities (Ramona)
       - 
     * - 
-      - 8:30-10:15
-      - Unconference Style Breakout Planning
-      - Students self-segregate into geospatial, genomic, phenotyping, biodiversity, etc. groups.
-    * - 
-      - 10:15-12:00
-      - Breakout Groups
+      - 9:15-12:00
+      - 
       -       
     * -
       - 12:00-1:00
@@ -257,14 +254,14 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       -
     * - 
       - 1:00-4:30
-      - Breakout Groups Cont.
+      - 
       -       
     * - 
       - 4:30-5:00
       - Wrap-up, Evaluations, Q&A
       - 
     * - 
-      - 5:00-6:00
+      - 4:30-5:00
       - Instructor Final Debrief
       - 
       
