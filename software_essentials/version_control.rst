@@ -232,12 +232,12 @@ Using Github on your own or for your classes
 .. _CyVerse: https://cyverse.org/
 
 .. |Cyverselogo| image:: ../img/cyverse_globe_cmyk.png
-  :height: 25
-  :width: 25
+  :height: 60
+  :width: 60
 
 .. |LearningCenter| image:: ../img/Learningcenter_DkBlue.png
-  :height: 25
-  :width: 25 
+  :height: 60
+  :width: 60
 .. _LearningCenter: http://learning.cyverse.org/
 
 
