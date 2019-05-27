@@ -1,9 +1,8 @@
 .. include:: cyverse_rst_defined_substitutions.txt
 
-|Home_Icon|_
+|CyVerse|_
 
-`Learning Center Home <http://learning.cyverse.org/>`_
-
+|LearningCenter|_ 
 
 Version Control 
 ---------------
@@ -188,7 +187,7 @@ Here is a list of the most important commands in Git:
       - Preview changes before merging
 
 
-|Cyverse_logo|_
+|Cyverselogo|_
 
 *Self-Paced Lessons*
 ~~~~~~~~~~~~~~~~~~~~
@@ -228,11 +227,18 @@ Using Github on your own or for your classes
    use :height: to give a desired height for your image
    replace the image name/location and URL if hyperlinked
 
-.. |Home_Icon| image:: ../img/cyverse_cmyk.png
-   :width: 500
+.. |CyVerse| image:: ../img/cyverse_cmyk.png
+  :width: 500
+.. _CyVerse: https://cyverse.org/
 
-.. |Cyverse_logo| image:: ./img/cyverse_globe_cmyk.png
-   :width: 25
+.. |Cyverselogo| image:: ../img/cyverse_globe_cmyk.png
+  :height: 25
+  :width: 25
+
+.. |LearningCenter| image:: ../img/Learningcenter_DkBlue.png
+  :height: 25
+  :width: 25 
+.. _LearningCenter: http://learning.cyverse.org/
 
 
 .. Comment: Place URLS Below This Line
