@@ -50,7 +50,7 @@ Expected outcomes:
    :caption: Software Essentials
 
    software_essentials/shell
-   software_essentials/vcs
+   software_essentials/version_control
    software_essentials/communication
 
 .. toctree::
