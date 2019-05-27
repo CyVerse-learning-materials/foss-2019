@@ -2,8 +2,6 @@
 
 |CyVerse|_
 
-|LearningCenter|_ 
-
 Version Control 
 ---------------
 
@@ -187,7 +185,7 @@ Here is a list of the most important commands in Git:
       - Preview changes before merging
 
 
-|Cyverselogo|_
+|Cyverselogo|_ |LearningCenter|_ 
 
 *Self-Paced Lessons*
 ~~~~~~~~~~~~~~~~~~~~
