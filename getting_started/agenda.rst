@@ -1,8 +1,5 @@
 **Agenda**
 ==========
-
-Schedule and classroom info here
-
 This workshop runs under a `Code of Conduct <../getting_started/main.html>`_. Please respect it and be excellent to each other!
 
 Twitter hash tag: #cyverse_foss
