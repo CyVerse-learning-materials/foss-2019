@@ -120,7 +120,7 @@ Here is a list of the most important commands in Git:
       - ``git checkout -b [branch name] origin/[branch name]`` 
       - Clone a remote branch and switch to it 
     * - 
-      - `git checkout [branch name]` 
+      - ``git checkout [branch name]`` 
       - Switch to a branch 
     * - 
       - ``git checkout -`` 
