@@ -9,17 +9,16 @@
 Version Control 
 ---------------
 
-`Version Control <https://en.wikipedia.org/wiki/Version_control>`_ is an important component in software development which manages changes to documents, websites, code, or other digital information.
+`Version Control <https://en.wikipedia.org/wiki/Version_control>`_ is an important component in software development which manages changes to documents, websites, code, or other digital information. Version control can save you when code changes break things. Web hosting of your code repositories let's you share and work on code together, and save your work in the event of a hardware failure. 
 
 The `most commmon version control software <https://en.wikipedia.org/wiki/List_of_version-control_software>`_ in data science are ``git``, ``svn``, ``cvs``, and ``bzr``.
 
-Version control enable reproducibility in data science.
+Given the limited amount of time we have this week, we are only going to cover `Git <https://git-scm.com/>`_ and one web-based hosting service (`Github <https://github.com/>`_) in this camp.
 
 .. #### Comment: short description
 
 **Some things to remember about these platforms**
 
-- For the sake of time, we are only going to cover `Git <https://git-scm.com/>`_ and one web-based hosting service (`Github <https://github.com/>`_).
 - Determine what your community is using, and learn that first. 
 - The most popular software for data science applications are ``git`` and ``svn`` and are integrated with IDE like `RStudio <https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN>`_ and `Jupyter Lab <https://github.com/jupyterlab/jupyterlab-git>`_
 
