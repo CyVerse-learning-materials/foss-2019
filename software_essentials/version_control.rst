@@ -229,7 +229,7 @@ Using Github on your own or for your classes
    replace the image name/location and URL if hyperlinked
 
 .. |Home_Icon| image:: ../img/cyverse_cmyk.png
-  :width: 500
+   :width: 500
 
 .. |Cyverse_logo| image:: ./img/cyverse_globe_cmyk.png
    :width: 25
