@@ -185,7 +185,7 @@ Here is a list of the most important commands in Git:
       - Preview changes before merging
 
 
-|Cyverselogo|_ |LearningCenter|_ 
+|CyverseLogo|_ |LearningCenter|_ 
 
 *Self-Paced Lessons*
 ~~~~~~~~~~~~~~~~~~~~
@@ -229,9 +229,10 @@ Using Github on your own or for your classes
   :width: 500
 .. _CyVerse: https://cyverse.org/
 
-.. |Cyverselogo| image:: ../img/cyverse_globe_cmyk.png
+.. |CyverseLogo| image:: ../img/cyverse_globe_cmyk.png
   :height: 60
   :width: 60
+.. _CyverseLogo: https://cyverse.org/
 
 .. |LearningCenter| image:: ../img/Learningcenter_DkBlue.png
   :height: 60
