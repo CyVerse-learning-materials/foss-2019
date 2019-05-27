@@ -17,8 +17,8 @@ Expected outcomes:
 ------------------
 
 - Familiarity with productivity software for organizing your lab group, communications, and research
-- How to use containerized applications and workflows
-- How to scale out your computation from laptop to cloud to HPC/OSG
+- How to scale out your computation from laptop to cloud and high performance computing (HPC) systems
+- How to manage data for open science and reproducibility
 
 .. toctree::
    :maxdepth: 1
@@ -70,6 +70,7 @@ Course Instructors
 - Jason Williams
 
 Guest instructors:
++++++++++++++++++++++
 - Fernando Rios (UA Libraries)
 - Michael Mandel (UA Eller College of Management)
 
