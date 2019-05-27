@@ -4,9 +4,14 @@ This workshop runs under a `Code of Conduct <../getting_started/main.html>`_. Pl
 
 Twitter hash tag: #cyverse_foss
 
+Agenda subject to change.
+
+Instructors will review the agenda at the end of each day, and adjust based on participant input.
+
+
 .. list-table::
     :header-rows: 1
-
+    
     * - Day
       - Time
       - Activity (Instructor)
@@ -118,78 +123,77 @@ Twitter hash tag: #cyverse_foss
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
-      - Brief student survey of activities
+      - Brief survey of activities
     * - 
-      - 5:00-6:00
-      - Instructor Debrief
+      - 5:15-6:00
+      - Happy Hour at `1702 <https://www.1702az.com/>`_
       - 
     * - 06/05/19 (Wednesday)
-      - 8:00-8:30
-      - Coffee & Snacks
-      - 
+      - 8:00-9:00
+      - Breakfast with DE team (optional)
+      - CyVerse provides breakfast participants who are interested in providing user feedback the Discovery Environment development team.
     * - 
-      - 8:30-10:15
-      - Introduction to CyVerse: Data Store (Ramona)
-      - iCommands, WebDav, CyberDuck `Talk Slides <link-here>`_  
+      - 9:00-9:15
+      - Introduction and overview of the day's activities (Walls)
+      - Using CyVerse 
     * - 
-      - 10:15-10:30
-      - Coffee and snack break with networking
-      - 
+      - 9:15-10:00
+      - Introduction to CyVerse cyberinfrastructure (Amanda)
+      - Overview of CI, user portal, getting help, Learning Center
     * - 
-      - 10:30-11:00
-      - Introduction to CyVerse: Discovery Environment (Sriram?)
-      - Non-Interactive apps, `Talk Slides <link-here>`_  
+      - 10:00-11:00
+      - Introduction to the Discovery Environment (Ramona)
+      - Data management and analysis
     * - 
       - 11:00-12:00
-      - Introduction to CyVerse: Visual Interactive Computing Environment (Tyson)
-      - Create & Run Interactive Apps: `VICE ReadTheDocs <http://learning.cyverse.org/projects/vice/en/latest/>`_
+      - Coffee break and Bio5 Tour
+      -   
     * -
       - 12:00-1:00
       - Lunch Break (on your own)
       -
     * - 
-      - 1:00-1:30
-      - Intro to Cloud Computing: CyVerse Atmosphere, XSEDE Jetstream, OpenStack (Tyson)
-      - `Talk Slides <link-here>`_  
+      - 1:00-2:00
+      - CyVerse Data Store (Ramona)
+      - iCommands, CyberDuck, WebDav  
     * - 
-      - 1:30-2:30
-      - Intro to Cloud Computing: Starting your first VM (Tyson)
-      - Hands On: `Atmosphere ReadTheDocs <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`_ 
+      - 2:00-2:45
+      - Introduction to VICE (Tyson, Satish)
+      - Jupyter Notebook, Rstudio, RShiny
     * - 
-      - 2:30-3:30
-      - Intro to Cloud Computing: OpenStack? (Edwin)
-      - Cloud Native Computing `Talk Slides <link-here>`_
-    * - 
-      - 3:30-3:45
-      - Coffee and snacks with networking
+      - 2:45-3:00
+      - Coffee break
       - 
     * - 
-      - 3:45-4:15
-      - Intro to Cloud Computing: XSEDE Allocations (Tyson)
-      - How to submit an allocation request to XSEDE `Talk Slides <link-here>`_  
-    * - 
-      - 4:15-4:45
-      - Intro to High Performance and Throughput Computing: XSEDE, TACC, Open Science Grid (Tyson)
-      - Hands On 
+      - 3:00-4:45
+      - VICE continued Tyson, Satish)
+      - Jupyter Notebook, Rstudio, RShiny 
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
-      - Brief student survey of activities
+      - Brief survey of activities
     * - 
-      - 5:00-6:00
+      - 5:00-5:30
       - Instructor Debrief
       - 
-    * - 06/06/19 (Thursday)
-      - 8:00-8:30
-      - Coffee & Snacks
-      - 
     * - 
-      - 8:30-10:15
+      - 6:30-8:30
+      - Group dinner
+      - Location TBD
+    * - 06/06/19 (Thursday)
+      - 8:45-9:00
+      - Assemble near BSRL elevators
+      -
+    * - 
+      - 9:00-9:15
+      - Introduction and overview of the day's activities (Walls)
+      - AM: Data Management, PM: Cloud Computing     
+    * - 9:15-10:15
       - Introduction to Data Management: The FAIR principles (Ramona)
       - Findable, Accessible, Interoperable, and Reusable
     * - 
       - 10:15-10:30
-      - Coffee and snack break with networking
+      - Coffee break
       - 
     * - 
       - 10:30-11:00
