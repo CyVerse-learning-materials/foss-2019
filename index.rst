@@ -50,6 +50,8 @@ Expected outcomes:
    :caption: Software Essentials
 
    software_essentials/shell
+   software_essentials/vcs
+   software_essentials/communication
 
 .. toctree::
    :maxdepth: 1
