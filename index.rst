@@ -3,8 +3,6 @@
 CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) 2019
 ------------------------------------
 
-
-
 **Who Should Attend**
 <<<<<<< HEAD
 
@@ -49,9 +47,9 @@ Expected outcomes:
    :maxdepth: 1
    :caption: Containers
 
-   containers/dockerintro
-   containers/dockeradvanced
-   containers/dockerhandson
+   Containers/dockerintro
+   Containers/dockeradvanced
+   Containers/dockerhandson
 
 .. toctree::
    :maxdepth: 1
@@ -68,7 +66,7 @@ Expected outcomes:
 
 Course Instructors
 ---------------------
-- Tyson Swetnam​
+- Tyson Swetnam
 - Ramona Walls
 - Jason Williams
 - Amanda Cooksey
