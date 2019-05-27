@@ -12,36 +12,36 @@ Twitter hash tag: #cyverse_foss
 
     * - Day
       - Time
-      - Topic/Activity
-      - Notes/Links
+      - Activity (Instructor)
+      - Content
     * - 06/03/19 (Monday)
-      - 8:00-8:30
+      - 8:00-9:00
       - Coffee & Snacks
       - 
     * -  
-      - 8:30-9:00
-      - Introduction and Camp logistics (Jason, Nirav, Ramona, Tyson)
+      - 9:00-:9:15
+      - Introduction and overview of the day's and week's activities (Walls)
       - `Intro slides <link-here>`_  
     * - 
-      - 9:00-9:30
-      - What is Open Science (Instructor Name Here)
-      - `Talk Slides <link-here>`_
+      - 9:15-9:30
+      - Participant introduction activity (Walls)
+      - 
     * - 
       - 9:30-10:15
-      - What is Open Science (Instructor Name Here)
-      - `Talk Slides <link-here>`_  
+      - Identifying needs (Williams)
+      - This activity should make people aware of the challenges they are facing.
     * - 
       - 10:15-10:30
       - Coffee and snack break with networking
       - 
     * - 
       - 10:30-11:00
-      - Clarify objectives and how course topics address participants’ goals 
-      - general summary from pre-camp surveys
+      - Identifying needs cont. (Williams)
+      - This activity should make people aware of the challenges they are facing.
     * - 
       - 11:00-12:00
-      - Reproducible Science (Walt Klimecki)
-      - `Talk Slides <link-here>`_     
+      - Setting up a Data Science Lab Group (Walls)
+      - Introduce the week activities 
     * -
       - 12:00-1:00
       - Lunch break (on your own)
@@ -51,29 +51,21 @@ Twitter hash tag: #cyverse_foss
       - Collaboration culture and roles (Michael Mandel, Eller Business College)
       - Interactive activity designed to raise awareness of challenges
     * - 
-      - 2:00-2:30
-      - Tools for collaboration: Github | Gitlab
-      - Version Control Systems
-    * - 
-      - 2:30-3:00
-      - Tools for collaboration: Github | Gitlab
-      - Version Control Systems
-    * - 
-      - 3:00-3:30
-      - Tools for collaboration: Stack Overflow, Github, Digital Ocean
-      - Problem solving
+      - 2:00-3:30
+      - Tools for collaboration (Tyson)
+      - Version Control Systems with Git 
     * - 
       - 3:30-3:45
       - Coffee and snacks with networking
       - 
     * - 
       - 3:45-4:15
-      - Tools for collaboration: Slack, Gitter, etc
-      - Team Communication 
+      - Tools for collaboration cont.
+      - Team Communication: Slack, Gitter, ZenHub etc.
     * - 
       - 4:15-4:45
-      - Tools for collaboration: Atlassian Confluence, ReadTheDocs
-      - Wikis & Documentation
+      - Tools for collaboration cont.
+      - Wikis & Documentation: Atlassian Confluence, ReadTheDocs
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
