@@ -36,7 +36,7 @@ Couldn't find what you were looking for?
 
 - You can also talk to any of the instructors or TAs if you need immediate help. 
 
-- Chat with us on Slack.
+- Chat with us on `CyVerseFOSS Slack <https://cyversefossworkspace.slack.com>`_.
 
 - Post an issue on the documentation `issue tracker <https://github.com/CyVerse-learning-materials/foss-2019/issues>`_ on GitHub
 
