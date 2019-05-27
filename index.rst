@@ -3,14 +3,9 @@
 CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) 2019
 ------------------------------------
 
-**Who Should Attend**
-<<<<<<< HEAD
+Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
 
  - Prior to the workshop, please visit the Getting Started page.
-
-=======
-Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
->>>>>>> d0362fd012a179ae6e4186e793e56fe128666986
 
 
 **Workshop Level**
@@ -21,9 +16,8 @@ There are no pre-requisites for FOSS, but the course will cover a lot of materia
 Expected outcomes:
 ------------------
 
-- How to containerize applications and workflows
-- How to use other containerized applications and workflows
-- How to build/deploy containerized applications and workflows
+- Familiarity with productivity software for organizing your lab group, communications, and research
+- How to use containerized applications and workflows
 - How to scale out your computation from laptop to cloud to HPC/OSG
 
 .. toctree::
