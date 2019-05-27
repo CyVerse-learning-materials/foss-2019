@@ -227,15 +227,11 @@ Using Github on your own or for your classes
    use :height: to give a desired height for your image
    replace the image name/location and URL if hyperlinked
 
- .. |Home_Icon| image:: ./img/cyverse_cymk.png
-    :width: 500
-    :height: 100
- .. _CyVerse logo: http://learning.cyverse.org/
+.. |Home_Icon| image:: ./img/cyverse_cymk.png
+   :width: 500
 
- .. |Cyverse_logo| image:: ./img/cyverse+globe_cmyk.png
-    :width: 25
-    :height: 25
-
+.. |Cyverse_logo| image:: ./img/cyverse_globe_cmyk.png
+   :width: 25
 
 
 .. Comment: Place URLS Below This Line
