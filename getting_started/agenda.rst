@@ -12,51 +12,39 @@ Twitter hash tag: #cyverse_foss
       - Activity (Instructor)
       - Content
     * - 06/03/19 (Monday)
-      - 8:00-9:00
-      - Coffee & Snacks
+      - 8:45-9:00
+      - Assemble near BSRL elevators
       - 
     * -  
-      - 9:00-:9:15
+      - 9:00-:9:30
       - Introduction and overview of the day's and week's activities (Walls)
       - `Intro slides <link-here>`_  
     * - 
-      - 9:15-9:30
+      - 9:30-10:00
       - Participant introduction activity (Walls)
+      - Introduce the week long activity of setting up a lab for open science
+    * - 
+      - 10:00-10:15
+      - Coffee break
       - 
     * - 
-      - 9:30-10:15
-      - Identifying needs (Williams)
-      - This activity should make people aware of the challenges they are facing.
-    * - 
-      - 10:15-10:30
-      - Coffee and snack break with networking
-      - 
-    * - 
-      - 10:30-11:00
-      - Identifying needs cont. (Williams)
-      - This activity should make people aware of the challenges they are facing.
-    * - 
-      - 11:00-12:00
-      - Setting up a Data Science Lab Group (Walls)
-      - Introduce the week activities 
+      - 10:15-12:15
+      - Collaboration culture and roles (Michael Mandel, Eller Business College)
+      - Interactive session
     * -
-      - 12:00-1:00
+      - 12:15-1:15
       - Lunch break (on your own)
       -
     * - 
-      - 1:00-2:00
-      - Collaboration culture and roles (Michael Mandel, Eller Business College)
-      - Interactive activity designed to raise awareness of challenges
-    * - 
-      - 2:00-3:30
+      - 12:45-2:45
       - Tools for collaboration (Tyson)
-      - Version Control Systems with Git 
+      - Version Control Systems with Git
     * - 
-      - 3:30-3:45
-      - Coffee and snacks with networking
+      - 2:45-3:00
+      - Coffee break
       - 
     * - 
-      - 3:45-4:15
+      - 3:00-4:15
       - Tools for collaboration cont.
       - Team Communication: Slack, Gitter, ZenHub etc.
     * - 
@@ -66,22 +54,26 @@ Twitter hash tag: #cyverse_foss
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
-      - Brief student survey of activities
+      - Brief survey of activities
     * - 
       - 5:00-6:00
       - Instructor Debrief
       - 
     * - 06/04/19 (Tuesday)
-      - 8:00-8:30
-      - Coffee & Snacks
-      - 
+      - 8:45-9:00
+      - Assemble near BSRL elevators
+	  - 
     * - 
-      - 8:30-10:15
-      - Introduction to Bash: Command Line Interface (CLI)
+      - 9:00-10:15
+      - Introduction and overview of the day's activities (Walls)
+      - Software Essentials 
+    * - 
+      - 9:15-10:15
+      - Introduction to Bash: Command Line Interface (Amanda)
       - `Talk Slides <link-here>`_  
     * - 
       - 10:15-10:30
-      - Coffee and snack break with networking
+      - Coffee break
       - 
     * - 
       - 10:30-11:00
@@ -271,11 +263,4 @@ Twitter hash tag: #cyverse_foss
       - 5:00-6:00
       - Instructor Final Debrief
       - 
-    * - 06/08/19 (Saturday)
-      - 
-      - Participants Depart Tucson
-      - Field Trip?
-    * - 06/09/19 (Sunday)
-      - 
-      - Participants Depart Tucson
-      - 
+      
