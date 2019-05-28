@@ -1,10 +1,6 @@
 .. include:: cyverse_rst_defined_substitutions.txt
 
-|CyVerse logo|_
-
-|Home_Icon|_
-`Learning Center Home <http://learning.cyverse.org/>`_
-
+|CyVerse|_
 
 Communication
 -------------
@@ -54,6 +50,19 @@ Remember, the intention of these platforms are to __improve productivity__ not b
 	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
 	####
 
+|CyverseLogo|_ |LearningCenter|_ 
+
+*Self-Paced Materials*
+~~~~~~~~~~~~~~~~~~~~
+
+`15 Data Science Communities to Join <https://towardsdatascience.com/15-data-science-slack-communities-to-join-8fac301bd6ce>`_
+
+`Python & Slack <https://towardsdatascience.com/python-and-slack-a-natural-match-60b136883d4d>`_
+
+`Slack CLI notifications <https://samapriya.github.io/projects/slack_notifier_cli_addon/>`_
+
+`Gitter Services <https://gitlab.com/gitlab-org/gitter/services>`_
+
 
 ----
 
@@ -72,14 +81,19 @@ Remember, the intention of these platforms are to __improve productivity__ not b
    replace the image name/location and URL if hyperlinked
 
 
- .. |Clickable hyperlinked image| image:: ./img/IMAGENAME.png
-    :width: 500
-    :height: 100
- .. _CyVerse logo: http://learning.cyverse.org/
+.. |CyVerse| image:: ../img/cyverse_cmyk.png
+  :width: 500
+.. _CyVerse: https://cyverse.org/
 
- .. |Static image| image:: ./img/IMAGENAME.png
-    :width: 25
-    :height: 25
+.. |CyverseLogo| image:: ../img/cyverse_globe_cmyk.png
+  :height: 60
+  :width: 60
+.. _CyverseLogo: https://cyverse.org/
+
+.. |LearningCenter| image:: ../img/Learningcenter_DkBlue.png
+  :height: 60
+  :width: 60
+.. _LearningCenter: http://learning.cyverse.org/
 
 
 
