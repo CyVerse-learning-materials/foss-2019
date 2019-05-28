@@ -3,7 +3,7 @@
 The CyVerse Discovery Environment provides a graphic user interface for bioinformatics tools
 
 **Glossary**
-============
+^^^^^^^^^^^^
 - **Image:** self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies
 - **Container:** a running instance of your image
 - **Image registry:** a storage and content delivery system, holding named images, available in different tagged versions
@@ -12,7 +12,7 @@ The CyVerse Discovery Environment provides a graphic user interface for bioinfor
 - **CyVerse app:** graphic interface of a tool made available for use in the DE
 
 **Tool Integration of a BioContainer**
-======================================
+--------------------------------------
 Log in to the Discovery Environemnt (DE) using your CyVerse credentials
 
 |DElogin|
@@ -50,7 +50,7 @@ Click OK to complete the form. You should get a message that your tool has been 
 
 
 **Building an App for Your Tool**
-==================================
+---------------------------------
 
 In the 'Manage Tools' window select 'Only my tools' from the dropdown box at the top of the window. Select the tool you just integrated and select 'Use in App' from the 'Tools' menu
 
