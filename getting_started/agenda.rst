@@ -22,7 +22,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - 
     * -  
       - 9:00-:9:30
-      - Introduction and overview of the day's and week's activities (Walls)
+      - Introduction and overview of the day's and week's activities (Ramona)
       - `Intro slides <link-here>`_  
     * - 
       - 9:30-10:00
@@ -131,7 +131,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 06/05/19 (Wednesday)
       - 8:00-9:00
       - Breakfast with DE team (optional)
-      - CyVerse provides breakfast participants who are interested in providing user feedback the Discovery Environment development team.
+      - CyVerse provides breakfast participants who are interested in providing DE user feedback
     * - 
       - 9:00-9:15
       - Introduction and overview of the day's activities (Walls)
@@ -176,10 +176,6 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - 5:00-5:30
       - Instructor Debrief
       - 
-    * - 
-      - 6:30-8:30
-      - Group dinner
-      - Location TBD
     * - 06/06/19 (Thursday)
       - 8:45-9:00
       - Assemble near BSRL elevators
@@ -211,31 +207,27 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 1:00-2:45
       - Introduction Cloud Computing (Tyson)
-      - Using Atmosphere  
+      - Using CyVerse Atmosphere  
     * - 
-      - 1:30-2:30
-      -  Intro to Containers: BioContainers (Amanda)
-      -  `Talk Slides <link-here>`_  
-    * - 
-      - 3:30-3:45
-      - Coffee and snacks with networking
+      - 2:45-3:00
+      - Coffee break
       - 
     * - 
-      - 3:45-4:15
-      - Intro to Containers: Run Docker (Tyson)
-      - Hands On
-    * - 
-      - 4:15-4:45
-      - Intro to Containers: Docker Recipes (Tyson)
-      - Hands On
+      - 3:00-4:45
+      - Advanced cloud computing (Tyson)
+      - Jetstream, commercial providers
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
-      - Brief student survey of activities
+      - Brief survey of activities
     * - 
       - 5:00-6:00
       - Instructor Debrief
       - 
+    * - 
+      - 6:30-8:30
+      - Group dinner
+      - Location TBD
     * - 06/07/19 (Friday)
       - 8:45-9:00
       - Assemble near BSRL elevators
@@ -243,25 +235,40 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 9:00-9:15
       - Introduction and overview of the day's activities (Ramona)
+      - AM: Containers, PM: lab organization
+    * - 
+      - 9:15-10:15
+      - Introduction to containers
+      - Running Docker containers on Atmosphere 
+    * - 
+      - 10:15-10:30
+      - Coffee break
       - 
     * - 
-      - 9:15-12:00
-      - 
-      -       
+      - 10:30-11:15
+      - Biocontainers (Amanda)
+      - Running Docker containers on Atmosphere 
+    * - 
+      - 11:15-12:00
+      - Creating DE apps (Amanda)
+      -  
     * -
       - 12:00-1:00
       - Lunch Break (on your own)
-      -
+      - Coffee shop closes early, so this is the last chance for coffee!
     * - 
-      - 1:00-4:30
-      - 
+      - 1:00-2:30
+      - Open Science Labs (Ramona)
       -       
     * - 
-      - 4:30-5:00
-      - Wrap-up, Evaluations, Q&A
+      - 2:30-3:30
+      - Collaborative exercise (Michael Mandel)
+      - Repeat exercise from day 1 and discuss
+    * - 
+      - 3:30-4:30
+      - Wrap-up, Evaluations, Q&A (Team
       - 
     * - 
       - 4:30-5:00
       - Instructor Final Debrief
       - 
-      
