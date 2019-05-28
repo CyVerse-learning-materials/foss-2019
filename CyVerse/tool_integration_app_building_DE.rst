@@ -81,7 +81,7 @@ Now test your app with appropriate data. Your app can now be found in the 'My ap
 Once you know your app works correctly you can share or publish it as you wish.
 Public apps must have example data located in an appropriately named folder here:
 
-.. code-block::
+.. code-block:: bash
 
     /iplant/home/shared/iplantcollaborative/example_data
 
