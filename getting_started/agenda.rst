@@ -67,7 +67,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 06/04/19 (Tuesday)
       - 8:45-9:00
       - Assemble near BSRL elevators
-	  - 
+      - 
     * - 
       - 9:00-10:15
       - Introduction and overview of the day's activities (Walls)
