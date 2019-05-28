@@ -19,8 +19,8 @@ Remember, the intention of these platforms are to __improve productivity__ not b
 
 **Some things to remember about Gitter**
 
-- Integration with Github or Gitlab
-- The intention is to _improve productivity_ not become a distraction
+- Native integration with Github or Gitlab
+- Uses your Github (or Twitter) handle for all Gitters that you're a part of
 
 **Other popular alternatives to Slack or Gitter**
  
