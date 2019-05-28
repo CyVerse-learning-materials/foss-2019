@@ -60,14 +60,14 @@ Open a shell window and try executing ls -F / for yourself (don’t forget that 
 
 .. code-block:: bash
 
-    ls -F /
+    $ ls -F /
     
 Now try
 
 .. code-block:: bash
 
-    ls-F
-    $ ls-F: command not found
+    $ ls-F
+    ls-F: command not found
 
 Usually this means that you have mis-typed the command - in this case we omitted the space between ls and -F.
 
@@ -83,7 +83,7 @@ Several commands are frequently used to create, inspect, rename, and delete file
 
 First let’s find out where we are by running a command called **pwd** (which stands for “**print working directory**”). Directories are like places - at any time while we are using the shell we are in exactly one place, called our current working directory.** Commands mostly read and write files in the current working directory**, i.e. “here”, so knowing where you are before running a command is important. pwd shows you where you are:
 
-.. code-block::
+.. code-block:: bash
 
     $ pwd
     /Users/nelle
@@ -125,7 +125,7 @@ Typically, when you open a new command prompt you will be in your home directory
 
 Now let’s learn the command that will let us see the contents of our own filesystem. We can see what’s in our home directory by running **ls**, which stands for “**listing**”:
 
-.. code-block:: 
+.. code-block:: bash
 
     $ ls
     Applications Documents    Library      Music        Public
@@ -135,7 +135,7 @@ Your results may be slightly different depending on your operating system and ho
 
 **ls prints the names of the files and directories in the current directory**. We can make its output more comprehensible by using the **option -F** (also known as a switch or an option) , which tells ls to add a marker to file and directory names to indicate what they are. A trailing / indicates that this is a directory. Depending on your settings, it might also use colors to indicate whether each entry is a file or directory. You might recall that we used ls -F in an earlier example.
 
-.. code-block::
+.. code-block:: bash
 
     $ ls -F
     Applications/ Documents/    Library/      Music/        Public/
@@ -149,13 +149,13 @@ Getting help
 
 We can pass a --help option to the command, such as:
 
-.. code-block:: 
+.. code-block:: bash
 
     $ ls --help
     
 We can read its manual with man, such as:
 
-.. code-block:: 
+.. code-block:: bash
 
     $ man ls
     
@@ -164,7 +164,7 @@ Depending on your environment you might find that only one of these works (eithe
 **The --help option**
 Many bash commands, and programs that people have written that can be run from within bash, support a --help option to display more information on how to use the command or program.
 
-.. code-block::
+.. code-block:: bash
 
     $ ls --help
     Usage: ls [OPTION]... [FILE]...
@@ -292,7 +292,7 @@ Unsupported command-line options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If you try to use an option (flag) that is not supported, ls and other commands                         will usually print an error message similar to:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls -j
     ls: invalid option -- 'j'
@@ -302,7 +302,7 @@ If you try to use an option (flag) that is not supported, ls and other commands 
 
 The other way to learn about ls is to type
 
-.. code-block::
+.. code-block:: bash
 
     $ man ls
     
@@ -318,7 +318,7 @@ Of course there is a third way to access help for commands: searching the intern
 
 We can also use ls to see the contents of a different directory. Let’s take a look at our Desktop directory by running ls -F Desktop, i.e., the command ls with the -F option and the argument Desktop. The argument Desktop tells ls that we want a listing of something other than our current working directory:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls -F Desktop
     data-shell/
@@ -329,7 +329,7 @@ Now that we know the data-shell directory is located on our Desktop, we can do t
 
 First, we can look at its contents, using the same strategy as before, passing a directory name to ls:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls -F Desktop/data-shell
     creatures/          molecules/          notes.txt           solar.pdf
@@ -341,7 +341,7 @@ The **command to change locations is cd** followed by a directory name to change
 
 Let’s say we want to move to the data directory we saw above. We can use the following series of commands to get there:
 
-.. code-block::
+.. code-block:: bash
 
     $ cd Desktop
     $ cd data-shell
@@ -349,7 +349,7 @@ Let’s say we want to move to the data directory we saw above. We can use the f
 
 These commands will move us from our home directory onto our Desktop, then into the data-shell directory, then into the data directory. You will notice that cd doesn’t print anything. This is normal. **Many shell commands will not output anything to the screen when successfully executed.** But if we run pwd after it, we can see that we are now in /Users/nelle/Desktop/data-shell/data. If we run ls without arguments now, it lists the contents of /Users/nelle/Desktop/data-shell/data, because that’s where we now are:
 
-.. code-block::
+.. code-block:: bash
 
     $ pwd
     /Users/nelle/Desktop/data-shell/data
@@ -359,7 +359,7 @@ These commands will move us from our home directory onto our Desktop, then into 
 
 **We now know how to go down the directory tree, but how do we go up?** We might try the following:
 
-.. code-block::
+.. code-block:: bash
 
     $ cd data-shell
     -bash: cd: data-shell: No such file or directory
@@ -370,20 +370,20 @@ With our methods so far, cd can only see sub-directories inside your current dir
 
 **There is a shortcut in the shell to move up one directory level** that looks like this:
 
-.. code-block::
+.. code-block:: bash
 
     $ cd ..
     
 **.. is a special directory name meaning “the directory containing this one”**, or more succinctly, the parent of the current directory. Sure enough, if we run pwd after running cd .., we’re back in /Users/nelle/Desktop/data-shell:
 
-.. code-block::
+.. code-block:: bash
 
     $ pwd
     /Users/nelle/Desktop/data-shell
 
 The special directory .. doesn’t usually show up when we run ls. If we want to display it, we can give ls the -a option:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls -F -a
     ./   .bash_profile  data/       north-pacific-gyre/  pizza.cfg  thesis/
@@ -404,13 +404,13 @@ The special names . and .. don’t belong to cd; they are interpreted the same w
 
 What happens if you type cd on its own, without giving a directory?
 
-.. code-block::
+.. code-block:: bash
 
     $ cd
     
 How can you check what happened? pwd gives us the answer!
 
-.. code-block::
+.. code-block:: bash
 
     $ pwd
     /Users/nelle
@@ -419,13 +419,13 @@ It turns out that **cd without an argument will return you to your home director
 
 Let’s try returning to the data directory from before. Last time, we used three commands, but we can actually **string together the list of directories to move to data in one step:**
 
-.. code-block::
+.. code-block:: bash
 
     $ cd Desktop/data-shell/data
 
 Check that we’ve moved to the right place by running pwd and ls -F
 
-.. code-block::
+.. code-block:: bash
 
     $ pwd
     /Users/nelle/Desktop/data-shell/data
@@ -438,7 +438,7 @@ However, it is possible to specify the **absolute path** to a directory by inclu
 
 This allows us to move to our data-shell directory from anywhere on the filesystem (including from inside data). To find the absolute path we’re looking for, we can use pwd and then extract the piece we need to move to data-shell.
 
-.. code-block::
+.. code-block:: bash
 
     $ pwd
     /Users/nelle/Desktop/data-shell/data
@@ -446,7 +446,7 @@ This allows us to move to our data-shell directory from anywhere on the filesyst
 
 Run pwd and ls -F to ensure that we’re in the directory we expect.
 
-.. code-block::
+.. code-block:: bash
 
     $ pwd
     /Users/nelle/Desktop/data-shell
@@ -462,19 +462,19 @@ Another shortcut is the **- (dash)** character. cd will translate - into **the p
 
 Now in her current directory data-shell, Nelle can see what files she has using the command:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls north-pacific-gyre/2012-07-03/
 
 This is a lot to type, but she can let the shell do most of the work through what is called tab completion. If she types:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls nor
 
 and then presses **Tab (the tab key on her keyboard), the shell automatically completes the directory name** for her:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls north-pacific-gyre/
 
@@ -491,7 +491,7 @@ We now know how to explore files and directories, but how do we create them in t
 
 Let’s go back to our data-shell directory on the Desktop and use ls -F to see what it contains:
 
-.. code-block::
+.. code-block:: bash
 
     $ pwd
     /Users/nelle/Desktop/data-shell
@@ -503,13 +503,13 @@ Let’s go back to our data-shell directory on the Desktop and use ls -F to see 
 
 Let’s create a new directory called thesis using the command **mkdir** thesis (which has no output):
 
-.. code-block::
+.. code-block:: bash
 
     $ mkdir thesis
 
 As you might guess from its name, **mkdir means “make directory”**. Since thesis is a relative path (i.e., does not have a leading slash, like /what/ever/thesis), the new directory is created in the current working directory:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls -F
     creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg
@@ -543,7 +543,7 @@ As you might guess from its name, **mkdir means “make directory”**. Since th
 
 Since we’ve just created the thesis directory, there’s nothing in it yet:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls -F thesis
 
@@ -551,7 +551,7 @@ Create a text file
 ^^^^^^^^^^^^^^^^^^
 Let’s change our working directory to thesis using cd, then run a **text editor called Nano** to create a file called draft.txt:
 
-.. code-block::
+.. code-block:: bash
 
     $ cd thesis
     $ nano draft.txt
@@ -586,7 +586,7 @@ Once our file is saved, we can use **Ctrl-X to quit** the editor and return to t
 
 nano doesn’t leave any output on the screen after it exits, but ls now shows that we have created a file called draft.txt:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls
     draft.txt
@@ -595,7 +595,7 @@ nano doesn’t leave any output on the screen after it exits, but ls now shows t
 
 We have seen how to create text files using the nano editor. Now, try the following command:
 
-.. code-block::
+.. code-block:: bash
 
     $ touch my_file.txt
 
@@ -603,7 +603,7 @@ What did the touch command do?
 
 Use ls -l to inspect the files. How large is my_file.txt?
 
-.. code-block::
+.. code-block:: bsah
 
     $ ls -l
 
@@ -620,19 +620,19 @@ Moving files and directories
 
 Returning to the data-shell directory,
 
-.. code-block::
+.. code-block:: bash
 
     $ cd ~/Desktop/data-shell/
 
 In our thesis directory we have a file draft.txt which isn’t a particularly informative name, so let’s change the file’s name using **mv**, **which is short for “move”**:
 
-.. code-block::
+.. code-block:: bash
 
     $ mv thesis/draft.txt thesis/quotes.txt
 
 The **first argument tells mv what we’re “moving”**, while the **second is where it’s to go**. In this case, we’re moving thesis/draft.txt to thesis/quotes.txt, which has the **same effect as renaming the file**. Sure enough, ls shows us that thesis now contains one file called quotes.txt:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls thesis
     quotes.txt
@@ -644,19 +644,19 @@ One has to be careful when specifying the target file name, since **mv will sile
 
 Let’s move quotes.txt into the current working directory. We use mv once again, but this time we’ll just use the name of a directory as the second argument to tell mv that we want to keep the filename, but put the file somewhere new. (This is why the command is called “move”.) In this case, the directory name we use is the special directory name . that we mentioned earlier.
 
-.. code-block::
+.. code-block:: bash
 
     $ mv thesis/quotes.txt .
 
 The effect is to move the file from the directory it was in to the current working directory. ls now shows us that thesis is empty:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls thesis
 
 Further, ls with a filename or directory name as an argument only lists that file or directory. We can use this to see that quotes.txt is still in our current directory:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls quotes.txt
     quotes.txt
@@ -665,7 +665,7 @@ Copying Files and Directories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The **cp** command works **very much like mv, except it copies** a file instead of moving it. We can check that it did the right thing using ls with two paths as arguments — like most Unix commands, ls can be given multiple paths at once:
 
-.. code-block::
+.. code-block:: bash
 
     $ cp quotes.txt thesis/quotations.txt
     $ ls quotes.txt thesis/quotations.txt
@@ -673,13 +673,13 @@ The **cp** command works **very much like mv, except it copies** a file instead 
 
 We can also copy a directory and all its contents by using the **recursive option -r**, e.g. to back up a directory:
 
-.. code-block::
+.. code-block:: bash
 
     $ cp -r thesis thesis_backup
 
 We can check the result by listing the contents of both the thesis and thesis_backup directory:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls thesis thesis_backup
     thesis:
@@ -693,13 +693,13 @@ Removing files and directories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Returning to the data-shell directory, let’s tidy up this directory by removing the quotes.txt file we created. The Unix command we’ll use for this is **rm (short for ‘remove’)**:
 
-.. code-block::
+.. code-block:: bash
 
     $ rm quotes.txt
 
 We can confirm the file has gone using ls:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls quotes.txt
     ls: cannot access 'quotes.txt': No such file or directory
@@ -713,7 +713,7 @@ We can confirm the file has gone using ls:
 
 If we try to remove the thesis directory using rm thesis, we get an error message:
 
-.. code-block::
+.. code-block:: bash
 
     $ rm thesis
     rm: cannot remove `thesis': Is a directory
@@ -722,7 +722,7 @@ This happens because rm by default only works on files, not directories.
 
 **rm can remove a directory and all its contents if we use the recursive option -r**, and it will do so without any confirmation prompts:
 
-.. code-block::
+.. code-block:: bash
 
     $ rm -r thesis
 
@@ -739,7 +739,7 @@ For this exercise, you can test the commands in the data-shell/data directory.
 
 In the example below, what does cp do when given several filenames and a directory name?
 
-.. code-block::
+.. code-block:: bash
 
     $ mkdir backup
     $ cp amino-acids.txt animals.txt backup/
@@ -763,7 +763,7 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
 
 **head prints the first few (10 by default) lines of a file**
 
-.. code-block::
+.. code-block:: bash
 
     $ head data/sunspot.txt
     (* Sunspot data collected by Robin McQuinn from *)
@@ -779,7 +779,7 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
 
 **tail prints the last few (10 by default) lines of a file**
 
-.. code-block::
+.. code-block:: bash
 
     $ tail data/sunspot.txt
     (* Month: 2004 05 *) 42
@@ -795,7 +795,7 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
     
 **history displays the last few hundred commands that have been executed**
 
-.. code-block::
+.. code-block:: bash
 
     $history
     1988  cd ..
@@ -818,7 +818,7 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
 
 **grep finds and prints lines in files that match a pattern**
 
-.. code-block::
+.. code-block:: bash
 
     $ cd
     $ cd Desktop/data-shell/writing
@@ -836,7 +836,7 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
     Software is like that.
 
 
-.. code-block::
+.. code-block:: bash
 
     $ grep not haiku.txt
     Is not the true Tao, until
@@ -847,7 +847,7 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
 
 To find all the files in the 'writing' directory and sub-directories
 
-.. code-block::
+.. code-block:: bash
 
     $ find .
     .
@@ -866,7 +866,7 @@ To find all the files in the 'writing' directory and sub-directories
 
 To find all the files that end with '.txt'
 
-.. code-block::
+.. code-block:: bash
 
     $find -name *.txt
     ./haiku.txt
@@ -875,14 +875,14 @@ To find all the files that end with '.txt'
 
 This is especially useful when writing Bash scripts
 
-.. code-block::
+.. code-block:: bash
 
     $echo hello world
     hello world
 
 **> prints output to a file rather than the shell**
 
-.. code-block::
+.. code-block:: bash
 
     $ grep not haiku.txt > not_haiku.txt
     $ ls
@@ -890,7 +890,7 @@ This is especially useful when writing Bash scripts
 
 **>> appends output to the end of a file**
 
-.. code-block::
+.. code-block:: bash
 
     $ grep Tao haiku.txt >> not_haiku.txt
     $ nano not_haiku.txt
@@ -899,7 +899,7 @@ This is especially useful when writing Bash scripts
 
 **| directs output from the first command into the second command (and the second into the third)**
 
-.. code-block::
+.. code-block:: bash
 
     $ cd ../north-pacific-gyre/2012-07-03
     $ wc -l *.txt | sort -n | head -n 5
