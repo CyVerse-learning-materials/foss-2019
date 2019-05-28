@@ -234,7 +234,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - AM: Containers, PM: lab organization
     * - 
       - 9:15-10:15
-      - Introduction to containers
+      - Introduction to containers (Tyson or Ramona)
       - Running Docker containers on Atmosphere 
     * - 
       - 10:15-10:30
@@ -243,7 +243,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 10:30-11:15
       - Biocontainers (Amanda)
-      - Running Docker containers on Atmosphere 
+      -  
     * - 
       - 11:15-12:00
       - Creating DE apps (Amanda)
