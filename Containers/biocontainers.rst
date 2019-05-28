@@ -163,7 +163,7 @@ Setting up your Atmosphere Instance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Docker installation is much easier on an Atmosphere instance with ezd command.
 
-.. code-block::
+.. code-block:: bash
 
     $ ezd
     
@@ -173,7 +173,7 @@ Get Data to Use with Your Container
 
 `Set up iCommands on your instance. <https://learning.cyverse.org/projects/atmosphere-guide/en/latest/step4.html>`_ 
 
-.. code-block::
+.. code-block:: bash
 
    $ iget /iplant/home/shared/iplantcollaborative/example_data/porechop/SRR6059710.fastq
 
@@ -182,14 +182,14 @@ Use 'docker pull' to Get the Image
 
 First, you will need to pull the image from the registry onto your computer. Use the 'docker pull' command you copied from the registry above (`Where to get a BioContainer`_). 
 
-.. code-block::
+.. code-block:: bash
 
    $ docker pull quay.io/biocontainers/porechop:0.2.3_seqan2.1.1--py36h2d50403_3
 
 .. Note:: 
     If you are working on a system for which you don't have root permissions you will need to use 'sudo' and provide your password. Like this:
 
-.. code-block::
+.. code-block:: bash
 
    $ sudo docker pull quay.io/biocontainers/porechop:0.2.3_seqan2.1.1--py36h2d50403_3
 
@@ -205,7 +205,7 @@ Use the 'docker run' Command to Run the Container
 
 We can break the command down into pieces so it is easier to read (the backslash represents where we have broken the line).
 
-.. code-block::
+.. code-block:: bash
 
     sudo \ 
     docker run \
@@ -244,7 +244,7 @@ The output from Porechop is saved into the working directory within the containe
 
 List the files:
 
-.. code-block::
+.. code-block:: bash
 
     $ ls -l
 
