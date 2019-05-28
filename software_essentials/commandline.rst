@@ -36,7 +36,7 @@ This is where we take advange of the shell - a command-line interface to make su
 The heart of a command-line interface is a read-evaluate-print loop (REPL). It is called so because when you type a command and press **Return** (also known as **Enter**) the shell reads your command, evaluates (or “executes”) it, prints the output of your command, loops back and waits for you to enter another command.
 
 The Shell
----------
+^^^^^^^^^
 The Shell is a **program which runs other programs** rather than doing calculations itself. Those programs can be as complicated as a climate modeling software and as simple as a program that creates a new folder/directory. **The simple programs which are used to perform stand alone tasks are usually refered to as commands.** The most popular Unix shell is Bash, (the Bourne Again SHell — so-called because it’s derived from a shell written by Stephen Bourne). **Bash** is the default shell on most modern implementations of Unix and in most packages that provide Unix-like tools for Windows.
 
 What does it look like?
