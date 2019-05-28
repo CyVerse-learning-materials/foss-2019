@@ -60,11 +60,11 @@ Open a shell window and try executing ls -F / for yourself (don’t forget that 
 
 .. code-block:: bash
 
-        ls -F /
+    ls -F /
     
 Now try
 
-.. code-block::
+.. code-block:: bash
 
     ls-F
     $ ls-F: command not found
