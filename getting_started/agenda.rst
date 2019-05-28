@@ -85,13 +85,9 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Introduction to Notebooks: Package Management 
       - Anaconda | Miniconda | `pip`
     * - 
-      - 11:00-11:30
+      - 11:00-12:00
       - Introduction to Notebooks: Project Jupyter
       - Writing Notebooks
-    * - 
-      - 11:30-12:00
-      - Introduction to Notebooks: Project Jupyter
-      -     
     * -
       - 12:00-1:00
       - Lunch Break (on your own)
@@ -110,7 +106,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Using APIs with Notebooks
     * - 
       - 3:30-3:45
-      - Coffee and snacks with networking
+      - Coffee break
       - 
     * - 
       - 3:45-4:15
