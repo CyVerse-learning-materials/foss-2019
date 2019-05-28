@@ -1,15 +1,7 @@
-**Glossary**
-============
-- **Image:** self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies
-- **Container:** a running instance of your image
-- **Image registry:** a storage and content delivery system, holding named images, available in different tagged versions
-- **Docker:** a program that runs and handles life-cycle of containers and images
-- **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
-- **CyVerse app:** graphic interface of a tool made available for use in the DE
-
 
 **Introduction to BioContainers**
 =================================
+
 `BioContainers <https://biocontainers.pro/#/>`_ is a community-driven project that provides the infrastructure and basic guidelines to create, manage and distribute bioinformatics containers with **special focus in proteomics, genomics, transcriptomics and metabolomics**. BioContainers is based on the popular frameworks of Docker. 
 
 
@@ -32,7 +24,7 @@
 - Coordinate and integrate developers and bioinformaticians to produce best practice of documentation and software development.
 
 **Introduction to Bioconda**
-============================
+----------------------------
 |biocondalogo|
 
 `Bioconda <https://bioconda.github.io/>`_ is a channel for the conda package manager specializing in bioinformatics software. It consists of:
@@ -55,13 +47,22 @@ You can `contribute <https://bioconda.github.io/contributing.html>`_ to the Bioc
 
 .. _getbiocontainer:
 
+**Glossary**
+------------
+- **Image:** self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies
+- **Container:** a running instance of your image
+- **Image registry:** a storage and content delivery system, holding named images, available in different tagged versions
+- **Docker:** a program that runs and handles life-cycle of containers and images
+- **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
+- **CyVerse app:** graphic interface of a tool made available for use in the DE
+
 Where to Get a BioContainer
-===========================
+---------------------------
 
 Images are made publicly available through image registries. There are several different image registries that provide access to BioContainers. The three major registries are detailed here.
 
 The BioContainers Registry
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 `BioContainers Registry <https://biocontainers.pro/#/registry>`_ UI provides the interface to search, tag, and document BioContainers across all the registries. Which means that if a BioContainer exists you can find it here.
 
 To find the tool you want to use just search for it by name in the search box at the top of the registry page. The BioContainers registry returns partial matches and matches to the tool description. So, if you want to find all the tools relevant to Nanopore analysis you can search for 'nanopore'. 
@@ -81,7 +82,7 @@ If the tool you are looking for is already available as a BioContainer click on 
 
 
 Quay
-~~~~
+^^^^
 `Quay <https://quay.io/>`_ is another image registry. Unlike the BioContainers Registry, Quay.io is not specific to BioContainers. Anyone (including you) can create an account at Quay.io and host your own images but **an account is not necessary to use BioContainers (or other publicly available images)**.
 
 Although anyone can create a BioContainer, the majority of BioContainers are created by the Bioconda project. Every Bioconda package has a corresponding BioContainer available at Quay.io. From the Quay.io page search for the tool you want by name. 
@@ -104,7 +105,7 @@ From the repo page, choose the 'tags' tab on the left side of the screen and you
 
 
 DockerHub
-~~~~~~~~~
+^^^^^^^^^
 `DockerHub <https://hub.docker.com/>`_ is the most well-known and popular image registry for Docker containers. Like Quay.io, you can create an account at DockerHub and host your own images but **an account is not necessary to use BioContainers (or other publicly available images)**. 
 
 There are fewer BioContainers images available at DockerHub than the other two registries. You can see them all by searching for 'biocontainers' in the search bar of the DockerHub page. 
@@ -133,7 +134,7 @@ For more information on building your own BioContainer see `How to build a BioCo
 .. _request:
 
 How to Request a BioContainer
-==============================
+-----------------------------
 
 If the tool you want isn't available as a BioContainer you can request that one be built for you.
 Users can request a container by opening an issue in the `containers repository <http://github.com/BioContainers/containers/issues>`_ 
@@ -150,16 +151,16 @@ The issue should contain:
 When the container is deployed and fully functional, the issue will be closed by the developer or the contributor to BioContainers. When a container is deployed and the developer closes the issue in GitHub the user receives a notification that the container is ready.You can the find your container at Quay.io and use the 'docker pull' command to run it as you would any other container.
 
 How to Use a BioContainer
-=========================
+-------------------------
 To run your BioContainer you will need a computer with Docker installed.
  
 How to Install Docker on Your System
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `Docker can be installed on your local system by following these directions <https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/docker/dockerintro.html>`_
 
 Setting up your Atmosphere Instance
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Docker installation is much easier on an Atmosphere instance with ezd command.
 
 .. code-block::
@@ -168,7 +169,7 @@ Docker installation is much easier on an Atmosphere instance with ezd command.
     
 
 Get Data to Use with Your Container
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `Set up iCommands on your instance. <https://learning.cyverse.org/projects/atmosphere-guide/en/latest/step4.html>`_ 
 
@@ -177,7 +178,7 @@ Get Data to Use with Your Container
    $ iget /iplant/home/shared/iplantcollaborative/example_data/porechop/SRR6059710.fastq
 
 Use 'docker pull' to Get the Image
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First, you will need to pull the image from the registry onto your computer. Use the 'docker pull' command you copied from the registry above (`Where to get a BioContainer`_). 
 
@@ -196,8 +197,8 @@ First, you will need to pull the image from the registry onto your computer. Use
 
 
 
-Use the 'docker run' Command to Run the Container.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Use the 'docker run' Command to Run the Container
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 |runporechop|
@@ -217,7 +218,7 @@ We can break the command down into pieces so it is easier to read (the backslash
     -o porechop_out.fastq
 
 What it All Means
-~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^
 - 'sudo' allows you to run the container with 'root' permissions--only required if you don't have root permissions on your machine
 - 'docker run' tells docker to run the container
 - '--rm' removes the container (not the image) from your system when the analysis is complete
@@ -261,14 +262,14 @@ At this point you can run your container on any system with Docker installed. To
 .. _buildbiocontainer:
 
 How to Build a BioContainer
-===========================
+---------------------------
 
 For more information on building Bioconda BioContainers see the `Bioconda docmentation <https://bioconda.github.io/contributing.html>`_
 
 For more information on building Docker BioContainers see `BioContainers contribution guidelines <https://github.com/BioContainers/specs#33-how-to-create-a-docker-based-biocontainer>`_.
 
 Useful Links
-============
+------------
 - `BioContainers <https://biocontainers.pro/#/>`_
 - `Bioconda <https://bioconda.github.io/>`_
 - `Bioconda GitHub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes>`_
