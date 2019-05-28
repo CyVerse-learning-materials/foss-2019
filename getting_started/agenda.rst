@@ -189,12 +189,12 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Coffee break
       - 
     * - 
-      - 10:30-11:00
-      - Budgeting for open, reproducible science (Fernando, Tina)
+      - 10:30-11:30
+      - Data management plans and tools (Ramona)
       -   
     * - 
-      - 11:00-12:00
-      - Data management tools (Ramona, Fernando)
+      - 11:30-12:00
+      - Budgeting for open, reproducible science (Fernando, Tina)
       -   
     * -
       - 12:00-1:00
