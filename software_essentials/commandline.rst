@@ -58,7 +58,7 @@ Next we see the **output** that our command produced. In this case it is a listi
 
 Open a shell window and try executing ls -F / for yourself (don’t forget that spaces and capitalization are important!). 
 
-    .. code-block::
+.. code-block::
 
         ls -F /
     
