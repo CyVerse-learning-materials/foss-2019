@@ -24,7 +24,7 @@ Please complete the minimum Setup Instructions to prepare for the FOSS Camp at C
       - Register for your Dockerhub account at `https://hub.docker.com/ <https://hub.docker.com/>`_.
     * - Text Editor
       - Please ensure that you have a Text editor of your choice. Any decent text editor would be sufficient and
-        recommended ones include Sublime2 and Atom
+        recommended ones include SublimeText and Atom
       - Register for Sublime at `https://www.sublimetext.com/ <https://www.sublimetext.com/>`_. Register for Atom at `https://atom.io/ <https://atom.io/>`_.
     * - Slack for networking
       - We will be using Slack extensively for communication and networking purposes
@@ -47,7 +47,16 @@ Listed below are some extra downloads that are not required for the workshop, bu
         IT administrators, and anybody is looking to manage system remotely
       - - `Download PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_
         - `Download mobaXterm <https://mobaxterm.mobatek.net>`_
-        - `Update Windows 10 to use Linux Bash <https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/>`_ 
+        - `Install Windows Subsystem for Linux (WSL) <https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/>`_ 
+        - `Coming Soon: WSL 2 <https://devblogs.microsoft.com/commandline/announcing-wsl-2/>`_
+    * - Text Editors
+      - There is no 'best' text editor, but some are easier to use than others. Do some reading and pick one.
+      - - `Atom <https://atom.io/>`_
+        - `SublimeText <https://www.sublimetext.com/>`_
+        - `VisualStudioCode <https://code.visualstudio.com/>`_       
+        - `Vim <http://www.vim.org/>`_
+        - `Emacs <https://www.gnu.org/software/emacs/>`_
+        - `Nano <https://www.nano-editor.org>`_
     * - Cyberduck
       - Cyberduck is a third-party tool for uploading/downloading data to CyVerse Data Store.
         Currently, this tool is available for Windows/MacOS only. You will need
