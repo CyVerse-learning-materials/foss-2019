@@ -2,7 +2,7 @@
 ===================================
 
 **Setup**
-=========
+---------
 You need to download some files to follow this lesson:
 
 Download `data-shell.zip <http://swcarpentry.github.io/shell-novice/data/data-shell.zip>`_ and move the file to your Desktop.
@@ -19,7 +19,7 @@ In the lesson, you will find out how to access the data in this folder.
 
 
 **Background**
-==============
+--------------
 At a high level, computers do four things:
 
 - run programs
@@ -36,7 +36,7 @@ This is where we take advange of the shell - a command-line interface to make su
 The heart of a command-line interface is a read-evaluate-print loop (REPL). It is called so because when you type a command and press **Return** (also known as **Enter**) the shell reads your command, evaluates (or “executes”) it, prints the output of your command, loops back and waits for you to enter another command.
 
 The Shell
-~~~~~~~~~
+---------
 The Shell is a **program which runs other programs** rather than doing calculations itself. Those programs can be as complicated as a climate modeling software and as simple as a program that creates a new folder/directory. **The simple programs which are used to perform stand alone tasks are usually refered to as commands.** The most popular Unix shell is Bash, (the Bourne Again SHell — so-called because it’s derived from a shell written by Stephen Bourne). **Bash** is the default shell on most modern implementations of Unix and in most packages that provide Unix-like tools for Windows.
 
 What does it look like?
@@ -74,9 +74,9 @@ Usually this means that you have mis-typed the command - in this case we omitted
 **To re-enter the same command again use the up arrow to display the previous command. Press the up arrow twice to show the command before that (and so on).**
 
 **Navigating Files and Directories**
-====================================
+------------------------------------
 File System
-~~~~~~~~~~~
+^^^^^^^^^^^
 The part of the operating system responsible for managing files and directories is called the file system. It organizes our data into **files, which hold information**, and **directories (also called “folders”), which hold files or other directories.**
 
 Several commands are frequently used to create, inspect, rename, and delete files and directories. To start exploring them, we’ll go to our open shell window.
@@ -144,7 +144,7 @@ Your results may be slightly different depending on your operating system and ho
 Here, we can see that our home directory contains mostly **sub-directories**. Any names in your output that don’t have trailing slashes, are plain old **files**. And note that there is a space between ls and -F: without it, the shell thinks we’re trying to run a command called ls-F, which doesn’t exist.
 
 Getting help
-~~~~~~~~~~~~
+^^^^^^^^^^^^
 **ls** has lots of other **options**. There are two common ways to find out how to use a command and what options it accepts:
 
 We can pass a --help option to the command, such as:
@@ -289,7 +289,7 @@ Many bash commands, and programs that people have written that can be run from w
 Also available locally via: info '(coreutils) ls invocation'
 
 Unsupported command-line options
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If you try to use an option (flag) that is not supported, ls and other commands                         will usually print an error message similar to:
 
 .. code-block::
@@ -481,10 +481,10 @@ and then presses **Tab (the tab key on her keyboard), the shell automatically co
 If she presses **Tab again**, Bash will add 2012-07-03/ to the command, since it’s the only possible completion. Pressing Tab again does nothing, since there are 19 possibilities; pressing Tab twice brings up a list of all the files, and so on. This is called tab completion, and we will see it in many other tools as we go on.
 
 **Working with Files and Directories**
-======================================
+--------------------------------------
 
 Creating directories
-~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^
 We now know how to explore files and directories, but how do we create them in the first place?
 
 **See where we are and what we already have**
@@ -548,7 +548,7 @@ Since we’ve just created the thesis directory, there’s nothing in it yet:
     $ ls -F thesis
 
 Create a text file
-~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^
 Let’s change our working directory to thesis using cd, then run a **text editor called Nano** to create a file called draft.txt:
 
 .. code-block::
@@ -616,7 +616,8 @@ Use ls -l to inspect the files. How large is my_file.txt?
     Naming a PNG image of a whale as whale.mp3 doesn’t somehow magically turn it into a recording of whalesong, though it might cause the operating system to try to open it with a music player when someone double-clicks it.
 
 Moving files and directories
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Returning to the data-shell directory,
 
 .. code-block::
@@ -661,7 +662,7 @@ Further, ls with a filename or directory name as an argument only lists that fil
     quotes.txt
 
 Copying Files and Directories
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The **cp** command works **very much like mv, except it copies** a file instead of moving it. We can check that it did the right thing using ls with two paths as arguments — like most Unix commands, ls can be given multiple paths at once:
 
 .. code-block::
@@ -689,7 +690,7 @@ We can check the result by listing the contents of both the thesis and thesis_ba
 
 
 Removing files and directories
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Returning to the data-shell directory, let’s tidy up this directory by removing the quotes.txt file we created. The Unix command we’ll use for this is **rm (short for ‘remove’)**:
 
 .. code-block::
@@ -729,7 +730,7 @@ This happens because rm by default only works on files, not directories.
     Given that there is no way to retrieve files deleted using the shell, rm -r should be used with great caution (you might consider adding the interactive option rm -r -i).
 
 Operations with multiple files and directories
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Oftentimes one needs to copy or move several files at once. This can be done by providing a list of individual filenames, or specifying a naming pattern using wildcards.
 
 **Copy with Multiple Filenames**
@@ -758,7 +759,8 @@ Wildcards can be used in combination with each other e.g. ???ane.pdb matches thr
 When the shell sees a wildcard, it expands the wildcard to create a list of matching filenames before running the command that was asked for. As an exception, if a wildcard expression does not match any file, Bash will pass the expression as an argument to the command as it is. For example typing ls \*.pdf in the molecules directory (which contains only files with names ending with .pdb) results in an error message that there is no file called \*.pdf. However, generally commands like wc and ls see the lists of file names matching these expressions, but not the wildcards themselves. It is the shell, not the other programs, that deals with expanding wildcards, and this is another example of orthogonal design.
 
 **Other Useful Tools and Commands**
-===================================
+-----------------------------------
+
 **head prints the first few (10 by default) lines of a file**
 
 .. code-block::
