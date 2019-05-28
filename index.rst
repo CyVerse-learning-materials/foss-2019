@@ -45,7 +45,6 @@ Expected outcomes:
 
    Containers/dockerintro
    Containers/dockeradvanced
-   Containers/dockerhandson
 
 .. toctree::
    :maxdepth: 1
