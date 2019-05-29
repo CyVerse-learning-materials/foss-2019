@@ -197,7 +197,7 @@ SciApps
         - TNRS- Taxanomic Name Resolution Service
         
 
-The CyVerse Learning Center
+`The CyVerse Learning Center <https://learning.cyverse.org/en/latest/#>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |LClogo|
