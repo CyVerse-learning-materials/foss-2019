@@ -1,3 +1,10 @@
+.. include:: ../cyverse_rst_defined_substitutions.txt
+
+|CyVerse_logo2|_
+
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
+
 **Code of Conduct**
 ============================
 
@@ -16,3 +23,18 @@ If you are being harassed, or notice that someone else is being harassed, or hav
 We expect participants to follow these rules at conference and workshop venues and conference-related social events.
 
 See http://www.ashedryden.com/blog/codes-of-conduct-101-faq for more information on codes of conduct.
+
+----
+
+**Fix or improve this documentation:**
+
+- On Github: |Github Repo Link|
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+----
+
+.. Comment: Place URLS Below This Line
+
+.. |Github Repo Link|  raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/getting_started/about_cyverse.rst" target="blank">Github Repo Link</a>
