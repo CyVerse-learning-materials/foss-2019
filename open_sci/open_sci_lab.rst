@@ -6,26 +6,17 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Title
--------------
+Open Science Lab
+-----------------
 
-.. #### Comment: short description
+.. #### Comment: material for an ongoing activity during FOSS 2019
 
-**Some things to remember about the platform**
+Link to slides What is Open Science
 
-
-- reminder one
-- reminder two
 
 
 ----
 
-*Descriptive title - reference platform/tool name for searchability*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  1.
-
-  2.
 
 ..
 	#### Comment: Suggested style guide:
@@ -79,4 +70,4 @@ Section Title
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/open_sci/open_sci_lab.rst" target="blank">Github Repo Link</a>
