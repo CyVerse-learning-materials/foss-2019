@@ -170,7 +170,7 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
 
 .. |cyverse logo| image:: ../img/cyverse_cmyk.png
   :width: 750
-  :height: 150
+  :height: 175
 
 .. |layer cake| image:: ../img/Layer_Cake_Updated.png
   :width: 750
