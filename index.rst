@@ -132,6 +132,16 @@ Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
 Please cite CyVerse appropriately when you make use of our resources,
 `CyVerse citation policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
 
+
+----
+
+**Fix or improve this documentation:**
+
+- On Github: |Github Repo Link|
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+----
+
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
 	:width: 500
 	:height: 100
