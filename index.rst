@@ -23,6 +23,12 @@ Expected outcomes:
 
 .. toctree::
    :maxdepth: 1
+   
+   FOSS 2019 Home <self>
+   FOSS 2019 Intro <intro.rst>
+
+.. toctree::
+   :maxdepth: 1
    :caption: Getting Started
 
    getting_started/main
