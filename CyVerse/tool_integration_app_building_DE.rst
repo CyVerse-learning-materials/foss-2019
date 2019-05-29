@@ -1,4 +1,4 @@
-**Tool Integration into Discovery Environment**
+**Tool Integration into the DE**
 =======================================================
 The CyVerse Discovery Environment provides a graphic user interface for bioinformatics tools
 
@@ -12,7 +12,7 @@ The CyVerse Discovery Environment provides a graphic user interface for bioinfor
 - **CyVerse app:** graphic interface of a tool made available for use in the DE
 
 **Tool Integration of a BioContainer**
---------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Log in to the Discovery Environemnt (DE) using your CyVerse credentials
 
 |DElogin|
@@ -50,7 +50,7 @@ Click OK to complete the form. You should get a message that your tool has been 
 
 
 **Building an App for Your Tool**
----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In the 'Manage Tools' window select 'Only my tools' from the dropdown box at the top of the window. Select the tool you just integrated and select 'Use in App' from the 'Tools' menu
 
