@@ -48,16 +48,10 @@ DE benefits:
    use :height: to give a desired height for your image
    replace the image name/location and URL if hyperlinked
 
-
- .. |Clickable hyperlinked image| image:: ./img/IMAGENAME.png
-    :width: 500
-    :height: 100
- .. _CyVerse logo: http://learning.cyverse.org/
-
- ..|DE_icon| image:: ../img/de/de-icon.png
+ .. |DE_icon| image:: ../img/de/de-icon.png
     :width: 25
     :height: 25
- .._DE_icon: https://de.cyverse.org/de/
+ .. _DE_icon: https://de.cyverse.org/de/
     
 .. |Static image| image:: ./img/IMAGENAME.png
     :width: 25
