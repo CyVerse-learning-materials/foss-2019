@@ -194,7 +194,7 @@ SciApps
         - Integrated Breeding Platform
         - SoyKB
         - TERRA-REF
-        - TNRS- Taxanomic Name Resolution Service
+        - TNRS- Taxonomic Name Resolution Service
         
 
 `The CyVerse Learning Center <https://learning.cyverse.org/en/latest/#>`_
