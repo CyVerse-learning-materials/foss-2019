@@ -123,6 +123,7 @@ User portal forms
 
     - Exchange, explore, and analyze biological images and their metadata.
     - Image data analysis and management
+    - `Bisque manual <https://wiki.cyverse.org/wiki/display/BIS>`_
 
 
 `DNA Subway <https://dnasubway.cyverse.org/>`_
@@ -146,7 +147,11 @@ User portal forms
 
 |DClogo|
 
-**Access discoverable and reusable data with metadata features and functions.**
+**The Data Commons provides services to manage, organize, preserve, publish, discover, and reuse data.**
+
+    - Access discoverable and reusable data with metadata features and functions
+    - Browse Community Released Data and data curated by CyVerse
+    - Easily publish data to the NCBI or directly to the CyVerse Data Commons
 
 
 Science APIs
@@ -165,7 +170,7 @@ SciApps
 **A cloud-based platform for building and sharing reproducible bioinformatics workflows across distributed computing and storage systems**
 
     - Build branching analysis workflows
-    - `SciApps guide https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/index.html>`_
+    - `SciApps guide <https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/index.html>`_
 
 `Powered by CyVerse <http://www.cyverse.org/powered-by-cyverse>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -229,36 +234,36 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
   :height: 600
 
 .. |datastorelogo| image:: ../img/data_store/datastore-icon.png
-  :width: 175
-  :height: 200
+  :width: 88
+  :height: 100
 
 .. |DElogo| image:: ../img/de/de-icon.png
-  :width: 200
-  :height: 175
+  :width: 100
+  :height: 88
 
 .. |atmologo| image:: ../img/atmosphere/atmosphere-icon.png
-  :width: 200
-  :height: 150
+  :width: 100
+  :height: 75
 
 .. |bisquelogo| image:: ../img/bisque/bisque-icon.png
-  :width: 200
-  :height: 200
+  :width: 100
+  :height: 100
 
 .. |dnasubwaylogo| image:: ../img/dna_subway/dnasubway-icon.png
-  :width: 200
-  :height: 150
+  :width: 100
+  :height: 75
 
 .. |DClogo| image:: ../img/DataCommons_DrkBlue.png
-  :width: 200
-  :height: 200
+  :width: 100
+  :height: 100
 
 .. |PBlogo| image:: ../img/PoweredbyCyverse_LogoSquare.png
-  :width: 175
-  :height: 200
+  :width: 88
+  :height: 100
 
 .. |LClogo| image:: ../img/Learningcenter_DkBlue.png
-  :width: 200
-  :height: 200
+  :width: 100
+  :height: 100
 
 .. |intercomlogo| image:: ../img/intercomlogo.png
   :width: 100
@@ -269,6 +274,6 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
   :height: 200
   
 .. |sciAPIslogo| image:: ../img/sciAPIslogo.png
-  :width: 200
-  :height: 200
+  :width: 100
+  :height: 100
   
