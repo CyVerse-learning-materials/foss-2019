@@ -163,6 +163,8 @@ Science APIs
     - Science-as-a-service platform
     - Define your own compute, and storage resources (local and CyVerse)
     - Build your own app store of scientific codes and workflows
+    - Agave API for HPC
+    - Terrain API for DE
     
 SciApps
 ^^^^^^^
@@ -273,7 +275,7 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
   :width: 750
   :height: 200
   
-.. |sciAPIslogo| image:: ../img/sciAPIslogo.png
+.. |sciAPIslogo| image:: ../img/agave/agave.png
   :width: 100
   :height: 100
   
