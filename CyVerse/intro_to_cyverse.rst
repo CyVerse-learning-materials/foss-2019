@@ -179,7 +179,7 @@ SciApps
 
 |PBlogo|
 
- **Third-party projects can leverage the CyVerse cyberinfrastructure components to provide services to their users.** 
+**Third-party projects can leverage the CyVerse cyberinfrastructure components to provide services to their users.** 
 
     Some 'Powered by CyVerse' projects you may be familiar with
         - CoGe
