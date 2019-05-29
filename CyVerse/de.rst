@@ -1,15 +1,15 @@
 .. include:: ../cyverse_rst_defined_substitutions.txt
 
-|CyVerse logo|_
+|CyVerse_logo2|_
 
-|Home_Icon|_
+|Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
 Discovery Environment
 -------------
 .. #### Comment: Overview of the DE and hands on of basic features
-|DE_icon|_
+|DE_icon|
 
 DE benefits:
  - Use hundreds of bioinformatics Apps without the command line (or with, if you prefer)
