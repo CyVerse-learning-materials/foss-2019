@@ -2,44 +2,49 @@
 
 |CyVerse|_
 
-Communication
--------------
+**Communication**
+=================
 
 Choosing which software to use for your lab's primary digital communication can be complicated by the sheer number of platforms that are out there.
 
 For this workshop, we are going to cover a popular platform with free/paid access, `SLACK <https://slack.com/>`_ (Searchable Log of All Conversation & Knowledge), and `Gitter <https://gitter.im/home>`_  
 
-Remember, the intention of these platforms are to __improve productivity__ not become a distraction
-.. #### Comment: short description
+Remember, the intention of these platforms are to :underline:`improve productivity` not become a distraction
 
-**Some things to remember about Slack**
+*Some things to remember about Slack*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Slack has `plenty of apps <https://slack.com/apps>`_ for coordinating multiple services, i.e. Calendars, Github, GoogleDrive, Box, etc.
 - Slack can be limiting unless you're willing to pay for the professional support. 
 
-**Some things to remember about Gitter**
+*Some things to remember about Gitter*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Native integration with Github or Gitlab
 - Uses your Github (or Twitter) handle for all Gitters that you're a part of
 
-**Other popular alternatives to Slack or Gitter**
- 
+*Other popular alternatives to Slack or Gitter*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
   - `Discord <https://discordapp.com/>`_
   - `Mattermost <https://mattermost.com/>`_
 
 ----
 
-*Setting up Slack or Gitter for your Lab Group*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Setting up Slack for your Lab Group*
+-------------------------------------
 
-  1. Create a new Workspace 
-    - `Slack <https://get.slack.help/hc/en-us/articles/206845317-Create-a-Slack-workspace>`_
-    - `Gitter <https://gitter.im/home>`_
+  1. `Create a new Workspace <https://get.slack.help/hc/en-us/articles/206845317-Create-a-Slack-workspace>`_
 
-  2. Create channels, add apps and tools
-    - `Slack <https://get.slack.help/hc/en-us/articles/217626298-tips-for-team-creators-and-admins>`_
-    - `Gitter <https://gitter.im/home/learn>`_
+  2. `Create channels, add app, tools <https://get.slack.help/hc/en-us/articles/217626298-tips-for-team-creators-and-admins>`_
+    
 
+*Setting up Gitter for your Lab Group*
+--------------------------------------
+
+   1. `Create a Workspace <https://gitter.im/home>`_
+   
+   2. `Create channels <https://gitter.im/home/learn>`_
 ..
 	#### Comment: Suggested style guide:
 	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
