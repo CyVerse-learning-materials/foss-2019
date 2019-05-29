@@ -209,5 +209,5 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
   :height: 100
 
 .. |evolcyverse| image:: ../img/evolutionofcyverse.png
-  :width: 750
-  :height: 200
+  :width: 1000
+  :height: 300
