@@ -138,7 +138,7 @@ Access discoverable and reusable data with metadata features and functions.
 - science APIs
     - for developers
 
-**The CyVerse Learning Center**
+The CyVerse Learning Center
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |LClogo|
@@ -152,7 +152,7 @@ workshops
 
 
     
-**Intercom**
+Intercom
 ^^^^^^^^^^^^
 
 |intercomlogo|
