@@ -79,6 +79,7 @@ Expected outcomes:
 
    Containers/dockerintro
    Containers/dockeradvanced
+   Containers/biocontainers
 
 .. toctree::
    :maxdepth: 1
