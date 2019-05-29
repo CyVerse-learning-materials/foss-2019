@@ -43,22 +43,23 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
 *ReadTheDocs*
 ~~~~~~~~~~~~~
 
-  1. Install locally
-    - `Instructions <https://docs.readthedocs.io/en/stable/install.html>`_
+  1. `Install <https://docs.readthedocs.io/en/stable/install.html>`_
 
-  2. Use Github
-    - `Instructions <https://github.com/rtfd/readthedocs.org>`_
+  2. `Use Github <https://github.com/rtfd/readthedocs.org>`_
   
-  3. Create a ReadTheDocs account
-    - `Sign up <https://readthedocs.org/accounts/signup/>`_
+  3. `Create a ReadTheDocs account <https://readthedocs.org/accounts/signup/>`_
     
 
 *Bookdown*
 ~~~~~~~~~~
 
-   1. Install R and RStudio
-
+   1. `Install R and RStudio <https://www.rstudio.com/products/rstudio/download/>`_
+ 
    2. Install Bookdown package
+   
+   .. codeblock:: R
+   
+      install.packages("bookdown", dependencies=TRUE)
 
    3. Open the Bookdown demo and get started
 
