@@ -5,12 +5,10 @@
 
 
 **Vision** 
-
 Transforming Science through Data-Driven Discovery.
 
 
 **Mission**
-
 To design, deploy, and expand a national Cyberinfrastructure for Life Sciences research, and to train scientists in its use.
 
 
