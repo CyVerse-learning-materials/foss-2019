@@ -1,10 +1,9 @@
-.. include:: cyverse_rst_defined_substitutions.txt
+.. include:: ../cyverse_rst_defined_substitutions.txt
 
-|CyVerse logo|_
+|CyVerse_logo2|_
 
-|Home_Icon|_
+|Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
-
 
 Section Title
 -------------
@@ -44,7 +43,6 @@ Section Title
 
 - On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
-- Live chat/help: Click on the |intercom| on the bottom-right of the page for questions on documentation
 
 ----
 
@@ -79,4 +77,4 @@ Section Title
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/vice.rst" target="blank">Github Repo Link</a>
