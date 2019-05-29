@@ -20,7 +20,7 @@ To design, deploy, and expand a national Cyberinfrastructure for Life Sciences r
 |evolcyverse|
 
 
-CyVerse is an NSF-funded project. The project began in 2008 as 'iPlant' with the mission of 'empowering a new plant biology'. Funding was renewed in 2013 for another 5 years with the new mission of 'cyberinfrastructure for life sciences'. In 2016 the name of the project was changed from 'iPlant' to 'CyVerse' to reflect its role in all life scieneces, not just plants. 
+CyVerse is an NSF-funded project. The project began in 2008 as 'iPlant' with the mission of 'empowering a new plant biology'. Funding was renewed in 2013 for another 5 years with the new mission of 'cyberinfrastructure for life sciences'. In 2016 the name of the project was changed from 'iPlant' to 'CyVerse' to reflect its role in all life scieneces, not just plants. In 2018 CyVerse was renewed for another 5 years with our current mission: 'to design, deploy, and expand a national Cyberinfrastructure for Life Sciences research, and to train scientists in its use'.
 
 Over the past 10 years CyVerse priorities have focused on genomics and transcriptomics tools that were needed to deal with the huge increase in high-throughput seqeuncing data. While that is still a priority, CyVerse has since expanded to include image and geospatial analysis tools. CyVerse is built for data.
 
@@ -28,15 +28,20 @@ Over the past 10 years CyVerse priorities have focused on genomics and transcrip
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Cyberinfrastructure is a combination of 
-- platforms, tools and datasets
-- storage and compute hardware
-- people who provide training and support
+    - platforms, tools and datasets researchers need to do their work
+    - storage and compute hardware necessary for modern analyses
+    - people who provide training and support
+    
+The CyVerse cyberinfrastructure can be thought of in layers. The bottom layer (on which everything else is built) consists of the hardware resources. On top of that are the services necessary to make a fucntional system. The next layer represents extensible services, or those parts of the system that may be adopted and used by thrid parties. Most users will interact primarily with the top layer which represents the various analysis and distribution platforms. While the bottom layers are the most flexible, the top layers are the most user-friendly. 
 
 |layer cake|
+
+
 
 `User Portal <user.cyverse.org>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+The CyVerse user portal allows users to manage their accounts, subscriptions and events in a single place. Some things you can do here include:
 
 Create and manage your CyVerse account
     - Reset your password
@@ -54,7 +59,7 @@ User portal forms
     - Request a workshop or webinar
     - Reserve Atmosphere cloud resources for workshops or classes
     - Request an External Collaborative Partnership (ECP)
-    - get Powered by CyVerse
+    - Get Powered by CyVerse
 
 Manage workshops you've attended or hosted
 
