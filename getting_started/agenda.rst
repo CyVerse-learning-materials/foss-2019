@@ -1,3 +1,10 @@
+.. include:: ../cyverse_rst_defined_substitutions.txt
+
+|CyVerse_logo2|_
+
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
+
 **Agenda**
 ==========
 This workshop runs under a `Code of Conduct <code_of_conduct.html>`_. Please respect it and be excellent to each other!
@@ -252,3 +259,18 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - 4:30-5:00
       - Instructor Final Debrief
       - 
+
+----
+
+**Fix or improve this documentation:**
+
+- On Github: |Github Repo Link|
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+----
+
+.. Comment: Place URLS Below This Line
+
+.. |Github Repo Link|  raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/getting_started/about_cyverse.rst" target="blank">Github Repo Link</a>
