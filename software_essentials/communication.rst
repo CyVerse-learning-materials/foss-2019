@@ -9,7 +9,7 @@ Choosing which software to use for your lab's primary digital communication can 
 
 For this workshop, we are going to cover a popular platform with free/paid access, `SLACK <https://slack.com/>`_ (Searchable Log of All Conversation & Knowledge), and `Gitter <https://gitter.im/home>`_  
 
-Remember, the intention of these platforms are to :underline:`improve productivity` not become a distraction
+Remember, the intention of these platforms are to **improve productivity** not become a distraction.
 
 *Some things to remember about Slack*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -36,7 +36,7 @@ Remember, the intention of these platforms are to :underline:`improve productivi
 
   1. `Create a new Workspace <https://get.slack.help/hc/en-us/articles/206845317-Create-a-Slack-workspace>`_
 
-  2. `Create channels, add app, tools <https://get.slack.help/hc/en-us/articles/217626298-tips-for-team-creators-and-admins>`_
+  2. `Create channels, add apps & tools <https://get.slack.help/hc/en-us/articles/217626298-tips-for-team-creators-and-admins>`_
     
 
 *Setting up Gitter for your Lab Group*
