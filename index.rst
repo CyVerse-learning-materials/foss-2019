@@ -33,6 +33,12 @@ Expected outcomes:
 
 .. toctree::
    :maxdepth: 1
+   :caption: Open Science Labs
+
+   open_sci/open_sci_lab.rst
+   
+.. toctree::
+   :maxdepth: 1
    :caption: Software Essentials
 
    software_essentials/shell
