@@ -53,9 +53,9 @@ Create and manage your CyVerse account
 Manage access to CyVerse platforms/services
     - Some CyVerse services (such as Atmosphere) have additional restrictions and access must be 'turned on'.
 
-Manage workshops you've attended or hosted
+**Manage workshops you've attended or hosted**
 
-Access 'Powered by CyVerse' projects
+**Access 'Powered by CyVerse' projects**
      
 User portal forms
     - Request a Data Store allocation increase
