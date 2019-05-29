@@ -169,20 +169,20 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
   :height: 100
 
 .. |layer cake| image:: ../img/Layer_Cake_Updated.png
-  :width: 500
-  :height: 450
+  :width: 750
+  :height: 600
 
 .. |datastorelogo| image:: ../img/data_store/datastore-icon.png
-  :width: 200
+  :width: 175
   :height: 200
 
 .. |DElogo| image:: ../img/de/de-icon.png
   :width: 200
-  :height: 200
+  :height: 175
 
 .. |atmologo| image:: ../img/atmosphere/atmosphere-icon.png
   :width: 200
-  :height: 200
+  :height: 175
 
 .. |bisquelogo| image:: ../img/bisque/bisque-icon.png
   :width: 200
@@ -190,7 +190,7 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
 
 .. |dnasubwaylogo| image:: ../img/dna_subway/dnasubway-icon.png
   :width: 200
-  :height: 200
+  :height: 175
 
 .. |DClogo| image:: ../img/DataCommons_DrkBlue.png
   :width: 200
