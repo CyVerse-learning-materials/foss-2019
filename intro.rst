@@ -36,7 +36,7 @@ By the end of week one, participants should have the basic skills needed to:
   - Manage, share, and analyze data on CyVerse
   - Understand high performance and cloud-based computing
 
-Our goal is to have each participant leave with a solid plan for how they will set up their own lab to conduct open science. This plan will include plans for:
+Our goal is to have each participant leave with a solid plan for how they will set up their own lab to conduct open science. This master plan will include plans for:
   - intra- and inter-lab communication and collaboration
   - data management
   - scaling analyses
