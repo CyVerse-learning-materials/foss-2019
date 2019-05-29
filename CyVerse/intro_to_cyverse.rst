@@ -275,7 +275,7 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
   :width: 750
   :height: 200
   
-.. |sciAPIslogo| image:: ../img/agave/agave.png
+.. |sciAPIslogo| image:: ../img/agave/ScienceAPIs_DkBlue.png
   :width: 100
   :height: 100
   
