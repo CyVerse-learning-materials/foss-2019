@@ -24,7 +24,7 @@ CyVerse is an NSF-funded project. The project began in 2008 as 'iPlant' with the
 
 Over the past 10 years CyVerse priorities have focused on genomics and transcriptomics tools that were needed to deal with the huge increase in high-throughput seqeuncing data. While that is still a priority, CyVerse has since expanded to include image and geospatial analysis tools. CyVerse is built for data.
 
-**What is Cyberinfrastructure?**
+What is Cyberinfrastructure?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Cyberinfrastructure is a combination of 
