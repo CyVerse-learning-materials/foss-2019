@@ -20,18 +20,19 @@ To design, deploy, and expand a national Cyberinfrastructure for Life Sciences r
 |evolcyverse|
 
 
-we are NSF funded. we are your collaborators, not commercial
+CyVerse is an NSF-funded project. The project began in 2008 as 'iPlant' with the mission of 'empowering a new plant biology'. Funding was renewed in 2013 for another 5 years with the new mission of 'cyberinfrastructure for life sciences'. In 2016 the name of the project was changed from 'iPlant' to 'CyVerse' to reflect its role in all life scieneces, not just plants. 
+
+Over the past 10 years CyVerse priorities have focused on genomics and transcriptomics tools that were needed to deal with the huge increase in high-throughput seqeuncing data. While that is still a priority, CyVerse has since expanded to include image and geospatial analysis tools. CyVerse is built for data.
 
 **What is Cyberinfrastructure?**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-cyverse is built for data
+Cyberinfrastructure is a combination of 
+- platforms, tools and datasets
+- storage and compute hardware
+- people who provide training and support
 
 |layer cake|
-
-community priorities
-
-where we are located
 
 `User Portal <user.cyverse.org>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
