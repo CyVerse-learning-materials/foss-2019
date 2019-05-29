@@ -32,14 +32,14 @@ Cyberinfrastructure is a combination of
     - storage and compute hardware necessary for modern analyses
     - people who provide training and support
     
-The CyVerse cyberinfrastructure can be thought of in layers. The bottom layer (on which everything else is built) consists of the hardware resources. On top of that are the services necessary to make a fucntional system. The next layer represents extensible services, or those parts of the system that may be adopted and used by thrid parties. Most users will interact primarily with the top layer which represents the various analysis and distribution platforms. While the bottom layers are the most flexible, the top layers are the most user-friendly. 
+The CyVerse cyberinfrastructure can be thought of in layers. The bottom layer (on which everything else is built) consists of the hardware resources. On top of that are the services necessary to make a functional system. The next layer represents extensible services, or those parts of the system that may be adopted and used by thrid parties. Most users will interact primarily with the top layer which represents the various analysis and distribution platforms. While the bottom layers are the most flexible, the top layers are the most user-friendly. 
 
 |layer cake|
 
 
 
-`User Portal <user.cyverse.org>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`User Portal <https://user.cyverse.org>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The CyVerse user portal allows users to manage their accounts, subscriptions and events in a single place. Some things you can do here include:
 
@@ -51,8 +51,12 @@ Create and manage your CyVerse account
     - Change your CyVerse subscriptions
 
 Manage access to CyVerse platforms/services
-    Some CyVerse services (such as Atmosphere) have additional restrictions and access must be 'turned on'.
-    
+    - Some CyVerse services (such as Atmosphere) have additional restrictions and access must be 'turned on'.
+
+Manage workshops you've attended or hosted
+
+Access 'Powered by CyVerse' projects
+     
 User portal forms
     - Request a Data Store allocation increase
     - Request a community released data folder
@@ -60,10 +64,6 @@ User portal forms
     - Reserve Atmosphere cloud resources for workshops or classes
     - Request an External Collaborative Partnership (ECP)
     - Get Powered by CyVerse
-
-Manage workshops you've attended or hosted
-
-Access Powered by CyVerse projects
 
 
 `Data Store <https://de.cyverse.org/de/>`_
@@ -79,6 +79,8 @@ Securely store data for active analyses or sharing with your collaborators.
         - iCommands is more powerful/flexible, good for large transfers but requires some command line knowledge
     - Data limit of 100 GB (can request increase up to 10 TB)
     - Data storage is integrated into the Discovery Environment (where analyses are run).
+    - Share your data with collaborators
+    - Use your data in analyses directly from the data store
 
 
 `Discovery Environment <https://de.cyverse.org/de/>`_
