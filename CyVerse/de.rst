@@ -6,26 +6,20 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Title
+Discovery Environment
 -------------
+.. #### Comment: Overview of the DE and hands on of basic features
+|DE_icon|_
 
-.. #### Comment: short description
-
-**Some things to remember about the platform**
-
-
-- reminder one
-- reminder two
-
+DE benefits:
+ - Use hundreds of bioinformatics Apps without the command line (or with, if you prefer)
+ - Batch and interactive modes
+ - Seamlessly integrated with data and high performance computing – not dependent on your hardware
+ - Create and publish Apps and workflows so anyone can use them
+ - Analysis history and provenance – “avoid forensic bioinformatics”
+ - Securetly and easily manage and share data 
 
 ----
-
-*Descriptive title - reference platform/tool name for searchability*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  1.
-
-  2.
 
 ..
 	#### Comment: Suggested style guide:
@@ -60,7 +54,12 @@ Section Title
     :height: 100
  .. _CyVerse logo: http://learning.cyverse.org/
 
- .. |Static image| image:: ./img/IMAGENAME.png
+ ..|Clickable hyperlinked image| image:: ../img/de/de-icon.png
+    :width: 15
+    :height: 25
+ .._DE_icon: https://de.cyverse.org/de/
+    
+.. |Static image| image:: ./img/IMAGENAME.png
     :width: 25
     :height: 25
 
@@ -79,4 +78,4 @@ Section Title
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/de.rst" target="blank">Github Repo Link</a>
