@@ -197,7 +197,7 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
   :height: 200
 
 .. |PBlogo| image:: ../img/PoweredbyCyverse_LogoSquare.png
-  :width: 200
+  :width: 175
   :height: 200
 
 .. |LClogo| image:: ../img/Learningcenter_DkBlue.png
