@@ -1,6 +1,6 @@
 **Agenda**
 ==========
-This workshop runs under a `Code of Conduct <../getting_started/main.html>`_. Please respect it and be excellent to each other!
+This workshop runs under a `Code of Conduct <code_of_conduct.html>`_. Please respect it and be excellent to each other!
 
 Twitter hash tag: #cyverse_foss
 
@@ -23,7 +23,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * -  
       - 9:00-:9:30
       - Introduction and overview of the day's and week's activities (Ramona)
-      - `Course Introduction <intro.html>` 
+      - `../Course Introduction <intro.html>`_ 
     * - 
       - 9:30-10:00
       - Participant introduction activity (Walls)
