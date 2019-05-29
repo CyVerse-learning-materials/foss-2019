@@ -81,40 +81,24 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Coffee break
       - 
     * - 
-      - 10:30-11:00
-      - Introduction to Notebooks: Package Management 
-      - Anaconda | Miniconda | `pip`
-    * - 
-      - 11:00-12:00
-      - Introduction to Notebooks: Project Jupyter
-      - Writing Notebooks
+      - 10:30-12:00
+      - Programming with R (Meghan)
+      - Install R and R Studio locally
     * -
       - 12:00-1:00
       - Lunch Break (on your own)
       -
     * - 
-      - 1:00-1:30
-      - Advanced Jupyter Notebooks: Python, R, Julia, JavaScript 
-      - Installing new Software Kernels 
+      - 1:00-2:45
+      - Programming with R 
+      -  
     * - 
-      - 1:30-2:30
-      - Advanced Jupyter Notebooks: Connecting data to your notebook
-      - Connecting to Cloud 
-    * - 
-      - 2:30-3:30
-      - Advanced Jupyter Notebooks: APIs
-      - Using APIs with Notebooks
-    * - 
-      - 3:30-3:45
+      - 2:45-3:00
       - Coffee break
       - 
     * - 
-      - 3:45-4:15
-      - Advanced Jupyter Notebooks: 
-      - 
-    * - 
-      - 4:15-4:45
-      - Advanced Jupyter Notebooks: 
+      - 3:00-4:45
+      - Programming with R 
       - 
     * - 
       - 4:45-5:00
@@ -154,7 +138,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - iCommands, CyberDuck, WebDav  
     * - 
       - 2:00-2:45
-      - Introduction to VICE (Tyson, Satish)
+      - Introduction to VICE (Tyson)
       - Jupyter Notebook, Rstudio, RShiny
     * - 
       - 2:45-3:00
@@ -162,7 +146,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - 
     * - 
       - 3:00-4:45
-      - VICE continued Tyson, Satish)
+      - VICE continued (Tyson)
       - Jupyter Notebook, Rstudio, RShiny 
     * - 
       - 4:45-5:00
@@ -254,12 +238,12 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Coffee shop closes early, so this is the last chance for coffee!
     * - 
       - 1:00-2:30
-      - Open Science Labs (Ramona)
-      -       
+      - Collaborative exercise (Michael Mandel)
+      - Repeat exercise from day 1 and discuss   
     * - 
       - 2:30-3:30
-      - Collaborative exercise (Michael Mandel)
-      - Repeat exercise from day 1 and discuss
+      - Open Science Labs (Ramona)
+      - Complete plans for open science lab, next steps
     * - 
       - 3:30-4:30
       - Wrap-up, Evaluations, Q&A (Team
