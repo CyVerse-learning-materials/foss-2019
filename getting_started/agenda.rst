@@ -273,4 +273,4 @@ Instructors will review the agenda at the end of each day, and adjust based on p
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/getting_started/about_cyverse.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/getting_started/agenda.rst" target="blank">Github Repo Link</a>
