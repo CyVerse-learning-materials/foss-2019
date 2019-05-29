@@ -11,12 +11,44 @@ FOSS 2019 Introduction
 
 .. #### Comment: short description
 
-**Some things to remember about the platform**
+**Welcome and staff introducutions** 
 
+**Stuff to get out of the way**
 
-- reminder one
-- reminder two
+- `Code of Conduct <getting_started/code_of_conduct.rst>`_
+- Logistics
+	- Building access
+	- Bathrooms and fountains
+	- Wifi
+	- Meals
+- `Pre-workshop Set Up <installation.rst>`_
+- `Agenda <getting_started/agenda.rst>`_
 
+.. list-table::
+    :header-rows: 1
+    
+    * - Day
+      - Activity 
+    * - Monday AM
+      - Open Science, Collaboration
+    * - Monday PM
+      - Tools for Collaboration
+    * - Tuesday AM
+      - Software essentials (command line, R)
+    * - Tuesday PM
+      - Software essentials (cR)
+    * - Wednesday AM
+      - CyVerse (Discovery Environment)
+    * - Wednesday PM
+      - CyVerse (Data Store, VICE)
+    * - Thursday AM
+      - Data Management
+    * - Thursday PM
+      - Cloud computing
+    * - Friday AM
+      - Containers, Apps
+    * - Friday PM
+      - Open Science, Wrap up
 
 ----
 
