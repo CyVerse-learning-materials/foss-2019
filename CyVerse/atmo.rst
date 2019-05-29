@@ -1,12 +1,12 @@
-.. include:: cyverse_rst_defined_substitutions.txt
+.. include:: ../cyverse_rst_defined_substitutions.txt
 
-|CyVerse logo|_
+|CyVerse_logo2|_
 
-|Home_Icon|_
+|Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Title
+Atmosphere
 -------------
 
 .. #### Comment: short description
@@ -20,22 +20,7 @@ Section Title
 
 ----
 
-*Descriptive title - reference platform/tool name for searchability*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  1.
-
-  2.
-
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
 
 
 ----
@@ -79,4 +64,4 @@ Section Title
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/atmo.rst" target="blank">Github Repo Link</a>
