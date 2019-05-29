@@ -2,8 +2,7 @@
 
 |CyVerse logo|_
 
-|Home_Icon|_
-`Learning Center Home <http://learning.cyverse.org/>`_
+|Home_Icon|_ `Learning Center Home <http://learning.cyverse.org/>`_
 
 
 FOSS 2019 Introduction
@@ -11,18 +10,48 @@ FOSS 2019 Introduction
 
 .. #### Comment: short description
 
-**Welcome and staff introducutions** 
+Welcome and staff introducutions
+===========================
 
-**Stuff to get out of the way:**
+Stuff to get out of the way
+===========================
 
 - `Code of Conduct <getting_started/code_of_conduct.rst>`_
 - Logistics
 	- Building access
-	- Bathrooms and fountains
+	- Bathrooms, fountains, kitchen
 	- Wifi
 	- Meals
 - `Pre-workshop Set Up <installation.rst>`_
-- `Agenda <getting_started/agenda.rst>`_
+
+----
+Course Overview
+----------------
+Learning Objectives
+====================
+By the end of week one, participants should have the basic skills needed to:
+- Communicate and collaborate with other scientists and developers
+- Manipulate files on the command line
+- Write basic R scripts
+- Manage, share, and analyze data on CyVerse
+- Understand high performance and cloud-based computing
+
+Our goal is to have each participant leave with a solid plan for how they will set up their own lab to conduct open science. This plan will include plans for:
+- intra- and inter-lab communication and collaboration
+- data management
+- scaling analyses
+
+Approach
+=========
+FOSS camp focuses on hands on activities -- participants should learn skills by practicing them. Most of the skill taught in this course are interdepent, and lessons are designed to reinforce skills learned earlier in the week.
+
+We don't expect anyone to be experts at these skills after one week. Instead, we aim to give you enough hands on experience to confidently continue with your own self-pased learning. Each lesson includes links to addtional learning materials.
+
+For up to one year following FOSS camp, CyVerse will provide concierge service to participants, to ensure that they are able to take full advantage of CyVerse infrastructure for their open science projects. 
+
+
+`Agenda <getting_started/agenda.rst>`_
+============================
 
 .. list-table::
     :header-rows: 1
@@ -50,24 +79,6 @@ FOSS 2019 Introduction
     * - Friday PM
       - Open Science, Wrap up
 
-----
-
-*Section 2*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  1.
-
-  2.
-
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
 
 
 ----
