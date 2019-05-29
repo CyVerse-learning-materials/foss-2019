@@ -5,17 +5,17 @@
 
 
 **Vision** 
-^^^^^^^^^^
+
 Transforming Science through Data-Driven Discovery.
 
 
 **Mission**
-^^^^^^^^^^^
+
 To design, deploy, and expand a national Cyberinfrastructure for Life Sciences research, and to train scientists in its use.
 
 
 **Evolution of CyVerse**
-^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 |evolcyverse|
 
@@ -34,7 +34,7 @@ community priorities
 where we are located
 
 `User Portal <user.cyverse.org>`_
----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 Create and manage your CyVerse account
@@ -62,7 +62,7 @@ Access Powered by CyVerse projects
 
     
 **Platforms**
--------------
+^^^^^^^^^^^^^
 
 `Data Store <https://de.cyverse.org/de/>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
