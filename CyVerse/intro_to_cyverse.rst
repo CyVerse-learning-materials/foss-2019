@@ -41,7 +41,7 @@ The CyVerse cyberinfrastructure can be thought of in layers. The bottom layer (o
 `User Portal <https://user.cyverse.org>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The CyVerse user portal allows users to manage their accounts, subscriptions and events in a single place. Some things you can do here include:
+**The CyVerse user portal allows users to manage their accounts, subscriptions and events in a single place.** Some things you can do here include:
 
 Create and manage your CyVerse account
     - Reset your password
@@ -71,7 +71,7 @@ User portal forms
 
 |datastorelogo|
 
-Securely store data for active analyses or sharing with your collaborators.
+**Securely store data for active analyses or sharing with your collaborators.**
  
     - Upload, download and share your data
         - DE simple upload/download. Convenient but not good for large files.
@@ -80,6 +80,7 @@ Securely store data for active analyses or sharing with your collaborators.
     - Data limit of 100 GB (can request increase up to 10 TB)
     - Data storage is integrated into the Discovery Environment (where analyses are run).
     - Share your data with collaborators
+    - `Data Store guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/>`_
 
 
 `Discovery Environment <https://de.cyverse.org/de/>`_
@@ -87,7 +88,7 @@ Securely store data for active analyses or sharing with your collaborators.
 
 |DElogo|
 
-Use hundreds of bioinformatics apps and manage data in a simple web interface.
+**Use hundreds of bioinformatics apps and manage data in a simple web interface.**
 
     - Provides graphic interface for bioinformatics tools for scientists with no command line experience
     - User extensible. Users can add their own tools and make their own apps.
@@ -96,6 +97,8 @@ Use hundreds of bioinformatics apps and manage data in a simple web interface.
     - VICE (Visual and Interactive Computing Environment) for interactive use of Jupyter notebooks, RStudio and the terminal.
     - Integrated with the Data Store for ease of use
     - Share your analyses with your collaborators
+    - `DE guide <http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/>`_
+    - `VICE documentation <https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/index.html>`_
 
 
 `Atmosphere <https://atmo.cyverse.org/application/images>`_
@@ -103,20 +106,23 @@ Use hundreds of bioinformatics apps and manage data in a simple web interface.
 
 |atmologo|
 
-Create a custom cloud-based scientific analysis platform or use a ready-made one for your area of scientific interest.
+**Create a custom cloud-based scientific analysis platform or use a ready-made one for your area of scientific interest.**
 
     - Cloud computing for life sciences
     - 100s of pre-built images
     - Fully customize your software setup
     - Choose (or build) an image that best suits your needs
+    - `Atmosphere guide <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`_
         
 `Bisque <https://bisque.cyverse.org/client_service/>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |bisquelogo|
 
-Exchange, explore, and analyze biological images and their metadata.
-    - image data analysis and management
+**Bio-Image Semantic Query User Environment for the exchange and exploration of image data**
+
+    - Exchange, explore, and analyze biological images and their metadata.
+    - Image data analysis and management
 
 
 `DNA Subway <https://dnasubway.cyverse.org/>`_
@@ -124,47 +130,94 @@ Exchange, explore, and analyze biological images and their metadata.
 
 |dnasubwaylogo|
 
-Teach classroom-friendly bioinformatics for genome analysis, DNA Barcoding, and RNA-Sequencing.
+**Teach classroom-friendly bioinformatics for genome analysis, DNA Barcoding, and RNA-Sequencing.**
 
-    - educational
+    - Educational tool
+    - Ties together key bioinformatics tools and databases to
+            - assemble gene models
+            - investigate genomes
+            - work with phylogenetic trees
+            - analyze DNA barcodes 
+    - Analyze your own data or the sample data provided
+    - `DNA Subway guide <https://cyverse-dnasubway-guide.readthedocs-hosted.com/en/latest/>`_
 
 `Data Commons <http://datacommons.cyverse.org/>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |DClogo|
 
-Access discoverable and reusable data with metadata features and functions.
+**Access discoverable and reusable data with metadata features and functions.**
+
+
+Science APIs
+^^^^^^^^^^^^
+|sciAPIslogo|
+
+**Programmatic access to CyVerse services**
+
+    - Science-as-a-service platform
+    - Define your own compute, and storage resources (local and CyVerse)
+    - Build your own app store of scientific codes and workflows
+    
+SciApps
+^^^^^^^
+
+**A cloud-based platform for building and sharing reproducible bioinformatics workflows across distributed computing and storage systems**
+
+    - Build branching analysis workflows
+    - `SciApps guide https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/index.html>`_
 
 `Powered by CyVerse <http://www.cyverse.org/powered-by-cyverse>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |PBlogo|
 
- Third-party projects can leverage the CyVerse cyberinfrastructure components to provide services to their users. 
+ **Third-party projects can leverage the CyVerse cyberinfrastructure components to provide services to their users.** 
 
-- science APIs
-    - for developers
+    Some 'Powered by CyVerse' projects you may be familiar with
+        - CoGe
+        - BioExtract Server
+        - CIPRES
+        - ClearedLeavesDB
+        - Digital Imaging of Root Traits (DIRT)
+        - Federated Plant Database Initiative for Legumes (LegFed)
+        - Galaxy
+        - Genomes to Fields
+        - iMicrobe
+        - Integrated Breeding Platform
+        - SoyKB
+        - TERRA-REF
+        - TNRS- Taxanomic Name Resolution Service
+        
 
 The CyVerse Learning Center
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |LClogo|
 
+**The CyVerse Learning center is a beta release of our learning materials in the popular “Read the Docs” formatting.**
+
+    - We are transitioning our learning materials into this format to make them easier to search, use, and update.
+
+
+
 `The CyVerse Wiki <https://wiki.cyverse.org>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This collaborative documentation site is used to record important information about CyVerse, its products and services, and community collaborators and their projects. Anyone with a CyVerse account is welcome to help out.
+**This collaborative documentation site is used to record important information about CyVerse, its products and services, and community collaborators and their projects.** 
 
-workshops
-
-
+    - Anyone with a CyVerse account is welcome to help out.
+    - User have their own spaces and can add content
+    - Much of the CyVerse documentation has been moved the Learning center but some things will continue to be in the Wiki
+        - DE app documentation
+        - Many tutorials
     
 Intercom
 ^^^^^^^^^^^^
 
 |intercomlogo|
 
-Intercom is our live-chat user support app. You will find the Intercom 'smiley' logo in the bottom right corner of the Discovery Environment, Atmosphere, user portal
+Intercom is our live-chat user support app. You will find the Intercom 'smiley' logo in the bottom right corner of the Discovery Environment, Atmosphere, the Wiki and the user portal.
 
 
 .. |cyverse logo| image:: ../img/cyverse_cmyk.png
@@ -214,3 +267,8 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
 .. |evolcyverse| image:: ../img/evolutionofcyverse.png
   :width: 750
   :height: 200
+  
+.. |sciAPIslogo| image:: ../img/sciAPIslogo.png
+  :width: 200
+  :height: 200
+  
