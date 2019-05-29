@@ -2,8 +2,8 @@
 
 |CyVerse|_
 
-**Communication**
-=================
+**Lab Group Communication**
+===========================
 
 Choosing which software to use for your lab's primary digital communication can be complicated by the sheer number of platforms that are out there.
 
