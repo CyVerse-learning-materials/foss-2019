@@ -30,16 +30,16 @@ Course Overview
 Learning Objectives
 ====================
 By the end of week one, participants should have the basic skills needed to:
-- Communicate and collaborate with other scientists and developers
-- Manipulate files on the command line
-- Write basic R scripts
-- Manage, share, and analyze data on CyVerse
-- Understand high performance and cloud-based computing
+  - Communicate and collaborate with other scientists and developers
+  - Manipulate files on the command line
+  - Write basic R scripts
+  - Manage, share, and analyze data on CyVerse
+  - Understand high performance and cloud-based computing
 
 Our goal is to have each participant leave with a solid plan for how they will set up their own lab to conduct open science. This plan will include plans for:
-- intra- and inter-lab communication and collaboration
-- data management
-- scaling analyses
+  - intra- and inter-lab communication and collaboration
+  - data management
+  - scaling analyses
 
 Approach
 =========
@@ -65,7 +65,7 @@ For up to one year following FOSS camp, CyVerse will provide concierge service t
     * - Tuesday AM
       - Software essentials (command line, R)
     * - Tuesday PM
-      - Software essentials (cR)
+      - Software essentials (R)
     * - Wednesday AM
       - CyVerse (Discovery Environment)
     * - Wednesday PM
