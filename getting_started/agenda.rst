@@ -22,12 +22,12 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - 
     * -  
       - 9:00-:9:30
-      - Introduction and overview of the day's and week's activities (Ramona)
+      - Course introduction and overview of the day's and week's activities (Ramona)
       - `Course Introduction <../intro.html>`_ 
     * - 
       - 9:30-10:00
-      - Participant introduction activity (Walls)
-      - Introduce the week long activity of setting up a lab for open science
+      - Opens Science, Introductory activity (Ramona)
+      - Introduce the week long activity of setting up a lab for open science. `Template <https://docs.google.com/document/d/1whE6sQP4xszo9qRNA-ED63YwT3U_Rf3Fk8TFj7z7xbQ/edit>`_
     * - 
       - 10:00-10:15
       - Coffee break
@@ -35,7 +35,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 10:15-12:15
       - Collaboration culture and roles (Michael Mandel, Eller Business College)
-      - Interactive session
+      - Interactive session. Please complete the `self assessment <https://docs.google.com/forms/d/e/1FAIpQLScx2asVmY9H10733BTMm9Sv_mnjf6Ry3jR3MGoniE3Grd2ifw/viewform>`_ by Sunday.
     * -
       - 12:15-1:15
       - Lunch break (on your own)
@@ -43,7 +43,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 12:45-2:45
       - Tools for collaboration (Tyson)
-      - Version Control Systems with Git
+      - `Version Control Systems with Git <../software_essentials/version_control.html>`_
     * - 
       - 2:45-3:00
       - Coffee break
@@ -51,7 +51,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 3:00-4:15
       - Tools for collaboration cont.
-      - Team Communication: Slack, Gitter, ZenHub etc.
+      - `Team Communication: Slack, Gitter, ZenHub, etc. <../software_essentials/communication.html>`_
     * - 
       - 4:15-4:45
       - Tools for collaboration cont.
@@ -70,7 +70,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - 
     * - 
       - 9:00-10:15
-      - Introduction and overview of the day's activities (Walls)
+      - Introduction and overview of the day's activities (Ramona)
       - Software Essentials 
     * - 
       - 9:15-10:15
@@ -114,7 +114,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - CyVerse provides breakfast participants who are interested in providing DE user feedback
     * - 
       - 9:00-9:15
-      - Introduction and overview of the day's activities (Walls)
+      - Introduction and overview of the day's activities (Ramona)
       - Using CyVerse 
     * - 
       - 9:15-10:00
