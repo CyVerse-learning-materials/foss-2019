@@ -11,9 +11,11 @@ Open Science Lab
 
 .. #### Comment: material for an ongoing activity during FOSS 2019
 
-Link to slides What is Open Science
+**Presentation:** `What is Open Science? <https://docs.google.com/presentation/d/18fmcWnRPu_FIVdI43N0QcNIJxmJEmRzsa9B2LQSlDns/edit>`_
 
+**Open Science Introductory Activity**
 
+**Planning your own Open Science lab**
 
 ----
 
