@@ -2,8 +2,8 @@
 
 |CyVerse|_
 
-Version Control 
----------------
+**Version Control** 
+===================
 
 `Version Control <https://en.wikipedia.org/wiki/Version_control>`_ is an important component in software development which manages changes to documents, websites, code, or other digital information. Version control can save you when code changes break things. Web hosting of your code repositories let's you share and work on code together, and save your work in the event of a hardware failure. 
 
@@ -20,8 +20,8 @@ Given the limited amount of time we have this week, we are only going to cover `
 
 ----
 
-*Git ready*
-~~~~~~~~~~~
+**Git ready**
+------------
 
   1. Install Git
       - `Download <https://git-scm.com/downloads>`_
@@ -30,7 +30,7 @@ Given the limited amount of time we have this week, we are only going to cover `
       - `Sign Up <https://github.com/join?source=header-home>`_
       - If you are an academic and have a ``@ .edu`` email address you can get Educational Account benefits
 
-*Command line versus User Interfaces*
+**Command line versus User Interfaces**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Some users are more comfortable on a command line environment, and can use ``git`` without ever looking at a browser tab or file explorer.
@@ -39,8 +39,8 @@ Other users are more comfortable in a graphic user interface, like a web browser
 
 **USE WHAT YOU LIKE BEST AND IS MOST PRODUCTIVE FOR YOU!**
 
-*Git cheat sheet*
-~~~~~~~~~~~~~~~~~
+**Git cheat sheet**
+-------------------
 
 Here is a list of the most important commands in Git:
 
@@ -187,8 +187,8 @@ Here is a list of the most important commands in Git:
 
 |CyverseLogo|_ |LearningCenter|_ 
 
-*Self-Paced Lessons*
-~~~~~~~~~~~~~~~~~~~~
+**Self-Paced Lessons**
+----------------------
 
 The Carpentries host numerous tutorials on using ``git``. You can take time on your own to explore these lessons, find a workshop, or request one be taught at your local institution.
 
