@@ -39,7 +39,7 @@ Expected outcomes:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Open Science Labs
+   :caption: Open Science
 
    open_sci/open_sci_lab.rst
    
