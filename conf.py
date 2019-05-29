@@ -16,6 +16,6 @@ version = '0.1.0'
 release = '0.1.0'
 
 epub_title = 'CyVerse Learning Institute Foundations of Open Science Skills 2019'
-epub_author = 'Ramona L. Walls, Tyson L. Swetnam, Amanda Cooksey'
+epub_author = 'Ramona L. Walls, Tyson L. Swetnam, Amanda Cooksey, Meghan Balk'
 epub_publisher = 'CyVerse'
 epub_copyright = 'CC0 - Open Source'
