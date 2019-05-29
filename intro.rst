@@ -13,7 +13,7 @@ FOSS 2019 Introduction
 
 **Welcome and staff introducutions** 
 
-**Stuff to get out of the way**
+**Stuff to get out of the way:**
 
 - `Code of Conduct <getting_started/code_of_conduct.rst>`_
 - Logistics
@@ -52,7 +52,7 @@ FOSS 2019 Introduction
 
 ----
 
-*Descriptive title - reference platform/tool name for searchability*
+*Section 2*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   1.
@@ -111,4 +111,4 @@ FOSS 2019 Introduction
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/intro.rst" target="blank">Github Repo Link</a>
