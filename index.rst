@@ -55,9 +55,9 @@ Expected outcomes:
    :maxdepth: 1
    :caption: Data Management
 
-   data_management/overview
-   data_management/FAIR
-   data_management/dmp
+   Data_management/overview
+   Data_management/FAIR
+   Data_management/dmp
 
 .. toctree::
    :maxdepth: 1
