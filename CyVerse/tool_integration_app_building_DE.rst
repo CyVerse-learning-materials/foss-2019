@@ -1,4 +1,4 @@
-**Tool Integration into CyVerse Discovery Environment**
+**Tool Integration into Discovery Environment**
 =======================================================
 The CyVerse Discovery Environment provides a graphic user interface for bioinformatics tools
 
