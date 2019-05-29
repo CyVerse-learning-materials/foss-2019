@@ -47,12 +47,12 @@ Expected outcomes:
    :maxdepth: 1
    :caption: Software Essentials
 
-   software_essentials/shell
    software_essentials/commandline
-   software_essentials/version_control
    software_essentials/communication
-   software_essentials/readthedocs
    software_essentials/R
+   software_essentials/shell
+   software_essentials/version_control
+   software_essentials/websites
 
 .. toctree::
    :maxdepth: 1
