@@ -80,7 +80,6 @@ Securely store data for active analyses or sharing with your collaborators.
     - Data limit of 100 GB (can request increase up to 10 TB)
     - Data storage is integrated into the Discovery Environment (where analyses are run).
     - Share your data with collaborators
-    - Use your data in analyses directly from the data store
 
 
 `Discovery Environment <https://de.cyverse.org/de/>`_
@@ -89,9 +88,14 @@ Securely store data for active analyses or sharing with your collaborators.
 |DElogo|
 
 Use hundreds of bioinformatics apps and manage data in a simple web interface.
+
     - Provides graphic interface for bioinformatics tools for scientists with no command line experience
     - User extensible. Users can add their own tools and make their own apps.
+           - Share them with collaborators
+           - Publish them
     - VICE (Visual and Interactive Computing Environment) for interactive use of Jupyter notebooks, RStudio and the terminal.
+    - Integrated with the Data Store for ease of use
+    - Share your analyses with your collaborators
 
 
 `Atmosphere <https://atmo.cyverse.org/application/images>`_
@@ -101,15 +105,10 @@ Use hundreds of bioinformatics apps and manage data in a simple web interface.
 
 Create a custom cloud-based scientific analysis platform or use a ready-made one for your area of scientific interest.
 
-    - Cloud computing for life science
+    - Cloud computing for life sciences
     - 100s of pre-built images
     - Fully customize your software setup
-    - what is an image?
-    - what is an instance?
-    - virtual machine
-    - allocation basics
-    - not automatically added--need to go to user portal
-    - limited to US
+    - Choose (or build) an image that best suits your needs
         
 `Bisque <https://bisque.cyverse.org/client_service/>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
