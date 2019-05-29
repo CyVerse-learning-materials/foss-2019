@@ -5,12 +5,12 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-Section Title
+**VICE**
 -------------
 
-.. #### Comment: short description
+.. #### Comment: How to launch apps on VICE
 
-**Some things to remember about the platform**
+**Visual Interactive Computing Environment**
 
 
 - reminder one
