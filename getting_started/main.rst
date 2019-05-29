@@ -28,13 +28,13 @@ The content of this workshop is targeted at new investigators who want to set up
 
 **Workshop level**
 
-This workshop is focused on researchers little to moderate experience in open science skills.
+This workshop is focused on researchers with little to moderate experience in open science skills.
 
 **Need help?**
 
 Couldn't find what you were looking for?
 
-- You can also talk to any of the instructors or TAs if you need immediate help. 
+- You can talk to any of the instructors or TAs if you need immediate help. 
 
 - Chat with us on `CyVerseFOSS Slack <https://cyversefossworkspace.slack.com>`_.
 
