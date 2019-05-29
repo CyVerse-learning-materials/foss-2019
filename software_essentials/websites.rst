@@ -57,7 +57,7 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
  
    2. Install Bookdown package
    
-   .. codeblock:: R
+   .. code-block:: bash
    
       install.packages("bookdown", dependencies=TRUE)
 
