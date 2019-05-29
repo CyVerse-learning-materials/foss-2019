@@ -23,7 +23,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * -  
       - 9:00-:9:30
       - Introduction and overview of the day's and week's activities (Ramona)
-      - `../Course Introduction <intro.html>`_ 
+      - `Course Introduction <../intro.html>`_ 
     * - 
       - 9:30-10:00
       - Participant introduction activity (Walls)
