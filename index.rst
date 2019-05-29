@@ -63,6 +63,7 @@ Expected outcomes:
    CyVerse/de
    CyVerse/vice
    CyVerse/atmo
+   CyVerse/tool_integration_app_building_DE
    
 
 .. toctree::
