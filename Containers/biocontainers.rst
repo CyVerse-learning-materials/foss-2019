@@ -201,7 +201,10 @@ Use the 'docker run' Command to Run the Container
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-|runporechop|
+.. code-block:: bash
+
+	sudo docker run --rm -v $(pwd):/working-dir -w /working-dir --entrypoint="porechop" quay.io/biocontainers/porechop:0.2.3_seqan2.1.1--py36h2d50403_3 -h
+	
 
 We can break the command down into pieces so it is easier to read (the backslash represents where we have broken the line).
 
