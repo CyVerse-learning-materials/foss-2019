@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Atmosphere
+**Atmosphere**
 -------------
 
 .. #### Comment: short description
