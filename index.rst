@@ -33,21 +33,6 @@ Expected outcomes:
 
 .. toctree::
    :maxdepth: 1
-   :caption: CyVerse
-
-   CyVerse/cyverse_intro
-   CyVerse/de
-   CyVerse/vice
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Containers
-
-   Containers/dockerintro
-   Containers/dockeradvanced
-
-.. toctree::
-   :maxdepth: 1
    :caption: Software Essentials
 
    software_essentials/shell
@@ -56,6 +41,30 @@ Expected outcomes:
    software_essentials/communication
    software_essentials/readthedocs
    software_essentials/R
+
+.. toctree::
+   :maxdepth: 1
+   :caption: CyVerse
+
+   CyVerse/cyverse_intro
+   CyVerse/de
+   CyVerse/vice
+   CyVerse/atmo
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Data Management
+
+   data_management/overview
+   data_management/FAIR
+   data_management/dmp
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Containers
+
+   Containers/dockerintro
+   Containers/dockeradvanced
 
 .. toctree::
    :maxdepth: 1
@@ -70,7 +79,6 @@ Course Instructors
 - Tina Lee
 - Tyson Swetnam
 - Ramona Walls
-- Jason Williams
 
 Guest instructors:
 +++++++++++++++++++++
