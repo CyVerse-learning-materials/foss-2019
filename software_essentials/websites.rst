@@ -8,7 +8,7 @@
 
 This website is rendered using a `ReadTheDocs.org <https://readthedocs.org/>`_ template. Think of RTD as "Continuous Documentation".
 
-ReadTheDocs has become a popular tool for developing web-based documentation. `CyVerse Learning Materials Github <https://github.com/CyVerse-learning-materials>`_ hosts a few templates which you can view and pull for your own use
+ReadTheDocs has become a popular tool for developing web-based documentation. `CyVerse Learning Materials Github <https://github.com/CyVerse-learning-materials>`_ hosts a few templates which you can view and pull for your own use.
 
 `Bookdown <https://bookdown.org/>`_  is an open-source R package that facilitates writing books and long-form articles/reports with R Markdown.
 
@@ -16,29 +16,32 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
 
 .. #### Comment: short description
 
-**Some things to remember about ReadTheDocs**
----------------------------------------------
+*Some things to remember about ReadTheDocs*
+-------------------------------------------
 
 - publishing websites via `ReadTheDocs.com <https://readthedocs.com/dashboard/>`_ costs money.
 - You can work in an offline state, where you develop the materials and publish them to your localhost using `Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_
 - You can work on a website template in a GitHub repository, and pushes are updated in near real time using ReadTheDocs.com. 
 
-**Some things to remember about Bookdown**
----------------------------------------------
+*Some things to remember about Bookdown*
+----------------------------------------
 
 - Bookdown websites can be hosted by `RStudio Connect <https://www.rstudio.com/products/connect/>`_
 - You can publish a Bookdown website using `Github Pages <https://github.blog/2016-08-17-simpler-github-pages-publishing/>`_
 
-**Some things to remember about GitHub Pages**
-----------------------------------------------
+*Some things to remember about GitHub Pages*
+--------------------------------------------
 
 - You can pull templates from other GitHub users for your website, e.g. `academicpages.github.io <https://github.com/academicpages/academicpages.github.io>`_, `jekyll themes <http://themes.jekyllrc.org/>`_
 - GitHub pages are free, fast, and easy to build, but limited in use of subdomain or URLs.
 
 ----
 
-**Setting up your own ReadTheDocs**
------------------------------------
+**Build your own Website**
+--------------------------
+
+*ReadTheDocs*
+~~~~~~~~~~~~~
 
   1. Install locally
     - `Instructions <https://docs.readthedocs.io/en/stable/install.html>`_
@@ -49,18 +52,9 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
   3. Create a ReadTheDocs account
     - `Sign up <https://readthedocs.org/accounts/signup/>`_
     
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
 
-**Setting up your own Bookdown**
---------------------------------
+*Bookdown*
+~~~~~~~~~~
 
    1. Install R and RStudio
 
@@ -68,11 +62,8 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
 
    3. Open the Bookdown demo and get started
 
-|CyverseLogo|_ |LearningCenter|_ 
-
-
-**Setting up your own GitHub Pages**
-------------------------------------
+*GitHub Pages*
+~~~~~~~~~~~~~~
 
    1. Create a GitHub account
    
@@ -81,6 +72,9 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
    3. Create an ``index.html``
    
    4. Push it back to GitHub
+
+
+|CyverseLogo|_ |LearningCenter|_ 
 
 ----
 
