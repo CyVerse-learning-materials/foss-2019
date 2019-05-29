@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Discovery Environment
+**Discovery Environment**
 -------------
 .. #### Comment: Overview of the DE and hands on of basic features
 |DE_icon|
