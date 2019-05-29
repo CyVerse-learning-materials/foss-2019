@@ -60,10 +60,6 @@ Manage workshops you've attended or hosted
 Access Powered by CyVerse projects
 
 
-    
-**Platforms**
-^^^^^^^^^^^^^
-
 `Data Store <https://de.cyverse.org/de/>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -143,7 +139,7 @@ Access discoverable and reusable data with metadata features and functions.
     - for developers
 
 **The CyVerse Learning Center**
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |LClogo|
 
@@ -157,7 +153,7 @@ workshops
 
     
 **Intercom**
-------------
+^^^^^^^^^^^^
 
 |intercomlogo|
 
