@@ -200,11 +200,19 @@ First, you will need to pull the image from the registry onto your computer. Use
 Use the 'docker run' Command to Run the Container
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+The easiest way to test that the container will run is to run the help command for the tool. In this case '-h' is the help command.
 
 .. code-block:: bash
 
 	sudo docker run --rm -v $(pwd):/working-dir -w /working-dir --entrypoint="porechop" quay.io/biocontainers/porechop:0.2.3_seqan2.1.1--py36h2d50403_3 -h
 	
+From the result we are able to see the only required option is '-i INPUT'. Options in [square brackets] are not required.
+
+Now we can run the container with our data file to see the output.
+
+.. code-block:: bash
+	
+	sudo docker run --rm -v $(pwd):/working-dir -w /working-dir --entrypoint="porechop" quay.io/biocontainers/porechop:0.2.3_seqan2.1.1--py36h2d50403_3 -i SRR6059710.fastq -o porechop_output.fastq
 
 We can break the command down into pieces so it is easier to read (the backslash represents where we have broken the line).
 
@@ -330,10 +338,6 @@ Useful Links
 .. |pullquayio| image:: ../img/biocontainers11.png
   :width: 750
   :height: 300
-
-.. |porechoprun| image:: ../img/biocontainers6.png
-  :width: 750
-  :height: 200
 
 .. |porechoptrim| image:: ../img/biocontainers1.png
   :width: 750
