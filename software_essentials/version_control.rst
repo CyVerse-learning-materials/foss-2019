@@ -184,6 +184,14 @@ Here is a list of the most important commands in Git:
       - ``git diff [source branch] [target branch]`` 
       - Preview changes before merging
 
+**ZenHub**
+-----------
+
+`ZenHub <https://www.zenhub.com/>`_ is agile program management software which uses GitHub issues.
+
+You log into ZenHub using your GitHub user name.
+
+ZenHub uses a Kanban style board for organizing issues.
 
 |CyverseLogo|_ |LearningCenter|_ 
 
