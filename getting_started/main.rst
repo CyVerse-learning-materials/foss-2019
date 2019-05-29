@@ -1,4 +1,9 @@
-|CyVerse logo|
+.. include:: ../cyverse_rst_defined_substitutions.txt
+
+|CyVerse_logo2|_
+
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
 
 **Getting Started**
 ==========
@@ -40,6 +45,17 @@ Couldn't find what you were looking for?
 
 - Post an issue on the documentation `issue tracker <https://github.com/CyVerse-learning-materials/foss-2019/issues>`_ on GitHub
 
-.. |CyVerse logo| image:: ../img/cyverse_rgb.png
-  :width: 500
-  :height: 100
+----
+
+**Fix or improve this documentation:**
+
+- On Github: |Github Repo Link|
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+----
+
+.. Comment: Place URLS Below This Line
+
+.. |Github Repo Link|  raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/getting_started/about_cyverse.rst" target="blank">Github Repo Link</a>
