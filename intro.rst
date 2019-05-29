@@ -43,7 +43,7 @@ Our goal is to have each participant leave with a solid plan for how they will s
 
 Approach
 =========
-FOSS camp focuses on hands on activities -- participants should learn skills by practicing them. Most of the skill taught in this course are interdepent, and lessons are designed to reinforce skills learned earlier in the week.
+FOSS camp focuses on hands on activities -- participants should learn skills by practicing them. Most of the skill taught in this course are interdepent, and lessons are designed to reinforce skills learned earlier in the week. Some material may be completely new to you, and some may be familiar. If you have experience with a subject, please help your less-experienced neighbor. 
 
 We don't expect anyone to be experts at these skills after one week. Instead, we aim to give you enough hands on experience to confidently continue with your own self-pased learning. Each lesson includes links to addtional learning materials.
 
@@ -52,6 +52,8 @@ For up to one year following FOSS camp, CyVerse will provide concierge service t
 
 `Agenda <getting_started/agenda.rst>`_
 ============================
+
+Each day will start with an overview of the days activites and end with an assessment and discussion. Please speak up and let us know if we should go faster, slower, or do something different. Participants should feel free to drive the agenda to suit their needs.
 
 .. list-table::
     :header-rows: 1
