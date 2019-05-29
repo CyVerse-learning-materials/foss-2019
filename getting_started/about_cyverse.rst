@@ -1,3 +1,10 @@
+.. include:: ../cyverse_rst_defined_substitutions.txt
+
+|CyVerse_logo2|_
+
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
+
 **About CyVerse**
 =================
 
@@ -31,3 +38,18 @@ Award Numbers DBI-0735191, DBI-1265383 and DBI-1743442.
 Please cite CyVerse appropriately when you make use of our resources,
 `CyVerse citation
 policy <http://www.cyverse.org/acknowledge-and-cite-cyverse>`__
+
+----
+
+**Fix or improve this documentation:**
+
+- On Github: |Github Repo Link|
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+----
+
+.. Comment: Place URLS Below This Line
+
+.. |Github Repo Link|  raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/getting_started/about_cyverse.rst" target="blank">Github Repo Link</a>
