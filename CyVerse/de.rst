@@ -54,8 +54,8 @@ DE benefits:
     :height: 100
  .. _CyVerse logo: http://learning.cyverse.org/
 
- ..|Clickable hyperlinked image| image:: ../img/de/de-icon.png
-    :width: 15
+ ..|DE_icon| image:: ./img/de/de-icon.png
+    :width: 25
     :height: 25
  .._DE_icon: https://de.cyverse.org/de/
     
