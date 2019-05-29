@@ -182,7 +182,7 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
 
 .. |atmologo| image:: ../img/atmosphere/atmosphere-icon.png
   :width: 200
-  :height: 175
+  :height: 150
 
 .. |bisquelogo| image:: ../img/bisque/bisque-icon.png
   :width: 200
@@ -190,7 +190,7 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
 
 .. |dnasubwaylogo| image:: ../img/dna_subway/dnasubway-icon.png
   :width: 200
-  :height: 175
+  :height: 150
 
 .. |DClogo| image:: ../img/DataCommons_DrkBlue.png
   :width: 200
