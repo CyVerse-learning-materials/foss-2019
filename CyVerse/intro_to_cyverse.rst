@@ -210,3 +210,4 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
 
 .. |evolcyverse| image:: ../img/evolutionofcyverse.png
   :width: 750
+  :height: 200
