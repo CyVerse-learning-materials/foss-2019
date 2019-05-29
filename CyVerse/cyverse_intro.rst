@@ -6,8 +6,8 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Title
--------------
+Introduction to CyVerse
+----------------
 
 .. #### Comment: short description
 
