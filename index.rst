@@ -59,9 +59,11 @@ Expected outcomes:
    :caption: CyVerse
 
    CyVerse/cyverse_intro
+   CyVerse/intro_to_cyverse
    CyVerse/de
    CyVerse/vice
    CyVerse/atmo
+   
 
 .. toctree::
    :maxdepth: 1
