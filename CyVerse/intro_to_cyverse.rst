@@ -144,7 +144,7 @@ Access discoverable and reusable data with metadata features and functions.
 |LClogo|
 
 `The CyVerse Wiki <https://wiki.cyverse.org>`_
-----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This collaborative documentation site is used to record important information about CyVerse, its products and services, and community collaborators and their projects. Anyone with a CyVerse account is welcome to help out.
 
