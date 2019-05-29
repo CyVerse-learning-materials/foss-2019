@@ -1,3 +1,11 @@
+.. include:: ../cyverse_rst_defined_substitutions.txt
+
+|CyVerse_logo2|_
+
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
+
+
 **Tool Integration into the DE**
 =======================================================
 The CyVerse Discovery Environment provides a graphic user interface for bioinformatics tools
@@ -95,6 +103,28 @@ To publish your app click on 'Share' at the top of the 'Apps' window and select 
 - brief description of inputs, required options and outputs
 - link to CyVerse Wiki documentation page
 - link to docmentation for the tool (provided by the developers)
+
+----
+
+**Fix or improve this documentation:**
+
+- On Github: |Github Repo Link|
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+----
+.. Comment: Place URLS Below This Line
+
+   # Use this example to ensure that links open in new tabs, avoiding
+   # forcing users to leave the document, and making it easy to update links
+   # In a single place in this document
+
+   .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
+
+      <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
+
+.. |Github Repo Link|  raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/tool_integration_app_building_DE.rst" target="blank">Github Repo Link</a>
 
 
 .. |DElogin| image:: ../img/toolintegration1.png
