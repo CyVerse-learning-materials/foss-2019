@@ -319,9 +319,3 @@ What are the outputs?
 
 .. |R Console| image:: ../img/rstudio.png
   :width: 750
-  :height: 115
-
-
-
-
-
