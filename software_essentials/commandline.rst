@@ -79,7 +79,7 @@ Usually this means that you have mis-typed the command - in this case we omitted
 
 .. topic:: Tab Auto-completion
 
-    **To re-enter the same command again use the up arrow to display the previous command. Press the up arrow twice to show the command before that (and so on).**
+    To re-enter the same command again use the up arrow to display the previous command. Press the up arrow twice to show       the command before that (and so on).
 
 **Navigating Files and Directories**
 ------------------------------------
