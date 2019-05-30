@@ -54,7 +54,7 @@ Apps Window
 Analyses Window
 ~~~~~~~~~~~~~~
 
- - Open the `Analyeses window https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Analyses+Window>`_ and view analysis status:
+ - Open the `Analyses window <https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Analyses+Window>`_and view analysis status:
 
 |DE_analyses|
 
