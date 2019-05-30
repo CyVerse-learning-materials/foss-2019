@@ -286,6 +286,7 @@ Adding columns and rows using cbind() and rbind()
 	cbind(hello, "goodbye")
 	
 We can call columns using **$** in the form of *data.frame$column* or call them using the modifier *data.frame[row#, column#]*
+
 Calling columns:
 
 .. code-block:: R
