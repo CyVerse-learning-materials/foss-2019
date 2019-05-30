@@ -294,7 +294,7 @@ Calling columns:
 	hello$letters
 
 **Useful Function to explore data types**
-
+::
 View()
 str()
 summary()
@@ -320,8 +320,6 @@ You can save a dataframe using write.table() and write.csv().
 
 **NOTE** do not overwrite your dataset!!
 If you rerun a script, you may overwrite your results or new data. Put a "#" after use!
-
-Indexing follows: [,] or [[]]
 
 The R Environment
 ~~~~~~~~~~~~~~~~~
