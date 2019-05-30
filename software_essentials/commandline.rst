@@ -3,14 +3,11 @@
 
 **Setup**
 ---------
-You need to download some files to follow this lesson:
+1. Download `data-shell.zip <http://swcarpentry.github.io/shell-novice/data/data-shell.zip>`_ and move the file to your Desktop.
 
-Download `data-shell.zip <http://swcarpentry.github.io/shell-novice/data/data-shell.zip>`_ and move the file to your Desktop.
+2. Unzip/extract the file. You should end up with a new folder called data-shell on your Desktop.
 
-
-Unzip/extract the file. You should end up with a new folder called data-shell on your Desktop.
-
-Open a terminal and type cd, then press the Enter key. 
+3. Open a terminal and type cd, then press the Enter key. 
 
 That last step will make sure you start with your home folder as your working directory.
 In the lesson, you will find out how to access the data in this folder.
@@ -32,7 +29,7 @@ The **graphical user interface (GUI) is the most widely used way to interact wit
     - intuitive and very easy to learn 
     - scales very poorly
     
-**The shell - a command-line interface to make repetitive tasks automatic and fast**. 
+**The shell - a command-line interface (CLI) to make repetitive tasks automatic and fast**. 
     - can take a single instruction and repeat it 
 
 .. admonition:: Example 
@@ -43,25 +40,41 @@ The **graphical user interface (GUI) is the most widely used way to interact wit
     - Using the shell this will only take a couple of minutes (at most).
 
 
-The heart of a command-line interface is a read-evaluate-print loop (REPL). It is called so because when you type a command and press **Return** (also known as **Enter**) the shell reads your command, evaluates (or “executes”) it, prints the output of your command, loops back and waits for you to enter another command.
+The heart of a command-line interface is a read-evaluate-print loop (REPL). When you type a command and press **Return** 
+    - the shell reads your command
+    - evaluates (or “executes”) it
+    - prints the output of your command
+    - loops back and waits for you to enter another command
 
 The Shell
 ^^^^^^^^^
-The Shell is a **program which runs other programs** rather than doing calculations itself. Those programs can be as complicated as a climate modeling software and as simple as a program that creates a new folder/directory. **The simple programs which are used to perform stand alone tasks are usually refered to as commands.** The most popular Unix shell is Bash, (the Bourne Again SHell — so-called because it’s derived from a shell written by Stephen Bourne). **Bash** is the default shell on most modern implementations of Unix and in most packages that provide Unix-like tools for Windows.
+The Shell is a **program which runs other programs** rather than doing calculations itself. 
+    - programs can be as complicated as a climate modeling software
+    - as simple as a program that creates a new folder/directory 
+    - **simple programs used to perform stand alone tasks are usually refered to as commands.** 
+    - most popular Unix shell is **Bash**, (the Bourne Again SHell). 
+    - Bash is the default shell on most modern implementations of Unix
 
-What does it look like?
 A typical shell window looks something like:
 
 |shelllooklike|
 
 
-The **first line shows only a prompt**, indicating that the shell is waiting for input. Your shell may use different text for the prompt. Most importantly: when typing commands, either from these lessons or from other sources, do not type the prompt, only the commands that follow it.
+**first line shows only a prompt**
+    - indicates the shell is waiting for input 
+    - your shell may use different text for the prompt 
+    - **do not type the prompt**, only the commands that follow it
 
-The part that you type, ls -F / in the second line of the example, typically has the following structure: a command, some options (also called switches or flags) and an argument. Flags start with a single dash (-) or two dashes (--), and change the behaviour of a command. Arguments tell the command what to operate on (e.g. files and directories). Sometimes options and arguments are referred to as parameters. A command can be called with more than one option and more than one argument: but a command doesn’t always require an argument or an option.
-
-In the **second line** of the example above, our **command is ls**, with an **option -F** and an **argument /**. **Each part is separated by spaces**: if you omit the space between ls and -F the shell will look for a command called ls-F, which doesn’t exist. Also, **capitalization matters**: LS is different from ls.
-
-Next we see the **output** that our command produced. In this case it is a listing of files and folders in a location called / - we’ll cover what all these mean later today. Those using a macOS might recognize the output in this example.
+**the second line** 
+   - command is ls, with an option -F and an argument / 
+   - options change the behavior of a command
+   - each part is separated by spaces
+   - capitalization matters
+   - commands can have more than one option or arugment
+   - commands don't always require and option or argument
+    
+**lines 3-5 contain output that command produced**
+    - this is a list of files and folders in the root directory (/)
 
 **Finally**, the shell again prints the prompt and waits for you to type the next command.
 
@@ -81,7 +94,7 @@ Now try
 
 Usually this means that you have mis-typed the command - in this case we omitted the space between ls and -F.
 
-.. hint:: Re-enter the same command easily
+.. hint::
 
     To re-enter the same command again use the up arrow to display the previous command. Press the up arrow twice to show the command before that (and so on).
 
@@ -101,7 +114,7 @@ Directories are like places - at any time while we are using the shell we are in
 .. code-block:: bash
 
     $ pwd
-    /Users/nelle
+    /Users/
 
 Here, the computer’s response is /Users/nelle, which is Nelle’s home directory.
 
@@ -158,7 +171,11 @@ Your results may be slightly different depending on your operating system and ho
     Applications/ Documents/    Library/      Music/        Public/
     Desktop/      Downloads/    Movies/       Pictures/
 
-Here, we can see that our home directory contains mostly **sub-directories**. Any names in your output that don’t have trailing slashes, are plain old **files**. And note that there is a space between ls and -F: without it, the shell thinks we’re trying to run a command called ls-F, which doesn’t exist.
+Here, we can see that our home directory contains mostly **sub-directories**. Any names in your output that don’t have trailing slashes, are plain old **files**. 
+
+.. note:: 
+
+    There is a space between ls and -F: without it, the shell thinks we’re trying to run a command called ls-F, which doesn’t exist.
 
 Getting help
 ^^^^^^^^^^^^
@@ -303,8 +320,6 @@ Many bash commands, and programs that people have written that can be run from w
 
 `Full documentation <http://www.gnu.org/software/coreutils/ls>`_
 
-Also available locally via: info '(coreutils) ls invocation'
-
 **Unsupported command-line options**
 If you try to use an option (flag) that is not supported, ls and other commands will usually print an error message similar to:
 
@@ -322,13 +337,13 @@ The other way to learn about ls is to type
 
     $ man ls
     
-This will turn your terminal into a page with a description of the ls command and its options and, if you’re lucky, some examples of how to use it.
+This will open the manual in your terminal with a description of the ls command and its options and, if you’re lucky, some examples of how to use it.
 
-To navigate through the man pages, you may use **↑** and **↓** to move line-by-line, or try **B** and **Spacebar** to skip up and down by a full page. To search for a character or word in the man pages, use **/ followed by the character** or word you are searching for. Sometimes a search will result in multiple hits. If so, you can move between hits using **N** (for moving forward) and **Shift+N** (for moving backward).
+To navigate through the man pages, you may use **↑** and **↓** to move line-by-line, or try **B** and **Spacebar** to skip up and down by a full page. 
 
-**To quit the man pages, press q**.
+To quit the man pages, press q.
 
-Manual pages on the web
+**Manual pages on the web**
 
 Of course there is a third way to access help for commands: searching the internet via your web browser. When using internet search, including the phrase unix man page in your search query will help to find relevant results.GNU provides links to its `manuals <http://www.gnu.org/manual/manual.html>`_ including the `core GNU utilities <http://www.gnu.org/software/coreutils/manual/coreutils.html>`_ , which covers many commands introduced within this lesson.
 
@@ -442,7 +457,7 @@ Check that we’ve moved to the right place by running pwd
 
     When you use a **relative path** with a command like ls or cd, it tries to find that **location from where we are**, rather than from the root of the file system.
 
-    However, it is possible to specify the **absolute path** to a directory by including its **entire path from the root directory**, which is indicated by a leading slash. The leading / tells the computer to follow the path from the root of the file system, so it always refers to exactly one directory, no matter where we are when we run the command.
+    However, it is possible to specify the **absolute path** to a directory by including its **entire path from the root directory, which is indicated by a leading slash**. The leading / tells the computer to follow the path from the root of the file system, so it always refers to exactly one directory, no matter where we are when we run the command.
 
 Absolute paths allow us to move to our data-shell directory from anywhere on the filesystem (including from inside data). To find the absolute path we’re looking for, we can use pwd and then extract the piece we need to move to data-shell.
 
@@ -485,7 +500,7 @@ and then presses **Tab (the tab key on her keyboard), the shell automatically co
     
 .. hint:: 
 
-Press begin typing a file or directory and press **Tab**. The shell will autocomplete the name. If she presses **Tab again**, Bash will add 2012-07-03/ to the command, since it’s the only possible completion. Pressing Tab again does nothing, since there are 19 possibilities; pressing Tab twice brings up a list of all the files, and so on. This is called tab completion, and we will see it in many other tools as we go on.
+Begin typing a file or directory and press **Tab**. The shell will autocomplete the name. If she presses **Tab again**, Bash will add 2012-07-03/ to the command, since it’s the only possible completion. Pressing Tab again does nothing, since there are 19 possibilities; pressing Tab twice brings up a list of all the files, and so on. This is called tab completion, and we will see it in many other tools as we go on.
 
 **Working with Files and Directories**
 --------------------------------------
@@ -788,7 +803,7 @@ Wildcards can be used in combination with each other e.g. ???ane.pdb matches thr
 
 .. code-block:: bash
 
-    $history
+    $ history
     1988  cd ..
     1989  ls
     1990  cd data-shell/
