@@ -9,7 +9,7 @@
 **Discovery Environment**
 -------------
 .. #### Comment: Overview of the DE and hands on of basic features
-|DE_icon|_
+|DE_icon|
 
 DE Features
 =============
@@ -73,13 +73,13 @@ Using metadata in the DE
 |DE_search|
 
  - Other options to be covered on Thursday:
- 	- `bulk metadata application <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Addingbulkmetadatatomultiplefilesorfolders>1_
+ 	- `bulk metadata application <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Addingbulkmetadatatomultiplefilesorfolders>`_
 	- `metadata templates <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Usingmetadatatemplates>`_ 
 
 Additional resources
 =========================
 
- - `DE Guide <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/>'_
+ - `DE Guide <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/>`_
  - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
  - `Using CyVerse for a shared project <https://learning.cyverse.org/projects/cyverse-group-project-quickstart/en/latest/index.html?highlight=group%20project>`_
 
@@ -94,14 +94,8 @@ Additional resources
 
 
 .. Comment: Place Images Below This Line
-   use :width: to give a desired width for your image
-   use :height: to give a desired height for your image
-   replace the image name/location and URL if hyperlinked
 
-    
-.. |Static image| image:: ./img/IMAGENAME.png
-    :width: 25
-    :height: 25
+.. |DE_icon| image:: ../img/de/de-icon.png
 
 .. |DE_analyses| image:: ../img/de/DE_analyses.png
 
