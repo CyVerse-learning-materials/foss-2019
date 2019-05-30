@@ -6,8 +6,11 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Title
--------------
+**Setting up RStudio with Version Control**
+===========================================
+
+RStudio can be used with Git or SVN
+
 
 .. #### Comment: short description
 
