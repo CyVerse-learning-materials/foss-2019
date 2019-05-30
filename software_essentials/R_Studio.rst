@@ -67,7 +67,8 @@ Using R as a calculator
 	> 2/10000
 	> 2e-04
 
-Exercise:
+Exercise::
+
 1. What is the output for 5e3?
 2. How would you add 5 and 3 and multiply the sum by 2?
 
@@ -90,7 +91,7 @@ HELP!
 ~~~~~
 help() is the most useful function in R. You will likely use this and Stack Overflow to help solve most of your problems (not life problems, you're on your own for that).
 
-Exercise:
+Exercise::
 
 .. code-block:: R
 
@@ -149,9 +150,10 @@ There are many ways to upload data in the R environment depending on the documen
 	#General reading
 	read.table("dataFile.ext)
 
-Exercise:
-1. What are the arguments for read.table?
-2. What arguments would you use to upload a .csv file using read.table()?
+Exercise::
+
+	1. What are the arguments for read.table?
+	2. What arguments would you use to upload a .csv file using read.table()?
 
 .. code-block:: R
 
@@ -173,15 +175,16 @@ Factor - a way to perform groupings on data (e.g., group by age, gender, or othe
 Character - text that cannot have calculations done on them
 String - a sequence of characters or numbers
 
-Exercise:
-1. What does the following return? What does it mean?
+Exercise::
+
+	1. What does the following return? What does it mean?
 
 .. code-block:: R
 
 	str(10)
 	str("10")
 	
-2. Try calculations on the following. What works and what doesn't? Why or why not?
+	2. Try calculations on the following. What works and what doesn't? Why or why not?
 
 .. code-block:: R
 
@@ -206,16 +209,21 @@ For example, we can store the number 10 in a letter to use later
 **NOTE** Do not create variables that are already functions or arguments (e.g., c, T, F).
 **NOTE** Do not overwrite variables.
 
-Exercise:
-1. What does x*2 give you?
+Exercise::
+
+	1. What does x*2 give you?
 
 Vectors & Lists
 ~~~~~~~~~~~~~~~~
+These are variables; Just how to look at data; data types and automatically transfer
+every thing in R is an object; float int string true
+
 Variables and functions can have vectors as inputs. Vectors are 1-D object that contain "*like*" data types.
 You can create a string of variables and add to a vector using c(), which is short for concatenate.
 
-Exercise:
-1. What are the outputs of 
+Exercise::
+
+	1. What are the outputs of 
 
 .. code-block:: R
 
@@ -229,7 +237,7 @@ A list is similar to a vector, but can store different "*types*" of data.
 
 	m <- list("a", 10, "10", a)
 
-2. What is m?
+	2. What is m?
 
 Matrices & Arrays
 ~~~~~~~~~~~~~~~~
@@ -249,11 +257,12 @@ Array example
 	print(result)
 
 Creating a dataframe using data.frame()
-Exercise:
+
+Exercise::
+
 1. Play with the different types of data in the data.frame(). What happens?
 
 You can combine dataframes:
-Example:
 
 .. code-block:: R
 
@@ -262,7 +271,6 @@ Example:
 	howdy <- data.frame(hello, hi)
 
 Adding columns and rows using cbind() and rbind()
-Example:
 
 .. code-block:: R
 
@@ -276,7 +284,7 @@ Calling columns:
 	hello[,2]
 	hello$letters
 	
-**ATOMIC VECTORS** are vectors which cannot be simplified anymore, and therefore "$" cannot be used on them. Yes, this error happens a lot. Yes, it is frustrating.
+**ATOMIC VECTORS** are vectors which cannot be simplified anymore, and therefore "$" cannot be used on them. Yes, this error happens a lot. Yes, it is frustrating. Good luck.
 
 Likewise, columns are rows can be removed using "-" as a modifier
 
@@ -287,6 +295,7 @@ Likewise, columns are rows can be removed using "-" as a modifier
 What is the output?
 
 You can save a dataframe using write.table() and write.csv().
+
 **NOTE** do not overwrite your dataset!!
 If you rerun a script, you may overwrite your results or new data. Put a "#" after use!
 
@@ -303,8 +312,9 @@ You can view your environment either by looking at the upper left tab or by typi
 
 You can remove objects using the rm() function.
 
-Exercise:
-1. How would you remove "a" from the environment? How would you check?
+Exercise::
+
+	1. How would you remove "a" from the environment? How would you check?
 
 **Exploring Data**
 ------------------
@@ -346,8 +356,10 @@ head(dataframe)
 
 Subsetting Data
 ~~~~~~~~~~~~~~~
-Exercise:
-1. What is the function for subsetting data?
+
+Exercise::
+
+	1. What is the function for subsetting data?
 
 .. code-block:: R
 
