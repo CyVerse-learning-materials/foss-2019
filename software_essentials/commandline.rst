@@ -93,9 +93,8 @@ The part of the operating system responsible for managing files and directories 
 
 Several commands are frequently used to create, inspect, rename, and delete files and directories. To start exploring them, we’ll go to our open shell window.
 
-**pwd**
-^^^^^^^
-**stands for "print working directory"**
+**Print working directory (pwd)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Directories are like places - at any time while we are using the shell we are in exactly one place, called our current working directory. **Commands mostly read and write files in the current working directory**, i.e. “here”, so knowing where you are before running a command is important. **pwd shows you where you are**:
 
@@ -138,10 +137,8 @@ The user Imhotep’s files are stored in /Users/imhotep, user Larry’s in /User
 **Typically, when you open a new command prompt you will be in your home directory to start.**
 
 
-**ls**
-^^^^^^
-**stands for "listing"**
-
+**List files and directories (ls)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Will let us see the contents of our own filesystem. We can see what’s in our home directory by running 
 
@@ -354,9 +351,8 @@ First, we can look at its contents, using the same strategy as before, passing a
     creatures/          molecules/          notes.txt           solar.pdf
     data/               north-pacific-gyre/ pizza.cfg           writing/
 
-**cd**
-^^^^^^
-**stands for "change directory"
+**Change directory (cd)**
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We can change our location to a different directory, so we are no longer located in our home directory. The command doesn’t change the directory, it changes the shell’s idea of what directory we are in.
 
@@ -413,7 +409,7 @@ The special directory .. doesn’t usually show up when we run ls. If we want to
 **-a stands for “show all”**; it forces ls to show us file and directory names that begin with ., such as .. (which, if we’re in /Users/nelle, refers to the /Users directory) As you can see, it also displays **another special directory that’s just called ., which means “the current working directory”**. It may seem redundant to have a name for it, but we’ll see some uses for it soon.
 
 .. hint::
- Most command line tools, multiple options can be combined with a single - and no spaces between the options: ls -F -a is equivalent to ls -Fa.
+ With most command line tools, multiple options can be combined with a single - and no spaces between the options: ls -F -a is equivalent to ls -Fa.
 
 **Other Hidden Files**
 In addition to the hidden directories .. and ., you may also see a file called .bash_profile. This file usually contains shell configuration settings. You may also see other files and directories beginning with .. These are usually files and directories that are used to configure different programs on your computer. The prefix . is used to prevent these configuration files from cluttering the terminal when a standard ls command is used.
@@ -448,7 +444,7 @@ Check that we’ve moved to the right place by running pwd
 
     However, it is possible to specify the **absolute path** to a directory by including its **entire path from the root directory**, which is indicated by a leading slash. The leading / tells the computer to follow the path from the root of the file system, so it always refers to exactly one directory, no matter where we are when we run the command.
 
-This allows us to move to our data-shell directory from anywhere on the filesystem (including from inside data). To find the absolute path we’re looking for, we can use pwd and then extract the piece we need to move to data-shell.
+Absolute paths allow us to move to our data-shell directory from anywhere on the filesystem (including from inside data). To find the absolute path we’re looking for, we can use pwd and then extract the piece we need to move to data-shell.
 
 .. code-block:: bash
 
@@ -505,8 +501,6 @@ Let’s go back to our data-shell directory on the Desktop and use ls -F to see 
     $ ls -F
     creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg
     solar.pdf  writing/
-    
-**Create a directory**
 
 Let’s create a new directory called thesis using the command **mkdir** thesis (which has no output):
 
@@ -522,7 +516,7 @@ As you might guess from its name, **mkdir means “make directory”**. Since th
     creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg
     solar.pdf  thesis/  writing/
 
-.. admonition:: Good names for files and directories
+.. admonition:: Good Names for Files and Directories
     
     Complicated names of files and directories can make your life painful when working on the command line. Here we provide a few useful tips for the names of your files.
 
@@ -556,10 +550,7 @@ Let’s change our working directory to thesis using cd, then run a **text edito
     $ nano draft.txt
 
 .. Note::
-    Which Editor?
-    When we say, “nano is a text editor,” we really do mean “text”: it can only work with plain character data, not tables, images, or any other human-friendly media. We use it in examples because it is one of the least complex text editors. However, because of this trait, it may not be powerful enough or flexible enough for the work you need to do after this workshop. On Unix systems (such as Linux and Mac OS X), many programmers use Emacs or Vim (both of which require more time to learn), or a graphical editor such as Gedit. On Windows, you may wish to use Notepad++. Windows also has a built-in editor called notepad that can be run from the command line in the same way as nano for the purposes of this lesson.
-
-    No matter what editor you use, you will need to know where it searches for and saves files. If you start it from the shell, it will (probably) use your current working directory as its default location. If you use your computer’s start menu, it may want to save files in your desktop or documents directory instead. You can change this by navigating to another directory the first time you “Save As…”
+    When we say, “nano is a text editor,” we really do mean “text”: it can only work with plain character data, not tables, images, or any other human-friendly media. We use it in examples because it is one of the least complex text editors. On Unix systems (such as Linux and Mac OS X), many programmers use Emacs or Vim (both of which require more time to learn), or a graphical editor such as Gedit. On Windows, you may wish to use Notepad++. Windows also has a built-in editor called notepad that can be run from the command line in the same way as nano for the purposes of this lesson.
 
 Let’s type in a few lines of text. Once we’re happy with our text, we can press **Ctrl+O** (press the Ctrl or Control key and, while holding it down, press the O key) to write our data to disk (we’ll be asked what file we want to save this to: press **Return** to accept the suggested default of draft.txt).
 
@@ -608,9 +599,7 @@ Use ls -l to inspect the files. How large is my_file.txt?
 
 
 .. Note::
-    You may have noticed that all of Nelle’s files are named “something dot something”, and in this part of the lesson, we always used the extension .txt. This is just a convention: we can call a file mythesis or almost anything else we want. However, most people use two-part names most of the time to help them (and their programs) tell different kinds of files apart. The second part of such a name is called the filename extension, and indicates what type of data the file holds: .txt signals a plain text file, .pdf indicates a PDF document, .cfg is a configuration file full of parameters for some program or other, .png is a PNG image, and so on.
-
-    This is just a convention, albeit an important one. Files contain bytes: it’s up to us and our programs to interpret those bytes according to the rules for plain text files, PDF documents, configuration files, images, and so on.
+    You may have noticed that all of Nelle’s files are named “something dot something”, and in this part of the lesson, we always used the extension .txt. This is just a convention: we can call a file mythesis or almost anything else we want. However, most people use two-part names most of the time to help them (and their programs) tell different kinds of files apart. The second part of such a name is called the filename extension, and indicates what type of data the file holds.
 
     Naming a PNG image of a whale as whale.mp3 doesn’t somehow magically turn it into a recording of whalesong, though it might cause the operating system to try to open it with a music player when someone double-clicks it.
 
@@ -636,9 +625,11 @@ The **first argument tells mv what we’re “moving”**, while the **second is
     $ ls thesis
     quotes.txt
 
-One has to be careful when specifying the target file name, since **mv will silently overwrite any existing file with the same name**, which could lead to data loss. An additional option, **mv -i (or mv --interactive), can be used to make mv ask you for confirmation before overwriting**.
+.. warning::
 
-.. admonition:: mv also works on directories.
+    One has to be careful when specifying the target file name, since **mv will silently overwrite any existing file with the same name**, which could lead to data loss. An additional option, **mv -i (or mv --interactive), can be used to make mv ask you for confirmation before overwriting**.
+
+**mv also works on directories**
 
 Let’s move quotes.txt into the current working directory. We use mv once again, but this time we’ll just use the name of a directory as the second argument to tell mv that we want to keep the filename, but put the file somewhere new. (This is why the command is called “move”.) In this case, the directory name we use is the special directory name . that we mentioned earlier.
 
@@ -702,12 +693,7 @@ We can confirm the file has gone using ls:
     $ ls quotes.txt
     ls: cannot access 'quotes.txt': No such file or directory
 
-.. Warning::
-    **Deleting Is Forever**
-    
-    The Unix shell doesn’t have a trash bin that we can recover deleted files from (though most graphical interfaces to Unix do). Instead, when we delete files, they are unlinked from the file system so that their storage space on disk can be recycled. Tools for finding and recovering deleted files do exist, but there’s no guarantee they’ll work in any particular situation, since the computer may recycle the file’s disk space right away.
-    
-     Given that there is no way to retrieve files deleted using the shell, rm -r should be used with great caution (you might consider adding the interactive option rm -r -i).
+
 
 **Using rm Safely**
 
@@ -725,6 +711,12 @@ This happens because rm by default only works on files, not directories.
 .. code-block:: bash
 
     $ rm -r thesis
+    
+.. Warning::
+
+    **Deleting Is Forever**
+    
+    The Unix shell doesn’t have a trash bin that we can recover deleted files from. Instead, when we delete files, they are unlinked from the file system so that their storage space on disk can be recycled. Given that there is no way to retrieve files deleted using the shell, rm -r should be used with great caution (you might consider adding the interactive option rm -r -i).
 
 Operations with multiple files and directories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
