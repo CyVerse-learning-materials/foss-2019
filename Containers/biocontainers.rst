@@ -292,8 +292,7 @@ Useful Links
 - `BioContainers contribution guidelines <https://github.com/BioContainers/specs#33-how-to-create-a-docker-based-biocontainer>`_
 
 .. |biocondalogo| image:: ../img/biocontainers13.png
-  :width: 500
-  :height: 100
+  :width: 300
 
 .. |biocontainerlogo| image:: ../img/biocontainers5a.png
   :width: 500
