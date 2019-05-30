@@ -86,7 +86,7 @@ Comparing things: Using logical operators
 	> 1 >= 9
 	> FALSE
 
-Other logical conditions: "&", "|", "!"
+Other logical conditions: ``&``, ``|``, ``!``
 
 HELP!
 ~~~~~
@@ -132,7 +132,18 @@ Installing packages
 
 	install.packages("packageName")
 
-Often installing a package will automatically install all the dependencies as well.
+To install more than one package at once you can use the ``c("package1", "package2")`` `combine feature <https://www.rdocumentation.org/packages/base/versions/3.6.0/topics/c>`_:
+
+.. code-block:: R
+
+	install.packages(c("package1", "package2"))
+
+Often installing a package will install its dependencies as well. You can set the dependency installation by hand using:
+
+.. code-block:: R
+
+	install.packages("packageName", dependencies=TRUE)
+	install.packages(c("package1", "package2"), dependencies=TRUE)
 
 You can see installed packages with the following command:
 
@@ -153,7 +164,7 @@ There are many ways to upload data in the R environment depending on the documen
 **Exercise:**
 
 	1. What are the arguments for read.table?
-	2. What arguments would you use to upload a .csv file using read.table()?
+	2. What arguments would you use to upload a .csv file using ``read.table()``?
 
 .. code-block:: R
 
