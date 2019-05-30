@@ -9,7 +9,7 @@
 **Discovery Environment**
 -------------
 .. #### Comment: Overview of the DE and hands on of basic features
-|DE_icon|
+|DE_icon|_
 
 DE Features
 =============
@@ -20,17 +20,52 @@ DE Features
  - Analysis history and provenance – “avoid forensic bioinformatics”
  - Securetly and easily manage, share, and publish data 
  
-DE Walkthrough
+DE Basics Walkthrough
 ===============
-Log in at https://de.cyverse.org/
+ - Log in at https://de.cyverse.org/
 
 |DE_blank|
 
-Open the data window:
+ - Open the data window and upload a file:
 
 |DE_data_upload|
 
+ - Create a new text file and share it with someone in the class:
+
 |DE_dots_menu|
+
+ - Download the shared file.
+ - Find an app by browsing:
+
+|DE_apps_operation|
+
+ - Find an app by searching
+ - Launch the word count app
+ 
+|DE_word_count|
+
+Open the Analyese window and view analysis status:
+
+|DE_analyses|
+
+Using metadata in the DE
+========================
+
+ - Add metadata:
+ 
+ - Metadata templates:
+ 
+ - Search metadata:
+ 
+Create a Team/Group
+====================
+
+
+Self-paced lessons and additional resources
+-----------------
+Creating a group project on CyVerse
+DE Quickstart
+DE Manual
 
 
 ----
@@ -80,7 +115,7 @@ Open the data window:
 
 .. |DE_dots_menu| image:: ../img/de/DE_dots_menu.png
 
-
+.. |DE_word_count| image:: ..img/de/DE_word_count.png
 
 
 .. Comment: Place URLS Below This Line
