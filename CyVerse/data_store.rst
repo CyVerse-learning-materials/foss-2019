@@ -5,26 +5,19 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**VICE**
+**CyVerse Data Store**
 -------------
 
-.. #### Comment: How to launch apps on VICE
-
-**Visual Interactive Computing Environment**
+.. #### Comment: Advanced data store usage
 
 
-- reminder one
-- reminder two
+**CyVErse Data Commons**
+-------------------------------
+
 
 
 ----
 
-*Descriptive title - reference platform/tool name for searchability*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  1.
-
-  2.
 
 ..
 	#### Comment: Suggested style guide:
@@ -77,4 +70,4 @@
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/vice.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/data_store.rst" target="blank">Github Repo Link</a>
