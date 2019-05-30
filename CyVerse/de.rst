@@ -54,7 +54,7 @@ Apps Window
 Analyses Window
 ~~~~~~~~~~~~~~
 
- - Open the `Analyeses window ,https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Analyses+Window>`_ and view analysis status:
+ - Open the `Analyeses window https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Analyses+Window>`_ and view analysis status:
 
 |DE_analyses|
 
@@ -96,8 +96,8 @@ Additional resources
 .. Comment: Place Images Below This Line
 
 .. |DE_icon| image:: ../img/de/de-icon.png
-    :width: 50
-    :height: 60
+    :width: 60
+    :height: 50
 .. _DE_icon: https://de.cyverse.org/
 
 .. |DE_analyses| image:: ../img/de/DE_analyses.png
@@ -110,7 +110,7 @@ Additional resources
 
 .. |DE_dots_menu| image:: ../img/de/DE_dots_menu.png
 
-.. |DE_word_count| image:: ..img/de/DE_word_count.png
+.. |DE_word_count| image:: ../img/de/DE_word_count.png
 
 .. |DE_metadata| image:: ../img/de/DE_metadata.png
 
