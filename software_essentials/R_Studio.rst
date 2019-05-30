@@ -1,21 +1,22 @@
-**Introduction to R & R Studio**
-===================================
+**Introduction to R & RStudio**
+===============================
 
 **Setup**
-=========
-You need to download R & R Studio:
+---------
+1. You need to download R & RStudio:
 
-Download R: https://cran.r-project.org/
-Download R Studio: https://www.rstudio.com/products/rstudio/download/#download
+   - `Download R <https://cran.r-project.org/>`_
+ 
+   - `Download R Studio <https://www.rstudio.com/products/rstudio/download/#download>`_
 
-Move to the Applications folder
+2. Move to the Applications folder.
 
-Open R Studio. 
+3. Open RStudio. 
 
 Go to Session -> Set Working Directory to set where you will pull data files from and/or save your code
 
 **Introduction**
-==============
+----------------
 
 We will learn how to:
 - navigate & interact with R Studio
@@ -316,7 +317,7 @@ What are the outputs?
 
 
 
-.. |nano>>| image:: ../img/rstudio.png
+.. |R Console| image:: ../img/rstudio.png
   :width: 750
   :height: 115
 
