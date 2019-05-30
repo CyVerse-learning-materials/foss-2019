@@ -27,7 +27,8 @@ DE Basics Walkthrough
 |DE_blank|
 
 Data Window
-~~~~~~~~~~~~~~`
+~~~~~~~~~~~~~~
+
  - Open the data window and upload a file:
 
 |DE_data_upload|
@@ -37,10 +38,10 @@ Data Window
 |DE_dots_menu|
 
  - `Download <https://wiki.cyverse.org/wiki/display/DEmanual/Downloading+Files+and+Folders>`_ the shared file.
- - `Collaborator lists <https://wiki.cyverse.org/wiki/display/DEmanual/Adding+and+Deleting+Users+from+the+Collaborators+List+in+Preferences>`_
  
 Apps Window
-~~~~~~~~~~~~~~`
+~~~~~~~~~~~~~~
+
  - Find an app by browsing:
 
 |DE_apps_operation|
@@ -51,47 +52,36 @@ Apps Window
 |DE_word_count|
 
 Analyses Window
-~~~~~~~~~~~~~~`
+~~~~~~~~~~~~~~
 
  - Open the `Analyeses window ,https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Analyses+Window>`_ and view analysis status:
 
 |DE_analyses|
 
  - `Relaunch or cancel <https://wiki.cyverse.org/wiki/display/DEmanual/Relaunching%2C+Canceling%2C+and+Deleting+Analyses%2C+Viewing+Analysis+Outputs+and+Info>`_ an analysis
- - `Share an analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+an+Analysis>`_
+ -  `Share an analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+an+Analysis>`_ with a collaborator.
 
 Using metadata in the DE
 ========================
 
- - Add metadata:
+ - `Using metadata in the DE <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE>`_ :
  
- - Metadata templates:
+|DE_metadata|
  
- - Search metadata:
+ - `Search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ for data in the DE:
  
-Create a Team/Group
-====================
+|DE_search|
 
+ - Other options to be covered on Thursday:
+ 	- `bulk metadata application <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Addingbulkmetadatatomultiplefilesorfolders>1_
+	- `metadata templates <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Usingmetadatatemplates>`_ 
 
-Self-paced lessons and additional resources
------------------
-Creating a group project on CyVerse
-DE Quickstart
-DE Manual
+Additional resources
+=========================
 
-
-----
-
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
-
+ - `DE Guide <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/>'_
+ - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
+ - `Using CyVerse for a shared project <https://learning.cyverse.org/projects/cyverse-group-project-quickstart/en/latest/index.html?highlight=group%20project>`_
 
 ----
 
@@ -108,16 +98,12 @@ DE Manual
    use :height: to give a desired height for your image
    replace the image name/location and URL if hyperlinked
 
- .. |DE_icon| image:: ../img/de/de-icon.png
-     :width: 100
-     :height: 88
- .. _DE_icon: https://de.cyverse.org/de/
     
 .. |Static image| image:: ./img/IMAGENAME.png
     :width: 25
     :height: 25
 
-.. |DE_analyses| image:: ../img/IMAGENAME.png../img/de/DE_analyses.png
+.. |DE_analyses| image:: ../img/de/DE_analyses.png
 
 .. |DE_apps_operation| image:: ../img/de/DE_apps_operation.png
 
@@ -129,6 +115,9 @@ DE Manual
 
 .. |DE_word_count| image:: ..img/de/DE_word_count.png
 
+.. |DE_metadata| image:: ../img/de/DE_metadata.png
+
+.. |DE_search| image:: ../img/de/DE_search.png
 
 .. Comment: Place URLS Below This Line
 
