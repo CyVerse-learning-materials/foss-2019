@@ -27,11 +27,17 @@ At a high level, computers do four things:
 - communicate with each other, and
 - interact with us
 
-The **graphical user interface (GUI) is the most widely used way to interact with personal computers**. We give instructions (to run a program, to copy a file, to create a new folder/directory) with the convenience of a few mouse clicks. This way of interacting with a computer is intuitive and very easy to learn. But this way of giving instructions to a computer scales very poorly if we are to give a large stream of instructions even if they are similar or identical. 
+The **graphical user interface (GUI) is the most widely used way to interact with personal computers**. 
+    - give instructions (to run a program, to copy a file, to create a new folder/directory) with mouse 
+    - intuitive and very easy to learn 
+    - scales very poorly
+    
+**The shell - a command-line interface to make repetitive tasks automatic and fast**. 
+    - can take a single instruction and repeat it 
 
 For example if we have to copy the third line of each of a thousand text files stored in thousand different folders/directories and paste it into a single file line by line. Using the tradition GUI approach of clicks will take several hours to do this.
 
-This is where we take advange of **the shell - a command-line interface to make repetitive tasks automatic and fast**. It can take a single instruction and repeat it over as it is or with some modification as many times as we want. The task in the example above can be accomplished in a few minutes at most.
+
 
 The heart of a command-line interface is a read-evaluate-print loop (REPL). It is called so because when you type a command and press **Return** (also known as **Enter**) the shell reads your command, evaluates (or “executes”) it, prints the output of your command, loops back and waits for you to enter another command.
 
@@ -71,7 +77,7 @@ Now try
 
 Usually this means that you have mis-typed the command - in this case we omitted the space between ls and -F.
 
-.. Note::
+.. topic:: Tab Auto-completion
     **To re-enter the same command again use the up arrow to display the previous command. Press the up arrow twice to show the command before that (and so on).**
 
 **Navigating Files and Directories**
