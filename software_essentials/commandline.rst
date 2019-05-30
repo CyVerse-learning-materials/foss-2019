@@ -45,7 +45,7 @@ A typical shell window looks something like:
 |shelllooklike|
 
 
-The **first line** shows only a prompt, indicating that the shell is waiting for input. Your shell may use different text for the prompt. Most importantly: when typing commands, either from these lessons or from other sources, do not type the prompt, only the commands that follow it.
+The **first line shows only a prompt**, indicating that the shell is waiting for input. Your shell may use different text for the prompt. Most importantly: when typing commands, either from these lessons or from other sources, do not type the prompt, only the commands that follow it.
 
 The part that you type, ls -F / in the second line of the example, typically has the following structure: a command, some options (also called switches or flags) and an argument. Flags start with a single dash (-) or two dashes (--), and change the behaviour of a command. Arguments tell the command what to operate on (e.g. files and directories). Sometimes options and arguments are referred to as parameters. A command can be called with more than one option and more than one argument: but a command doesn’t always require an argument or an option.
 
@@ -82,7 +82,11 @@ The part of the operating system responsible for managing files and directories 
 
 Several commands are frequently used to create, inspect, rename, and delete files and directories. To start exploring them, we’ll go to our open shell window.
 
-First let’s find out where we are by running a command called **pwd** (which stands for “**print working directory**”). Directories are like places - at any time while we are using the shell we are in exactly one place, called our current working directory. **Commands mostly read and write files in the current working directory**, i.e. “here”, so knowing where you are before running a command is important. **pwd shows you where you are**:
+**pwd**
+^^^^^^^
+**stands for "print working directory"**
+
+Directories are like places - at any time while we are using the shell we are in exactly one place, called our current working directory. **Commands mostly read and write files in the current working directory**, i.e. “here”, so knowing where you are before running a command is important. **pwd shows you where you are**:
 
 .. code-block:: bash
 
@@ -124,7 +128,13 @@ The user Imhotep’s files are stored in /Users/imhotep, user Larry’s in /User
 
 **Typically, when you open a new command prompt you will be in your home directory to start.**
 
-Now let’s learn the command that will let us see the contents of our own filesystem. We can see what’s in our home directory by running **ls**, which stands for “**listing**”:
+
+**ls**
+^^^^^^
+**stands for "listing"**
+
+
+Will let us see the contents of our own filesystem. We can see what’s in our home directory by running 
 
 .. code-block:: bash
 
@@ -335,9 +345,11 @@ First, we can look at its contents, using the same strategy as before, passing a
     creatures/          molecules/          notes.txt           solar.pdf
     data/               north-pacific-gyre/ pizza.cfg           writing/
 
-Second, we can actually change our location to a different directory, so we are no longer located in our home directory.
+**cd**
+^^^^^^
+**stands for "change directory"
 
-The **command to change locations is cd** followed by a directory name to change our working directory. **cd stands for “change directory”**, which is a bit misleading: the command doesn’t change the directory, it changes the shell’s idea of what directory we are in.
+We can change our location to a different directory, so we are no longer located in our home directory. The command doesn’t change the directory, it changes the shell’s idea of what directory we are in.
 
 Let’s say we want to move to the data directory we saw above. We can use the following series of commands to get there:
 
@@ -420,9 +432,11 @@ Check that we’ve moved to the right place by running pwd
     $ pwd
     /Users/nelle/Desktop/data-shell/data
 
-**Relative vs Absolute Paths**
 
-When you use a **relative path** with a command like ls or cd, it tries to find that **location from where we are**, rather than from the root of the file system.
+.. Important::
+    **Relative vs Absolute Paths**
+
+    When you use a **relative path** with a command like ls or cd, it tries to find that **location from where we are**, rather than from the root of the file system.
 
 However, it is possible to specify the **absolute path** to a directory by including its **entire path from the root directory**, which is indicated by a leading slash. The leading / tells the computer to follow the path from the root of the file system, so it always refers to exactly one directory, no matter where we are when we run the command.
 
@@ -472,10 +486,6 @@ If she presses **Tab again**, Bash will add 2012-07-03/ to the command, since it
 
 Creating directories
 ^^^^^^^^^^^^^^^^^^^^
-We now know how to explore files and directories, but how do we create them in the first place?
-
-**See where we are and what we already have**
-
 Let’s go back to our data-shell directory on the Desktop and use ls -F to see what it contains:
 
 .. code-block:: bash
@@ -735,15 +745,11 @@ If given more than one file name followed by a directory name (i.e. the destinat
 
 **Using wildcards for accessing multiple files at once**
 
-Wildcards
-
 **\* is a wildcard, which matches zero or more characters**. Let’s consider the data-shell/molecules directory: \*.pdb matches ethane.pdb, propane.pdb, and every file that ends with ‘.pdb’. On the other hand, p\*.pdb only matches pentane.pdb and propane.pdb, because the ‘p’ at the front only matches filenames that begin with the letter ‘p’.
 
 **? is also a wildcard, but it matches exactly one character**. So ?ethane.pdb would match methane.pdb whereas \*ethane.pdb matches both ethane.pdb, and methane.pdb.
 
 Wildcards can be used in combination with each other e.g. ???ane.pdb matches three characters followed by ane.pdb, giving cubane.pdb ethane.pdb octane.pdb.
-
-When the shell sees a wildcard, it expands the wildcard to create a list of matching filenames before running the command that was asked for. As an exception, if a wildcard expression does not match any file, Bash will pass the expression as an argument to the command as it is. For example typing ls \*.pdf in the molecules directory (which contains only files with names ending with .pdb) results in an error message that there is no file called \*.pdf. However, generally commands like wc and ls see the lists of file names matching these expressions, but not the wildcards themselves. It is the shell, not the other programs, that deals with expanding wildcards, and this is another example of orthogonal design.
 
 **Other Useful Tools and Commands**
 -----------------------------------
@@ -766,7 +772,9 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
     (* Month: 1749 06 *) 84
     (* Month: 1749 07 *) 95
 
-**tail prints the last few (10 by default) lines of a file**
+**tail** 
+^^^^^^^^^
+**prints the last few (10 by default) lines of a file**
 
 .. code-block:: bash
 
@@ -782,7 +790,9 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
     (* Month: 2005 01 *) 31
     (* Month: 2005 02 *) 29
     
-**history displays the last few hundred commands that have been executed**
+**history** 
+^^^^^^^^^^^
+**displays the last few hundred commands that have been executed**
 
 .. code-block:: bash
 
@@ -805,7 +815,9 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
     2003  tail data/sunspot.txt 
     2004  history
 
-**grep finds and prints lines in files that match a pattern**
+**grep** 
+^^^^^^^^
+**finds and prints lines in files that match a pattern**
 
 .. code-block:: bash
 
@@ -832,7 +844,9 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
     "My Thesis" not found
     Today it is not working
 
-**find finds files**
+**find**
+^^^^^^^^
+**finds files**
 
 To find all the files in the 'writing' directory and sub-directories
 
@@ -860,7 +874,9 @@ To find all the files that end with '.txt'
     $find -name *.txt
     ./haiku.txt
 
-**echo print stings (text)** 
+**echo**
+^^^^^^^^^
+**print stings (text)** 
 
 This is especially useful when writing Bash scripts
 
@@ -869,7 +885,9 @@ This is especially useful when writing Bash scripts
     $echo hello world
     hello world
 
-**> prints output to a file rather than the shell**
+**>**
+^^^^^
+**prints output to a file rather than the shell**
 
 .. code-block:: bash
 
@@ -877,7 +895,9 @@ This is especially useful when writing Bash scripts
     $ ls
     data  haiku.txt  not_haiku.txt  thesis  tools
 
-**>> appends output to the end of a file**
+**>>** 
+^^^^^^^
+**appends output to the end of a file**
 
 .. code-block:: bash
 
@@ -886,7 +906,9 @@ This is especially useful when writing Bash scripts
 
 |nano>>|
 
-**| directs output from the first command into the second command (and the second into the third)**
+**|**
+^^^^^^
+**directs output from the first command into the second command (and the second into the third)**
 
 .. code-block:: bash
 
@@ -899,7 +921,8 @@ This is especially useful when writing Bash scripts
     300 NENE01751A.txt
     
 
-This is was just a brief summary of how to use the command line. There is much, much more you can do. For more information check out the `Software Caprentry <https://software-carpentry.org/workshops/>`_ page. 
+.. Note::
+    This is was just a brief summary of how to use the command line. There is much, much more you can do. For more information check out the `Software Caprentry <https://software-carpentry.org/workshops/>`_ page. 
 
 
 
