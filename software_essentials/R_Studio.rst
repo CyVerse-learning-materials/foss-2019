@@ -13,7 +13,7 @@
 
 3. Open RStudio. 
 
-Go to Session -> Set Working Directory to set where you will pull data files from and/or save your code
+Go to Session -> Set Working Directory to set where you will pull data files from and/or save your code.
 
 **Introduction**
 ----------------
@@ -91,8 +91,6 @@ HELP!
 ~~~~~
 help() is the most useful function in R. You will likely use this and Stack Overflow to help solve most of your problems (not life problems, you're on your own for that).
 
-Exercise::
-
 .. code-block:: R
 
 	help(plot)
@@ -150,7 +148,7 @@ There are many ways to upload data in the R environment depending on the documen
 	#General reading
 	read.table("dataFile.ext)
 
-Exercise::
+Exercise:
 
 	1. What are the arguments for read.table?
 	2. What arguments would you use to upload a .csv file using read.table()?
@@ -175,7 +173,7 @@ Factor - a way to perform groupings on data (e.g., group by age, gender, or othe
 Character - text that cannot have calculations done on them
 String - a sequence of characters or numbers
 
-Exercise::
+Exercise:
 
 	1. What does the following return? What does it mean?
 
@@ -209,7 +207,7 @@ For example, we can store the number 10 in a letter to use later
 **NOTE** Do not create variables that are already functions or arguments (e.g., c, T, F).
 **NOTE** Do not overwrite variables.
 
-Exercise::
+Exercise:
 
 	1. What does x*2 give you?
 
@@ -221,7 +219,7 @@ every thing in R is an object; float int string true
 Variables and functions can have vectors as inputs. Vectors are 1-D object that contain "*like*" data types.
 You can create a string of variables and add to a vector using c(), which is short for concatenate.
 
-Exercise::
+Exercise:
 
 	1. What are the outputs of 
 
@@ -258,9 +256,9 @@ Array example
 
 Creating a dataframe using data.frame()
 
-Exercise::
+Exercise:
 
-1. Play with the different types of data in the data.frame(). What happens?
+	1. Play with the different types of data in the data.frame(). What happens?
 
 You can combine dataframes:
 
@@ -312,7 +310,7 @@ You can view your environment either by looking at the upper left tab or by typi
 
 You can remove objects using the rm() function.
 
-Exercise::
+Exercise:
 
 	1. How would you remove "a" from the environment? How would you check?
 
@@ -357,7 +355,7 @@ head(dataframe)
 Subsetting Data
 ~~~~~~~~~~~~~~~
 
-Exercise::
+Exercise:
 
 	1. What is the function for subsetting data?
 
