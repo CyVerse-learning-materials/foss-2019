@@ -97,7 +97,7 @@ Additional resources
 
 .. |DE_icon| image:: ../img/de/de-icon.png
     :width: 50
-    :height: 50
+    :height: 60
 .. _DE_icon: https://de.cyverse.org/
 
 .. |DE_analyses| image:: ../img/de/DE_analyses.png
