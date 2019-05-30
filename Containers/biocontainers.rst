@@ -294,43 +294,33 @@ Useful Links
 
 .. |biocontainerlogo| image:: ../img/biocontainers5a.png
   :width: 500
-  :height: 75
 
 .. |biocontainersregistry| image:: ../img/biocontainers15.png
   :width: 750
-  :height: 300
 
 .. |quayio| image:: ../img/biocontainers20.png
   :width: 750
-  :height: 200
 
 .. |quayiorepo| image:: ../img/biocontainers21.png
   :width: 750
-  :height: 400
 
 .. |quayiotags| image:: ../img/biocontainers3.png
   :width: 750
-  :height: 400
 
 .. |quayiopull| image:: ../img/biocontainers8.png
   :width: 750
-  :height: 200
 
 .. |dockerhub| image:: ../img/biocontainers16.png
   :width: 750
-  :height: 350
 
 .. |requestcontainer| image:: ../img/biocontainers18.png
   :width: 750
-  :height: 400
 
 .. |registrytags| image:: ../img/biocontainers19.png
   :width: 750
-  :height: 400
 
 .. |pullquayio| image:: ../img/biocontainers11.png
   :width: 750
-  :height: 300
   
 .. |porechoprun| image:: ../img/biocontainers6.png
   :width: 750
