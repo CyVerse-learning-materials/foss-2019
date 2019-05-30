@@ -3,6 +3,7 @@
 
 **Setup**
 ---------
+
 1. You need to download R & RStudio:
 
    - `Download R <https://cran.r-project.org/>`_
@@ -47,8 +48,8 @@ The basic layout includes:
 - Environment/History (upper right)
 - Files/Plots/Packages/Help/Viewer (lower right)
 
-Once you open a new R script (File -> New File -> R Script), and editor panel should appear in the upper left.'
-R scripts are saved as .$R
+Once you open a new R script (File -> New File -> R Script), and editor panel should appear in the upper left.
+R scripts are saved as .R files.
 These can be rearranged by going into Preferences.
 
 Calculating with R
@@ -89,6 +90,7 @@ Other logical conditions: "&", "|", "!"
 
 HELP!
 ~~~~~
+
 help() is the most useful function in R. You will likely use this and Stack Overflow to help solve most of your problems (not life problems, you're on your own for that).
 
 .. code-block:: R
@@ -164,14 +166,32 @@ There are many ways to upload data in the R environment depending on the documen
 **Data Structures**
 -------------------
 
-Types of Data
-~~~~~~~~~~~~~
+Types of Variables
+~~~~~~~~~~~~~~~~~~
+
+Character - text that cannot have calculations done on them
+	e.g., "a", "xyz"
+
+.. code-block:: R
+	as.character()
 
 Numeric - numerical values include decimals and can have calculations performed on them
+	e.g., 1, 1.5
+
+.. code-block:: R
+	as.numeric()
+
 Integer - whole numbers only, and can also have calculations performed on them
-Factor - a way to perform groupings on data (e.g., group by age, gender, or other types)
-Character - text that cannot have calculations done on them
-String - a sequence of characters or numbers
+	e.g., 2L (L stores it as an integer)
+
+.. code-block:: R
+	as.integer()
+
+Locgial - TRUE or FALSE
+
+.. code-block:: R
+	as.factor()
+	#creates groupings within dataset
 
 **Exercise:**
 
@@ -196,6 +216,7 @@ Errors v. Warnings:
 
 Storing Variables
 ~~~~~~~~~~~~~~~~~
+
 We can assign any of the types of data above in a "place holder". 
 Variables are assignee using "<-".
 
@@ -212,48 +233,37 @@ For example, we can store the number 10 in a letter to use later
 
 	1. What does x*2 give you?
 
-Vectors & Lists
-~~~~~~~~~~~~~~~~
-These are variables; Just how to look at data; data types and automatically transfer
-every thing in R is an object; float int string true
+Vectors
+~~~~~~~
 
-Variables and functions can have vectors as inputs. Vectors are 1-D object that contain "*like*" data types.
+Vectors are 1-D object that contain "*like*" data types.
 You can create a string of variables and add to a vector using c(), which is short for concatenate.
 
 **Exercise:**
 
-	1. What are the outputs of 
+	1. What are the outputs of the code below?
+	2. Create your own vector using the vector() function.
 
 .. code-block:: R
-
+	
 	x <- c(1, 2, 3, 4, 5)
 	y <- 1:5
 	z <- seq(1, 5, 1)
 
-A list is similar to a vector, but can store different "*types*" of data.
-
-	2. What is m?
-.. code-block:: R
-
-	m <- list("a", 10, "10", a)
-
-
-Matrices & Arrays
-~~~~~~~~~~~~~~~~
-A matrix is a 2-D object of similar type of data.
-An array is more than 2-D and can contain many types of data types and not be even in column length.
-
-Array example
+Adding to vectors: the concatenate function: c()
 
 .. code-block:: R
-
-	# Create two vectors of different lengths.
-	vector1 <- c(5,9,3)
-	vector2 <- c(10,11,12,13,14,15)
 	
-	# Take these vectors as input to the array.
-	result <- array(c(vector1,vector2),dim = c(3,3,2))
-	print(result)
+	x <- 1
+	x <- c(x, 2)
+
+**ATOMIC VECTORS** are vectors which cannot be simplified anymore, and therefore "$" cannot be used on them. Yes, this error happens a lot. Yes, it is frustrating. Good luck.
+
+
+Matrices & Dataframes
+~~~~~~~~~~~~~~~~~~~~~
+
+A matrix and a dataframe is a 2-D object.
 
 Creating a dataframe using data.frame()
 
@@ -282,16 +292,29 @@ Calling columns:
 
 	hello[,2]
 	hello$letters
-	
-**ATOMIC VECTORS** are vectors which cannot be simplified anymore, and therefore "$" cannot be used on them. Yes, this error happens a lot. Yes, it is frustrating. Good luck.
 
-Likewise, columns are rows can be removed using "-" as a modifier
+**Useful Function to explore data types**
+
+View()
+str()
+summary()
+class()
+typeof()
+length()
+attributes()
+dim()
+head()
+tail()
+
+**Exercise**
+
+	1. What is the output?
 
 .. code-block:: R
 
 	hello[,-2]
 
-What is the output?
+Likewise, columns are rows can be removed using "-" as a modifier
 
 You can save a dataframe using write.table() and write.csv().
 
@@ -346,12 +369,6 @@ We can use the function "paste" to make more complex strings:
 	paste("My cat is", cats$coat)
 
 What is the output?
-
-The most useful ways to view your data:
-View(dataframe)
-str(dataframe)
-summary(dataframe)
-head(dataframe)
 
 Subsetting Data
 ~~~~~~~~~~~~~~~
