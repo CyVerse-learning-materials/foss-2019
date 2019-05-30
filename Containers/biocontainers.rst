@@ -76,7 +76,7 @@ If the tool you are looking for is already available as a BioContainer click on 
 
 .. Note:: You want the docker images, not the Conda packages. Conda packages are not containers. 
 
-.. Note:: If your tool is not already available as a BioContainer (ie. your search returned nothing) proceed to the `How to request a BioContainer`_ or `How to build a BioContainer`_ section below. 
+.. Note:: If your tool is not already available as a BioContainer (ie. your search returned nothing) proceed to the `How to Request a BioContainer`_ or `How to Build a BioContainer`_ section below. 
 
 
 
@@ -116,7 +116,7 @@ There are fewer BioContainers images available at DockerHub than the other two r
 .. Note:: You can also search for the name of the tool you want. Be sure that you choose images the belong to the BioContainers organization. There will be many other options available on DockerHub. BioContainers is a trusted source. 
 
 
-The second image in this search results list is 'vcftools'. Select 'vcftools' and you will see the repo page for this tool. The 'docker pull' command can be copied from the overview page; however, there is no tag specified. To see the available versions, select the tags tab at the top of the page. You will need to supply the tag of the version you want following a colon at the end of your docker pull command 
+The second image in this search results list is 'vcftools'. Select 'vcftools' and you will see the repo page for this tool. The 'docker pull' command can be copied from the overview page; however, there is no tag specified. To see the available versions, select the tags tab at the top of the page. You will need to supply the tag of the version you want following a colon at the end of your docker pull command to get a specific version.
 
 .. code-block:: bash
 
@@ -174,11 +174,13 @@ Get Data to Use with Your Container
 .. code-block:: bash
 
    $ iget /iplant/home/shared/iplantcollaborative/example_data/porechop/SRR6059710.fastq
+   $ mv SRR6059710.fastq Desktop
+   $ cd Desktop
 
 Use 'docker pull' to Get the Image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-First, you will need to pull the image from the registry onto your computer. Use the 'docker pull' command you copied from the registry above (`Where to get a BioContainer`_). 
+First, you will need to pull the image from the registry onto your computer. Use the 'docker pull' command you copied from the registry above (`Where to Get a BioContainer`_). 
 
 .. code-block:: bash
 
