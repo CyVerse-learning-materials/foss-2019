@@ -182,7 +182,8 @@ String - a sequence of characters or numbers
 	str(10)
 	str("10")
 
-	2. Try calculations on the following. What works and what doesn't? Why or why not?
+Try calculations on the following. 
+	2. What works and what doesn't? Why or why not?
 
 .. code-block:: R
 
@@ -231,11 +232,11 @@ You can create a string of variables and add to a vector using c(), which is sho
 
 A list is similar to a vector, but can store different "*types*" of data.
 
+	2. What is m?
 .. code-block:: R
 
 	m <- list("a", 10, "10", a)
 
-	2. What is m?
 
 Matrices & Arrays
 ~~~~~~~~~~~~~~~~
@@ -358,6 +359,7 @@ Subsetting Data
 **Exercise:**
 
 	1. What is the function for subsetting data?
+	2. What are the outputs?
 
 .. code-block:: R
 
@@ -368,7 +370,6 @@ Subsetting Data
 	x[names(x) == "a" | "c"]
 	x[names(x) != "a"]
 
-	2. What are the outputs?
 
 
 
