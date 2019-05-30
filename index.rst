@@ -58,9 +58,9 @@ Expected outcomes:
    :maxdepth: 1
    :caption: CyVerse
 
-   CyVerse/cyverse_intro
    CyVerse/intro_to_cyverse
    CyVerse/de
+   CyVerse/data_store
    CyVerse/vice
    CyVerse/atmo
    CyVerse/tool_integration_app_building_DE
