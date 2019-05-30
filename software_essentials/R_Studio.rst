@@ -55,7 +55,8 @@ Calculating with R
 ~~~~~~~~~~~~~~~~~~
 
 Using R as a calculator
-..code-block::
+
+.. code-block::
 
 	> 2+2
 	> 4
