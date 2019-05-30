@@ -1,19 +1,18 @@
 .. include:: ../cyverse_rst_defined_substitutions.txt
 
-|CyVerse_logo2|_
-
-|Home_Icon2|_
-`Learning Center Home <http://learning.cyverse.org/>`_
 
 **VICE**
--------------
+========
+
+CyVerse data science workbench, the `Discovery Environment <https://de.cyverse.org/de/>`_, includes a feature called `VICE (Visual Interactive Computing Environment) <https://learning.cyverse.org/projects/vice/en/latest/>`_
+
+VICE uses Docker containers to launch interactive programs, like RStudio, R Shiny Apps, Project Jupyter, Data Mining, and WebGL Applications that can be run in a browser. 
 
 .. #### Comment: How to launch apps on VICE
 
 **Visual Interactive Computing Environment**
 
-
-- reminder one
+- You can launch existing VICE images from the DE, or integrate your own using the Manage Tools 
 - reminder two
 
 
