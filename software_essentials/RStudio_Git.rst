@@ -6,29 +6,28 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**Setting up RStudio with Version Control**
-===========================================
+**RStudio with Version Control**
+================================
 
-RStudio can be used with Git or SVN
-
+RStudio can be used with Git or SVN. For today's lesson we're going to be using Git with your new GitHub accounts. 
 
 .. #### Comment: short description
 
 **Some things to remember about the platform**
 
-
-- reminder one
-- reminder two
-
+- You can pull other GitHub repositories using ``git clone`` in the RStudio terminal.
+- Your local commits are not being sent to GitHub until you 
 
 ----
 
-*Descriptive title - reference platform/tool name for searchability*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Instructions*
+~~~~~~~~~~~~~~
 
-  1.
+  1. Open RStudio
 
-  2.
+  2. Create a new directory
+  
+  3. Initiate a ``git`` repository in the directory
 
 ..
 	#### Comment: Suggested style guide:
@@ -39,6 +38,11 @@ RStudio can be used with Git or SVN
 	4. Primary menu titles in double quotes: Under "Input" choose...
 	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
 	####
+
+*Self Paced*
+------------
+
+`rOpenSci <https://github.com/ropensci>`_ is a leader in the development of reproducible research. There are hundreds of repositories to explore for examples of research using R.
 
 
 ----
