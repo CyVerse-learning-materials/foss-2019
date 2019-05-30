@@ -11,13 +11,27 @@
 .. #### Comment: Overview of the DE and hands on of basic features
 |DE_icon|
 
-DE benefits:
+DE Features
+=============
  - Use hundreds of bioinformatics Apps without the command line (or with, if you prefer)
  - Batch and interactive modes
  - Seamlessly integrated with data and high performance computing – not dependent on your hardware
  - Create and publish Apps and workflows so anyone can use them
  - Analysis history and provenance – “avoid forensic bioinformatics”
- - Securetly and easily manage and share data 
+ - Securetly and easily manage, share, and publish data 
+ 
+DE Walkthrough
+===============
+Log in at https://de.cyverse.org/
+
+|DE_blank|
+
+Open the data window:
+
+|DE_data_upload|
+
+|DE_dots_menu|
+
 
 ----
 
@@ -48,13 +62,24 @@ DE benefits:
    replace the image name/location and URL if hyperlinked
 
  .. |DE_icon| image:: ../img/de/de-icon.png
-    :width: 25
-    :height: 25
+     :width: 100
+     :height: 88
  .. _DE_icon: https://de.cyverse.org/de/
     
 .. |Static image| image:: ./img/IMAGENAME.png
     :width: 25
     :height: 25
+
+.. |DE_analyses| image:: ../img/IMAGENAME.png../img/de/DE_analyses.png
+
+.. |DE_apps_operation| image:: ../img/de/DE_apps_operation.png
+
+.. |DE_blank| image:: ../img/de/DE_blank.png
+
+.. |DE_data_upload| image:: ../img/de/DE_data_upload.png
+
+.. |DE_dots_menu| image:: ../img/de/DE_dots_menu.png
+
 
 
 
