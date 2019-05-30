@@ -67,10 +67,10 @@ Using R as a calculator
 	> 2/10000
 	> 2e-04
 
-Exercise::
+**Exercise:**
 
-1. What is the output for 5e3?
-2. How would you add 5 and 3 and multiply the sum by 2?
+	1. What is the output for 5e3?
+	2. How would you add 5 and 3 and multiply the sum by 2?
 
 Comparing things: Using logical operators
 
@@ -148,7 +148,7 @@ There are many ways to upload data in the R environment depending on the documen
 	#General reading
 	read.table("dataFile.ext)
 
-Exercise:
+**Exercise:**
 
 	1. What are the arguments for read.table?
 	2. What arguments would you use to upload a .csv file using read.table()?
@@ -173,7 +173,7 @@ Factor - a way to perform groupings on data (e.g., group by age, gender, or othe
 Character - text that cannot have calculations done on them
 String - a sequence of characters or numbers
 
-Exercise:
+**Exercise:**
 
 	1. What does the following return? What does it mean?
 
@@ -181,7 +181,7 @@ Exercise:
 
 	str(10)
 	str("10")
-	
+
 	2. Try calculations on the following. What works and what doesn't? Why or why not?
 
 .. code-block:: R
@@ -207,7 +207,7 @@ For example, we can store the number 10 in a letter to use later
 **NOTE** Do not create variables that are already functions or arguments (e.g., c, T, F).
 **NOTE** Do not overwrite variables.
 
-Exercise:
+**Exercise:**
 
 	1. What does x*2 give you?
 
@@ -219,7 +219,7 @@ every thing in R is an object; float int string true
 Variables and functions can have vectors as inputs. Vectors are 1-D object that contain "*like*" data types.
 You can create a string of variables and add to a vector using c(), which is short for concatenate.
 
-Exercise:
+**Exercise:**
 
 	1. What are the outputs of 
 
@@ -256,7 +256,7 @@ Array example
 
 Creating a dataframe using data.frame()
 
-Exercise:
+**Exercise:**
 
 	1. Play with the different types of data in the data.frame(). What happens?
 
@@ -355,7 +355,7 @@ head(dataframe)
 Subsetting Data
 ~~~~~~~~~~~~~~~
 
-Exercise:
+**Exercise:**
 
 	1. What is the function for subsetting data?
 
@@ -368,7 +368,7 @@ Exercise:
 	x[names(x) == "a" | "c"]
 	x[names(x) != "a"]
 
-What are the outputs?
+	2. What are the outputs?
 
 
 
