@@ -334,16 +334,12 @@ Useful Links
   
 .. |porechoprun| image:: ../img/biocontainers6.png
   :width: 750
-  :height: 200
 
 .. |porechoptrim| image:: ../img/biocontainers1.png
   :width: 750
-  :height: 200
 
 .. |porechopdone| image:: ../img/biocontainers2.png
   :width: 750
-  :height: 150
 
 .. |porechopout| image:: ../img/biocontainers12.png
   :width: 750
-  :height: 150
