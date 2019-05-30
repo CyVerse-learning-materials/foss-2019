@@ -26,27 +26,39 @@ DE Basics Walkthrough
 
 |DE_blank|
 
+Data Window
+~~~~~~~~~~~~~~`
  - Open the data window and upload a file:
 
 |DE_data_upload|
 
- - Create a new text file and share it with someone in the class:
+ - `Create a new text file <https://wiki.cyverse.org/wiki/display/DEmanual/Creating+New+Files+and+Folders>`_ and share it with someone in the class:
 
 |DE_dots_menu|
 
- - Download the shared file.
+ - `Download <https://wiki.cyverse.org/wiki/display/DEmanual/Downloading+Files+and+Folders>`_ the shared file.
+ - `Collaborator lists <https://wiki.cyverse.org/wiki/display/DEmanual/Adding+and+Deleting+Users+from+the+Collaborators+List+in+Preferences>`_
+ 
+Apps Window
+~~~~~~~~~~~~~~`
  - Find an app by browsing:
 
 |DE_apps_operation|
 
- - Find an app by searching
- - Launch the word count app
+ - Find an app by `searching <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+an+App,+Workflow,+or+Tool>`_
+ - `Launch and analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Apps>`_ using the word count app
  
 |DE_word_count|
 
-Open the Analyese window and view analysis status:
+Analyses Window
+~~~~~~~~~~~~~~`
+
+ - Open the `Analyeses window ,https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Analyses+Window>`_ and view analysis status:
 
 |DE_analyses|
+
+ - `Relaunch or cancel <https://wiki.cyverse.org/wiki/display/DEmanual/Relaunching%2C+Canceling%2C+and+Deleting+Analyses%2C+Viewing+Analysis+Outputs+and+Info>`_ an analysis
+ - `Share an analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+an+Analysis>`_
 
 Using metadata in the DE
 ========================
