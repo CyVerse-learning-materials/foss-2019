@@ -293,9 +293,10 @@ Calling columns:
 	hello[,2]
 	hello$letters
 
-**Useful Function to explore data types**
+**Useful Functions to explore data types**
 
 .. code-block:: R
+
 	View()
 	str()
 	summary()
