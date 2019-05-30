@@ -11,7 +11,7 @@
 .. #### Comment: Advanced data store usage
 
 
-**CyVErse Data Commons**
+**CyVerse Data Commons**
 -------------------------------
 
 
