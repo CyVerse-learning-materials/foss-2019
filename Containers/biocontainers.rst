@@ -327,10 +327,6 @@ Useful Links
   :width: 750
   :height: 400
 
-.. |runporechop| image:: ../img/biocontainers9.png
-  :width: 750
-  :height: 70
-
 .. |registrytags| image:: ../img/biocontainers19.png
   :width: 750
   :height: 400
@@ -338,6 +334,10 @@ Useful Links
 .. |pullquayio| image:: ../img/biocontainers11.png
   :width: 750
   :height: 300
+  
+.. |porechoprun| image:: ../img/biocontainers6.png
+  :width: 750
+  :height: 200
 
 .. |porechoptrim| image:: ../img/biocontainers1.png
   :width: 750
