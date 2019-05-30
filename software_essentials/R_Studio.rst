@@ -73,7 +73,8 @@ Exercise:
 
 Comparing things: Using logical operators
 
-.. code-block::
+.. code-block:: R
+
 	> 1 == 1
 	> TRUE
 	
@@ -91,7 +92,8 @@ help() is the most useful function in R. You will likely use this and Stack Over
 
 Exercise:
 
-.. code-block::
+.. code-block:: R
+
 	help(plot)
 
 Parts of the help file:
@@ -106,7 +108,8 @@ Parts of the help file:
 	The argument (e.g., x, y) do not always need to be specified.
 	For example, 
 
-.. code-block::
+.. code-block:: R
+
 	plot(x = data.x, y = data.y)
 	plot(data.x, data.y)
 
@@ -124,14 +127,16 @@ are the same thing.
 Installing packages
 ~~~~~~~~~~~~~~~~~~~
 
-.. code-block::
+.. code-block:: R
+
 	install.packages("packageName")
 
 Often installing a package will automatically install all the dependencies as well.
 
 You can see installed packages with the following command:
 
-.. code-block::
+.. code-block:: R
+
 	installed.packages()
 
 Uploading Data
@@ -139,7 +144,8 @@ Uploading Data
 
 There are many ways to upload data in the R environment depending on the document type you have.
 
-.. code-block::
+.. code-block:: R
+
 	#General reading
 	read.table("dataFile.ext)
 
@@ -147,7 +153,8 @@ Exercise:
 1. What are the arguments for read.table?
 2. What arguments would you use to upload a .csv file using read.table()?
 
-.. code-block::
+.. code-block:: R
+
 	#.csv files
 	read.csv()
 	
@@ -169,13 +176,15 @@ String - a sequence of characters or numbers
 Exercise:
 1. What does the following return? What does it mean?
 
-.. code-block::
+.. code-block:: R
+
 	str(10)
 	str("10")
 	
 2. Try calculations on the following. What works and what doesn't? Why or why not?
 
-.. code-block::
+.. code-block:: R
+
 	10*2
 	"10"*2
 
@@ -190,7 +199,8 @@ Variables are assignee using "<-".
 
 For example, we can store the number 10 in a letter to use later
 
-.. code-block::
+.. code-block:: R
+
 	a <- 10
 	
 **NOTE** Do not create variables that are already functions or arguments (e.g., c, T, F).
@@ -207,14 +217,16 @@ You can create a string of variables and add to a vector using c(), which is sho
 Exercise:
 1. What are the outputs of 
 
-.. code-block::
+.. code-block:: R
+
 	x <- c(1, 2, 3, 4, 5)
 	y <- 1:5
 	z <- seq(1, 5, 1)
 
 A list is similar to a vector, but can store different "*types*" of data.
 
-.. code-block::
+.. code-block:: R
+
 	m <- list("a", 10, "10", a)
 
 2. What is m?
@@ -226,7 +238,8 @@ An array is more than 2-D and can contain many types of data types and not be ev
 
 Array example
 
-.. code-block::
+.. code-block:: R
+
 	# Create two vectors of different lengths.
 	vector1 <- c(5,9,3)
 	vector2 <- c(10,11,12,13,14,15)
@@ -242,7 +255,8 @@ Exercise:
 You can combine dataframes:
 Example:
 
-.. code-block::
+.. code-block:: R
+
 	hello <- data.frame (1:26, letters, words = c("hey", "you")) 
 	hi <- data.frame(1:26, letters, c("hey", "you"))
 	howdy <- data.frame(hello, hi)
@@ -250,13 +264,15 @@ Example:
 Adding columns and rows using cbind() and rbind()
 Example:
 
-.. code-block::
+.. code-block:: R
+
 	cbind(hello, "goodbye")
 	
 We can call columns using "$" in the form of data.frame$column or call them using the modifier [row#, column#]
 Calling columns:
 
-.. code-block::
+.. code-block:: R
+
 	hello[,2]
 	hello$letters
 	
@@ -264,7 +280,8 @@ Calling columns:
 
 Likewise, columns are rows can be removed using "-" as a modifier
 
-.. code-block::
+.. code-block:: R
+
 	hello[,-2]
 
 What is the output?
@@ -280,7 +297,8 @@ The R Environment
 
 You can view your environment either by looking at the upper left tab or by typing the following:
 
-.. code-block::
+.. code-block:: R
+
 	ls()
 
 You can remove objects using the rm() function.
@@ -296,7 +314,8 @@ Data Manipulation
 
 Create the following dataframe:
 
-.. code-block::
+.. code-block:: R
+
 	cats <- data.frame(coat = c("calico", "black", "tabby"), 
                     weight = c(2.1, 5.0,3.2), 
                     likes_string = c(1, 0, 1))
@@ -304,7 +323,8 @@ Create the following dataframe:
 
 Let's add!
 
-.. code-block::
+.. code-block:: R
+
 	cats$weight + 2
 	cats$coat + cats$coat
 
@@ -312,7 +332,8 @@ What are the outputs?
 
 We can use the function "paste" to make more complex strings:
 
-.. code-block::
+.. code-block:: R
+
 	paste("My cat is", cats$coat)
 
 What is the output?
@@ -328,7 +349,8 @@ Subsetting Data
 Exercise:
 1. What is the function for subsetting data?
 
-.. code-block::
+.. code-block:: R
+
 	x <- c(a=5.4, b=6.2, c=7.1, d=4.8, e=7.5) # we can name a vector 'on the fly'
 	#x is a vector
 	x[c(a,c),]	
