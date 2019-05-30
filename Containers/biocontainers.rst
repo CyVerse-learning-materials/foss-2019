@@ -155,7 +155,7 @@ How to Use a BioContainer
 To run your BioContainer you will need a computer with Docker installed. 
  
 How to Install Docker
-"""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^
 
 Installing Docker on your computer takes a little time but it is reasonably straight forward and it is a one-time setup. `Docker can be installed by following these directions. <https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/docker/dockerintro.html>`_
 
@@ -167,7 +167,7 @@ Docker installation is much easier on an Atmosphere instance with the 'ezd' comm
     
 
 Get Data to Use with Your Container 
-"""""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `Set up iCommands. <https://learning.cyverse.org/projects/atmosphere-guide/en/latest/step4.html>`_ 
 
