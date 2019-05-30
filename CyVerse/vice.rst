@@ -12,18 +12,19 @@ VICE uses Docker containers to launch interactive programs, like RStudio, R Shin
 
 **Visual Interactive Computing Environment**
 
-- You can launch existing VICE images from the DE, or integrate your own using the Manage Tools 
-- reminder two
-
+- You can launch existing VICE images from the DE, or integrate your own using the Manage Tools. 
+- VICE apps are containers, and your data are in the container until you move them off of it. Your results will be saved when the app terminates in your ``/username/analyses`` directory, unless you specify that the app results be saved elsewhere.
 
 ----
 
-*Descriptive title - reference platform/tool name for searchability*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Starting a VICE app*
+~~~~~~~~~~~~~~~~~~~~
 
-  1.
+  1. Log into CyVerse `Discovery Environment <https://de.cyverse.org/de/>`_ or `CyVerse Run <https://cyverse.run>`_
 
-  2.
+  2. Select an application and start it
+  
+  3. After a few seconds to a couple of minutes (<2) your app should be running, you'll see a notification icon (bell) in the upper right corner of the DE, or click on `Analyses` to view the apps that you are running.
 
 ..
 	#### Comment: Suggested style guide:
