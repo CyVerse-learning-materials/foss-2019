@@ -159,16 +159,16 @@ How to Install Docker on Your System
 
 `Docker can be installed on your local system by following these directions <https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/docker/dockerintro.html>`_
 
-Setting up your Atmosphere Instance
+Setting up an Atmosphere Instance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Docker installation is much easier on an Atmosphere instance with ezd command.
+Docker installation is much easier on an Atmosphere instance with the ezd command.
 
 .. code-block:: bash
 
     $ ezd
     
 
-Get Data to Use with Your Container
+Get Data to Use with Your Container 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `Set up iCommands on your instance. <https://learning.cyverse.org/projects/atmosphere-guide/en/latest/step4.html>`_ 
