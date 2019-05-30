@@ -96,6 +96,9 @@ Additional resources
 .. Comment: Place Images Below This Line
 
 .. |DE_icon| image:: ../img/de/de-icon.png
+    :width: 50
+    :height: 50
+.. _DE_icon: https://de.cyverse.org/
 
 .. |DE_analyses| image:: ../img/de/DE_analyses.png
 
