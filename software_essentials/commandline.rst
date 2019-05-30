@@ -35,8 +35,12 @@ The **graphical user interface (GUI) is the most widely used way to interact wit
 **The shell - a command-line interface to make repetitive tasks automatic and fast**. 
     - can take a single instruction and repeat it 
 
-For example if we have to copy the third line of each of a thousand text files stored in thousand different folders/directories and paste it into a single file line by line. Using the tradition GUI approach of clicks will take several hours to do this.
+.. admonition:: Example 
 
+    If we have to copy the third line of each of a thousand text files stored in thousand different folders/directories and paste it into a single file line by line. 
+    
+    - Using the traditional GUI approach will take several hours to do this.
+    - Using the shell this will only take a couple of minutes (at most).
 
 
 The heart of a command-line interface is a read-evaluate-print loop (REPL). It is called so because when you type a command and press **Return** (also known as **Enter**) the shell reads your command, evaluates (or “executes”) it, prints the output of your command, loops back and waits for you to enter another command.
@@ -77,7 +81,7 @@ Now try
 
 Usually this means that you have mis-typed the command - in this case we omitted the space between ls and -F.
 
-.. admonition:: Tab Auto-Completion
+.. hint:: Re-enter the same command easily
 
     To re-enter the same command again use the up arrow to display the previous command. Press the up arrow twice to show the command before that (and so on).
 
@@ -102,9 +106,7 @@ Directories are like places - at any time while we are using the shell we are in
 
 Here, the computer’s response is /Users/nelle, which is Nelle’s home directory.
 
-.. Note::
-
-    Home Directory Variation
+.. admonition:: Home Directory Variation
     The home directory path will look different on different operating systems. On Linux it may look like /home/nelle, and on Windows it will be similar to C:\Documents and Settings\nelle or C:\Users\nelle. (It may look slightly different for different versions of Windows.) In future examples, we’ve used Mac output as the default - Linux and Windows output may differ slightly, but should be generally similar.
 
 To understand what a “home directory” is, let’s have a look at how the file system as a whole is organized. For the sake of this example, we’ll be illustrating the filesystem on our scientist Nelle’s computer. After this illustration, you’ll be learning commands to explore your own filesystem, which will be constructed in a similar way, but not be exactly identical.
@@ -410,7 +412,7 @@ The special directory .. doesn’t usually show up when we run ls. If we want to
 
 **-a stands for “show all”**; it forces ls to show us file and directory names that begin with ., such as .. (which, if we’re in /Users/nelle, refers to the /Users directory) As you can see, it also displays **another special directory that’s just called ., which means “the current working directory”**. It may seem redundant to have a name for it, but we’ll see some uses for it soon.
 
-.. Note::
+.. hint::
  Most command line tools, multiple options can be combined with a single - and no spaces between the options: ls -F -a is equivalent to ls -Fa.
 
 **Other Hidden Files**
@@ -440,12 +442,11 @@ Check that we’ve moved to the right place by running pwd
     /Users/nelle/Desktop/data-shell/data
 
 
-.. Important::
-    **Relative vs Absolute Paths**
+.. admonition:: Relative vs Absolute Paths
 
     When you use a **relative path** with a command like ls or cd, it tries to find that **location from where we are**, rather than from the root of the file system.
 
-However, it is possible to specify the **absolute path** to a directory by including its **entire path from the root directory**, which is indicated by a leading slash. The leading / tells the computer to follow the path from the root of the file system, so it always refers to exactly one directory, no matter where we are when we run the command.
+    However, it is possible to specify the **absolute path** to a directory by including its **entire path from the root directory**, which is indicated by a leading slash. The leading / tells the computer to follow the path from the root of the file system, so it always refers to exactly one directory, no matter where we are when we run the command.
 
 This allows us to move to our data-shell directory from anywhere on the filesystem (including from inside data). To find the absolute path we’re looking for, we can use pwd and then extract the piece we need to move to data-shell.
 
@@ -485,8 +486,10 @@ and then presses **Tab (the tab key on her keyboard), the shell automatically co
 .. code-block:: bash
 
     $ ls north-pacific-gyre/
+    
+.. hint:: 
 
-If she presses **Tab again**, Bash will add 2012-07-03/ to the command, since it’s the only possible completion. Pressing Tab again does nothing, since there are 19 possibilities; pressing Tab twice brings up a list of all the files, and so on. This is called tab completion, and we will see it in many other tools as we go on.
+Press begin typing a file or directory and press **Tab**. The shell will autocomplete the name. If she presses **Tab again**, Bash will add 2012-07-03/ to the command, since it’s the only possible completion. Pressing Tab again does nothing, since there are 19 possibilities; pressing Tab twice brings up a list of all the files, and so on. This is called tab completion, and we will see it in many other tools as we go on.
 
 **Working with Files and Directories**
 --------------------------------------
@@ -519,17 +522,9 @@ As you might guess from its name, **mkdir means “make directory”**. Since th
     creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg
     solar.pdf  thesis/  writing/
 
-.. Note::
-
-    Two ways of doing the same thing
+.. admonition:: Good names for files and directories
     
-    **Using the shell to create a directory** is no different than **using a file         explorer**. If you open the current directory using your operating system’s graphical file explorer, the thesis directory will appear there too. While the shell and the file explorer are two different ways of interacting with the files, the files and directories themselves are the same.
-
-.. Important::
-
-    Good names for files and directories
-    
-    Complicated names of files and directories can make your life painful when          working on the command line. Here we provide a few useful tips for the names of your files.
+    Complicated names of files and directories can make your life painful when working on the command line. Here we provide a few useful tips for the names of your files.
 
     1. Don’t use spaces.
 
@@ -643,8 +638,7 @@ The **first argument tells mv what we’re “moving”**, while the **second is
 
 One has to be careful when specifying the target file name, since **mv will silently overwrite any existing file with the same name**, which could lead to data loss. An additional option, **mv -i (or mv --interactive), can be used to make mv ask you for confirmation before overwriting**.
 
-.. Note:: 
-    mv also works on directories.
+.. admonition:: mv also works on directories.
 
 Let’s move quotes.txt into the current working directory. We use mv once again, but this time we’ll just use the name of a directory as the second argument to tell mv that we want to keep the filename, but put the file somewhere new. (This is why the command is called “move”.) In this case, the directory name we use is the special directory name . that we mentioned earlier.
 
@@ -708,10 +702,12 @@ We can confirm the file has gone using ls:
     $ ls quotes.txt
     ls: cannot access 'quotes.txt': No such file or directory
 
-.. Important::
+.. Warning::
     **Deleting Is Forever**
     
     The Unix shell doesn’t have a trash bin that we can recover deleted files from (though most graphical interfaces to Unix do). Instead, when we delete files, they are unlinked from the file system so that their storage space on disk can be recycled. Tools for finding and recovering deleted files do exist, but there’s no guarantee they’ll work in any particular situation, since the computer may recycle the file’s disk space right away.
+    
+     Given that there is no way to retrieve files deleted using the shell, rm -r should be used with great caution (you might consider adding the interactive option rm -r -i).
 
 **Using rm Safely**
 
@@ -729,9 +725,6 @@ This happens because rm by default only works on files, not directories.
 .. code-block:: bash
 
     $ rm -r thesis
-
-.. Important::
-    Given that there is no way to retrieve files deleted using the shell, rm -r should be used with great caution (you might consider adding the interactive option rm -r -i).
 
 Operations with multiple files and directories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
