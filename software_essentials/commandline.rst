@@ -82,7 +82,7 @@ The part of the operating system responsible for managing files and directories 
 
 Several commands are frequently used to create, inspect, rename, and delete files and directories. To start exploring them, we’ll go to our open shell window.
 
-First let’s find out where we are by running a command called **pwd** (which stands for “**print working directory**”). Directories are like places - at any time while we are using the shell we are in exactly one place, called our current working directory.** Commands mostly read and write files in the current working directory**, i.e. “here”, so knowing where you are before running a command is important. pwd shows you where you are:
+First let’s find out where we are by running a command called **pwd** (which stands for “**print working directory**”). Directories are like places - at any time while we are using the shell we are in exactly one place, called our current working directory. **Commands mostly read and write files in the current working directory**, i.e. “here”, so knowing where you are before running a command is important. **pwd shows you where you are**:
 
 .. code-block:: bash
 
@@ -122,7 +122,7 @@ Underneath /Users, we find one directory for each user with an account on Nelle�
 
 The user Imhotep’s files are stored in /Users/imhotep, user Larry’s in /Users/larry, and Nelle’s in /Users/nelle. Because Nelle is the user in our examples here, this is why we get /Users/nelle as our home directory.
 
-Typically, when you open a new command prompt you will be in your home directory to start.
+**Typically, when you open a new command prompt you will be in your home directory to start.**
 
 Now let’s learn the command that will let us see the contents of our own filesystem. We can see what’s in our home directory by running **ls**, which stands for “**listing**”:
 
@@ -289,9 +289,8 @@ Many bash commands, and programs that people have written that can be run from w
 
 Also available locally via: info '(coreutils) ls invocation'
 
-Unsupported command-line options
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If you try to use an option (flag) that is not supported, ls and other commands                         will usually print an error message similar to:
+**Unsupported command-line options**
+If you try to use an option (flag) that is not supported, ls and other commands will usually print an error message similar to:
 
 .. code-block:: bash
 
@@ -317,7 +316,7 @@ Manual pages on the web
 
 Of course there is a third way to access help for commands: searching the internet via your web browser. When using internet search, including the phrase unix man page in your search query will help to find relevant results.GNU provides links to its `manuals <http://www.gnu.org/manual/manual.html>`_ including the `core GNU utilities <http://www.gnu.org/software/coreutils/manual/coreutils.html>`_ , which covers many commands introduced within this lesson.
 
-We can also use ls to see the contents of a different directory. Let’s take a look at our Desktop directory by running ls -F Desktop, i.e., the command ls with the -F option and the argument Desktop. The argument Desktop tells ls that we want a listing of something other than our current working directory:
+**We can also use ls to see the contents of a different directory**. Let’s take a look at our Desktop directory by running ls -F Desktop, i.e., the command ls with the -F option and the argument Desktop. The argument Desktop tells ls that we want a listing of something other than our current working directory:
 
 .. code-block:: bash
 
@@ -398,25 +397,15 @@ The special directory .. doesn’t usually show up when we run ls. If we want to
 **Other Hidden Files**
 In addition to the hidden directories .. and ., you may also see a file called .bash_profile. This file usually contains shell configuration settings. You may also see other files and directories beginning with .. These are usually files and directories that are used to configure different programs on your computer. The prefix . is used to prevent these configuration files from cluttering the terminal when a standard ls command is used.
 
-**Orthogonality**
-The special names . and .. don’t belong to cd; they are interpreted the same way by every program. For example, if we are in /Users/nelle/data, the command ls .. will give us a listing of /Users/nelle. When the meanings of the parts are the same no matter how they’re combined, programmers say they are orthogonal: Orthogonal systems tend to be easier for people to learn because there are fewer special cases and exceptions to keep track of.
-
 **These then, are the basic commands for navigating the filesystem on your computer: pwd, ls and cd.** Let’s explore some variations on those commands. 
 
-What happens if you type cd on its own, without giving a directory?
+**cd without an argument will return you to your home directory**
 
 .. code-block:: bash
 
     $ cd
-    
-How can you check what happened? pwd gives us the answer!
-
-.. code-block:: bash
-
     $ pwd
     /Users/nelle
-
-It turns out that **cd without an argument will return you to your home directory**, which is great if you’ve gotten lost in your own filesystem.
 
 Let’s try returning to the data directory from before. Last time, we used three commands, but we can actually **string together the list of directories to move to data in one step:**
 
@@ -424,16 +413,16 @@ Let’s try returning to the data directory from before. Last time, we used thre
 
     $ cd Desktop/data-shell/data
 
-Check that we’ve moved to the right place by running pwd and ls -F
+Check that we’ve moved to the right place by running pwd
 
 .. code-block:: bash
 
     $ pwd
     /Users/nelle/Desktop/data-shell/data
 
-If we want to move up one level from the data directory, we could use cd .. but there is another way to move to any directory, regardless of your current location.
+**Relative vs Absolute Paths**
 
-So far, when specifying directory names, or even a directory path (as above), we have been using **relative paths**. When you use a relative path with a command like ls or cd, it tries to find that **location from where we are**, rather than from the root of the file system.
+When you use a **relative path** with a command like ls or cd, it tries to find that **location from where we are**, rather than from the root of the file system.
 
 However, it is possible to specify the **absolute path** to a directory by including its **entire path from the root directory**, which is indicated by a leading slash. The leading / tells the computer to follow the path from the root of the file system, so it always refers to exactly one directory, no matter where we are when we run the command.
 
@@ -445,15 +434,12 @@ This allows us to move to our data-shell directory from anywhere on the filesyst
     /Users/nelle/Desktop/data-shell/data
     $ cd /Users/nelle/Desktop/data-shell
 
-Run pwd and ls -F to ensure that we’re in the directory we expect.
+Run pwd to ensure that we’re in the directory we expect.
 
 .. code-block:: bash
 
     $ pwd
     /Users/nelle/Desktop/data-shell
-    $ ls -F
-    creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg
-    solar.pdf   writing/
     
 **More Shortcuts**
 
@@ -762,7 +748,9 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
 **Other Useful Tools and Commands**
 -----------------------------------
 
-**head prints the first few (10 by default) lines of a file**
+**head**
+^^^^^^^^
+**prints the first few (10 by default) lines of a file**
 
 .. code-block:: bash
 
