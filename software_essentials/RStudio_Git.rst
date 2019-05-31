@@ -2,6 +2,9 @@
 
 |CyVerse|_ 
 
+|Home_Icon|_ `Learning Center Home <http://learning.cyverse.org/>`_
+
+
 **RStudio with Version Control**
 ================================
 
