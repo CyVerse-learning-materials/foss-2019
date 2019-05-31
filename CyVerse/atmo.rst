@@ -516,7 +516,7 @@ Congratulations - you've got a Virtual Machine ready to do some serious data sci
 
 .. |CyVerse_logo| image:: ../img/cyverse_globe_cmyk.png
     :width: 500
-.. _CyVerse logo: http://learning.cyverse.org/
+.. _CyVerse_logo: http://learning.cyverse.org/
 
 .. |Home_Icon| image:: ../img/homeicon.png
     :width: 25
