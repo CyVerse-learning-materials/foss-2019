@@ -1,8 +1,8 @@
 .. include:: ../cyverse_rst_defined_substitutions.txt
 
-|CyVerse_logo2|_
+|CyVerse_logo|_
 
-|Home_Icon2|_
+|Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
@@ -510,7 +510,7 @@ Congratulations - you've got a Virtual Machine ready to do some serious data sci
 .. |notebook_terminal| image:: ./img/notebook_terminal.png
     :width: 750
 
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
+.. |CyVerse_logo| image:: ./img/cyverse_rgb.png
     :width: 500
 .. _CyVerse logo: http://learning.cyverse.org/
 
