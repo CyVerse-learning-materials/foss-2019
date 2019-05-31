@@ -1,8 +1,11 @@
-.. include:: cyverse_rst_defined_substitutions.txt
+.. include:: ../cyverse_rst_defined_substitutions.txt
 
-|CyVerse|_
+|CyVerse_logo2|_
 
-**Getting Started**
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
+
+**Before you arrive**
 ==========
 
 FOSS will take place in Tucson AZ at the University of Arizona `Bioscience Research Lab <https://bsrl.arizona.edu/welcome>`_.
@@ -11,7 +14,7 @@ This is a restricted entry building. Please assemble in the lobby of the buildin
 
 The workshop will be run under a `Code of Conduct <../getting_started/code_of_conduct.html>`_. Please respect it and be excellent to each other!
 
-**Learning objectives**
+**About FOSS**
 ----------
 Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
 
