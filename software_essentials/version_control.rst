@@ -184,14 +184,21 @@ Here is a list of the most important commands in Git:
       - ``git diff [source branch] [target branch]`` 
       - Preview changes before merging
 
+**Issue Tracking**
+------------------
+
+Development teams use tracking software, like `Jira <https://www.atlassian.com/software/jira>`_, or `GitHub Issues <https://guides.github.com/features/issues/>`_ to track their development progress.
+
+ZenHub and Jira use a `Kanban <https://en.wikipedia.org/wiki/Kanban_board>`_ style board for organizing issues.
+
+We're going to use ZenHub because it is free and works off of GitHub Issues.
+
 **ZenHub**
 -----------
 
 `ZenHub <https://www.zenhub.com/>`_ is agile program management software which uses GitHub issues.
 
 You log into ZenHub using your GitHub user name.
-
-ZenHub uses a Kanban style board for organizing issues.
 
 **Self-Paced Lessons**
 ----------------------
