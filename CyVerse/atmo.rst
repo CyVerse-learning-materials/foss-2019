@@ -1,6 +1,6 @@
 .. include:: ../cyverse_rst_defined_substitutions.txt
 
-|CyVerse_logo|_
+|CyVerse|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
@@ -415,8 +415,8 @@ Restart the server
 
 4. You can launch Jupyter Lab by exiting the notebook and typing `jupyter lab` - but this will allow Lab to only be available on the localhost, with no way to connect from a remote terminal. Exit the notebook by pressing `ctrl + c` twice, and then start a `Jupyter Lab <https://github.com/jupyterlab/jupyterlab>`_.
 
-** Self Paced**
----------------
+**Self Paced**
+-------
 
 .. Note::
 
@@ -510,7 +510,11 @@ Congratulations - you've got a Virtual Machine ready to do some serious data sci
 .. |notebook_terminal| image:: ../img/notebook_terminal.png
     :width: 750
 
-.. |CyVerse_logo| image:: ../img/cyverse_rgb.png
+.. |CyVerse| image:: ../img/cyverse_cmyk.png
+  :width: 500
+.. _CyVerse: https://cyverse.org/
+
+.. |CyVerse_logo| image:: ../img/cyverse_globe_cmyk.png
     :width: 500
 .. _CyVerse logo: http://learning.cyverse.org/
 
