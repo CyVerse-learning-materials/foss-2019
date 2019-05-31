@@ -46,7 +46,16 @@ In addition, we will use iCommands to:
  - Navigate to a public folder (icd)
  - Copy a public file to the newly created folder (icp)
 
-TODO: ADD CODE BLOCK HERE
+.. code-block:: bash
+
+    $ imkdir newdir
+    $ imv file_name newdir/file_name
+    $ icd /iplant/home/shared/imicrobe/camera
+    $ ils
+    $ icp camera_projects/CAM_PROJ_AcidMine.csv /iplant/home/$username/newdir/CAM_PROJ_AcidMine.csv
+    $ icd /iplant/home/$username/
+    $ils newdir
+    $ils -A newdir
 
 CyVerse Data Commons
 ========================
@@ -55,15 +64,13 @@ Content
 
 Additional Resources
 ==================
-Data Store Manual
+`Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>`_
 
 `Create a public link via the DE <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step4.html>`_
 
-WebDav
+`WebDav <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step5.html>`_
 
 Scripting with iCommands
-
-iQuest
 
 `DOI request quick start <https://learning.cyverse.org/projects/cyverse-doi-request-quickstart/en/latest/index.html>`_ 
 
