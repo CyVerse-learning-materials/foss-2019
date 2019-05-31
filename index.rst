@@ -25,12 +25,12 @@ Expected outcomes:
    :maxdepth: 1
    
    FOSS 2019 Home <self>
-   FOSS 2019 Intro <intro.rst>
 
 .. toctree::
    :maxdepth: 1
    :caption: Getting Started
 
+   getting_started/intro
    getting_started/main
    getting_started/code_of_conduct
    getting_started/agenda
@@ -41,18 +41,19 @@ Expected outcomes:
    :maxdepth: 1
    :caption: Open Science
 
-   open_sci/open_sci_lab.rst
+   open_sci/open_sci_lab
    
 .. toctree::
    :maxdepth: 1
    :caption: Software Essentials
 
+   software_essentials/version_control
    software_essentials/commandline
    software_essentials/communication
    software_essentials/R_Studio
    software_essentials/RStudio_Git
    software_essentials/shell
-   software_essentials/version_control
+
    software_essentials/websites
 
 .. toctree::
