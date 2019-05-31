@@ -23,7 +23,7 @@ Stuff to get out of the way
 	- Bathrooms, fountains, kitchen
 	- Wifi
 	- Meals
-- `Pre-workshop Set Up <installation.rst>`_
+- `Pre-workshop Set Up <before/installation.rst>`_
 
 ----
 Course Overview
