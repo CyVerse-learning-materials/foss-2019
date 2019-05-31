@@ -126,62 +126,40 @@ To publish your app click on 'Share' at the top of the 'Apps' window and select 
 
    <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/tool_integration_app_building_DE.rst" target="blank">Github Repo Link</a>
 
-
 .. |DElogin| image:: ../img/toolintegration1.png
   :width: 750
-  :height: 450
-
 
 .. |Appswindowbutton| image:: ../img/toolintegration10.png
   :width: 750
-  :height: 375
-
 
 .. |magagetoolsbutton| image:: ../img/toolintegration9.png
   :width: 750
-  :height: 400
-
 
 .. |addtool| image:: ../img/toolintegration3.png
   :width: 750
-  :height: 400
-
 
 .. |addtoolinfo| image:: ../img/toolintegration6.png
   :width: 750
-  :height: 500
-
 
 .. |success| image:: ../img/toolintegration4.png
   :width: 750
-  :height: 150
-
 
 .. |useinapp| image:: ../img/toolintegration7.png
   :width: 750
-  :height: 500
 
 .. |draglefttocenter|  image:: ../img/toolintegration14.png
   :width: 750
-  :height: 400
-
 
 .. |adddetailright| image:: ../img/toolintegration13.png
   :width: 750
-  :height: 300
-
 
 .. |commandlineorder| image:: ../img/toolintegration17.png
   :width: 750
-  :height: 95
-
 
 .. |commandlineexp|  image:: ../img/toolintegration18.png
   :width: 750
-  :height: 100
-
 
 .. |myappsdev| image:: ../img/toolintegration9.png
   :width: 750
-  :height: 400
+
     
