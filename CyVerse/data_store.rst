@@ -12,7 +12,7 @@
 
 |DS_icon|
 
-The Data Store is more than having a place to save your files. It is a way to manage the life cycle of your data - from the moment you create them, to publication and beyond, there are a number of practices that can ensure the integrity and value of your data are maintained. 
+The Data Store is more than  a place to save your files -- it is a way to manage the life cycle of your data. From creation to publication to beyond, there are a number of practices that can ensure the integrity and value of your data are maintained. 
 
 We have already covered accessing the Data Store using the Discovery Environment in the `previous lesson <./de.rst>`_. In this lesson we will practice other ways of accessing the Data Store, plus how to make your data publicly available.
 
@@ -60,7 +60,13 @@ In addition, we will use iCommands to:
 CyVerse Data Commons
 ========================
 
-Content
+The Data Commons provides services throughout CyVerse to manage, organize, preserve, publish, discover, and reuse data.
+
+Through the Data Commons, you can submit data directly to `NCBI's SRA <https://learning.cyverse.org/projects/sra_submission_quickstart/en/latest/index.html>`_ or `WGS <https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=34834057>`_, or `request a Digital Object Identifier (DOI) <https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/>`_ for your dataset.
+
+For data that are not stable or permanent, you can request a `Community Released Folder <https://wiki.cyverse.org/wiki/display/DC/Preparing+Community+Released+Data+Folders>`_/
+
+For an overview see `Publishing data on the CyVerse Data Commons <https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons>`_/
 
 Additional Resources
 ==================
@@ -70,7 +76,7 @@ Additional Resources
 
 `WebDav <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step5.html>`_
 
-Scripting with iCommands
+.. #### Comment: Scripting with iCommands
 
 `DOI request quick start <https://learning.cyverse.org/projects/cyverse-doi-request-quickstart/en/latest/index.html>`_ 
 
@@ -96,7 +102,6 @@ Scripting with iCommands
  .. _CyVerse logo: http://learning.cyverse.org/
     
  .. |DS_icon| image:: ../img/data_store/datastore-icon.png
-    :width: 60
    
 
 
