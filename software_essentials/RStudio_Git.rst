@@ -1,6 +1,6 @@
 .. include:: cyverse_rst_defined_substitutions.txt
 
-|CyVerse|_ 
+|CyVerse logo|_
 
 |Home_Icon|_ `Learning Center Home <http://learning.cyverse.org/>`_
 
@@ -65,21 +65,6 @@ RStudio can be used with Git or SVN. For today's lesson we're going to be using 
    use :height: to give a desired height for your image
    replace the image name/location and URL if hyperlinked
 
-
-.. |CyVerse| image:: ../img/cyverse_cmyk.png
-  :width: 500
-.. _CyVerse: https://cyverse.org/
-
-.. |CyverseLogo| image:: ../img/cyverse_globe_cmyk.png
-  :height: 60
-  :width: 60
-.. _CyverseLogo: https://cyverse.org/
-
-.. |LearningCenter| image:: ../img/Learningcenter_DkBlue.png
-  :height: 60
-  :width: 60
-.. _LearningCenter: http://learning.cyverse.org/
-
 .. Comment: Place URLS Below This Line
 
    # Use this example to ensure that links open in new tabs, avoiding
@@ -89,7 +74,6 @@ RStudio can be used with Git or SVN. For today's lesson we're going to be using 
    .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
-
 
 .. |Github Repo Link|  raw:: html
 
