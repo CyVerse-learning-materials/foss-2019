@@ -8,27 +8,71 @@
 **CyVerse Data Store**
 -------------
 
-.. #### Comment: Advanced data store usage
+.. #### Comment: Data Store usage outside the DE and Data Commons
 
+|DS_icon|
 
-**CyVErse Data Commons**
--------------------------------
+The Data Store is more than having a place to save your files. It is a way to manage the life cycle of your data - from the moment you create them, to publication and beyond, there are a number of practices that can ensure the integrity and value of your data are maintained. 
 
+We have already covered accessing the Data Store using the Discovery Environment in the `previous lesson <./de.rst>`_. In this lesson we will practice other ways of accessing the Data Store, plus how to make your data publicly available.
 
+CyberDuck
+==========
+Cyberduck is a free 3rd party software tool that allows you to drag-and-drop files between your local computer (or a remote server) and the Data Store. Cyberduck can also be used to rename files, and browse other shared or public Data Store locations.
 
-----
+Follow along with the `CyberDuck <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step1.html>`_ quick start to:
 
+ - Install and configure CyberDuck
+ - Upload a file to your CyVerse
+ - Navigate to a public folder
 
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
+iCommands
+===========
+iCommands is a collection of tools developed by the iRODS project, which is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store.
 
+iCommands provides command line access to the Data Store, so it can be included in scripts to automate data upload and download. Unfortunately, iCommands has not been tested in Windows operating systems, but participants with Windows computers can do this exercise using Atmosphere (which will be covered in tomorrow's lessons). 
+
+.. #### Comment: Instructers launch Atmosphere for anyone with a Windows computer
+
+Follow along with the `Using iCommands <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step2.html>`_ quick start to:
+
+ - Install and configure iCommands
+ - Upload a file to your home folder (iput)
+ - Download a file to your desktop (iget)
+ 
+In addition, we will use iCommands to:
+ - Create a new folder in your home directory (imkdir) 
+ - Move a file from your home directory to the new folder (imv)
+ - Navigate to a public folder (icd)
+ - Copy a public file to the newly created folder (icp)
+
+.. code-block:: bash
+
+    $ imkdir newdir
+    $ imv file_name newdir/file_name
+    $ icd /iplant/home/shared/imicrobe/camera
+    $ ils
+    $ icp camera_projects/CAM_PROJ_AcidMine.csv /iplant/home/$username/newdir/CAM_PROJ_AcidMine.csv
+    $ icd /iplant/home/$username/
+    $ils newdir
+    $ils -A newdir
+
+CyVerse Data Commons
+========================
+
+Content
+
+Additional Resources
+==================
+`Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>`_
+
+`Create a public link via the DE <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step4.html>`_
+
+`WebDav <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step5.html>`_
+
+Scripting with iCommands
+
+`DOI request quick start <https://learning.cyverse.org/projects/cyverse-doi-request-quickstart/en/latest/index.html>`_ 
 
 ----
 
@@ -50,11 +94,10 @@
     :width: 500
     :height: 100
  .. _CyVerse logo: http://learning.cyverse.org/
-
- .. |Static image| image:: ./img/IMAGENAME.png
-    :width: 25
-    :height: 25
-
+    
+ .. |DS_icon| image:: ../img/data_store/datastore-icon.png
+    :width: 60
+   
 
 
 .. Comment: Place URLS Below This Line

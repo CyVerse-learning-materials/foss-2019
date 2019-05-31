@@ -3,14 +3,11 @@
 
 **Setup**
 ---------
-You need to download some files to follow this lesson:
+1. Download `data-shell.zip <http://swcarpentry.github.io/shell-novice/data/data-shell.zip>`_ and move the file to your Desktop.
 
-Download `data-shell.zip <http://swcarpentry.github.io/shell-novice/data/data-shell.zip>`_ and move the file to your Desktop.
+2. Unzip/extract the file. You should end up with a new folder called data-shell on your Desktop.
 
-
-Unzip/extract the file. You should end up with a new folder called data-shell on your Desktop.
-
-Open a terminal and type cd, then press the Enter key. 
+3. Open a terminal and type cd, then press the Enter key. 
 
 That last step will make sure you start with your home folder as your working directory.
 In the lesson, you will find out how to access the data in this folder.
@@ -27,31 +24,57 @@ At a high level, computers do four things:
 - communicate with each other, and
 - interact with us
 
-The graphical user interface (GUI) is the most widely used way to interact with personal computers. We give instructions (to run a program, to copy a file, to create a new folder/directory) with the convenience of a few mouse clicks. This way of interacting with a computer is intuitive and very easy to learn. But this way of giving instructions to a computer scales very poorly if we are to give a large stream of instructions even if they are similar or identical. 
+The **graphical user interface (GUI) is the most widely used way to interact with personal computers**. 
+    - give instructions (to run a program, to copy a file, to create a new folder/directory) with mouse 
+    - intuitive and very easy to learn 
+    - scales very poorly
+    
+**The shell - a command-line interface (CLI) to make repetitive tasks automatic and fast**. 
+    - can take a single instruction and repeat it 
 
-For example if we have to copy the third line of each of a thousand text files stored in thousand different folders/directories and paste it into a single file line by line. Using the tradition GUI approach of clicks will take several hours to do this.
+.. admonition:: Example 
 
-This is where we take advange of the shell - a command-line interface to make such repetitive tasks automatic and fast. It can take a single instruction and repeat it over as it is or with some modification as many times as we want. The task in the example above can be accomplished in a few minutes at most.
+    If we have to copy the third line of each of a thousand text files stored in thousand different folders/directories and paste it into a single file line by line. 
+    
+    - Using the traditional GUI approach will take several hours to do this.
+    - Using the shell this will only take a couple of minutes (at most).
 
-The heart of a command-line interface is a read-evaluate-print loop (REPL). It is called so because when you type a command and press **Return** (also known as **Enter**) the shell reads your command, evaluates (or “executes”) it, prints the output of your command, loops back and waits for you to enter another command.
+
+The heart of a command-line interface is a read-evaluate-print loop (REPL). When you type a command and press **Return** 
+    - the shell reads your command
+    - evaluates (or “executes”) it
+    - prints the output of your command
+    - loops back and waits for you to enter another command
 
 The Shell
 ^^^^^^^^^
-The Shell is a **program which runs other programs** rather than doing calculations itself. Those programs can be as complicated as a climate modeling software and as simple as a program that creates a new folder/directory. **The simple programs which are used to perform stand alone tasks are usually refered to as commands.** The most popular Unix shell is Bash, (the Bourne Again SHell — so-called because it’s derived from a shell written by Stephen Bourne). **Bash** is the default shell on most modern implementations of Unix and in most packages that provide Unix-like tools for Windows.
+The Shell is a **program which runs other programs** rather than doing calculations itself. 
+    - programs can be as complicated as a climate modeling software
+    - as simple as a program that creates a new folder/directory 
+    - **simple programs used to perform stand alone tasks are usually refered to as commands.** 
+    - most popular Unix shell is **Bash**, (the Bourne Again SHell). 
+    - Bash is the default shell on most modern implementations of Unix
 
-What does it look like?
 A typical shell window looks something like:
 
 |shelllooklike|
 
 
-The **first line** shows only a prompt, indicating that the shell is waiting for input. Your shell may use different text for the prompt. Most importantly: when typing commands, either from these lessons or from other sources, do not type the prompt, only the commands that follow it.
+**first line shows only a prompt**
+    - indicates the shell is waiting for input 
+    - your shell may use different text for the prompt 
+    - **do not type the prompt**, only the commands that follow it
 
-The part that you type, ls -F / in the second line of the example, typically has the following structure: a command, some options (also called switches or flags) and an argument. Flags start with a single dash (-) or two dashes (--), and change the behaviour of a command. Arguments tell the command what to operate on (e.g. files and directories). Sometimes options and arguments are referred to as parameters. A command can be called with more than one option and more than one argument: but a command doesn’t always require an argument or an option.
-
-In the **second line** of the example above, our **command is ls**, with an **option -F** and an **argument /**. **Each part is separated by spaces**: if you omit the space between ls and -F the shell will look for a command called ls-F, which doesn’t exist. Also, **capitalization matters**: LS is different from ls.
-
-Next we see the **output** that our command produced. In this case it is a listing of files and folders in a location called / - we’ll cover what all these mean later today. Those using a macOS might recognize the output in this example.
+**the second line** 
+   - command is ls, with an option -F and an argument / 
+   - options change the behavior of a command
+   - each part is separated by spaces
+   - capitalization matters
+   - commands can have more than one option or arugment
+   - commands don't always require and option or argument
+    
+**lines 3-5 contain output that command produced**
+    - this is a list of files and folders in the root directory (/)
 
 **Finally**, the shell again prints the prompt and waits for you to type the next command.
 
@@ -71,7 +94,9 @@ Now try
 
 Usually this means that you have mis-typed the command - in this case we omitted the space between ls and -F.
 
-**To re-enter the same command again use the up arrow to display the previous command. Press the up arrow twice to show the command before that (and so on).**
+.. hint::
+
+    To re-enter the same command again use the up arrow to display the previous command. Press the up arrow twice to show the command before that (and so on).
 
 **Navigating Files and Directories**
 ------------------------------------
@@ -81,18 +106,19 @@ The part of the operating system responsible for managing files and directories 
 
 Several commands are frequently used to create, inspect, rename, and delete files and directories. To start exploring them, we’ll go to our open shell window.
 
-First let’s find out where we are by running a command called **pwd** (which stands for “**print working directory**”). Directories are like places - at any time while we are using the shell we are in exactly one place, called our current working directory.** Commands mostly read and write files in the current working directory**, i.e. “here”, so knowing where you are before running a command is important. pwd shows you where you are:
+**Print working directory (pwd)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Directories are like places - at any time while we are using the shell we are in exactly one place, called our current working directory. **Commands mostly read and write files in the current working directory**, i.e. “here”, so knowing where you are before running a command is important. **pwd shows you where you are**:
 
 .. code-block:: bash
 
     $ pwd
-    /Users/nelle
+    /Users/
 
 Here, the computer’s response is /Users/nelle, which is Nelle’s home directory.
 
-.. Note::
-
-    Home Directory Variation
+.. admonition:: Home Directory Variation
     The home directory path will look different on different operating systems. On Linux it may look like /home/nelle, and on Windows it will be similar to C:\Documents and Settings\nelle or C:\Users\nelle. (It may look slightly different for different versions of Windows.) In future examples, we’ve used Mac output as the default - Linux and Windows output may differ slightly, but should be generally similar.
 
 To understand what a “home directory” is, let’s have a look at how the file system as a whole is organized. For the sake of this example, we’ll be illustrating the filesystem on our scientist Nelle’s computer. After this illustration, you’ll be learning commands to explore your own filesystem, which will be constructed in a similar way, but not be exactly identical.
@@ -121,9 +147,13 @@ Underneath /Users, we find one directory for each user with an account on Nelle�
 
 The user Imhotep’s files are stored in /Users/imhotep, user Larry’s in /Users/larry, and Nelle’s in /Users/nelle. Because Nelle is the user in our examples here, this is why we get /Users/nelle as our home directory.
 
-Typically, when you open a new command prompt you will be in your home directory to start.
+**Typically, when you open a new command prompt you will be in your home directory to start.**
 
-Now let’s learn the command that will let us see the contents of our own filesystem. We can see what’s in our home directory by running **ls**, which stands for “**listing**”:
+
+**List files and directories (ls)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Will let us see the contents of our own filesystem. We can see what’s in our home directory by running 
 
 .. code-block:: bash
 
@@ -141,7 +171,11 @@ Your results may be slightly different depending on your operating system and ho
     Applications/ Documents/    Library/      Music/        Public/
     Desktop/      Downloads/    Movies/       Pictures/
 
-Here, we can see that our home directory contains mostly **sub-directories**. Any names in your output that don’t have trailing slashes, are plain old **files**. And note that there is a space between ls and -F: without it, the shell thinks we’re trying to run a command called ls-F, which doesn’t exist.
+Here, we can see that our home directory contains mostly **sub-directories**. Any names in your output that don’t have trailing slashes, are plain old **files**. 
+
+.. note:: 
+
+    There is a space between ls and -F: without it, the shell thinks we’re trying to run a command called ls-F, which doesn’t exist.
 
 Getting help
 ^^^^^^^^^^^^
@@ -286,11 +320,8 @@ Many bash commands, and programs that people have written that can be run from w
 
 `Full documentation <http://www.gnu.org/software/coreutils/ls>`_
 
-Also available locally via: info '(coreutils) ls invocation'
-
-Unsupported command-line options
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If you try to use an option (flag) that is not supported, ls and other commands                         will usually print an error message similar to:
+**Unsupported command-line options**
+If you try to use an option (flag) that is not supported, ls and other commands will usually print an error message similar to:
 
 .. code-block:: bash
 
@@ -306,17 +337,17 @@ The other way to learn about ls is to type
 
     $ man ls
     
-This will turn your terminal into a page with a description of the ls command and its options and, if you’re lucky, some examples of how to use it.
+This will open the manual in your terminal with a description of the ls command and its options and, if you’re lucky, some examples of how to use it.
 
-To navigate through the man pages, you may use **↑** and **↓** to move line-by-line, or try **B** and **Spacebar** to skip up and down by a full page. To search for a character or word in the man pages, use **/ followed by the character** or word you are searching for. Sometimes a search will result in multiple hits. If so, you can move between hits using **N** (for moving forward) and **Shift+N** (for moving backward).
+To navigate through the man pages, you may use **↑** and **↓** to move line-by-line, or try **B** and **Spacebar** to skip up and down by a full page. 
 
-**To quit the man pages, press q**.
+To quit the man pages, press q.
 
-Manual pages on the web
+**Manual pages on the web**
 
 Of course there is a third way to access help for commands: searching the internet via your web browser. When using internet search, including the phrase unix man page in your search query will help to find relevant results.GNU provides links to its `manuals <http://www.gnu.org/manual/manual.html>`_ including the `core GNU utilities <http://www.gnu.org/software/coreutils/manual/coreutils.html>`_ , which covers many commands introduced within this lesson.
 
-We can also use ls to see the contents of a different directory. Let’s take a look at our Desktop directory by running ls -F Desktop, i.e., the command ls with the -F option and the argument Desktop. The argument Desktop tells ls that we want a listing of something other than our current working directory:
+**We can also use ls to see the contents of a different directory**. Let’s take a look at our Desktop directory by running ls -F Desktop, i.e., the command ls with the -F option and the argument Desktop. The argument Desktop tells ls that we want a listing of something other than our current working directory:
 
 .. code-block:: bash
 
@@ -335,9 +366,10 @@ First, we can look at its contents, using the same strategy as before, passing a
     creatures/          molecules/          notes.txt           solar.pdf
     data/               north-pacific-gyre/ pizza.cfg           writing/
 
-Second, we can actually change our location to a different directory, so we are no longer located in our home directory.
+**Change directory (cd)**
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The **command to change locations is cd** followed by a directory name to change our working directory. **cd stands for “change directory”**, which is a bit misleading: the command doesn’t change the directory, it changes the shell’s idea of what directory we are in.
+We can change our location to a different directory, so we are no longer located in our home directory. The command doesn’t change the directory, it changes the shell’s idea of what directory we are in.
 
 Let’s say we want to move to the data directory we saw above. We can use the following series of commands to get there:
 
@@ -391,31 +423,21 @@ The special directory .. doesn’t usually show up when we run ls. If we want to
 
 **-a stands for “show all”**; it forces ls to show us file and directory names that begin with ., such as .. (which, if we’re in /Users/nelle, refers to the /Users directory) As you can see, it also displays **another special directory that’s just called ., which means “the current working directory”**. It may seem redundant to have a name for it, but we’ll see some uses for it soon.
 
-.. Note::
- Most command line tools, multiple options can be combined with a single - and no spaces between the options: ls -F -a is equivalent to ls -Fa.
+.. hint::
+ With most command line tools, multiple options can be combined with a single - and no spaces between the options: ls -F -a is equivalent to ls -Fa.
 
 **Other Hidden Files**
 In addition to the hidden directories .. and ., you may also see a file called .bash_profile. This file usually contains shell configuration settings. You may also see other files and directories beginning with .. These are usually files and directories that are used to configure different programs on your computer. The prefix . is used to prevent these configuration files from cluttering the terminal when a standard ls command is used.
 
-**Orthogonality**
-The special names . and .. don’t belong to cd; they are interpreted the same way by every program. For example, if we are in /Users/nelle/data, the command ls .. will give us a listing of /Users/nelle. When the meanings of the parts are the same no matter how they’re combined, programmers say they are orthogonal: Orthogonal systems tend to be easier for people to learn because there are fewer special cases and exceptions to keep track of.
-
 **These then, are the basic commands for navigating the filesystem on your computer: pwd, ls and cd.** Let’s explore some variations on those commands. 
 
-What happens if you type cd on its own, without giving a directory?
+**cd without an argument will return you to your home directory**
 
 .. code-block:: bash
 
     $ cd
-    
-How can you check what happened? pwd gives us the answer!
-
-.. code-block:: bash
-
     $ pwd
     /Users/nelle
-
-It turns out that **cd without an argument will return you to your home directory**, which is great if you’ve gotten lost in your own filesystem.
 
 Let’s try returning to the data directory from before. Last time, we used three commands, but we can actually **string together the list of directories to move to data in one step:**
 
@@ -423,20 +445,21 @@ Let’s try returning to the data directory from before. Last time, we used thre
 
     $ cd Desktop/data-shell/data
 
-Check that we’ve moved to the right place by running pwd and ls -F
+Check that we’ve moved to the right place by running pwd
 
 .. code-block:: bash
 
     $ pwd
     /Users/nelle/Desktop/data-shell/data
 
-If we want to move up one level from the data directory, we could use cd .. but there is another way to move to any directory, regardless of your current location.
 
-So far, when specifying directory names, or even a directory path (as above), we have been using **relative paths**. When you use a relative path with a command like ls or cd, it tries to find that **location from where we are**, rather than from the root of the file system.
+.. admonition:: Relative vs Absolute Paths
 
-However, it is possible to specify the **absolute path** to a directory by including its **entire path from the root directory**, which is indicated by a leading slash. The leading / tells the computer to follow the path from the root of the file system, so it always refers to exactly one directory, no matter where we are when we run the command.
+    When you use a **relative path** with a command like ls or cd, it tries to find that **location from where we are**, rather than from the root of the file system.
 
-This allows us to move to our data-shell directory from anywhere on the filesystem (including from inside data). To find the absolute path we’re looking for, we can use pwd and then extract the piece we need to move to data-shell.
+    However, it is possible to specify the **absolute path** to a directory by including its **entire path from the root directory, which is indicated by a leading slash**. The leading / tells the computer to follow the path from the root of the file system, so it always refers to exactly one directory, no matter where we are when we run the command.
+
+Absolute paths allow us to move to our data-shell directory from anywhere on the filesystem (including from inside data). To find the absolute path we’re looking for, we can use pwd and then extract the piece we need to move to data-shell.
 
 .. code-block:: bash
 
@@ -444,15 +467,12 @@ This allows us to move to our data-shell directory from anywhere on the filesyst
     /Users/nelle/Desktop/data-shell/data
     $ cd /Users/nelle/Desktop/data-shell
 
-Run pwd and ls -F to ensure that we’re in the directory we expect.
+Run pwd to ensure that we’re in the directory we expect.
 
 .. code-block:: bash
 
     $ pwd
     /Users/nelle/Desktop/data-shell
-    $ ls -F
-    creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg
-    solar.pdf   writing/
     
 **More Shortcuts**
 
@@ -477,18 +497,16 @@ and then presses **Tab (the tab key on her keyboard), the shell automatically co
 .. code-block:: bash
 
     $ ls north-pacific-gyre/
+    
+.. hint:: 
 
-If she presses **Tab again**, Bash will add 2012-07-03/ to the command, since it’s the only possible completion. Pressing Tab again does nothing, since there are 19 possibilities; pressing Tab twice brings up a list of all the files, and so on. This is called tab completion, and we will see it in many other tools as we go on.
+Begin typing a file or directory and press **Tab**. The shell will autocomplete the name. If she presses **Tab again**, Bash will add 2012-07-03/ to the command, since it’s the only possible completion. Pressing Tab again does nothing, since there are 19 possibilities; pressing Tab twice brings up a list of all the files, and so on. This is called tab completion, and we will see it in many other tools as we go on.
 
 **Working with Files and Directories**
 --------------------------------------
 
 Creating directories
 ^^^^^^^^^^^^^^^^^^^^
-We now know how to explore files and directories, but how do we create them in the first place?
-
-**See where we are and what we already have**
-
 Let’s go back to our data-shell directory on the Desktop and use ls -F to see what it contains:
 
 .. code-block:: bash
@@ -498,8 +516,6 @@ Let’s go back to our data-shell directory on the Desktop and use ls -F to see 
     $ ls -F
     creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg
     solar.pdf  writing/
-    
-**Create a directory**
 
 Let’s create a new directory called thesis using the command **mkdir** thesis (which has no output):
 
@@ -515,17 +531,9 @@ As you might guess from its name, **mkdir means “make directory”**. Since th
     creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg
     solar.pdf  thesis/  writing/
 
-.. Note::
-
-    Two ways of doing the same thing
+.. admonition:: Good Names for Files and Directories
     
-    **Using the shell to create a directory** is no different than **using a file         explorer**. If you open the current directory using your operating system’s graphical file explorer, the thesis directory will appear there too. While the shell and the file explorer are two different ways of interacting with the files, the files and directories themselves are the same.
-
-.. Important::
-
-    Good names for files and directories
-    
-    Complicated names of files and directories can make your life painful when          working on the command line. Here we provide a few useful tips for the names of your files.
+    Complicated names of files and directories can make your life painful when working on the command line. Here we provide a few useful tips for the names of your files.
 
     1. Don’t use spaces.
 
@@ -557,10 +565,7 @@ Let’s change our working directory to thesis using cd, then run a **text edito
     $ nano draft.txt
 
 .. Note::
-    Which Editor?
-    When we say, “nano is a text editor,” we really do mean “text”: it can only work with plain character data, not tables, images, or any other human-friendly media. We use it in examples because it is one of the least complex text editors. However, because of this trait, it may not be powerful enough or flexible enough for the work you need to do after this workshop. On Unix systems (such as Linux and Mac OS X), many programmers use Emacs or Vim (both of which require more time to learn), or a graphical editor such as Gedit. On Windows, you may wish to use Notepad++. Windows also has a built-in editor called notepad that can be run from the command line in the same way as nano for the purposes of this lesson.
-
-    No matter what editor you use, you will need to know where it searches for and saves files. If you start it from the shell, it will (probably) use your current working directory as its default location. If you use your computer’s start menu, it may want to save files in your desktop or documents directory instead. You can change this by navigating to another directory the first time you “Save As…”
+    When we say, “nano is a text editor,” we really do mean “text”: it can only work with plain character data, not tables, images, or any other human-friendly media. We use it in examples because it is one of the least complex text editors. On Unix systems (such as Linux and Mac OS X), many programmers use Emacs or Vim (both of which require more time to learn), or a graphical editor such as Gedit. On Windows, you may wish to use Notepad++. Windows also has a built-in editor called notepad that can be run from the command line in the same way as nano for the purposes of this lesson.
 
 Let’s type in a few lines of text. Once we’re happy with our text, we can press **Ctrl+O** (press the Ctrl or Control key and, while holding it down, press the O key) to write our data to disk (we’ll be asked what file we want to save this to: press **Return** to accept the suggested default of draft.txt).
 
@@ -609,9 +614,7 @@ Use ls -l to inspect the files. How large is my_file.txt?
 
 
 .. Note::
-    You may have noticed that all of Nelle’s files are named “something dot something”, and in this part of the lesson, we always used the extension .txt. This is just a convention: we can call a file mythesis or almost anything else we want. However, most people use two-part names most of the time to help them (and their programs) tell different kinds of files apart. The second part of such a name is called the filename extension, and indicates what type of data the file holds: .txt signals a plain text file, .pdf indicates a PDF document, .cfg is a configuration file full of parameters for some program or other, .png is a PNG image, and so on.
-
-    This is just a convention, albeit an important one. Files contain bytes: it’s up to us and our programs to interpret those bytes according to the rules for plain text files, PDF documents, configuration files, images, and so on.
+    You may have noticed that  files are named “something dot something”, and in this part of the lesson, we always used the extension .txt. This is just a convention: we can call a file mythesis or almost anything else we want. However, most people use two-part names most of the time to help them (and their programs) tell different kinds of files apart. The second part of such a name is called the filename extension, and indicates what type of data the file holds.
 
     Naming a PNG image of a whale as whale.mp3 doesn’t somehow magically turn it into a recording of whalesong, though it might cause the operating system to try to open it with a music player when someone double-clicks it.
 
@@ -637,10 +640,11 @@ The **first argument tells mv what we’re “moving”**, while the **second is
     $ ls thesis
     quotes.txt
 
-One has to be careful when specifying the target file name, since **mv will silently overwrite any existing file with the same name**, which could lead to data loss. An additional option, **mv -i (or mv --interactive), can be used to make mv ask you for confirmation before overwriting**.
+.. warning::
 
-.. Note:: 
-    mv also works on directories.
+    One has to be careful when specifying the target file name, since **mv will silently overwrite any existing file with the same name**, which could lead to data loss. An additional option, **mv -i (or mv --interactive), can be used to make mv ask you for confirmation before overwriting**.
+
+**mv also works on directories**
 
 Let’s move quotes.txt into the current working directory. We use mv once again, but this time we’ll just use the name of a directory as the second argument to tell mv that we want to keep the filename, but put the file somewhere new. (This is why the command is called “move”.) In this case, the directory name we use is the special directory name . that we mentioned earlier.
 
@@ -704,10 +708,7 @@ We can confirm the file has gone using ls:
     $ ls quotes.txt
     ls: cannot access 'quotes.txt': No such file or directory
 
-.. Important::
-    **Deleting Is Forever**
-    
-    The Unix shell doesn’t have a trash bin that we can recover deleted files from (though most graphical interfaces to Unix do). Instead, when we delete files, they are unlinked from the file system so that their storage space on disk can be recycled. Tools for finding and recovering deleted files do exist, but there’s no guarantee they’ll work in any particular situation, since the computer may recycle the file’s disk space right away.
+
 
 **Using rm Safely**
 
@@ -725,9 +726,12 @@ This happens because rm by default only works on files, not directories.
 .. code-block:: bash
 
     $ rm -r thesis
+    
+.. Warning::
 
-.. Important::
-    Given that there is no way to retrieve files deleted using the shell, rm -r should be used with great caution (you might consider adding the interactive option rm -r -i).
+    **Deleting Is Forever**
+    
+    The Unix shell doesn’t have a trash bin that we can recover deleted files from. Instead, when we delete files, they are unlinked from the file system so that their storage space on disk can be recycled. Given that there is no way to retrieve files deleted using the shell, rm -r should be used with great caution (you might consider adding the interactive option rm -r -i).
 
 Operations with multiple files and directories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -748,20 +752,18 @@ If given more than one file name followed by a directory name (i.e. the destinat
 
 **Using wildcards for accessing multiple files at once**
 
-Wildcards
-
 **\* is a wildcard, which matches zero or more characters**. Let’s consider the data-shell/molecules directory: \*.pdb matches ethane.pdb, propane.pdb, and every file that ends with ‘.pdb’. On the other hand, p\*.pdb only matches pentane.pdb and propane.pdb, because the ‘p’ at the front only matches filenames that begin with the letter ‘p’.
 
 **? is also a wildcard, but it matches exactly one character**. So ?ethane.pdb would match methane.pdb whereas \*ethane.pdb matches both ethane.pdb, and methane.pdb.
 
 Wildcards can be used in combination with each other e.g. ???ane.pdb matches three characters followed by ane.pdb, giving cubane.pdb ethane.pdb octane.pdb.
 
-When the shell sees a wildcard, it expands the wildcard to create a list of matching filenames before running the command that was asked for. As an exception, if a wildcard expression does not match any file, Bash will pass the expression as an argument to the command as it is. For example typing ls \*.pdf in the molecules directory (which contains only files with names ending with .pdb) results in an error message that there is no file called \*.pdf. However, generally commands like wc and ls see the lists of file names matching these expressions, but not the wildcards themselves. It is the shell, not the other programs, that deals with expanding wildcards, and this is another example of orthogonal design.
-
 **Other Useful Tools and Commands**
 -----------------------------------
 
-**head prints the first few (10 by default) lines of a file**
+**head**
+^^^^^^^^
+**prints the first few (10 by default) lines of a file**
 
 .. code-block:: bash
 
@@ -777,7 +779,9 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
     (* Month: 1749 06 *) 84
     (* Month: 1749 07 *) 95
 
-**tail prints the last few (10 by default) lines of a file**
+**tail** 
+^^^^^^^^^
+**prints the last few (10 by default) lines of a file**
 
 .. code-block:: bash
 
@@ -793,11 +797,13 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
     (* Month: 2005 01 *) 31
     (* Month: 2005 02 *) 29
     
-**history displays the last few hundred commands that have been executed**
+**history** 
+^^^^^^^^^^^
+**displays the last few hundred commands that have been executed**
 
 .. code-block:: bash
 
-    $history
+    $ history
     1988  cd ..
     1989  ls
     1990  cd data-shell/
@@ -816,7 +822,9 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
     2003  tail data/sunspot.txt 
     2004  history
 
-**grep finds and prints lines in files that match a pattern**
+**grep** 
+^^^^^^^^
+**finds and prints lines in files that match a pattern**
 
 .. code-block:: bash
 
@@ -843,7 +851,9 @@ When the shell sees a wildcard, it expands the wildcard to create a list of matc
     "My Thesis" not found
     Today it is not working
 
-**find finds files**
+**find**
+^^^^^^^^
+**finds files**
 
 To find all the files in the 'writing' directory and sub-directories
 
@@ -871,7 +881,9 @@ To find all the files that end with '.txt'
     $find -name *.txt
     ./haiku.txt
 
-**echo print stings (text)** 
+**echo**
+^^^^^^^^^
+**print stings (text)** 
 
 This is especially useful when writing Bash scripts
 
@@ -880,7 +892,9 @@ This is especially useful when writing Bash scripts
     $echo hello world
     hello world
 
-**> prints output to a file rather than the shell**
+**>**
+^^^^^
+**prints output to a file rather than the shell**
 
 .. code-block:: bash
 
@@ -888,7 +902,9 @@ This is especially useful when writing Bash scripts
     $ ls
     data  haiku.txt  not_haiku.txt  thesis  tools
 
-**>> appends output to the end of a file**
+**>>** 
+^^^^^^^
+**appends output to the end of a file**
 
 .. code-block:: bash
 
@@ -897,7 +913,9 @@ This is especially useful when writing Bash scripts
 
 |nano>>|
 
-**| directs output from the first command into the second command (and the second into the third)**
+**|**
+^^^^^^
+**directs output from the first command into the second command (and the second into the third)**
 
 .. code-block:: bash
 
@@ -910,7 +928,8 @@ This is especially useful when writing Bash scripts
     300 NENE01751A.txt
     
 
-This is was just a brief summary of how to use the command line. There is much, much more you can do. For more information check out the `Software Caprentry <https://software-carpentry.org/workshops/>`_ page. 
+.. Note::
+    This is was just a brief summary of how to use the command line. There is much, much more you can do. For more information check out the `Software Caprentry <https://software-carpentry.org/workshops/>`_ page. 
 
 
 

@@ -1,10 +1,6 @@
 .. include:: ../cyverse_rst_defined_substitutions.txt
 
-|CyVerse_logo2|_
-
-|Home_Icon2|_
-`Learning Center Home <http://learning.cyverse.org/>`_
-
+|CyVerse|_
 
 **Version Control** 
 ===================
@@ -197,8 +193,6 @@ You log into ZenHub using your GitHub user name.
 
 ZenHub uses a Kanban style board for organizing issues.
 
-|CyverseLogo|_ |LearningCenter|_ 
-
 **Self-Paced Lessons**
 ----------------------
 
@@ -220,6 +214,8 @@ Using Github on your own or for your classes
 	4. Primary menu titles in double quotes: Under "Input" choose...
 	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
 	####
+
+|CyverseLogo|_ |LearningCenter|_ 
 
 ----
 

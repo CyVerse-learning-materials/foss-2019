@@ -76,7 +76,7 @@ If the tool you are looking for is already available as a BioContainer click on 
 
 .. Note:: You want the docker images, not the Conda packages. Conda packages are not containers. 
 
-.. Note:: If your tool is not already available as a BioContainer (ie. your search returned nothing) proceed to the `How to request a BioContainer`_ or `How to build a BioContainer`_ section below. 
+.. Note:: If your tool is not already available as a BioContainer (ie. your search returned nothing) proceed to the `How to Request a BioContainer`_ or `How to Build a BioContainer`_ section below. 
 
 
 
@@ -116,7 +116,7 @@ There are fewer BioContainers images available at DockerHub than the other two r
 .. Note:: You can also search for the name of the tool you want. Be sure that you choose images the belong to the BioContainers organization. There will be many other options available on DockerHub. BioContainers is a trusted source. 
 
 
-The second image in this search results list is 'vcftools'. Select 'vcftools' and you will see the repo page for this tool. The 'docker pull' command can be copied from the overview page; however, there is no tag specified. To see the available versions, select the tags tab at the top of the page. You will need to supply the tag of the version you want following a colon at the end of your docker pull command 
+The second image in this search results list is 'vcftools'. Select 'vcftools' and you will see the repo page for this tool. The 'docker pull' command can be copied from the overview page; however, there is no tag specified. To see the available versions, select the tags tab at the top of the page. You will need to supply the tag of the version you want following a colon at the end of your docker pull command to get a specific version.
 
 .. code-block:: bash
 
@@ -152,35 +152,35 @@ When the container is deployed and fully functional, the issue will be closed by
 
 How to Use a BioContainer
 -------------------------
-To run your BioContainer you will need a computer with Docker installed.
+To run your BioContainer you will need a computer with Docker installed. 
  
-How to Install Docker on Your System
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+How to Install Docker
+^^^^^^^^^^^^^^^^^^^^^
 
-`Docker can be installed on your local system by following these directions <https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/docker/dockerintro.html>`_
+Installing Docker on your computer takes a little time but it is reasonably straight forward and it is a one-time setup. `Docker can be installed by following these directions. <https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/docker/dockerintro.html>`_
 
-Setting up your Atmosphere Instance
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Docker installation is much easier on an Atmosphere instance with ezd command.
+Docker installation is much easier on an Atmosphere instance with the 'ezd' command.
 
 .. code-block:: bash
 
     $ ezd
     
 
-Get Data to Use with Your Container
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Get Data to Use with Your Container 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`Set up iCommands on your instance. <https://learning.cyverse.org/projects/atmosphere-guide/en/latest/step4.html>`_ 
+`Set up iCommands. <https://learning.cyverse.org/projects/atmosphere-guide/en/latest/step4.html>`_ 
 
 .. code-block:: bash
 
    $ iget /iplant/home/shared/iplantcollaborative/example_data/porechop/SRR6059710.fastq
+   $ mv SRR6059710.fastq Desktop
+   $ cd Desktop
 
 Use 'docker pull' to Get the Image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-First, you will need to pull the image from the registry onto your computer. Use the 'docker pull' command you copied from the registry above (`Where to get a BioContainer`_). 
+First, you will need to pull the image from the registry onto your computer. Use the 'docker pull' command you copied from the registry above (`Where to Get a BioContainer`_). 
 
 .. code-block:: bash
 
@@ -292,61 +292,46 @@ Useful Links
 - `BioContainers contribution guidelines <https://github.com/BioContainers/specs#33-how-to-create-a-docker-based-biocontainer>`_
 
 .. |biocondalogo| image:: ../img/biocontainers13.png
-  :width: 500
-  :height: 100
+  :width: 300
 
 .. |biocontainerlogo| image:: ../img/biocontainers5a.png
   :width: 500
-  :height: 75
 
 .. |biocontainersregistry| image:: ../img/biocontainers15.png
   :width: 750
-  :height: 300
 
 .. |quayio| image:: ../img/biocontainers20.png
   :width: 750
-  :height: 200
 
 .. |quayiorepo| image:: ../img/biocontainers21.png
   :width: 750
-  :height: 400
 
 .. |quayiotags| image:: ../img/biocontainers3.png
   :width: 750
-  :height: 400
 
 .. |quayiopull| image:: ../img/biocontainers8.png
   :width: 750
-  :height: 200
 
 .. |dockerhub| image:: ../img/biocontainers16.png
   :width: 750
-  :height: 350
 
 .. |requestcontainer| image:: ../img/biocontainers18.png
   :width: 750
-  :height: 400
-
-.. |runporechop| image:: ../img/biocontainers9.png
-  :width: 750
-  :height: 70
 
 .. |registrytags| image:: ../img/biocontainers19.png
   :width: 750
-  :height: 400
 
 .. |pullquayio| image:: ../img/biocontainers11.png
   :width: 750
-  :height: 300
+  
+.. |porechoprun| image:: ../img/biocontainers6.png
+  :width: 750
 
 .. |porechoptrim| image:: ../img/biocontainers1.png
   :width: 750
-  :height: 200
 
 .. |porechopdone| image:: ../img/biocontainers2.png
   :width: 750
-  :height: 150
 
 .. |porechopout| image:: ../img/biocontainers12.png
   :width: 750
-  :height: 150
