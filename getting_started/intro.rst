@@ -6,10 +6,8 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-FOSS 2019 Introduction
+**FOSS 2019 Introduction**
 -------------
-
-.. #### Comment: short description
 
 Welcome and staff introducutions
 ===========================
