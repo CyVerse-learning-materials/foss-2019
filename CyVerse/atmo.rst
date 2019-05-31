@@ -501,20 +501,20 @@ Congratulations - you've got a Virtual Machine ready to do some serious data sci
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |atmo_resources| image:: ./img/atmo_resources.png
+.. |atmo_resources| image:: ../img/atmo_resources.png
     :width: 750
 
-.. |atmo_request| image:: ./img/atmo_request.png
+.. |atmo_request| image:: ../img/atmo_request.png
     :width: 750
 
-.. |notebook_terminal| image:: ./img/notebook_terminal.png
+.. |notebook_terminal| image:: ../img/notebook_terminal.png
     :width: 750
 
-.. |CyVerse_logo| image:: ./img/cyverse_rgb.png
+.. |CyVerse_logo| image:: ../img/cyverse_rgb.png
     :width: 500
 .. _CyVerse logo: http://learning.cyverse.org/
 
-.. |Home_Icon| image:: ./img/homeicon.png
+.. |Home_Icon| image:: ../img/homeicon.png
     :width: 25
 .. _Home_Icon: http://learning.cyverse.org/
 
