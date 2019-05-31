@@ -2,7 +2,7 @@
 
 |CyVerse_logo2|_
 
-|Home_Icon2|_
+|Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
@@ -162,4 +162,6 @@ To publish your app click on 'Share' at the top of the 'Apps' window and select 
 .. |myappsdev| image:: ../img/toolintegration9.png
   :width: 750
 
-    
+.. |Home_Icon| image:: ../img/homeicon.png
+    :width: 25
+.. _Home_Icon: http://learning.cyverse.org/    
