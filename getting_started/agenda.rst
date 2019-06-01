@@ -82,31 +82,31 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 9:15-10:15
       - Introduction to Bash: Command Line Interface (Amanda)
-      - `Talk Slides <link-here>`_  
+      - `Command line and shell <../software_essentials/commandline.html>`_  
     * - 
       - 10:15-10:30
       - Coffee break
       - 
     * - 
       - 10:30-12:00
-      - Programming with R (Meghan)
-      - Install R and R Studio locally
+      - Programming with R with RStudio (Meghan)
+      - `Lesson <../software_essentials/R_Studio.html>`_
     * -
       - 12:00-1:00
       - Lunch Break (on your own)
       -
     * - 
       - 1:00-2:45
-      - Programming with R 
-      -  
+      - RStudio with Version Control 
+      - 'Lesson <../software_essentials/RStudio_Git.html>`_
     * - 
       - 2:45-3:00
       - Coffee break
       - 
     * - 
       - 3:00-4:45
-      - Programming with R 
-      - 
+      - RStudio with Version Control, cont.
+      - 'Lesson <../software_essentials/RStudio_Git.html>`_
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
@@ -118,7 +118,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 06/05/19 (Wednesday)
       - 8:00-9:00
       - Breakfast with DE team (optional)
-      - CyVerse provides breakfast participants who are interested in providing DE user feedback
+      - CyVerse provides breakfast for participants who are interested in providing DE user feedback
     * - 
       - 9:00-9:15
       - Introduction and overview of the day's activities (Ramona)
