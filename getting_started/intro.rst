@@ -15,13 +15,13 @@ Welcome and staff introducutions
 Stuff to get out of the way
 ===========================
 
-- `Code of Conduct <code_of_conduct.rst>`_
+- `Code of Conduct <code_of_conduct.html>`_
 - Logistics
 	- Building access
 	- Bathrooms, fountains, kitchen
 	- Wifi
 	- Meals
-- `Pre-workshop Set Up <../before/installation.rst>`_
+- `Pre-workshop Set Up <../before/installation.html>`_
 
 ----
 Course Overview
@@ -51,7 +51,7 @@ We don't expect anyone to be experts at these skills after one week. Instead, we
 For up to one year following FOSS camp, CyVerse will provide concierge service to participants, to ensure that they are able to take full advantage of CyVerse infrastructure for their open science projects. 
 
 
-`Agenda <agenda.rst>`_
+`Agenda <agenda.html>`_
 ============================
 
 Each day will start with an overview of the days activites and end with an assessment and discussion. Please speak up and let us know if we should go faster, slower, or do something different. Participants should feel free to drive the agenda to suit their needs.
