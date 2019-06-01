@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Open Science Lab
+**Open Science Lab**
 -----------------
 
 .. #### Comment: material for an ongoing activity during FOSS 2019
