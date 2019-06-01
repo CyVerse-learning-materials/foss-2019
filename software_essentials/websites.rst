@@ -95,15 +95,12 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
    
    3. Set permissions to share or make private
    
-|CyverseLogo|_ |LearningCenter|_ 
-
 ----
 
 **Fix or improve this documentation:**
 
 - On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
-- Live chat/help: Click on the |intercom| on the bottom-right of the page for questions on documentation
 
 ----
 
@@ -113,20 +110,6 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
    use :height: to give a desired height for your image
    replace the image name/location and URL if hyperlinked
 
-
-.. |CyVerse| image:: ../img/cyverse_cmyk.png
-  :width: 500
-.. _CyVerse: https://cyverse.org/
-
-.. |CyverseLogo| image:: ../img/cyverse_globe_cmyk.png
-  :height: 60
-  :width: 60
-.. _CyverseLogo: https://cyverse.org/
-
-.. |LearningCenter| image:: ../img/Learningcenter_DkBlue.png
-  :height: 60
-  :width: 60
-.. _LearningCenter: http://learning.cyverse.org/
 
 
 
@@ -143,4 +126,4 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/software_essentials/websites.rst" target="blank">Github Repo Link</a>
