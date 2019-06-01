@@ -938,7 +938,12 @@ This is especially useful when writing Bash scripts
 .. Note::
     This is was just a brief summary of how to use the command line. There is much, much more you can do. For more information check out the `Software Caprentry <https://software-carpentry.org/workshops/>`_ page. 
 
+-------------
+**Fix or improve this documentation:**
 
+- On Github: |Github Repo Link|
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+------------------
 
 .. |shelllooklike| image:: ../img/cmd1.png
   :width: 750
