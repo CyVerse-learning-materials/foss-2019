@@ -72,10 +72,9 @@ There are many ways scientists use social media and the web to share their data 
 3. Community groups - There are lists (and lists of lists) of `nationals research organizations <https://www.google.com/search?q=list+of+professional+science+organizations>`_, in which a researcher can become involved. These older organziations still rely on official websites, science journal blogs, and email lists to communicate with their members. In the earth sciences there are open groups which focus on communication like the `Earth Science Information Partners (ESIP) <https://www.esipfed.org/>`_ with progressive ideas about how data and science can be done. Other groups, like `The Carpentries <https://carpentries.org/>`_ and `Research Bazaar <https://resbazblog.wordpress.com/about/>`_ are focused on data science training and digital literacy. 
 
 .. IMPORTANT::
+   **Remember** Personal and Professional Accounts are Not Isolated
 
-**Remember** Personal and Professional Accounts are Not Isolated
-
-You decide what you post on the internet. Your scientist identity may be a part of your personal identity on social media, it might be separate. A future employer or current employer can see your old posts. What you post in your personal accounts can be considered a reflection of the organization you work for and may be used in decisions about hiring or dismissal. 
+   You decide what you post on the internet. Your scientist identity may be a part of your personal identity on social media, it might be separate. A future employer or current employer can see your old posts. What you post in your personal accounts can be considered a reflection of the organization you work for and may be used in decisions about hiring or dismissal. 
 
 *Self-Paced Materials*
 ~~~~~~~~~~~~~~~~~~~~
