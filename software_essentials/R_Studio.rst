@@ -407,6 +407,13 @@ Subsetting Data
 	x[names(x) == "a" | "c"]
 	x[names(x) != "a"]
 
+
+.. CHEAT SHEETS::
+
+   RStudio provides numerous `"cheat sheets" <https://www.rstudio.com/resources/cheatsheets/>`_ which help learners.
+   
+   `2019 Package Cheat Sheets <https://www.rstudio.com/wp-content/uploads/2019/01/Cheatsheets_2019.pdf>`_
+
 --------------
 **Fix or improve this documentation:**
 - On Github: |Github Repo Link|
