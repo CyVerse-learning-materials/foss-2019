@@ -415,3 +415,8 @@ Subsetting Data
 
 .. |R Console| image:: ../img/rstudio.png
   :width: 750
+  
+  
+  .. |Github Repo Link|  raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/software_essentials/R_Studio.rst" target="blank">Github Repo Link</a>
