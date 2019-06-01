@@ -20,34 +20,35 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
 
 .. #### Comment: short description
 
-*Some things to remember about ReadTheDocs*
--------------------------------------------
+*Some things to remember*
+----------------------
+
+*ReadTheDocs*
+~~~~~~~~~~~
 
 - publishing websites via `ReadTheDocs.com <https://readthedocs.com/dashboard/>`_ costs money.
 - You can work in an offline state, where you develop the materials and publish them to your localhost using `Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_
 - You can work on a website template in a GitHub repository, and pushes are updated in near real time using ReadTheDocs.com. 
 
-*Some things to remember about Bookdown*
-----------------------------------------
+*Bookdown*
+~~~~~~~~~
 
 - Bookdown websites can be hosted by `RStudio Connect <https://www.rstudio.com/products/connect/>`_
 - You can publish a Bookdown website using `Github Pages <https://github.blog/2016-08-17-simpler-github-pages-publishing/>`_
 
-*Some things to remember about GitHub Pages*
---------------------------------------------
+*GitHub Pages*
+~~~~~~~~~~~~~
 
 - You can pull templates from other GitHub users for your website, e.g. `academicpages.github.io <https://github.com/academicpages/academicpages.github.io>`_, `jekyll themes <http://themes.jekyllrc.org/>`_
 - GitHub pages are free, fast, and easy to build, but limited in use of subdomain or URLs.
 
-*Some things to remember about Confluence Wiki*
------------------------------------------------
+*Confluence Wiki*
+~~~~~~~~~~~~~
 
 - CyVerse is paying for Confluence access.
 - Integration with other platforms like Jira. 
 - Scripting in the Confluence Wiki is different than other platforms and may be less reprodicuble.
 
-
-----
 
 **Build your own Website**
 --------------------------
