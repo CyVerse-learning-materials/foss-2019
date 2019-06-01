@@ -46,7 +46,8 @@ Expected outcomes:
 .. toctree::
    :maxdepth: 1
    :caption: Software Essentials
-
+   
+   software_essentials/linux
    software_essentials/version_control
    software_essentials/communication
    software_essentials/websites
