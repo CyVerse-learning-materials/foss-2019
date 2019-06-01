@@ -966,14 +966,8 @@ This is especially useful when writing Bash scripts
   :height: 115
 
 
+.. |Github Repo Link|  raw:: html
 
-
-
-
-
-
-
-
-
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/software_essentials/commandline.rst" target="blank">Github Repo Link</a>
 
 
