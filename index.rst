@@ -49,12 +49,10 @@ Expected outcomes:
 
    software_essentials/version_control
    software_essentials/communication
+   software_essentials/websites
    software_essentials/commandline
    software_essentials/R_Studio
    software_essentials/RStudio_Git
-   software_essentials/shell
-
-   software_essentials/websites
 
 .. toctree::
    :maxdepth: 1
