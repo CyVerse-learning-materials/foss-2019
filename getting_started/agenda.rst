@@ -30,7 +30,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * -  
       - 9:00-:9:30
       - Course introduction and overview of the day's and week's activities (Ramona)
-      - `Course Introduction <../intro.html>`_ 
+      - `Course Introduction <intro.html>`_ 
     * - 
       - 9:30-10:00
       - Opens Science, Introductory activity (Ramona)
@@ -62,7 +62,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 4:15-4:45
       - Tools for collaboration cont.
-      - Wikis & Documentation: Atlassian Confluence, ReadTheDocs
+      - `Wikis & Documentation: Atlassian Confluence, ReadTheDocs <../software_essentials/communication.html>`_
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
