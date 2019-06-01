@@ -1,9 +1,9 @@
-.. include:: cyverse_rst_defined_substitutions.txt
+.. include:: ../cyverse_rst_defined_substitutions.txt
 
-|CyVerse logo|_
+|CyVerse_logo2|_
 
-|Home_Icon|_ `Learning Center Home <http://learning.cyverse.org/>`_
-
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
 
 **RStudio with Version Control**
 ================================
@@ -32,15 +32,6 @@ RStudio can be used with Git or SVN. For today's lesson we're going to be using 
   
   5. Open the directory in RStudio
 
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
 
 *Self Paced*
 ------------
@@ -55,8 +46,6 @@ RStudio can be used with Git or SVN. For today's lesson we're going to be using 
 
 - On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
-- Live chat/help: Click on the |intercom| on the bottom-right of the page for questions on documentation
-
 ----
 
 
@@ -77,4 +66,4 @@ RStudio can be used with Git or SVN. For today's lesson we're going to be using 
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/software_essentials/RStudio_Git.rst" target="blank">Github Repo Link</a>
