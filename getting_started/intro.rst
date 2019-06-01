@@ -15,13 +15,13 @@ Welcome and staff introducutions
 Stuff to get out of the way
 ===========================
 
-- `Code of Conduct <getting_started/code_of_conduct.rst>`_
+- `Code of Conduct <./getting_started/code_of_conduct.rst>`_
 - Logistics
 	- Building access
 	- Bathrooms, fountains, kitchen
 	- Wifi
 	- Meals
-- `Pre-workshop Set Up <before/installation.rst>`_
+- `Pre-workshop Set Up <./before/installation.rst>`_
 
 ----
 Course Overview
@@ -51,7 +51,7 @@ We don't expect anyone to be experts at these skills after one week. Instead, we
 For up to one year following FOSS camp, CyVerse will provide concierge service to participants, to ensure that they are able to take full advantage of CyVerse infrastructure for their open science projects. 
 
 
-`Agenda <getting_started/agenda.rst>`_
+`Agenda <./getting_started/agenda.rst>`_
 ============================
 
 Each day will start with an overview of the days activites and end with an assessment and discussion. Please speak up and let us know if we should go faster, slower, or do something different. Participants should feel free to drive the agenda to suit their needs.
@@ -124,4 +124,4 @@ Each day will start with an overview of the days activites and end with an asses
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/intro.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/getting_started/intro.rst" target="blank">Github Repo Link</a>
