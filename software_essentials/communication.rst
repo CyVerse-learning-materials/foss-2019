@@ -58,7 +58,6 @@ Remember, the intention of these platforms are to **improve productivity** not b
 	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
 	####
 
-|CyverseLogo|_ |LearningCenter|_ 
 
 *Self-Paced Materials*
 ~~~~~~~~~~~~~~~~~~~~
@@ -89,21 +88,6 @@ Remember, the intention of these platforms are to **improve productivity** not b
    replace the image name/location and URL if hyperlinked
 
 
-.. |CyVerse| image:: ../img/cyverse_cmyk.png
-  :width: 500
-.. _CyVerse: https://cyverse.org/
-
-.. |CyverseLogo| image:: ../img/cyverse_globe_cmyk.png
-  :height: 60
-  :width: 60
-.. _CyverseLogo: https://cyverse.org/
-
-.. |LearningCenter| image:: ../img/Learningcenter_DkBlue.png
-  :height: 60
-  :width: 60
-.. _LearningCenter: http://learning.cyverse.org/
-
-
 
 .. Comment: Place URLS Below This Line
 
@@ -118,4 +102,4 @@ Remember, the intention of these platforms are to **improve productivity** not b
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/software_essentials/communication.rst" target="blank">Github Repo Link</a>
