@@ -52,4 +52,4 @@ policy <http://www.cyverse.org/acknowledge-and-cite-cyverse>`__
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/getting_started/about_cyverse.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/before/about_cyverse.rst" target="blank">Github Repo Link</a>
