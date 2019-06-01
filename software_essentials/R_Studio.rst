@@ -1,3 +1,10 @@
+.. include:: ../cyverse_rst_defined_substitutions.txt
+
+|CyVerse_logo2|_
+
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
+
 **Introduction to R & RStudio**
 ===============================
 
@@ -159,7 +166,7 @@ There are many ways to upload data in the R environment depending on the documen
 .. code-block:: R
 
 	#General reading
-	read.table("dataFile.ext)
+	read.table("dataFile.txt)
 
 **Exercise:**
 
@@ -198,7 +205,7 @@ Integer - whole numbers only, and can also have calculations performed on them
 .. code-block:: R
 	as.integer()
 
-Locgial - TRUE or FALSE
+Logical - TRUE or FALSE
 
 .. code-block:: R
 	as.factor()
@@ -242,7 +249,7 @@ For example, we can store the number 10 in a letter to use later
 
 **Exercise:**
 
-	1. What does x*2 give you?
+	1. What does a*2 give you?
 
 Vectors
 ~~~~~~~
@@ -274,7 +281,7 @@ Adding to vectors: the concatenate function: c()
 Matrices & Dataframes
 ~~~~~~~~~~~~~~~~~~~~~
 
-A matrix and a dataframe is a 2-D object.
+A matrix and a dataframe are both 2-D objects.
 
 Creating a dataframe using data.frame()
 
@@ -328,11 +335,12 @@ Calling columns:
 
 	hello[,-2]
 
-Likewise, columns are rows can be removed using "-" as a modifier
+Likewise, columns and rows can be removed using "-" as a modifier
 
 You can save a dataframe using write.table() and write.csv().
 
 **NOTE** do not overwrite your dataset!!
+
 If you rerun a script, you may overwrite your results or new data. Put a "#" after use!
 
 The R Environment
@@ -399,10 +407,11 @@ Subsetting Data
 	x[names(x) == "a" | "c"]
 	x[names(x) != "a"]
 
-
-
-
-
+--------------
+**Fix or improve this documentation:**
+- On Github: |Github Repo Link|
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+--------------
 
 .. |R Console| image:: ../img/rstudio.png
   :width: 750
