@@ -226,8 +226,6 @@ Using Github on your own or for your classes
 	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
 	####
 
-|CyverseLogo|_ |LearningCenter|_ 
-
 ----
 
 **Fix or improve this documentation:**
@@ -243,19 +241,6 @@ Using Github on your own or for your classes
    use :height: to give a desired height for your image
    replace the image name/location and URL if hyperlinked
 
-.. |CyVerse| image:: ../img/cyverse_cmyk.png
-  :width: 500
-.. _CyVerse: https://cyverse.org/
-
-.. |CyverseLogo| image:: ../img/cyverse_globe_cmyk.png
-  :height: 60
-  :width: 60
-.. _CyverseLogo: https://cyverse.org/
-
-.. |LearningCenter| image:: ../img/Learningcenter_DkBlue.png
-  :height: 60
-  :width: 60
-.. _LearningCenter: http://learning.cyverse.org/
 
 
 .. Comment: Place URLS Below This Line
