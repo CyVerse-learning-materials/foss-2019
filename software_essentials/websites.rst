@@ -39,7 +39,7 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
 *GitHub Pages*
 ~~~~~~~~~~~~~
 
-- You can pull templates from other GitHub users for your website, e.g. `academicpages.github.io <https://github.com/academicpages/academicpages.github.io>`_, `jekyll themes <http://themes.jekyllrc.org/>`_
+- You can pull templates from other GitHub users for your website, e.g. `jekyll themes <http://themes.jekyllrc.org/>`_
 - GitHub pages are free, fast, and easy to build, but limited in use of subdomain or URLs.
 
 *Confluence Wiki*
