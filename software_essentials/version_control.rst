@@ -44,7 +44,7 @@ Other users are more comfortable in a graphic user interface, like a web browser
 **USE WHAT YOU LIKE BEST AND IS MOST PRODUCTIVE FOR YOU!**
 
 **Git cheat sheet**
--------------------
+~~~~~~~~~~~~~~~
 
 Here is a list of the most important commands in Git:
 
@@ -188,8 +188,29 @@ Here is a list of the most important commands in Git:
       - ``git diff [source branch] [target branch]`` 
       - Preview changes before merging
 
+**GitHub**
+-----------
+
+`GitHub <https://github.com/>`_ is (as of spring 2019) the largest and most popular platform for working with ``git``.
+
+The use of GitHub could become the most central point of software supporting your science lab. Reproducible research requires you to host your analysis code, copies of the software (with version), operating system, and language kernels used to complete the analysis, in addition to the actual data.  
+
+GitHub allows you to support your open science lab by creating 'repositories' where you can host each of these components of your data science workflows. It also allows you to make copies (clones) or new branches of a master repository to test out new analyses or code changes, and to merge these back in.
+
+ - Basic Workflows
+ - Repositories
+ - Branches
+ - Collaboration
+
+Other more powerful uses of GitHub include the integration with other web services, like container registries (DockerHub), websites (ReadTheDocs, GitHub Pages), continuous integration (CircleCI, Jenkins, Travis).
+
+.. note:: 
+
+   In this workshop, we're working with GitHub, but there are other services, like `GitLab <https://about.gitlab.com/>`_ or `Bitbucket <https://bitbucket.org>`_ which might fit your needs better. 
+
+
 **Issue Tracking**
-------------------
+~~~~~~~~~~~~~~~~
 
 Development teams use tracking software, like `Jira <https://www.atlassian.com/software/jira>`_, or `GitHub Issues <https://guides.github.com/features/issues/>`_ to track their development progress.
 
@@ -198,7 +219,7 @@ ZenHub and Jira use a `Kanban <https://en.wikipedia.org/wiki/Kanban_board>`_ sty
 We're going to use ZenHub because it is free and works off of GitHub Issues.
 
 **ZenHub**
------------
+~~~~~~~~~~~
 
 `ZenHub <https://www.zenhub.com/>`_ is agile program management software which uses GitHub issues.
 
