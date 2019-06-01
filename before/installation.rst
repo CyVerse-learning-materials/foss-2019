@@ -89,4 +89,4 @@ Listed below are some extra downloads that are not required for the workshop, bu
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/getting_started/installation.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/before/installation.rst" target="blank">Github Repo Link</a>
