@@ -48,8 +48,8 @@ Expected outcomes:
    :caption: Software Essentials
 
    software_essentials/version_control
-   software_essentials/commandline
    software_essentials/communication
+   software_essentials/commandline
    software_essentials/R_Studio
    software_essentials/RStudio_Git
    software_essentials/shell
