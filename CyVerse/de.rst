@@ -47,14 +47,14 @@ Apps Window
 |DE_apps_operation|
 
  - Find an app by `searching <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+an+App,+Workflow,+or+Tool>`_
- - `Launch and analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Apps>`_ using the word count app
+ - `Launch an analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Apps>`_ using the word count app
  
 |DE_word_count|
 
 Analyses Window
 ~~~~~~~~~~~~~~
 
- - Open the `Analyses window <https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Analyses+Window>`_and view analysis status:
+ - Open the `Analyses window <https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Analyses+Window>`_ and view analysis status:
 
 |DE_analyses|
 
@@ -72,6 +72,8 @@ Using metadata in the DE
  
 |DE_search|
 
+ - Try a simple search for the word "maize"
+ - Try an advanced search for attribute = subject and value = maize
  - Other options to be covered on Thursday:
  	- `bulk metadata application <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Addingbulkmetadatatomultiplefilesorfolders>`_
 	- `metadata templates <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Usingmetadatatemplates>`_ 
