@@ -97,16 +97,16 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       -
     * - 
       - 1:00-2:45
-      - RStudio with Version Control 
-      - 'Lesson <../software_essentials/RStudio_Git.html>`_
+      - Programming with R with RStudio, cont. (Meghan)
+      - `Lesson <../software_essentials/R_Studio.html>`_
     * - 
       - 2:45-3:00
       - Coffee break
       - 
     * - 
       - 3:00-4:45
-      - RStudio with Version Control, cont.
-      - 'Lesson <../software_essentials/RStudio_Git.html>`_
+      - RStudio with Version Control (Meghan, Tyson)
+      - `Lesson <../software_essentials/RStudio_Git.html>`_
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
@@ -126,11 +126,11 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 9:15-10:00
       - Introduction to CyVerse cyberinfrastructure (Amanda)
-      - Overview of CI, user portal, getting help, Learning Center
+      - `Overview of CI, user portal, getting help, Learning Center <../CyVerse/intro_to_cyverse.rst>`_
     * - 
       - 10:00-11:00
       - Introduction to the Discovery Environment (Ramona)
-      - Data management and analysis
+      - `Data and analyses in the DE <../CyVerse/de.rst>`_
     * - 
       - 11:00-12:00
       - Coffee break and Bio5 Tour
@@ -142,7 +142,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 1:00-2:00
       - CyVerse Data Store (Ramona)
-      - iCommands, CyberDuck, WebDav  
+      - `iCommands, CyberDuck, Data Commons <../CyVerse/data_store.rst>`_ 
     * - 
       - 2:00-2:45
       - Introduction to VICE (Tyson)
