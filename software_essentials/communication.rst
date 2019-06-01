@@ -14,36 +14,39 @@ For this workshop, we are going to cover a popular platform with free/paid acces
 
 Remember, the intention of these platforms are to **improve productivity** not become a distraction.
 
-*Some things to remember about Slack*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Some things to remember*
+------------------------
+
+*SLACK*
+~~~~~~~
 
 - Slack has `plenty of apps <https://slack.com/apps>`_ for coordinating multiple services, i.e. Calendars, Github, GoogleDrive, Box, etc.
 - Slack can be limiting unless you're willing to pay for the professional support. 
 
-*Some things to remember about Gitter*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Gitter*
+~~~~~~~~
 
 - Native integration with Github or Gitlab
 - Uses your Github (or Twitter) handle for all Gitters that you're a part of
 
-*Other popular alternatives to Slack or Gitter*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Other popular alternatives*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   - `Discord <https://discordapp.com/>`_
   - `Mattermost <https://mattermost.com/>`_
 
 ----
 
-*Setting up Slack for your Lab Group*
--------------------------------------
+*Setting up Slack*
+------------------
 
   1. `Create a new Workspace <https://get.slack.help/hc/en-us/articles/206845317-Create-a-Slack-workspace>`_
 
   2. `Create channels, add apps & tools <https://get.slack.help/hc/en-us/articles/217626298-tips-for-team-creators-and-admins>`_
     
 
-*Setting up Gitter for your Lab Group*
---------------------------------------
+*Setting up Gitter *
+--------------------
 
    1. `Create a Workspace <https://gitter.im>`_
    
@@ -59,7 +62,7 @@ Remember, the intention of these platforms are to **improve productivity** not b
 	####
 
 **Networking**
-------------
+--------------
 
 Although we did't cover it explicitly in the announcement for the workshop, communicating with the public and other members of your science community is one of the most important parts of your science!
 
@@ -77,7 +80,7 @@ There are many ways scientists use social media and the web to share their data 
    You decide what you post on the internet. Your scientist identity may be a part of your personal identity on social media, it might be separate. A future employer or current employer can see your old posts. What you post in your personal accounts can be considered a reflection of the organization you work for and may be used in decisions about hiring or dismissal. 
 
 *Self-Paced Materials*
-~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 `15 Data Science Communities to Join <https://towardsdatascience.com/15-data-science-slack-communities-to-join-8fac301bd6ce>`_
 
