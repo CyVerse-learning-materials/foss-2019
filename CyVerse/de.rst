@@ -100,7 +100,6 @@ Additional resources
 .. |DE_icon| image:: ../img/de/de-icon.png
     :width: 60
     :height: 50
-.. _DE_icon: https://de.cyverse.org/
 
 .. |DE_analyses| image:: ../img/de/DE_analyses.png
 
