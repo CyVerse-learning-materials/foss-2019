@@ -126,11 +126,11 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 9:15-10:00
       - Introduction to CyVerse cyberinfrastructure (Amanda)
-      - `Overview of CI, user portal, getting help, Learning Center <../CyVerse/intro_to_cyverse.rst>`_
+      - `Overview of CI, user portal, getting help, Learning Center <../CyVerse/intro_to_cyverse.html>`_
     * - 
       - 10:00-11:00
       - Introduction to the Discovery Environment (Ramona)
-      - `Data and analyses in the DE <../CyVerse/de.rst>`_
+      - `Data and analyses in the DE <../CyVerse/de.html>`_
     * - 
       - 11:00-12:00
       - Coffee break and Bio5 Tour
@@ -142,7 +142,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 1:00-2:00
       - CyVerse Data Store (Ramona)
-      - `iCommands, CyberDuck, Data Commons <../CyVerse/data_store.rst>`_ 
+      - `iCommands, CyberDuck, Data Commons <../CyVerse/data_store.html>`_ 
     * - 
       - 2:00-2:45
       - Introduction to VICE (Tyson)
