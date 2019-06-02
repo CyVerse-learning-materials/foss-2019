@@ -101,8 +101,9 @@ Additional Resources
     :height: 100
  .. _CyVerse logo: http://learning.cyverse.org/
     
- .. |DS_icon| image:: ../img/data_store/datastore-icon.png
-   
+.. |DS_icon| image:: ../img/data_store/datastore-icon.png
+    :width: 50
+    :height: 50  
 
 
 .. Comment: Place URLS Below This Line
