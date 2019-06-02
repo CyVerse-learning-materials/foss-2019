@@ -10,20 +10,16 @@
 
 The modern web, cloud, high performance computing, and most data science applications are deployed on infrastructure that run in an operating system (OS) other than Windows. This means that if you're going to do open science, you'll need some `Linux <https://www.linux.org/>`_ experience.
 
-The good news is, you probably already work with Linux or a platform based on Linux on a daily basis (Do you have an Android phone?). 
+In order to do data intensive science, you're going to need to have some familiarity with Linux. We've scheduled several sections during FOSS on the `Command Line Interface (CLI) and Unix Shell <https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/software_essentials/commandline.html>`_, and a further introduction to Linux using `CyVerse' Atmosphere Cloud <https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/CyVerse/atmo.html>`_, which runs Linux OS.
 
-Over `87% <https://en.wikipedia.org/wiki/Usage_share_of_operating_systems>`_ of the market still relies on Microsoft for their personal computers.
+The good news is, you **probably** already use Linux or a platform based on Linux on a daily basis. (*Do you have an Android or iOS phone?*) If you own on a `Mac OS X <https://itsfoss.com/mac-linux-difference/>`_ device, you already enjoy many of the benefits of a Linux-like OS, including access to a terminal.
 
-The landscape changes completely for mobile apps (99% Linux or Linux-like [Android, iOS], <0.1% Windows), web (66% Linux, 32%  Windows), and cloud or HPC (100% Linux). Microsoft is acutely aware of this disparity, and is actively working to integrate Linux into their OS, including their purchase of GitHub, and release of `Windows Subsystem for Linux (WSL) <https://docs.microsoft.com/en-us/windows/wsl/install-win10>`_.
-
-In order to do data intensive science, you're going to need to have some familiarity with Linux. We've scheduled several sections on using the Command Line Interface (CLI) which are another further introduction to Linux, and on using CyVerse Cloud, which is Linux native.
-
-If you're on a `Mac OS X <https://itsfoss.com/mac-linux-difference/>`_ device, you already enjoy many of the benefits of Linux, including access to a compatible terminal.
+Over `87% <https://en.wikipedia.org/wiki/Usage_share_of_operating_systems>`_ of the personal computer market still relies on the popular Microsoft OS. However, the landscape changes completely for mobile apps (99% Linux or Linux-like [Android, iOS], <0.1% Windows), web (66% Linux, 32%  Windows), and cloud or HPC (100% Linux). Microsoft is acutely aware of this disparity, and is actively working to integrate Linux into their OS, including their `acquisition of GitHub <https://www.theverge.com/2018/6/18/17474284/microsoft-github-acquisition-developer-reaction>`_, and release of `Windows Subsystem for Linux (WSL) <https://docs.microsoft.com/en-us/windows/wsl/install-win10>`_.
 
 *Common Linux Operating Systems*
 --------------------------
 
-The most common operating systems that you'll see used for data science are:
+The most common operating systems you'll see used for data science are:
 
 - `Alpine <https://alpinelinux.org/>`_ - small and lightweight, useful in container applications
 - `CentOS <https://www.centos.org/>`_ - stable, reliable, most commonly used on web and cloud servers
@@ -32,27 +28,33 @@ The most common operating systems that you'll see used for data science are:
 
 Enterprise Distributions:
 
-- `Red Hat <https://www.redhat.com/en>`_
+- `Red Hat <https://www.redhat.com/en>`_ - based on open source software, you pay for customer support
 
 *Installing Linux*
 -----------------
 
-*Ubuntu*
+*Desktop-based Distributions*
 ~~~~~~
 
-`Ubuntu <https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop>`_
+- `Ubuntu <https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop>`_ 
+- `Debian <https://www.debian.org/releases/stable/installmanual>`_
+- `Mint <https://linuxmint-installation-guide.readthedocs.io/en/latest/>`_ - "modern, elegant and comfortable operating system which is both powerful and easy to use."
+- `OpenSUSE <https://www.opensuse.org/>`_ - "The makers' choice for sysadmins, developers and desktop users."
 
 *Windows Subsystem for Linux*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The so-called "WSL" is a complete linux subsystem that runs under Windows 10. Microsoft recently announced `WSL 2.0 <https://devblogs.microsoft.com/commandline/announcing-wsl-2/>`_, a true linux kernel.
+The so-called "WSL" is a complete linux subsystem that runs under Windows 10. Microsoft recently announced `WSL 2.0 <https://devblogs.microsoft.com/commandline/announcing-wsl-2/>`_.
 
 *Windows Linux Dual boot*
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Not ready to take the Linux plunge yet? 
 
-Why not set up a `Windows-Linux dual boot <https://www.lifewire.com/ultimate-windows-8-1-ubuntu-dual-boot-guide-2200654>`_
+Why not set up a Windows-Linux dual boot? 
+
+- `Ubuntu <https://www.lifewire.com/ultimate-windows-8-1-ubuntu-dual-boot-guide-2200654>`_
+- `Mint <https://itsfoss.com/guide-install-linux-mint-16-dual-boot-windows/>`_
 
 *Package Managers*
 ~~~~~~~~~~~~~~~~
