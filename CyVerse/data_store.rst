@@ -12,25 +12,15 @@
 
 |DS_icon|
 
-The Data Store is more than  a place to save your files -- it is a way to manage the life cycle of your data. From creation to publication to beyond, there are a number of practices that can ensure the integrity and value of your data are maintained. 
+The Data Store is more than  a place to save your files -- it is a way to manage the life cycle of your data. From creation to publication to beyond, there are a number of practices to ensure that the integrity and value of your data are maintained. 
 
 We have already covered accessing the Data Store using the Discovery Environment in the `previous lesson <./de.rst>`_. In this lesson we will practice other ways of accessing the Data Store, plus how to make your data publicly available.
 
-CyberDuck
-==========
-Cyberduck is a free 3rd party software tool that allows you to drag-and-drop files between your local computer (or a remote server) and the Data Store. Cyberduck can also be used to rename files, and browse other shared or public Data Store locations.
-
-Follow along with the `CyberDuck <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step1.html>`_ quick start to:
-
- - Install and configure CyberDuck
- - Upload a file to your CyVerse
- - Navigate to a public folder
-
 iCommands
 ===========
-iCommands is a collection of tools developed by the iRODS project, which is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store.
+iCommands is a collection of tools developed by the `iRODS project <https://irods.org/>1_, which is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store.
 
-iCommands provides command line access to the Data Store, so it can be included in scripts to automate data upload and download. Unfortunately, iCommands has not been tested in Windows operating systems, but participants with Windows computers can do this exercise using Atmosphere (which will be covered in tomorrow's lessons). 
+iCommands provides command line access to the Data Store, so it can be included in scripts to automate data upload and download. Unfortunately, the latest iCommands cannot be installed on most Windows operating systems, but participants with Windows computers can do this exercise using Atmosphere (which will be covered in tomorrow's lessons). If you are running Window 10, you can `run iCommands on the Linus subsystem <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-other>`_.
 
 .. #### Comment: Instructers launch Atmosphere for anyone with a Windows computer
 
@@ -57,16 +47,40 @@ In addition, we will use iCommands to:
     $ils newdir
     $ils -A newdir
 
+Here is the `full documentation of iCommands <https://docs.irods.org/master/icommands/user/>`_.
+
+CyberDuck
+==========
+Cyberduck is a free 3rd party software tool that allows you to drag-and-drop files between your local computer (or a remote server) and the Data Store. Cyberduck can also be used to rename files, and browse other shared or public Data Store locations.
+
+Follow along with the `CyberDuck <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step1.html>`_ quick start to:
+
+ - Install and configure CyberDuck
+ - Upload a file to your CyVerse home directory
+ - Navigate to a public folder
+
 CyVerse Data Commons
 ========================
 
 The Data Commons provides services throughout CyVerse to manage, organize, preserve, publish, discover, and reuse data.
+
+Data Publication
+~~~~~~~~~~~~~~~~~
 
 Through the Data Commons, you can submit data directly to `NCBI's SRA <https://learning.cyverse.org/projects/sra_submission_quickstart/en/latest/index.html>`_ or `WGS <https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=34834057>`_, or `request a Digital Object Identifier (DOI) <https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/>`_ for your dataset.
 
 For data that are not stable or permanent, you can request a `Community Released Folder <https://wiki.cyverse.org/wiki/display/DC/Preparing+Community+Released+Data+Folders>`_/
 
 For an overview see `Publishing data on the CyVerse Data Commons <https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons>`_/
+
+Advanced Metadata Usage
+~~~~~~~~~~~~~~~~~~~~~
+
+The Data Commons provides advanced metadata features in the Discovery Environment, including:
+
+	- `metadata templates <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Usingmetadatatemplates>`_ 
+
+- `bulk metadata application <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Addingbulkmetadatatomultiplefilesorfolders>`_
 
 Additional Resources
 ==================
