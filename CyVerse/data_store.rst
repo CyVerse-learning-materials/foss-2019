@@ -18,7 +18,7 @@ We have already covered accessing the Data Store using the Discovery Environment
 
 iCommands
 ===========
-iCommands is a collection of tools developed by the `iRODS project <https://irods.org/>1_, which is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store.
+iCommands is a collection of tools developed by the `iRODS project <https://irods.org/>`_, which is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store.
 
 iCommands provides command line access to the Data Store, so it can be included in scripts to automate data upload and download. Unfortunately, the latest iCommands cannot be installed on most Windows operating systems, but participants with Windows computers can do this exercise using Atmosphere (which will be covered in tomorrow's lessons). If you are running Window 10, you can `run iCommands on the Linus subsystem <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-other>`_.
 
@@ -69,18 +69,44 @@ Data Publication
 
 Through the Data Commons, you can submit data directly to `NCBI's SRA <https://learning.cyverse.org/projects/sra_submission_quickstart/en/latest/index.html>`_ or `WGS <https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=34834057>`_, or `request a Digital Object Identifier (DOI) <https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/>`_ for your dataset.
 
-For data that are not stable or permanent, you can request a `Community Released Folder <https://wiki.cyverse.org/wiki/display/DC/Preparing+Community+Released+Data+Folders>`_/
+For data that are not stable or permanent, you can request a `Community Released Folder <https://wiki.cyverse.org/wiki/display/DC/Preparing+Community+Released+Data+Folders>`_.
 
-For an overview see `Publishing data on the CyVerse Data Commons <https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons>`_/
+For an overview see `Publishing data on the CyVerse Data Commons <https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons>`_.
 
 Advanced Metadata Usage
 ~~~~~~~~~~~~~~~~~~~~~
 
 The Data Commons provides advanced metadata features in the Discovery Environment, including:
 
-	- `metadata templates <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Usingmetadatatemplates>`_ 
+- `metadata templates <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Usingmetadatatemplates>`_ 
+
+Exercise: 
+- Open the DE
+- Apply the DOI request template to a folder.
+- Apply an ontology term to a file or folder.
+
 
 - `bulk metadata application <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Addingbulkmetadatatomultiplefilesorfolders>`_
+
+Exercise:
+- Copy the B123 file to your home directory
+
+.. code-block:: bash
+
+    $ icd /iplant/home/$username
+    $ icp -r /iplant/home/rwalls/B123 B123
+    $ ils
+
+- In the DE apply the DE apply metadata to the contents of B123
+	- Browse to B123
+	- View the metadata for one of the files using the *Metadata* menu or the three dots (it should be black)
+	- View the contents of the file ``Rice_metadata.csv``
+	- Browse back to your home directory
+	- Check the box next to any directory
+	- Select *Metadata* > *Apply Bulk Metadata*
+	- Select the file B123/Rice_metadata.csv
+	- Browse back to B123
+	- View the metadata of the different files in the directory
 
 Additional Resources
 ==================
@@ -117,7 +143,7 @@ Additional Resources
     
 .. |DS_icon| image:: ../img/data_store/datastore-icon.png
     :width: 50
-    :height: 50  
+    :height: 70  
 
 
 .. Comment: Place URLS Below This Line
