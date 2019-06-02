@@ -23,6 +23,7 @@ Data management produces self-describing datasets that:
 - make life much easier for you and your collaborators
 - benefit the scientific research community by allowing others to reuse your data
 - are required by most funders and many journals
+- `Recent Dear Colleague letter from NSF <https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp>`_
 
 Data Management Basics
 ===================
@@ -60,8 +61,7 @@ Best practices for the data life cycle
 The summary below is adapted from the excellent `DataONE best practices primer <https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf>`_.
  
 **Plan:** 
- - Describe the data that will be compiled, and how the data will be managed and made
-accessible throughout its lifetime. 
+ - Describe the data that will be compiled, and how the data will be managed and made accessible throughout its lifetime. 
  - A good plan considers each of the stages below.
 
 **Collect:** 
