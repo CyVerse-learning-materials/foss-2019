@@ -8,11 +8,11 @@
 **Basics of Linux**
 ==================
 
-The modern web, cloud, high performance computing, and most data science applications are deployed on infrastructure that run in an operating system (OS) other than Windows. This means that if you're going to do open science, you'll need some `Linux <https://www.linux.org/>`_ experience.
+The modern web, cloud, high performance computing, and most data science applications are deployed on infrastructure that run in an operating system (OS) other than Windows. If you or your lab are going to do open science, you need some experience with `Linux <https://www.linux.org/>`_.
 
 In order to do data intensive science, you're going to need to have some familiarity with Linux. We've scheduled several sections during FOSS on the `Command Line Interface (CLI) and Unix Shell <https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/software_essentials/commandline.html>`_, and a further introduction to Linux using `CyVerse' Atmosphere Cloud <https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/CyVerse/atmo.html>`_, which runs Linux OS.
 
-The good news is, you **probably** already use Linux or a platform based on Linux on a daily basis. (*Do you have an Android or iOS phone?*) If you own on a `Mac OS X <https://itsfoss.com/mac-linux-difference/>`_ device, you already enjoy many of the benefits of a Linux-like OS, including access to a terminal.
+The good news in two parts. First, you **probably** already use Linux or a platform based on Linux on a daily basis. (*Do you have an Android or iOS phone?*) If you own on a `Mac OS X <https://itsfoss.com/mac-linux-difference/>`_ device, you already enjoy many of the benefits of a Linux-like OS, including access to a terminal. Second, the Linux experience can generally be described as `satisfying <https://www.wired.com/2016/01/i-moved-to-linux-and-its-even-better-than-i-expected/>`_ and moving on from Windows as `without regret <https://codingstartups.com/moved-windows-linux-lessons-learned/>`_.
 
 Over `87% <https://en.wikipedia.org/wiki/Usage_share_of_operating_systems>`_ of the personal computer market still relies on the popular Microsoft OS. However, the landscape changes completely for mobile apps (99% Linux or Linux-like [Android, iOS], <0.1% Windows), web (66% Linux, 32%  Windows), and cloud or HPC (100% Linux). Microsoft is acutely aware of this disparity, and is actively working to integrate Linux into their OS, including their `acquisition of GitHub <https://www.theverge.com/2018/6/18/17474284/microsoft-github-acquisition-developer-reaction>`_, and release of `Windows Subsystem for Linux (WSL) <https://docs.microsoft.com/en-us/windows/wsl/install-win10>`_.
 
