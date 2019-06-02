@@ -8,9 +8,7 @@
 **Basics of Linux**
 ==================
 
-The modern web, cloud, high performance computing, and most data science applications are deployed on infrastructure that run in an operating system (OS) other than Windows. If you or your lab are going to do open science, you need some experience with `Linux <https://www.linux.org/>`_.
-
-In order to do data intensive science, you're going to need to have some familiarity with Linux. We've scheduled several sections during FOSS on the `Command Line Interface (CLI) and Unix Shell <https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/software_essentials/commandline.html>`_, and a further introduction to Linux using `CyVerse' Atmosphere Cloud <https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/CyVerse/atmo.html>`_, which runs Linux OS.
+The modern web, cloud, high performance computing, and most data science applications are deployed on infrastructure that run in an operating system (OS) other than Windows. To do data intensive science, you're going to need to some familiarity with `Linux <https://www.linux.org/>`_. We've scheduled several sections during FOSS on the `Command Line Interface (CLI) and Unix Shell <https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/software_essentials/commandline.html>`_, and a further introduction to Linux using `CyVerse' Atmosphere Cloud <https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/CyVerse/atmo.html>`_, which runs Linux OS.
 
 The good news in two parts. First, you **probably** already use Linux or a platform based on Linux on a daily basis. (*Do you have an Android or iOS phone?*) If you own on a `Mac OS X <https://itsfoss.com/mac-linux-difference/>`_ device, you already enjoy many of the benefits of a Linux-like OS, including access to a terminal. Second, the Linux experience can generally be described as `satisfying <https://www.wired.com/2016/01/i-moved-to-linux-and-its-even-better-than-i-expected/>`_ and moving on from Windows as `without regret <https://codingstartups.com/moved-windows-linux-lessons-learned/>`_.
 
