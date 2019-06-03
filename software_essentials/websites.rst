@@ -95,7 +95,12 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
    2. Create a a new Blank Page
    
    3. Set permissions to share or make private
-   
+
+**Methodology**
+----------
+
+`Protocols.io <https://www.protocols.io/>`_ - collaborative platform and preprint server for: science methods, computational workflows, clinical trials, operational procedures, safety checklists, and instructions / manuals.
+
 ----
 
 **Fix or improve this documentation:**
