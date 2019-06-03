@@ -93,6 +93,8 @@ There are many ways scientists use social media and the web to share their data 
 
 `Gitter Services <https://gitlab.com/gitlab-org/gitter/services>`_
 
+`Meetups <https://www.meetup.com/>`_
+
 
 ----
 
