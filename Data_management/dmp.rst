@@ -5,13 +5,23 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Data Management Plans**
+**Data Management Plans (DMP)**
 ----------------------
 
 .. #### Comment: Introduction to basic data management principles
-Section 1
-============================
 
+What is a DMP
+
+Purpose of a DMP
+
+Elements of a good DMP
+
+Machine actionable DMPs
+
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006750
+
+Tools for DMPs
+============================
 
 
 
