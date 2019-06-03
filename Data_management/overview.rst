@@ -148,16 +148,18 @@ The CyVerse Data Commons supports good data description through:
 Data Management Tools
 ===================
 
+`KNB tools <https://knb.ecoinformatics.org/tools>`_
+
+`Open Science Framework <https://osf.io/>`_
+
 ----
 
 References and Resources
 =================
 
-`DataOne best practices <https://www.dataone.org/best-practices>_ 
+`DataOne best practices <https://www.dataone.org/best-practices>`_  
 
 `Center for Open Science <https://cos.io/>`_
-
-`Open Science Framework <https://osf.io/>`_
 
 **Licensing information:**
  - `Open Data Commons <https://opendatacommons.org/licenses/index.html>`- 
