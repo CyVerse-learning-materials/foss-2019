@@ -101,6 +101,8 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
 
 `Protocols.io <https://www.protocols.io/>`_ - collaborative platform and preprint server for: science methods, computational workflows, clinical trials, operational procedures, safety checklists, and instructions / manuals.
 
+`QUBES <https://qubeshub.org/>`_ - community of math and biology educators who share resources and methods for preparing students to tackle real, complex, biological problems.
+
 ----
 
 **Fix or improve this documentation:**
