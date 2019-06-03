@@ -48,7 +48,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Lunch break (on your own)
       -
     * - 
-      - 12:45-2:45
+      - 1:15-2:45
       - Tools for collaboration (Tyson)
       - `Version Control Systems with Git <../software_essentials/version_control.html>`_
     * - 
