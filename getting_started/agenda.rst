@@ -174,7 +174,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * -
       - 9:15-10:15
       - Introduction to Data Management (Ramona)
-      - FAIR data principles, organization, metadata
+      - `Data life cycle, organization, metadata, FAIR data <..//Data_management/overview.rst>`_
     * - 
       - 10:15-10:30
       - Coffee break
@@ -182,11 +182,11 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 10:30-11:30
       - Data management plans and tools (Ramona)
-      -   
+      - `Draft a DMP <..//Data_management/dmp.rst>`_
     * - 
       - 11:30-12:00
       - Budgeting for open, reproducible science (Fernando, Tina)
-      -   
+      - `Slides <https://docs.google.com/presentation/d/1i37hl4eZBh-1sekTqPvzNfZYsQkQid1m3LnHodeFZRQ/edit#slide=id.p>`_
     * -
       - 12:00-1:00
       - Lunch Break (on your own)
@@ -236,25 +236,33 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Biocontainers (Amanda)
       -  
     * - 
-      - 11:15-12:00
+      - 11:15-11:45
       - Creating DE apps (Amanda)
       -  
     * -
-      - 12:00-1:00
-      - Lunch Break (on your own)
-      - Coffee shop closes early, so this is the last chance for coffee!
+      - 11:45-1:00
+      - Lunch Break - option to join the CyVerse potluck lunch
+      - Coffee shop closes early, so this is the last chance for fine Catalyst coffee!
     * - 
-      - 1:00-2:30
+      - 1:00-2:00
       - Collaborative exercise (Michael Mandel)
       - Repeat exercise from day 1 and discuss   
     * - 
-      - 2:30-3:30
-      - Open Science Labs (Ramona)
+      - 2:00-3:00
+      - Group activity on Open Science Labs (Ramona)
       - Complete plans for open science lab, next steps
     * - 
-      - 3:30-4:30
-      - Wrap-up, Evaluations, Q&A (Team
+      - 3:00-3:15
+      - Coffee break
       - 
+    * - 
+      - 3:15-4:00
+      - Report out on Open Science Labs (Team)
+      - Everyone briefly describes their plans
+    * - 
+      - 4:00
+      - Wrap-up, Evaluations, Q&A (Team)
+      - `Post-workshop evaluation <link>`_
     * - 
       - 4:30-5:00
       - Instructor Final Debrief
