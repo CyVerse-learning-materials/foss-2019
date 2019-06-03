@@ -174,7 +174,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * -
       - 9:15-10:15
       - Introduction to Data Management (Ramona)
-      - `Data life cycle, organization, metadata, FAIR data <..//Data_management/overview.rst>`_
+      - `Data life cycle, organization, metadata, FAIR data <..//Data_management/overview.html>`_
     * - 
       - 10:15-10:30
       - Coffee break
@@ -182,7 +182,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 10:30-11:30
       - Data management plans and tools (Ramona)
-      - `Draft a DMP <..//Data_management/dmp.rst>`_
+      - `Draft a DMP <..//Data_management/dmp.html>`_
     * - 
       - 11:30-12:00
       - Budgeting for open, reproducible science (Fernando, Tina)
@@ -194,7 +194,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 1:00-2:45
       - Introduction Cloud Computing (Tyson)
-      - Using CyVerse Atmosphere  
+      - `Using CyVerse Atmosphere <../CyVerse/atmo.html>`_
     * - 
       - 2:45-3:00
       - Coffee break
