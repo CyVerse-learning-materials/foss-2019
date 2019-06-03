@@ -202,12 +202,23 @@ GitHub allows you to support your open science lab by creating 'repositories' wh
  - Branches
  - Collaboration
 
-Other more powerful uses of GitHub include the integration with other web services, like container registries (DockerHub), websites (ReadTheDocs, GitHub Pages), continuous integration (CircleCI, Jenkins, Travis).
+Other more powerful uses of GitHub include the integration with other web services, like container registries (`DockerHub <https://hub.docker.com/>`_), websites (`ReadTheDocs <https://readthedocs.org/>`_, GitHub Pages `<https://pages.github.com/>`_), continuous integration (`CircleCI <https://circleci.com>`_, `Jenkins <https://jenkins.io/>`_, `Travis<https://travis-ci.org/>`_).
 
 .. note:: 
 
    In this workshop, we're working with GitHub, but there are other services, like `GitLab <https://about.gitlab.com/>`_ or `Bitbucket <https://bitbucket.org>`_ which might fit your needs better. 
 
+
+**Your first Repository**
+~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Log into GitHub
+
+2. Create a new Repository and initiate it with a ``README.md`` file
+
+3. Edit the README.md by clicking on the pencil icon.
+
+4. Create a new file by clicking on the creatte
 
 **Issue Tracking**
 ~~~~~~~~~~~~~~~~
