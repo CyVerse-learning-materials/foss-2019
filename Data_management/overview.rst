@@ -118,14 +118,16 @@ The CyVerse Data Commons supports good data description through
 
 **Preserve:** 
  - To be FAIR data must be preserved in an appropriate long-term archive (i.e. data center).
-   - Sequence data should go to INSDC
+   - Sequence data should go to INSDC (usually `NCBI <https://www.ncbi.nlm.nih.gov/>`_
  - Identifie data with value -- it may not be necessary to preserve all data from a project
  - The `CyVerse Data Commons <http://datacommons.cyverse.org/>`_ provides a place to publish and preserve data that was generated on or can be used in CyVerse, where no other repository exists.
  - See lists of repositories at `FAIRSharing.org <https://fairsharing.org/>`_.
+ - Github repos can get DOIs through `Zenodo <https://guides.github.com/activities/citable-code/>`_.
  - Be aware of licensing and other intellectual property issues
    - See licensing information below
    - Repositories will require some kind of license, often the least restrictive
    - Repositories are unlikely to enforce reuse restrictions, even if you apply them.
+   
 
 **Discover:**
  - Good metadata allows you to discover your own data!
