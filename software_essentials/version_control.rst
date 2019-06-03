@@ -191,6 +191,8 @@ Here is a list of the most important commands in Git:
 **GitHub**
 -----------
 
+`Github for Education <https://education.github.com/>`_
+
 `GitHub <https://github.com/>`_ is (as of spring 2019) the largest and most popular platform for working with ``git``.
 
 The use of GitHub could become the most central point of software supporting your science lab. Reproducible research requires you to host your analysis code, copies of the software (with version), operating system, and language kernels used to complete the analysis, in addition to the actual data.  
