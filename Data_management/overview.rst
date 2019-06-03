@@ -83,12 +83,12 @@ measurements that were made, and the quality of the data, it is unlikely that th
 discovered, understood, or effectively used. 
 
  - Organize your data for publication. Before you can describe your data, you must decide how to organize them. This should be planned before hand, so that data organization is a minimal task at the time of publication.
-- Thoroughly describe:
+- Thoroughly describe
    - the dataset (e.g., name of dataset, list of files, date(s) created or modified, related datasets)
    - the people and organizations involved in data collection (e.g., authors, affiliations, sponsor)
       - Go get an `ORCID <https://orcid.org/>`_ if you don't have one.
    - the scientific context (reason for collecting the data, how they were collected, equipment and software used to generate the data, conditions during data collection, spatial and temporal resolution)
-   - the data themselves:
+   - the data themselves
       - how each measurement was produced
       - units
       - format
@@ -96,11 +96,12 @@ discovered, understood, or effectively used.
       - precision, accuracy, and uncertainty
  
 Metadata standards and ontologies are invaluable for supporting data reuse.
- - Metadata standards tell you:
+
+ - Metadata standards tell you
    - which metadata attributes to include
    - how to format your metadata
    - what values are allowable for different attributes
- - Some metadata standards:
+ - Some metadata standards
    - `DataCite <https://schema.datacite.org/>`_ (for publishing data)
    - `Dublin Core <http://www.dublincore.org/specifications/dublin-core/dcmi-terms/>`_ (for sharing data on the web)
    - Minimum Information for any (x) Sequence (`MIxS <https://press3.mcs.anl.gov/gensc/mixs/>`_)
@@ -109,7 +110,8 @@ Metadata standards and ontologies are invaluable for supporting data reuse.
    - Example: `Plant Ontology <http://planteome.org/>`_ for plant tissue types or development stages
  - `FAIRSharing.org <https://fairsharing.org/>`_ lists standards and ontologies for Life Sciences.
 
-The CyVerse Data Commons supports good data description through:
+The CyVerse Data Commons supports good data description through
+
  - Metadata templates (remember the DataCite metadata template from yesterday)
  - Bulk metadata upload (`example dataset <http://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/Zhou_Jander_MaizeLeafMetabolomeGWAS_2019>`_)
  - Automatic collection of analysis parameters, inputs, and outputs in the DE.
