@@ -47,16 +47,24 @@
 **O**
 
 **P**
+
 **Q**
+
 **R**
+
 **S**
+
 **T**
+
 **U**
+
 **V**
 - **virtual machine:** is a software computer that, like a physical computer, runs an operating system and applications
 
 **X**
+
 **Y**
+
 **Z**
 
 ----
