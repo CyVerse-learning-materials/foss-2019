@@ -21,3 +21,18 @@
 - **Docker:** a program that runs and handles life-cycle of containers and images
 - **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
 - **CyVerse app:** graphic interface of a tool made available for use in the DE
+
+----
+
+**Fix or improve this documentation:**
+
+- On Github: |Github Repo Link|
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+----
+
+.. Comment: Place URLS Below This Line
+
+.. |Github Repo Link|  raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/getting_started/agenda.rst" target="blank">Github Repo Link</a>
