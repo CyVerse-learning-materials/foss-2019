@@ -199,7 +199,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - 1:00-1:30
       - Budgeting for open, reproducible science (Fernando, Tina)
       - `Slides <https://docs.google.com/presentation/d/1i37hl4eZBh-1sekTqPvzNfZYsQkQid1m3LnHodeFZRQ/edit#slide=id.p>`_
-     * - 
+   * - 
       - 1:30-2:00
       - DMPs continued
       - `Draft a DMP <..//Data_management/dmp.html>`_
