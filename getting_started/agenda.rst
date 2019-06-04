@@ -128,23 +128,23 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Introduction to CyVerse cyberinfrastructure (Amanda)
       - `Overview of CI, user portal, getting help, Learning Center <../CyVerse/intro_to_cyverse.html>`_
     * - 
-      - 10:00-11:00
+      - 10:00-10:15
+      - Coffee break
+      - 
+    * - 
+      - 10:15-11:00
       - Introduction to the Discovery Environment (Ramona)
       - `Data and analyses in the DE <../CyVerse/de.html>`_
     * - 
       - 11:00-12:00
-      - Coffee break and Bio5 Tour
-      -   
-    * -
+      - CyVerse Data Store (Ramona)
+      - `iCommands, CyberDuck, Data Commons <../CyVerse/data_store.html>`_     * -
+    * -       
       - 12:00-1:00
       - Lunch Break (on your own)
       -
     * - 
-      - 1:00-2:00
-      - CyVerse Data Store (Ramona)
-      - `iCommands, CyberDuck, Data Commons <../CyVerse/data_store.html>`_ 
-    * - 
-      - 2:00-2:45
+      - 1:00-2:45
       - Introduction to VICE (Tyson)
       - Jupyter Notebook, Rstudio, RShiny
     * - 
@@ -152,9 +152,13 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Coffee break
       - 
     * - 
-      - 3:00-4:45
+      - 3:00-3:45
       - VICE continued (Tyson)
       - Jupyter Notebook, Rstudio, RShiny 
+    * - 
+      - 3:45-4:45
+      - Introduction Cloud Computing (Tyson)
+      - `Using CyVerse Atmosphere <../CyVerse/atmo.html>`_
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
@@ -184,31 +188,35 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Data management plans and tools (Ramona)
       - `Draft a DMP <..//Data_management/dmp.html>`_
     * - 
-      - 11:30-12:00
-      - Budgeting for open, reproducible science (Fernando, Tina)
-      - `Slides <https://docs.google.com/presentation/d/1i37hl4eZBh-1sekTqPvzNfZYsQkQid1m3LnHodeFZRQ/edit#slide=id.p>`_
+      - 11:00-12:00
+      - Bio5 Tour
+      - Meet in Bio5 (Keating) lobby
     * -
       - 12:00-1:00
       - Lunch Break (on your own)
       -
     * - 
-      - 1:00-2:45
-      - Introduction Cloud Computing (Tyson)
-      - `Using CyVerse Atmosphere <../CyVerse/atmo.html>`_
+      - 1:00
+      - Budgeting for open, reproducible science (Fernando, Tina)
+      - `Slides <https://docs.google.com/presentation/d/1i37hl4eZBh-1sekTqPvzNfZYsQkQid1m3LnHodeFZRQ/edit#slide=id.p>`_
+    * - 
+      - 1:20-2:45
+      - Advanced cloud computing (Tyson)
+      - Jetstream, commercial providers
     * - 
       - 2:45-3:00
       - Coffee break
       - 
     * - 
       - 3:00-4:45
-      - Advanced cloud computing (Tyson)
+      - Advanced cloud computing part 2 (Tyson)
       - Jetstream, commercial providers
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
       - Brief survey of activities
     * - 
-      - 5:00-6:00
+      - 5:00-5:30
       - Instructor Debrief
       - 
     * - 
