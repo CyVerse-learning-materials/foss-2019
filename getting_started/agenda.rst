@@ -138,7 +138,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 11:00-12:00
       - CyVerse Data Store (Ramona)
-      - `iCommands, CyberDuck, Data Commons <../CyVerse/data_store.html>`_     * -
+      - `iCommands, CyberDuck, Data Commons <../CyVerse/data_store.html>`_
     * -       
       - 12:00-1:00
       - Lunch Break (on your own)
@@ -184,7 +184,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Coffee break
       - 
     * - 
-      - 10:30-11:30
+      - 10:30-11:00
       - Data management plans and tools (Ramona)
       - `Draft a DMP <..//Data_management/dmp.html>`_
     * - 
@@ -196,10 +196,14 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Lunch Break (on your own)
       -
     * - 
-      - 1:00
+      - 1:00-1:30
       - Budgeting for open, reproducible science (Fernando, Tina)
       - `Slides <https://docs.google.com/presentation/d/1i37hl4eZBh-1sekTqPvzNfZYsQkQid1m3LnHodeFZRQ/edit#slide=id.p>`_
-    * - 
+     * - 
+      - 1:30-2:00
+      - DMPs continued
+      - `Draft a DMP <..//Data_management/dmp.html>`_
+   * - 
       - 1:20-2:45
       - Advanced cloud computing (Tyson)
       - Jetstream, commercial providers
