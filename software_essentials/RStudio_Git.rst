@@ -60,14 +60,14 @@ R has `many projects which deal with workflows <https://github.com/jdblischak/r-
 
 We're going to talk about the ``workflowr`` and ``drake``
 
-  1. Install Packages and depends
+1. Install Packages and depends
   
 .. code::
    install.package(c("workflowr","drake"), dependencies=TRUE)
-     
-  2. Follow instructions for building a  `workflowr website <https://jdblischak.github.io/workflowr/articles/wflow-01-getting-started.html>`_ 
+      
+2. Follow instructions for building a  `workflowr website <https://jdblischak.github.io/workflowr/articles/wflow-01-getting-started.html>`_ 
   
-  3. Follow instructions for building a  `drake <https://ropensci.github.io/drake/>`_ workflow
+3. Follow instructions for building a  `drake <https://ropensci.github.io/drake/>`_ workflow
   
 
 *Self Paced*
