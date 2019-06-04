@@ -55,6 +55,13 @@ FAIR data
 How to make data findable, accessible, interoperable, and reusable. 
 
 See the `FAIR data page <./FAIR.html>`_. 
+
+Open versus Public versus FAIR:
+
+One definition of open: http://opendefinition.org/
+
+FAIR does not demand that data be open.
+
  
 Best practices for the data life cycle
 ~~~~~~~~~~~~~~~~~~~~~
@@ -148,20 +155,8 @@ The CyVerse Data Commons supports good data description through
  - Follow open science principles for reproducible analyses (CyVerse, RStudio, notebooks, IDEs)
  - State your hypotheses and analysis workflow before collecting data. Tools like `OSF <https://osf.io/>`_ allow you to make this public.
  - Record all software, parameters, inputs, etc.
-
-Data Management Tools
-===================
-
-`KNB tools <https://knb.ecoinformatics.org/tools>`_
-
-`Open Science Framework <https://osf.io/>`_
-
+ 
 ----
-
-Open versus Public versus FAIR
-=========================
-
-One definition of open: http://opendefinition.org/
 
 References and Resources
 =================
@@ -174,6 +169,13 @@ References and Resources
  - `Open Data Commons <https://opendatacommons.org/licenses/index.html>`- 
  - `Creative Commons <https://creativecommons.org/>`_ 
  - - https://choosealicense.com/
+ 
+ 
+ **Data Management Tools:**
+ 
+- `KNB tools <https://knb.ecoinformatics.org/tools>`_
+- `Open Science Framework <https://osf.io/>`_
+
 
 ----
 
