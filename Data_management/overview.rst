@@ -158,6 +158,11 @@ Data Management Tools
 
 ----
 
+Open versus Public versus FAIR
+=========================
+
+One definition of open: http://opendefinition.org/
+
 References and Resources
 =================
 
