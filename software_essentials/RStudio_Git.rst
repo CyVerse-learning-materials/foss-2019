@@ -32,16 +32,44 @@ RStudio can be used with Git or SVN. For today's lesson we're going to be using 
   
   5. Open the directory in RStudio and set the project folder as the workspace.
 
+*R Markdown*
+~~~~~~~~~~~
+
+  1. Create a new `.Rmd` format file.
+  
+  2. Set the parameters (e.g. HTML, PDF, etc)
+  
+  3. Create an code block and specify the language, e.g.
+  
+.. code:: R 
+  ```{R, echo=FALSE}
+  
+  ```
+  ```{bash, echo=FALSE}
+  
+  ```
+  ```{python, echo=FALSE}
+  
+  ```
+  4. Run the code block
+
+
 *Workflow R*
 ~~~~~~~~~~~
 
 R has `many projects which deal with workflows <https://github.com/jdblischak/r-project-workflows>`_
 
+We're going to talk about the `workflowr` and`drake`
+
   1. Install Packages and depends
   
-     ```install.package(c("workflowr","drake"), dependencies=TRUE)
+.. code::
+   install.package(c("workflowr","drake"), dependencies=TRUE)
      
-  2. Follow instructions    
+  2. Follow instructions for building a  `workflowr website <https://jdblischak.github.io/workflowr/articles/wflow-01-getting-started.html>`_ 
+  
+  3. Follow instructions for building a  `drake <https://ropensci.github.io/drake/>`_ workflow
+  
 
 *Self Paced*
 ------------
