@@ -30,8 +30,18 @@ RStudio can be used with Git or SVN. For today's lesson we're going to be using 
  
   4. Save your new git repository to the newly created ``~/github`` directory.
   
-  5. Open the directory in RStudio
+  5. Open the directory in RStudio and set the project folder as the workspace.
 
+*Workflow R*
+~~~~~~~~~~~
+
+R has `many projects which deal with workflows <https://github.com/jdblischak/r-project-workflows>`_
+
+  1. Install Packages and depends
+  
+     ```install.package(c("workflowr","drake"), dependencies=TRUE)
+     
+  2. Follow instructions    
 
 *Self Paced*
 ------------
