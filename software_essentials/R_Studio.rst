@@ -66,6 +66,9 @@ These can be rearranged by going into Preferences.
 Calculating with R
 ~~~~~~~~~~~~~~~~~~
 
+**Note** spaces don't matter unless it's in the middle of an argument
+**Note** R starts counting at 1, not at 0
+
 Using R as a calculator
 
 .. code-block:: R
