@@ -67,6 +67,7 @@ Calculating with R
 ~~~~~~~~~~~~~~~~~~
 
 **Note** spaces don't matter unless it's in the middle of an argument
+
 **Note** R starts counting at 1, not at 0
 
 Using R as a calculator
@@ -77,7 +78,7 @@ Using R as a calculator
 	> 4
 	
 	> 1 +
-	> +
+	> + #R will let you know that the code is incomplete
 	
 	> 2/10000
 	> 2e-04
@@ -138,6 +139,11 @@ are the same thing.
 
 - Examples
 	Some are better than others. Generally, though, this gives examples of the arguments most commonly used in the function.
+
+Searching for help:
+- type in error message (just delete words specific to your data)
+- inlcude in package name
+- type "CRAN" after to help search for R programming specifically
 
 Installing packages
 ~~~~~~~~~~~~~~~~~~~
