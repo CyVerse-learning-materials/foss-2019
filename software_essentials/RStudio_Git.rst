@@ -58,7 +58,7 @@ RStudio can be used with Git or SVN. For today's lesson we're going to be using 
 
 R has `many projects which deal with workflows <https://github.com/jdblischak/r-project-workflows>`_
 
-We're going to talk about the `workflowr` and`drake`
+We're going to talk about the ``workflowr`` and ``drake``
 
   1. Install Packages and depends
   
