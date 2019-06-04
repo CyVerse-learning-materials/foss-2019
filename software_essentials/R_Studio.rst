@@ -152,7 +152,7 @@ Installing packages
 
 	install.packages("packageName")
 
-To install more than one package at once you can use the ``c("package1", "package2")`` `combine feature <https://www.rdocumentation.org/packages/base/versions/3.6.0/topics/c>`_:
+To install more than one package at once you can use the ``c("package1", "package2")`` concatenate:
 
 .. code-block:: R
 
@@ -400,7 +400,7 @@ You can view your environment either by looking at the upper left tab or by typi
 
 .. code-block:: R
 
-	ls()
+	ls() #see variables in your environment
 
 You can remove objects using the rm() function.
 
