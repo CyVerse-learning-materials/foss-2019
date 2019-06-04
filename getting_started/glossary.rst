@@ -11,7 +11,8 @@
 
 **B**
 
-**C**_
+**C**
+
 - **container:** A virtualization of an operating system run within an isolated user space. A running instance of and image.
 - **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
 - **CyVerse app:** graphic interface of a tool made available for use in the DE
