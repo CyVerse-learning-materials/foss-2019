@@ -23,6 +23,10 @@
 
 Go to Session -> Set Working Directory to set where you will pull data files from and/or save your code.
 
+.. code-block:: R
+	setwd(path)
+	getwd() #see what working directory you're in
+
 **Introduction**
 ----------------
 
@@ -84,7 +88,7 @@ Comparing things: Using logical operators
 
 .. code-block:: R
 
-	> 1 == 1
+	> 1 == 1 #spaces between logical arguments matter
 	> TRUE
 	
 	> 1 < 2
@@ -158,6 +162,13 @@ You can see installed packages with the following command:
 
 	installed.packages()
 
+To use the package after it's been loaded:
+
+.. code-blocl:: R
+	#both do the same thing:
+	require("package")
+	library("package") 
+
 Uploading Data
 ~~~~~~~~~~~~~~
 
@@ -166,7 +177,7 @@ There are many ways to upload data in the R environment depending on the documen
 .. code-block:: R
 
 	#General reading
-	read.table("dataFile.txt)
+	read.table("dataFile.txt", sep = "/t")
 
 **Exercise:**
 
@@ -178,7 +189,7 @@ There are many ways to upload data in the R environment depending on the documen
 	#.csv files
 	read.csv()
 	
-	#reading in from an online source
+	#reading in from an online source or path to the directory if you're not in the right working directory
 	read.table(path/to/file)
 	
 **Data Structures**
@@ -268,6 +279,8 @@ You can create a string of variables and add to a vector using c(), which is sho
 	y <- 1:5
 	z <- seq(1, 5, 1)
 
+3. Are x, y, and z all the same structure? If not, how would you make them all the same?
+
 Adding to vectors: the concatenate function: c()
 
 .. code-block:: R
@@ -278,13 +291,19 @@ Adding to vectors: the concatenate function: c()
 Try adding two to every numer in the vector "x".
 	3. How do you add two to every number in x?
 
+What happens what you add a character to a vector?
+
+.. code-block:: R
+	d <- c(d, "a)
+	str(d)
+
 **ATOMIC VECTORS** are vectors which cannot be simplified anymore, and therefore "$" cannot be used on them. Yes, this error happens a lot. Yes, it is frustrating. Good luck.
 
 
 Matrices & Dataframes
 ~~~~~~~~~~~~~~~~~~~~~
 
-A matrix and a dataframe are both 2-D objects.
+A matrix and a dataframe are both 2-D objects that are made up of vectors.
 
 Creating a dataframe using data.frame()
 
@@ -300,6 +319,12 @@ You can combine dataframes:
 	hi <- data.frame(1:26, letters, c("hey", "you"))
 	howdy <- data.frame(hello, hi)
 
+What are the column headers?
+What happends when you do the following?
+
+.. code-block:: R
+	hola <- data.frame(1:26, letters, words = "hey", "you")
+
 Adding columns and rows using cbind() and rbind()
 
 .. code-block:: R
@@ -312,8 +337,15 @@ Calling columns:
 
 .. code-block:: R
 
-	hello[,2]
+	hello[,2] #[] are like an index
 	hello$letters
+
+Subsetting:
+
+.. code-black:: R
+	
+	hello[1:5, 2]
+	hello$letters[1:5]
 
 **Useful Functions to explore data types**
 
