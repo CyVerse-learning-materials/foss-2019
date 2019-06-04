@@ -272,8 +272,11 @@ Adding to vectors: the concatenate function: c()
 
 .. code-block:: R
 	
-	x <- 1
-	x <- c(x, 2)
+	d <- 1
+	d <- c(d, 2)
+
+Try adding two to every numer in the vector "x".
+	3. How do you add two to every number in x?
 
 **ATOMIC VECTORS** are vectors which cannot be simplified anymore, and therefore "$" cannot be used on them. Yes, this error happens a lot. Yes, it is frustrating. Good luck.
 
@@ -371,7 +374,7 @@ Create the following dataframe:
 	cats <- data.frame(coat = c("calico", "black", "tabby"), 
                     weight = c(2.1, 5.0,3.2), 
                     likes_string = c(1, 0, 1))
-    class(cats)
+	class(cats)
 
 Let's add!
 
