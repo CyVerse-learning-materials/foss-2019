@@ -9,7 +9,7 @@
 **FOSS 2019 Introduction**
 -------------
 
-Welcome and staff introducutions
+Welcome and staff introductions
 ===========================
 
 Stuff to get out of the way
