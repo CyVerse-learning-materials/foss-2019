@@ -175,8 +175,9 @@ To use the package after it's been loaded:
 
 .. code-blocl:: R
 	#both do the same thing:
-	require("package")
-	library("package") 
+	require("package") #loads dependencies; will give a warning if it is in conflict with another package (e.g., masks)
+		#can overwrite masked functions using "::" (e.g., package::function)
+	library("package") #will give an error if in conflict with other packages or has missing dependencies
 
 Uploading Data
 ~~~~~~~~~~~~~~
@@ -328,6 +329,11 @@ You can combine dataframes:
 	hi <- data.frame(1:26, letters, c("hey", "you"))
 	howdy <- data.frame(hello, hi)
 
+How do you name the column with the numbers 1-26?
+
+.. code-block:: R
+	hi <- data.frame(numbers = 1:26, letters, c("hey", "you"))
+
 What are the column headers?
 What happends when you do the following?
 
@@ -360,13 +366,13 @@ Subsetting:
 
 .. code-block:: R
 
-	View()
+	View()  #can also double click on dataframe inside the R environment tab
 	str()
 	summary()
 	class()
 	typeof()
 	length()
-	attributes()
+	attributes() #can also click on dataframe inside the R environment tab
 	dim()
 	head()
 	tail()
@@ -443,6 +449,22 @@ Subsetting Data
 	2. What are the outputs?
 
 .. code-block:: R
+	p <- subset(cats, cats$weight <= 3)
+	p
+	
+	q <- cats[cats$weight <= 3,]
+	q
+
+	cats$likes_string == 1
+	cats[cats$likes_string == TRUE,]
+	
+	cats[c(1,3),]
+	cats[colnames(cats) == "weight"]
+	cats[cats$weight >= 2 & cats$weight <= 5]
+	cats[cats$likes_string != 0,] #not equal to
+	cats[!(is.na(cats$weight))] #is not
+
+.. code-block:: R
 
 	x <- c(a=5.4, b=6.2, c=7.1, d=4.8, e=7.5) # we can name a vector 'on the fly'
 	#x is a vector
@@ -450,6 +472,13 @@ Subsetting Data
 	x[names(x) == "a"]
 	x[names(x) == "a" | "c"]
 	x[names(x) != "a"]
+
+Terminal
+--------
+
+Can run terminal in RStudio. This is useful if you want to run a program and still be able to use R, or if you need dependencies. Also, the terminal does not interact with the R environment.
+
+Tools --> Terminal --> New Terminal
 
 
 .. CHEAT SHEETS::
