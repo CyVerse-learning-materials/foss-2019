@@ -53,7 +53,6 @@ RStudio can be used with Git or SVN. For today's lesson we're going to be using 
   ```
   4. Run the code block
 
-
 *Workflow R*
 ~~~~~~~~~~~
 
