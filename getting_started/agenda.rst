@@ -167,7 +167,118 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - 5:00-5:30
       - Instructor Debrief
       - 
-
+    * - 06/06/19 (Thursday)
+      - 8:45-9:00
+      - Assemble near BSRL elevators
+      -
+    * - 
+      - 9:00-9:15
+      - Introduction and overview of the day's activities (Ramona)
+      - AM: Data Management, PM: Cloud Computing     
+    * -
+      - 9:15-10:15
+      - Introduction to Data Management (Ramona)
+      - `Data life cycle, organization, metadata, FAIR data <..//Data_management/overview.html>`_
+    * - 
+      - 10:15-10:30
+      - Coffee break
+      - 
+    * - 
+      - 10:30-11:00
+      - Data management plans and tools (Ramona)
+      - `Draft a DMP <..//Data_management/dmp.html>`_
+    * - 
+      - 11:00-12:00
+      - Bio5 Tour
+      - Meet in Bio5 (Keating) lobby
+    * -
+      - 12:00-1:00
+      - Lunch Break (on your own)
+      -
+    * - 
+      - 1:00-1:30
+      - Budgeting for open, reproducible science (Fernando, Tina)
+      - `Slides <https://docs.google.com/presentation/d/1i37hl4eZBh-1sekTqPvzNfZYsQkQid1m3LnHodeFZRQ/edit#slide=id.p>`_
+    * - 
+      - 1:30-2:00
+      - DMPs continued
+      - `Draft a DMP <..//Data_management/dmp.html>`_
+    * - 
+      - 1:20-2:45
+      - Advanced cloud computing (Tyson)
+      - Jetstream, commercial providers
+    * - 
+      - 2:45-3:00
+      - Coffee break
+      - 
+    * - 
+      - 3:00-4:45
+      - Advanced cloud computing part 2 (Tyson)
+      - Jetstream, commercial providers
+    * - 
+      - 4:45-5:00
+      - Wrap-up, Discussion, Q&A
+      - Brief survey of activities
+    * - 
+      - 5:00-5:30
+      - Instructor Debrief
+      - 
+    * - 
+      - 6:30-8:30
+      - Group dinner
+      - Location TBD
+    * - 06/07/19 (Friday)
+      - 8:45-9:00
+      - Assemble near BSRL elevators
+      -
+    * - 
+      - 9:00-9:15
+      - Introduction and overview of the day's activities (Ramona)
+      - AM: Containers, PM: lab organization
+    * - 
+      - 9:15-10:15
+      - Introduction to containers (Tyson or Ramona)
+      - Running Docker containers on Atmosphere 
+    * - 
+      - 10:15-10:30
+      - Coffee break
+      - 
+    * - 
+      - 10:30-11:15
+      - Biocontainers (Amanda)
+      -  
+    * - 
+      - 11:15-11:45
+      - Creating DE apps (Amanda)
+      -  
+    * -
+      - 11:45-1:00
+      - Lunch Break - option to join the CyVerse potluck lunch
+      - Coffee shop closes early, so this is the last chance for fine Catalyst coffee!
+    * - 
+      - 1:00-2:00
+      - Collaborative exercise (Michael Mandel)
+      - Repeat exercise from day 1 and discuss   
+    * - 
+      - 2:00-3:00
+      - Group activity on Open Science Labs (Ramona)
+      - Complete plans for open science lab, next steps
+    * - 
+      - 3:00-3:15
+      - Coffee break
+      - 
+    * - 
+      - 3:15-4:00
+      - Report out on Open Science Labs (Team)
+      - Everyone briefly describes their plans
+    * - 
+      - 4:00
+      - Wrap-up, Evaluations, Q&A (Team)
+      - `Post-workshop evaluation <link>`_
+    * - 
+      - 4:30-5:00
+      - Instructor Final Debrief
+      - 
 ----
 
 **Fix or improve this documentation:**
