@@ -169,7 +169,7 @@ Science APIs
     - Agave API for HPC
     - Terrain API for DE
     
-SciApps
+`SciApps <https://www.sciapps.org/>`_
 ^^^^^^^
 
 **A cloud-based platform for building and sharing reproducible bioinformatics workflows across distributed computing and storage systems**
