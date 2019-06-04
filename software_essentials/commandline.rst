@@ -121,7 +121,7 @@ Directories are like places - at any time while we are using the shell we are in
 .. code-block:: bash
 
     $ pwd
-    /Users/
+    /Users/nelle
 
 Here, the computer’s response is /Users/nelle, which is Nelle’s home directory.
 
