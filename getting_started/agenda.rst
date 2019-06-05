@@ -150,7 +150,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 1:00-2:45
       - Introduction to VICE (Tyson)
-      - Jupyter Notebook, Rstudio, RShiny
+      - `Jupyter Notebook, Rstudio, RShiny <../CyVerse/vice.html>`_
     * - 
       - 2:45-3:00
       - Coffee break
@@ -158,7 +158,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 3:00-3:45
       - VICE continued (Tyson)
-      - Jupyter Notebook, Rstudio, RShiny 
+      - `Jupyter Notebook, Rstudio, RShiny <../CyVerse/vice.html>`_
     * - 
       - 3:45-4:45
       - Introduction Cloud Computing (Sateesh)
