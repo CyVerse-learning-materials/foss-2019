@@ -214,7 +214,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 3:00-4:45
       - Advanced cloud computing part 2 (Tyson)
-      - Jetstream, commercial providers
+      - XSEDE
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
