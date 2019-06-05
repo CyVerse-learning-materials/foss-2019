@@ -78,6 +78,12 @@ Expected outcomes:
 
 .. toctree::
    :maxdepth: 1
+   :caption: Moving On
+   
+   moving_on/xsede
+   
+.. toctree::
+   :maxdepth: 1
    :caption: Containers
 
    Containers/dockerintro
