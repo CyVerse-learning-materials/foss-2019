@@ -124,9 +124,13 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Introduction and overview of the day's activities (Ramona)
       - Using CyVerse 
     * - 
-      - 9:15-10:00
+      - 9:15-9:45
       - Introduction to CyVerse cyberinfrastructure (Amanda)
       - `Overview of CI, user portal, getting help, Learning Center <../CyVerse/intro_to_cyverse.html>`_
+    * - 
+      - 9:45-10:00
+      - Team Charter (Ramona)
+      - 
     * - 
       - 10:00-10:15
       - Coffee break
