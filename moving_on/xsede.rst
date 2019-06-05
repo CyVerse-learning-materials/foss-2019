@@ -6,12 +6,12 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**Moving on**
--------------
+**National Research Cyberinfrastructure**
+-----------------------
 
-While CyVerse provides free and open resources for data storage and data computing, you're eventually going to push the boundaries of what CyVerse can offer.
+While CyVerse provides free and open resources for data storage and computing, you may find that your work is pushing the limits of what CyVerse offers in its core services.
 
-There are other national research organizations whom you should be aware of, and ready to interface with. CyVerse is a partner with numerous other organizations, and can be used as a nexus to send your data and algorithms to the largest public research computing centers in the world. 
+By design, there are other national research organizations whom you should be aware of, and ready to interface with. CyVerse is a partner with numerous other organizations, and can be used as a nexus to send your data and algorithms to the largest public research computing centers in the world. 
 
 **XSEDE**
 ~~~~~~~~
