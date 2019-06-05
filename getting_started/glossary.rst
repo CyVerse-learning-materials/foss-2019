@@ -9,12 +9,12 @@
 ^^^^^^^^^^^^
 **A**
 
--**app:** (vs. tool)
--**AVU:** Attribute-Value-Unit as components for metadata.
+- **app:** (vs. tool)
+- **AVU:** Attribute-Value-Unit as components for metadata.
 
 **B**
 
--**beta:** (symbol in CyVerse apps)
+- **beta:** (symbol in CyVerse apps)
 
 **C**
 
@@ -45,19 +45,19 @@
 - **instance:** a single virtul machine 
 - **image:** self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies
 - **image registry:** a storage and content delivery system, holding named images, available in different tagged versions
--**iRODS:**
+- **iRODS:**
 
 **J**
 
 **K**
 
--**kernel:**
+- **kernel:**
 
 **L**
 
 **M**
 
--**multi-thread:**
+- **multi-thread:**
 
 **N**
 
@@ -69,7 +69,7 @@
 
 **R**
 
--**repo(sitory):**
+- **repo(sitory):**
 
 **S**
 
@@ -77,8 +77,8 @@
 
 **T**
 
--**tar:**
--**tool:**
+- **tar:**
+- **tool:**
 
 **U**
 
@@ -92,7 +92,7 @@
 
 **X**
 
--**XML:**
+- **XML:**
 
 **Y**
 
