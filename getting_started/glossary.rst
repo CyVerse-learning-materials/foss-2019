@@ -5,14 +5,14 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Glossary**
+**Glossary & Acronyms**
 ^^^^^^^^^^^^
 **A**
 
 **B**
 
 **C**
-
+-**CLI:** command line interface
 - **container:** A virtualization of an operating system run within an isolated user space. A running instance of and image.
 - **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
 - **CyVerse app:** graphic interface of a tool made available for use in the DE
@@ -38,6 +38,7 @@
 - **instance:** a single virtul machine 
 - **image:** self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies
 - **image registry:** a storage and content delivery system, holding named images, available in different tagged versions
+-**iRODS:**
 
 **J**
 
