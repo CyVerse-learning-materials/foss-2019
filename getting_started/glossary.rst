@@ -13,6 +13,8 @@
 
 **B**
 
+-**beta:** (symbol in CyVerse apps)
+
 **C**
 
 -**CLI:** command line interface
@@ -47,6 +49,8 @@
 **J**
 
 **K**
+
+-**kernel:**
 
 **L**
 
