@@ -17,7 +17,7 @@
 
 **Why bother?**
 
-**Stick:** `You have to make one `https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp>`_
+**Stick:** `You have to make one <https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp>`_
 
 Reviewers definitely look at them, but they may not be enforced.
 
@@ -73,7 +73,7 @@ https://dmptool.org/
 References and Resources
 =================
 
-
+`NSF Guidelines on DMPs <https://www.nsf.gov/bio/biodmp.jsp>`_
 
 
 ----
