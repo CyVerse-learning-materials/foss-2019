@@ -24,6 +24,7 @@
 **E**
 
 **F**
+-**function:**
 
 **G**
 
@@ -55,6 +56,7 @@
 **Q**
 
 **R**
+-**repo(sitory):**
 
 **S**
 
@@ -68,7 +70,12 @@
 
 - **virtual machine:** is a software computer that, like a physical computer, runs an operating system and applications
 
+**W**
+-**workspace:** (vs. repo)
+
 **X**
+
+-**XML:**
 
 **Y**
 
