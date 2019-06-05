@@ -11,7 +11,7 @@
 
 While CyVerse provides free and open resources for data storage and data computing, you're eventually going to push the boundaries of what CyVerse can offer.
 
-There are other national research organizations whom you should be aware of, and ready to interface with.
+There are other national research organizations whom you should be aware of, and ready to interface with. CyVerse is a partner with numerous other organizations, and can be used as a nexus to send your data and algorithms to the largest public research computing centers in the world. 
 
 **XSEDE**
 ~~~~~~~~
@@ -22,12 +22,24 @@ The `eXtreme Science and Engineering Discovery Environment (XSEDE) <https://www.
 
 1. Sign up for an XSEDE account via their `user portal <https://portal.xsede.org/>`_
 
-
 2. Determine whether you're ready for a start up allocation on one of the XSEDE resource.
 
-**CyVerse Powered By**
+3. Fill out an XSEDE startup allocation.
 
-CyVerse http://www.cyverse.org/powered-by-cyverse
+**CyVerse Powered By**
+~~~~~~~~~~~~
+
+CyVerse supports "`Powered by <http://www.cyverse.org/powered-by-cyverse>`_" projects which utilize more of the available CyVerse cyberinfrastructur than are exposed through its public services. 
+
+**TACC**
+~~~~~
+
+CyVerse resources are mirrored between the University of Arizona and the `Texas Advanced Computing Center(TACC) <https://www.tacc.utexas.edu/>`_. You can access TACC resources from CyVerse, or log directly into their infrastructure via XSEDE.
+
+**Open Science Grid**
+~~~~~~~
+
+The `OpenScienceGrid (OSG) <https://opensciencegrid.org/>`_ is another CyVerse partner. You can use the OSG through our Discovery Environmetn to launch high throughput computing jobs. 
 
 ----
 
