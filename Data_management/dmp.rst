@@ -12,6 +12,8 @@
 
 What is a DMP
 
+https://www.nsf.gov/pubs/policydocs/pappg19_1/pappg_2.jsp#IIC2gvib
+
 Purpose of a DMP
 
 Elements of a good DMP
