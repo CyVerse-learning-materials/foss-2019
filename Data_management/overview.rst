@@ -24,6 +24,7 @@ Data management produces self-describing datasets that:
 - benefit the scientific research community by allowing others to reuse your data
 - are required by most funders and many journals
 - `Recent Dear Colleague letter from NSF <https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp>`_
+- NSF proposal preparation guidelines: https://www.nsf.gov/pubs/policydocs/pappg19_1/pappg_11.jsp#XID4 
 
 Data Management Basics
 ===================
