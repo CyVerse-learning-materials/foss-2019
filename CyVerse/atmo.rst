@@ -414,8 +414,10 @@ Restart the server
 
 4. You can launch Jupyter Lab by exiting the notebook and typing `jupyter lab` - but this will allow Lab to only be available on the localhost, with no way to connect from a remote terminal. Exit the notebook by pressing `ctrl + c` twice, and then start a `Jupyter Lab <https://github.com/jupyterlab/jupyterlab>`_.
 
-**Self Paced**
+**Hands On**
 -------
+
+`Sateesh's Atmosphere Exercises <https://snakemake2019.readthedocs.io/en/latest/Atmosphere_Cloud.html>`_
 
 .. Note::
 
