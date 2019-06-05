@@ -157,7 +157,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Jupyter Notebook, Rstudio, RShiny 
     * - 
       - 3:45-4:45
-      - Introduction Cloud Computing (Tyson)
+      - Introduction Cloud Computing (Sateesh)
       - `Using CyVerse Atmosphere <../CyVerse/atmo.html>`_
     * - 
       - 4:45-5:00
