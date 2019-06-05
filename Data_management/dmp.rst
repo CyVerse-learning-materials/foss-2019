@@ -10,17 +10,54 @@
 
 .. #### Comment: Introduction to basic data management principles
 
-What is a DMP
+"A data management plan or DMP is a formal document that outlines how data are to be handled both during a research project, and after the project is completed.[1] The goal of a data management plan is to consider the many aspects of data management, metadata generation, data preservation, and analysis before the project begins; this may lead to data being well-managed in the present, and prepared for preservation in the future."
+(Source: https://en.wikipedia.org/wiki/Data_management_plan)
 
 `Example DMP <slides/DMPFuTRES_v2.docx>`_
 
-https://www.nsf.gov/pubs/policydocs/pappg19_1/pappg_2.jsp#IIC2gvib
+**Why bother?**
 
-Purpose of a DMP
+**Stick:** `You have to make one `https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp>`_
+
+Reviewers definitely look at them, but they may not be enforced.
+
+**Carrot:** Make your life easier
+ - Planning for you project makes it run more smoothly
+ - Avoid surprise costs
 
 Elements of a good DMP
+====================
+ - Information about data & data format(s)
+   - data types
+   - data sources
+   - analysis methods
+   - formats
+   - QA/QC
+   - version control
+   - **data life cycle**
+ - Metadata content and format(s)
+   - format
+   - standards
+ - Policies for access, sharing, and re-use
+   - funder obligations
+   - ethical and privacy issues (data justice)
+   - intellectual property, copyright, citation
+   - timeline for releases
+ - Long-term storage, data management, and preservation
+   - which data to preserve
+   - which archive/repository
+ - Budget (`PAPPG <https://www.nsf.gov/pubs/policydocs/pappg19_1/pappg_2.jsp#IIC2gvib>`_)
+   - each of the above elements cost time/money
+   - Personnel time for data preparation, management, documentation, and preservation (including time)
+   - Hardware and/or software for data management, back up, security, documentation, and preservation (including time)
+   - Publication/archiving costs (including time)
+ 
+Not only what, but *who* (roles).
+
+Extra challenges for collaborative projects.
 
 Machine actionable DMPs
+=======================
 
 https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006750
 
