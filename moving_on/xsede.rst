@@ -1,0 +1,53 @@
+.. include:: ../cyverse_rst_defined_substitutions.txt
+
+|CyVerse_logo2|_
+
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
+
+
+**Moving on**
+-------------
+
+While CyVerse provides free and open resources for data storage and data computing, you're eventually going to push the boundaries of what CyVerse can offer.
+
+There are other national research organizations whom you should be aware of, and ready to interface with.
+
+**XSEDE**
+~~~~~~~~
+
+The `eXtreme Science and Engineering Discovery Environment (XSEDE) <https://www.xsede.org/>`_ is a single virtual system that scientists can use to interactively share computing resources, data and expertise. People around the world use these resources and services — things like supercomputers, collections of data and new tools.
+
+**Exercise** 
+
+1. Sign up for an XSEDE account via their `user portal <https://portal.xsede.org/>`_
+
+
+2. Determine whether you're ready for a start up allocation on one of the XSEDE resource.
+
+**CyVerse Powered By**
+
+CyVerse http://www.cyverse.org/powered-by-cyverse
+
+----
+
+**Fix or improve this documentation:**
+
+- On Github: |Github Repo Link|
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+
+.. Comment: Place URLS Below This Line
+
+   # Use this example to ensure that links open in new tabs, avoiding
+   # forcing users to leave the document, and making it easy to update links
+   # In a single place in this document
+
+   .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
+
+      <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
+
+
+.. |Github Repo Link|  raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/getting_started/intro.rst" target="blank">Github Repo Link</a>
