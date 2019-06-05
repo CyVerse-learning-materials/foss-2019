@@ -97,7 +97,7 @@ User portal forms
     - User extensible. Users can add their own tools and make their own apps.
            - Share them with collaborators
            - Publish them
-    - VICE (Visual and Interactive Computing Environment) for interactive use of Jupyter notebooks, RStudio and the terminal.
+    - VICE (Visual and Interactive Computing Environment) for interactive use of Jupyter notebooks, RStudio and RShiny.
     - Integrated with the Data Store for ease of use
     - Share your analyses with your collaborators
     - `DE guide <http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/>`_
