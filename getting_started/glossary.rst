@@ -9,7 +9,7 @@
 ^^^^^^^^^^^^
 **A**
 
--**AVU:**
+-**AVU:** Attribute-Value-Unit as components for metadata.
 
 **B**
 
