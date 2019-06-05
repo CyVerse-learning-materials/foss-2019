@@ -9,6 +9,7 @@
 ^^^^^^^^^^^^
 **A**
 
+-**app:** (vs. tool)
 -**AVU:** Attribute-Value-Unit as components for metadata.
 
 **B**
@@ -75,7 +76,9 @@
 - **shell:** is a command line interface program that runs other programs (may be complex, technical programs or very simple programs such as making a directory). These simple, stand-alone programs are called commands.
 
 **T**
+
 -**tar:**
+-**tool:**
 
 **U**
 
