@@ -12,6 +12,7 @@
 **B**
 
 **C**
+
 -**CLI:** command line interface
 - **container:** A virtualization of an operating system run within an isolated user space. A running instance of and image.
 - **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
@@ -24,6 +25,7 @@
 **E**
 
 **F**
+
 -**function:**
 
 **G**
@@ -47,6 +49,7 @@
 **L**
 
 **M**
+
 -**multi-thread:**
 
 **N**
@@ -58,6 +61,7 @@
 **Q**
 
 **R**
+
 -**repo(sitory):**
 
 **S**
@@ -74,6 +78,7 @@
 - **virtual machine:** is a software computer that, like a physical computer, runs an operating system and applications
 
 **W**
+
 -**workspace:** (vs. repo)
 
 **X**
