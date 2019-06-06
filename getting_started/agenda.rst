@@ -218,7 +218,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 3:00-4:45
       - Time to catch up
-      - XSEDE
+      - Work on your own or in small groups on topics from throughout the week.
     * - 
       - 4:45-5:00
       - Wrap-up, Discussion, Q&A
