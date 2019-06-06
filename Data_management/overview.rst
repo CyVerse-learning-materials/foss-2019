@@ -97,25 +97,25 @@ discovered, understood, or effectively used.
       - Go get an `ORCID <https://orcid.org/>`_ if you don't have one.
    - the scientific context (reason for collecting the data, how they were collected, equipment and software used to generate the data, conditions during data collection, spatial and temporal resolution)
    - the data themselves
-      - how each measurement was produced
-      - units
-      - format
-      - quality assurance activities
-      - precision, accuracy, and uncertainty
+         - how each measurement was produced
+         - units
+         - format
+         - quality assurance activities
+         - precision, accuracy, and uncertainty
  
 Metadata standards and ontologies are invaluable for supporting data reuse.
 
  - Metadata standards tell you
-   - which metadata attributes to include
-   - how to format your metadata
-   - what values are allowable for different attributes
+      - which metadata attributes to include
+      - how to format your metadata
+      - what values are allowable for different attributes
  - Some metadata standards
-   - `DataCite <https://schema.datacite.org/>`_ (for publishing data)
-   - `Dublin Core <http://www.dublincore.org/specifications/dublin-core/dcmi-terms/>`_ (for sharing data on the web)
-   - Minimum Information for any (x) Sequence (`MIxS <https://press3.mcs.anl.gov/gensc/mixs/>`_)
+      - `DataCite <https://schema.datacite.org/>`_ (for publishing data)
+      - `Dublin Core <http://www.dublincore.org/specifications/dublin-core/dcmi-terms/>`_ (for sharing data on the web)
+      - Minimum Information for any (x) Sequence (`MIxS <https://press3.mcs.anl.gov/gensc/mixs/>`_)
  - Ontologies provide standardization for metadata values
-   - Example: `Environment Ontology <http://environmentontology.org/>`_ terms for the MIxS standards
-   - Example: `Plant Ontology <http://planteome.org/>`_ for plant tissue types or development stages
+      - Example: `Environment Ontology <http://environmentontology.org/>`_ terms for the MIxS standards
+      - Example: `Plant Ontology <http://planteome.org/>`_ for plant tissue types or development stages
  - `FAIRSharing.org <https://fairsharing.org/>`_ lists standards and ontologies for Life Sciences.
 
 The CyVerse Data Commons supports good data description through
@@ -126,31 +126,31 @@ The CyVerse Data Commons supports good data description through
 
 **Preserve:** 
  - To be FAIR data must be preserved in an appropriate long-term archive (i.e. data center).
-   - Sequence data should go to INSDC (usually `NCBI <https://www.ncbi.nlm.nih.gov/>`_
+      - Sequence data should go to INSDC (usually `NCBI <https://www.ncbi.nlm.nih.gov/>`_
  - Identifie data with value -- it may not be necessary to preserve all data from a project
  - The `CyVerse Data Commons <http://datacommons.cyverse.org/>`_ provides a place to publish and preserve data that was generated on or can be used in CyVerse, where no other repository exists.
  - See lists of repositories at `FAIRSharing.org <https://fairsharing.org/>`_.
  - Github repos can get DOIs through `Zenodo <https://guides.github.com/activities/citable-code/>`_.
  - Be aware of licensing and other intellectual property issues
-   - See licensing information below
-   - Repositories will require some kind of license, often the least restrictive
-   - Repositories are unlikely to enforce reuse restrictions, even if you apply them.
+      - See licensing information below
+      - Repositories will require some kind of license, often the least restrictive
+      - Repositories are unlikely to enforce reuse restrictions, even if you apply them.
    
 
 **Discover:**
  - Good metadata allows you to discover your own data!
  - Databases, repositories, and search indices provide ways to discover relevant data for reuse
-   - https://toolbox.google.com/datasetsearch
-   - https://www.dataone.org/
-   - `FAIRSharing.org <https://fairsharing.org/>`_ lists databases for Life Sciences.
+      - https://toolbox.google.com/datasetsearch
+      - https://www.dataone.org/
+      - `FAIRSharing.org <https://fairsharing.org/>`_ lists databases for Life Sciences.
 
 **Integrate:** 
  - Data integration is a lot of work.
  - Standards and ontologies are key to future data integration
  - Know the data before you integrate them
-   - Don't trust that two columns with the same header are the same data
+      - Don't trust that two columns with the same header are the same data
  - Properly cite the data you reuse!
-   - Use DOIs wherever possible
+      - Use DOIs wherever possible
 
 **Analyze:** 
  - Follow open science principles for reproducible analyses (CyVerse, RStudio, notebooks, IDEs)
