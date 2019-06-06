@@ -205,19 +205,19 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - `Slides <https://docs.google.com/presentation/d/1i37hl4eZBh-1sekTqPvzNfZYsQkQid1m3LnHodeFZRQ/edit#slide=id.p>`_
     * - 
       - 1:30-2:00
-      - DMPs continued
+      - DMPs continued (if needed)
       - `Draft a DMP <..//Data_management/dmp.html>`_
     * - 
-      - 1:20-2:45
+      - 2:00-2:45
       - Advanced cloud computing (Tyson)
-      - Jetstream, commercial providers
+      - XSEDE, Jetstream, commercial providers
     * - 
       - 2:45-3:00
       - Coffee break
       - 
     * - 
       - 3:00-4:45
-      - Advanced cloud computing part 2 (Tyson)
+      - Time to catch up
       - XSEDE
     * - 
       - 4:45-5:00
