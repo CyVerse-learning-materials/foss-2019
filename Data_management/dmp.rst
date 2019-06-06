@@ -37,21 +37,21 @@ Elements of a good DMP
        - version control
        - **data life cycle**
  - Metadata content and format(s)
-   - format
-   - standards
+       - format
+       - standards
  - Policies for access, sharing, and re-use
-   - funder obligations
-   - ethical and privacy issues (data justice)
-   - intellectual property, copyright, citation
-   - timeline for releases
+       - funder obligations
+       - ethical and privacy issues (data justice)
+       - intellectual property, copyright, citation
+       - timeline for releases
  - Long-term storage, data management, and preservation
-   - which data to preserve
-   - which archive/repository
+       - which data to preserve
+       - which archive/repository
  - Budget (`PAPPG <https://www.nsf.gov/pubs/policydocs/pappg19_1/pappg_2.jsp#IIC2gvib>`_)
-   - each of the above elements cost time/money
-   - Personnel time for data preparation, management, documentation, and preservation (including time)
-   - Hardware and/or software for data management, back up, security, documentation, and preservation (including time)
-   - Publication/archiving costs (including time)
+       - each of the above elements cost time/money
+       - Personnel time for data preparation, management, documentation, and preservation (including time)
+       - Hardware and/or software for data management, back up, security, documentation, and preservation (including time)
+       - Publication/archiving costs (including time)
  
 Not only what, but *who* (roles).
 
@@ -74,7 +74,13 @@ https://dmptool.org/
 References and Resources
 =================
 
-`NSF Guidelines on DMPs <https://www.nsf.gov/bio/biodmp.jsp>`_
+ - `NSF Guidelines on DMPs <https://www.nsf.gov/bio/biodmp.jsp>`_
+ - Professional and scholarly societies, e.g., theEcological Society of America http://www.esa.org/esa/science/data-sharing/resources-and-tools/
+ - DataOne - https://www.dataone.org/best-practices
+ - Data Carpentry - http://datacarpentry.org/
+ - The US Geological Survey http://www.usgs.gov/datamanagement/index.php
+ - Repository registry (and search) service: http://www.re3data.org/
+ - Your university library
 
 
 ----
