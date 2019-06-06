@@ -55,6 +55,7 @@ Expected outcomes:
    software_essentials/commandline
    software_essentials/R_Studio
    software_essentials/RStudio_Git
+   software_essentials/continuous_integration
 
 .. toctree::
    :maxdepth: 1
@@ -82,7 +83,6 @@ Expected outcomes:
    
    moving_on/xsede
    moving_on/continuous_integration
-   moving_on/cyberinfrastructure
    
 .. toctree::
    :maxdepth: 1
