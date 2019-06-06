@@ -82,7 +82,7 @@ Expected outcomes:
    :caption: Moving On
    
    moving_on/xsede
-   moving_on/continuous_integration
+   moving_on/cyberinfrastructure
    
 .. toctree::
    :maxdepth: 1
