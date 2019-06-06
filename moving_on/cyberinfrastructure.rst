@@ -39,7 +39,7 @@ The `National Data Service <http://www.nationaldataservice.org/projects/labs.htm
 -----------
 
 **National Science Foundation**
-~~~~~~~
+~~~~~~~~
 
 `Cyberinfrastructure for Sustained Scientific Innovation (CSSI) <https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505505&org=SES&from_org=SES>`_
 
@@ -50,7 +50,7 @@ The `National Data Service <http://www.nationaldataservice.org/projects/labs.htm
 **National Institutes of Health**
 ~~~~~~~~~~~~~~~~~~~~
 
-`Office of Cyber Infrastructure and Computational Biology (OCICB)<https://www.niaid.nih.gov/about/cyber-infrastructure-computational-biology-contacts>`_
+`Office of Cyber Infrastructure and Computational Biology (OCICB) <https://www.niaid.nih.gov/about/cyber-infrastructure-computational-biology-contacts>`_
 
 `Bioinformatics <https://bioinformatics.niaid.nih.gov/applications>`_
 
