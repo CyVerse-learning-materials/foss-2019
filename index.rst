@@ -81,6 +81,7 @@ Expected outcomes:
    :caption: Moving On
    
    moving_on/xsede
+   moving_on/continous_integration
    
 .. toctree::
    :maxdepth: 1
