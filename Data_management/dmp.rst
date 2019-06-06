@@ -62,6 +62,11 @@ Machine actionable DMPs
 
 https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006750
 
+ - DMPs describe research methods that will evolve over the course of a project
+ - to be a useful tool for researchers and others, the content must be updated to capture the methods that are employed and the data that are produced
+ 
+ ..|maDMP|
+
 Tools for DMPs
 ============================
 
@@ -108,9 +113,8 @@ References and Resources
     :height: 100
  .. _CyVerse logo: http://learning.cyverse.org/
 
- .. |Static image| image:: ./img/IMAGENAME.png
-    :width: 25
-    :height: 25
+.. |maDMP| image:: ../img/journal.pcbi.1006750.g002.png
+
 
 .. Comment: Place URLS Below This Line
 
