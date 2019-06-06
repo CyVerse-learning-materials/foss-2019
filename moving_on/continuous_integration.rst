@@ -42,15 +42,16 @@ Jenkins is a bit harder to set up because you need a dedicated server
 
 `Setup <https://jenkins.io/doc/book/installing/>`_
 
+
 **Badges**
----------
+~~~~~~~~~
 
 Status badges can be embedded in a README.md. Badges let you show the state of code or documentation.
 
 You can view a diverse list of different badges on `Shields.io <https://shields.io/>`_
 
 *Different Badge Styles*
-~~~~~~~~~~~~
+---------
 
 Now you can pass the ``style`` GET argument,
 to get custom styled badges same as you would for shields.io. 
@@ -78,7 +79,7 @@ If no argument is passed, ``flat`` is used as default.
 
 
 **Self paced**
-------------
+~~~~~~~~~~
 
 `Circle vs Jenkins vs Travis <https://stackshare.io/stackups/circleci-vs-jenkins-vs-travis-ci>`_
 
