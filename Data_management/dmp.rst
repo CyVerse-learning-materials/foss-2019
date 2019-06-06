@@ -67,6 +67,8 @@ Tools for DMPs
 
 https://dmptool.org/ 
 
+Exercise: Log in to DMP tools and create a mock DMP.
+
 
 
 ----
@@ -75,6 +77,8 @@ References and Resources
 =================
 
  - `NSF Guidelines on DMPs <https://www.nsf.gov/bio/biodmp.jsp>`_
+ - https://dmptool.org/general_guidance
+ - https://dmptool.org/public_templates
  - Professional and scholarly societies, e.g., theEcological Society of America http://www.esa.org/esa/science/data-sharing/resources-and-tools/
  - DataOne - https://www.dataone.org/best-practices
  - Data Carpentry - http://datacarpentry.org/
