@@ -210,7 +210,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 2:00-2:45
       - Advanced cloud computing (Tyson)
-      - XSEDE, Jetstream, commercial providers
+      - `XSEDE, Jetstream, commercial providers <moving_on/xsede.html>`_
     * - 
       - 2:45-3:00
       - Coffee break
