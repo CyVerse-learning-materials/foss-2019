@@ -70,6 +70,8 @@ Department of Agriculture `FACT <https://nifa.usda.gov/program/fact>`_
 
 `Bill & Melinda Gates <https://www.gatesfoundation.org/>`_
 
+`Belmont Forum <http://www.belmontforum.org/>`_
+
 **Big 3**
 ~~~~~~
 
