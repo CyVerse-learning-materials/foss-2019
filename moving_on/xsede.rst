@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**National Research Cyberinfrastructure**
+**Research Cyberinfrastructure associated with CyVerse**
 ==========================
 
 While CyVerse provides free and open resources for data storage and computing, you may find that your work is pushing the limits of what CyVerse offers in its core services.
