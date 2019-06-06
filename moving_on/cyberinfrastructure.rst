@@ -5,24 +5,21 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-
 **Other Cyberinfrastructure Projects**
 ==========================
 
 **National Groups**
 ----------------
 
-The `Cloud Native Computing Foundation <https://www.cncf.io/>`_ 
+The `Cloud Native Computing Foundation <https://www.cncf.io/>`_ is an open source software foundation dedicated to making cloud native computing universal and sustainable
 
-`Open Science Framework <https://osf.io/>`_
+The `Open Science Framework <https://osf.io/>`_ is a tool that promotes open, centralized workflows by enabling capture of different aspects and products of the research lifecycle, including developing a research idea, designing a study, storing and analyzing collected data, and writing and publishing reports or papers.
 
-`National Data Service <http://www.nationaldataservice.org/projects/labs.html>`_
+The `National Data Service <http://www.nationaldataservice.org/projects/labs.html>`_ is an emerging vision for how scientists and researchers across all disciplines can find, reuse, and publish data.
 
-`Galaxy Project <https://galaxyproject.org/>`_
+`Galaxy Project <https://galaxyproject.org/>`_  is an open, web-based platform for accessible, reproducible, and transparent computational biomedical research.
 
-`Advanced Cyberinfrastructure Development (ACID) <http://acid.sdsc.edu./projects>`_
-
-`Science Gateways Community Institute <https://sciencegateways.org/>`_
+`Science Gateways Community Institute <https://sciencegateways.org/>`_ allow science & engineering communities to access shared data, software, computing services, instruments, educational materials, and other resources specific to their disciplines.
 
 **Domain Specific Cyberinfrastructures**
 -------------------------
@@ -35,6 +32,52 @@ The `Cloud Native Computing Foundation <https://www.cncf.io/>`_
 
 `Molecular Sciences Software Institute <https://molssi.org/>`_
 
+`Advanced Cyberinfrastructure Development (ACID) <http://acid.sdsc.edu./projects>`_
+
+
+**Funding Opportunities**
+-----------
+
+**National Science Foundation**
+~~~~~~~
+
+`Cyberinfrastructure for Sustained Scientific Innovation (CSSI) <https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505505&org=SES&from_org=SES>`_
+
+`Cyberinfrastructure for Biological Research (CIBR) <https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505538&org=SES&from_org=SES>`_
+
+`Harnessing the Data Revolution (HDR): Institutes for Data-Intensive Research in Science and Engineering - Ideas Labs (I-DIRSE-IL) <https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505614&org=SES&from_org=SES>`_
+
+**National Institutes of Health**
+~~~~~~~~~~~~~~~~~~~~
+
+`Office of Cyber Infrastructure and Computational Biology (OCICB)<https://www.niaid.nih.gov/about/cyber-infrastructure-computational-biology-contacts>`_
+
+`Bioinformatics <https://bioinformatics.niaid.nih.gov/applications>`_
+
+**Other US Federal**
+~~~~~~~~
+
+Department of Energy `ARPA-E <https://arpa-e.energy.gov/>`_
+
+Department of Agriculture `FACT <https://nifa.usda.gov/program/fact>`_
+
+`NOAA <https://www.noaa.gov/research>`_
+
+**Foundations**
+~~~~~~~~~
+
+`Alfred P. Sloan <https://sloan.org/>`_
+
+`Bill & Melinda Gates <https://www.gatesfoundation.org/>`_
+
+**Big 3**
+~~~~~~
+
+`Google <https://www.google.com/grants/>`_
+
+`Microsoft <https://www.microsoft.com/en-us/research/awards/>`_
+
+`Amazon <https://ara.amazon-ml.com/>`_
 
 ----
 
