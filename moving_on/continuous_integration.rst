@@ -23,8 +23,8 @@ The most popular CI tools are:
 
  * building or hosting services to a community
  * developing versioned copies of containers for public consumption
- * `DevOps + Data Science <- `Jenkins <https://jenkins.io/>`_ - free, can be hosted internally, highly customizable (plugins)>`_
-
+ * DevOps + Data Science 
+ 
 **Travis CI**
 ~~~~~~~~~~
 
