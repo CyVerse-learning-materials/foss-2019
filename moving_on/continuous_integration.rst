@@ -16,7 +16,7 @@ CI can be integrated into either scientific programming workflows or into code d
 The most popular CI tools are:
 
   - `Travis CI <https://travis-ci.org/>`_ - fast, easy to set up, cloud based
-  - `Circle CI <https://circleci.com/>`_ fast, easy to set up, cloud based
+  - `Circle CI <https://circleci.com/>`_ - fast, easy to set up, cloud based
   - `Jenkins <https://jenkins.io/>`_ - free, can be hosted internally (requires server), highly customizable (plugins)
 
 **When to use CI?**
