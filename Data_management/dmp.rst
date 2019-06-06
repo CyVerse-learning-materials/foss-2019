@@ -11,6 +11,7 @@
 .. #### Comment: Introduction to basic data management principles
 
 "A data management plan or DMP is a formal document that outlines how data are to be handled both during a research project, and after the project is completed.[1] The goal of a data management plan is to consider the many aspects of data management, metadata generation, data preservation, and analysis before the project begins; this may lead to data being well-managed in the present, and prepared for preservation in the future."
+
 (Source: https://en.wikipedia.org/wiki/Data_management_plan)
 
 `Example DMP <slides/DMPFuTRES_v2.docx>`_
@@ -28,13 +29,13 @@ Reviewers definitely look at them, but they may not be enforced.
 Elements of a good DMP
 ====================
  - Information about data & data format(s)
-   - data types
-   - data sources
-   - analysis methods
-   - formats
-   - QA/QC
-   - version control
-   - **data life cycle**
+       - data types
+       - data sources
+       - analysis methods
+       - formats
+       - QA/QC
+       - version control
+       - **data life cycle**
  - Metadata content and format(s)
    - format
    - standards
