@@ -49,11 +49,6 @@ Status badges can be embedded in a README.md. Badges let you show the state of c
 
 You can view a diverse list of different badges on `Shields.io <https://shields.io/>`_
 
-Here are a few examples of simple badges with colors:
-
-|green| |nbsp| |red| |nbsp| |yellow|
-
-
 *Different Badge Styles*
 ~~~~~~~~~~~~
 
