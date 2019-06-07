@@ -240,25 +240,25 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Introduction and overview of the day's activities (Ramona)
       - AM: Containers, PM: lab organization
     * - 
-      - 9:15-10:15
-      - Introduction to containers (Tyson or Ramona)
+      - 9:15-9:35
+      - Introduction to containers (Ramona)
       - Running Docker containers on Atmosphere 
+   * - 
+      - 9:35-10:00
+      - Biocontainers (Amanda)
+      - `Running Biocontainers, tool integration <../CyVerse/tool_integration_app_building_DE.html>`_ 
     * - 
       - 10:15-10:30
       - Coffee break
       - 
     * - 
-      - 10:30-11:15
-      - Biocontainers (Amanda)
-      -  
-    * - 
-      - 11:15-11:45
+      - 10:30-11:00
       - Creating DE apps (Amanda)
-      -  
+      - `Tool and app creation <../CyVerse/tool_integration_app_building_DE.html>`_ 
     * -
-      - 11:45-1:00
+      - 11:00-1:00
       - Lunch Break - option to join the CyVerse potluck lunch
-      - Coffee shop closes early, so this is the last chance for fine Catalyst coffee!
+      - Coffee shop closes at 1:00, so this is the last chance for fine Catalyst coffee!
     * - 
       - 1:00-2:00
       - Collaborative exercise (Michael Mandel)
