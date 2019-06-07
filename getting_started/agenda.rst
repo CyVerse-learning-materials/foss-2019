@@ -242,11 +242,11 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 9:15-9:35
       - Introduction to containers (Ramona)
-      - Running Docker containers on Atmosphere 
+      - `Running Docker containers on Atmosphere <../Containers/dockeronatmo.html>`_
    * - 
       - 9:35-10:00
       - Biocontainers (Amanda)
-      - `Running Biocontainers, tool integration <../CyVerse/tool_integration_app_building_DE.html>`_ 
+      - `Biocontainers <../Containers/biocontainers.rst>`_ 
     * - 
       - 10:15-10:30
       - Coffee break
