@@ -246,7 +246,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
     * - 
       - 9:35-10:00
       - Biocontainers (Amanda)
-      - `Biocontainers <../Containers/biocontainers.rst>`_ 
+      - `Biocontainers <../Containers/biocontainers.html>`_ 
     * - 
       - 10:15-10:30
       - Coffee break
