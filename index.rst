@@ -88,9 +88,10 @@ Expected outcomes:
    :maxdepth: 1
    :caption: Containers
 
+   Containers/dockeronatmo
+   Containers/biocontainers
    Containers/dockerintro
    Containers/dockeradvanced
-   Containers/biocontainers
 
 .. toctree::
    :maxdepth: 1
