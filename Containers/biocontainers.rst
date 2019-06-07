@@ -1,3 +1,9 @@
+.. include:: ../cyverse_rst_defined_substitutions.txt
+
+|CyVerse_logo2|_
+
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
 
 **Introduction to BioContainers**
 =================================
@@ -290,6 +296,20 @@ Useful Links
 - `Request a BioContainer <http://github.com/BioContainers/containers/issues>`_
 - `Singularity documentation <https://singularity.lbl.gov/quickstart>`_
 - `BioContainers contribution guidelines <https://github.com/BioContainers/specs#33-how-to-create-a-docker-based-biocontainer>`_
+
+----
+
+**Fix or improve this documentation:**
+
+- On Github: |Github Repo Link|
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+----
+
+
+.. |Github Repo Link|  raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/Containers/biocontainers.rst" target="blank">Github Repo Link</a>
 
 .. |biocondalogo| image:: ../img/biocontainers13.png
   :width: 300
