@@ -20,7 +20,7 @@ The CyVerse Discovery Environment provides a graphic user interface for bioinfor
 
 **Tool Integration of a BioContainer**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Log in to the Discovery Environemnt (DE) using your CyVerse credentials
+Log in to the `Discovery Environemnt <https://de.cyverse.org>`_(DE) using your CyVerse credentials
 
 |DElogin|
 
