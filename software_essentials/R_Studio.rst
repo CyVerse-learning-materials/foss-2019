@@ -19,7 +19,7 @@
 
 2. Move to the Applications folder.
 
-3. Open RStudio. Look at it.
+3. Open RStudio.
 
 Go to Session -> Set Working Directory to set where you will pull data files from and/or save your code.
 
