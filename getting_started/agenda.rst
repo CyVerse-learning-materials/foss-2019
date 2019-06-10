@@ -244,7 +244,7 @@ Instructors will review the agenda at the end of each day, and adjust based on p
       - Introduction to Containers (Tyson)
       - `Docker Containers GitPitch <https://gitpitch.com/tyson-swetnam/foss-containers>`_
       
-        `Lucid Chart <https://www.lucidchart.com/invitations/accept/a18580a1-e3a8-4a07-a2dc-3f99b1dbbd6e>`_
+        `Lucid Chart <https://www.lucidchart.com/documents/view/108d5703-5fc1-438b-bf7a-2be10662d1ab/0>`_
     * - 
       - 9:35-10:00
       - Biocontainers (Amanda)
