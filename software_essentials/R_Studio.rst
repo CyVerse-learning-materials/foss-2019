@@ -14,12 +14,12 @@
 1. You need to download R & RStudio:
 
    - `Download R <https://cran.r-project.org/>`_
- 
+
    - `Download R Studio <https://www.rstudio.com/products/rstudio/download/#download>`_
 
 2. Move to the Applications folder.
 
-3. Open RStudio. 
+3. Open RStudio. Look at it.
 
 Go to Session -> Set Working Directory to set where you will pull data files from and/or save your code.
 
@@ -42,9 +42,9 @@ We will learn how to:
 	- matrices & lists
 - explore data
 	- data manipulation
-	- data subsetting 
+	- data subsetting
 
-R Studio makes using R programming language easier to interact with and to keep track of projects. 
+R Studio makes using R programming language easier to interact with and to keep track of projects.
 
 **Navigating & Interacting with R Studio**
 ------------------------------------------
@@ -76,10 +76,10 @@ Using R as a calculator
 
 	> 2+2
 	> 4
-	
+
 	> 1 +
 	> + #R will let you know that the code is incomplete
-	
+
 	> 2/10000
 	> 2e-04
 
@@ -94,10 +94,10 @@ Comparing things: Using logical operators
 
 	> 1 == 1 #spaces between logical arguments matter
 	> TRUE
-	
+
 	> 1 < 2
 	> TRUE
-	
+
 	> 1 >= 9
 	> FALSE
 
@@ -122,7 +122,7 @@ Parts of the help file:
 - Arguments
 	These are different inputs into the function that can be used.
 	The argument (e.g., x, y) do not always need to be specified.
-	For example, 
+	For example,
 
 .. code-block:: R
 
@@ -198,10 +198,10 @@ There are many ways to upload data in the R environment depending on the documen
 
 	#.csv files
 	read.csv()
-	
+
 	#reading in from an online source or path to the directory if you're not in the right working directory
 	read.table(path/to/file)
-	
+
 **Data Structures**
 -------------------
 
@@ -241,7 +241,7 @@ Logical - TRUE or FALSE
 	str(10)
 	str("10")
 
-Try calculations on the following. 
+Try calculations on the following.
 	2. What works and what doesn't? Why or why not?
 
 .. code-block:: R
@@ -249,14 +249,14 @@ Try calculations on the following.
 	10*2
 	"10"*2
 
-Errors v. Warnings: 
+Errors v. Warnings:
 	Errors are given when R cannot perform the calculation
 	Warnings mean that the function has run but perhaps with some issues.
 
 Storing Variables
 ~~~~~~~~~~~~~~~~~
 
-We can assign any of the types of data above in a "place holder". 
+We can assign any of the types of data above in a "place holder".
 Variables are assignee using "<-".
 
 For example, we can store the number 10 in a letter to use later
@@ -264,7 +264,7 @@ For example, we can store the number 10 in a letter to use later
 .. code-block:: R
 
 	a <- 10
-	
+
 **NOTE** Do not create variables that are already functions or arguments (e.g., c, T, F).
 **NOTE** Do not overwrite variables.
 
@@ -284,7 +284,7 @@ You can create a string of variables and add to a vector using c(), which is sho
 	2. Create your own vector using the vector() function.
 
 .. code-block:: R
-	
+
 	x <- c(1, 2, 3, 4, 5)
 	y <- 1:5
 	z <- seq(1, 5, 1)
@@ -294,7 +294,7 @@ You can create a string of variables and add to a vector using c(), which is sho
 Adding to vectors: the concatenate function: c()
 
 .. code-block:: R
-	
+
 	d <- 1
 	d <- c(d, 2)
 
@@ -325,7 +325,7 @@ You can combine dataframes:
 
 .. code-block:: R
 
-	hello <- data.frame (1:26, letters, words = c("hey", "you")) 
+	hello <- data.frame (1:26, letters, words = c("hey", "you"))
 	hi <- data.frame(1:26, letters, c("hey", "you"))
 	howdy <- data.frame(hello, hi)
 
@@ -345,7 +345,7 @@ Adding columns and rows using cbind() and rbind()
 .. code-block:: R
 
 	cbind(hello, "goodbye")
-	
+
 We can call columns using **$** in the form of *data.frame$column* or call them using the modifier *data.frame[row#, column#]*
 
 Calling columns:
@@ -358,7 +358,7 @@ Calling columns:
 Subsetting:
 
 .. code-black:: R
-	
+
 	hello[1:5, 2]
 	hello$letters[1:5]
 
@@ -418,8 +418,8 @@ Create the following dataframe:
 
 .. code-block:: R
 
-	cats <- data.frame(coat = c("calico", "black", "tabby"), 
-                    weight = c(2.1, 5.0,3.2), 
+	cats <- data.frame(coat = c("calico", "black", "tabby"),
+                    weight = c(2.1, 5.0,3.2),
                     likes_string = c(1, 0, 1))
 	class(cats)
 
@@ -451,13 +451,13 @@ Subsetting Data
 .. code-block:: R
 	p <- subset(cats, cats$weight <= 3)
 	p
-	
+
 	q <- cats[cats$weight <= 3,]
 	q
 
 	cats$likes_string == 1
 	cats[cats$likes_string == TRUE,]
-	
+
 	cats[c(1,3),]
 	cats[colnames(cats) == "weight"]
 	cats[cats$weight >= 2 & cats$weight <= 5]
@@ -468,7 +468,7 @@ Subsetting Data
 
 	x <- c(a=5.4, b=6.2, c=7.1, d=4.8, e=7.5) # we can name a vector 'on the fly'
 	#x is a vector
-	x[c(a,c),]	
+	x[c(a,c),]
 	x[names(x) == "a"]
 	x[names(x) == "a" | "c"]
 	x[names(x) != "a"]
@@ -484,7 +484,7 @@ Tools --> Terminal --> New Terminal
 .. CHEAT SHEETS::
 
    RStudio provides numerous `"cheat sheets" <https://www.rstudio.com/resources/cheatsheets/>`_ which help learners.
-   
+
    `2019 Package Cheat Sheets <https://www.rstudio.com/wp-content/uploads/2019/01/Cheatsheets_2019.pdf>`_
 
 --------------
@@ -495,8 +495,8 @@ Tools --> Terminal --> New Terminal
 
 .. |R Console| image:: ../img/rstudio.png
   :width: 750
-  
-  
+
+
   .. |Github Repo Link|  raw:: html
 
    <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/software_essentials/R_Studio.rst" target="blank">Github Repo Link</a>
