@@ -220,7 +220,11 @@ Other more powerful uses of GitHub include the integration with other web servic
 
 3. Edit the README.md by clicking on the pencil icon.
 
-4. Create a new file by clicking on the creatte
+4. Create a new file by clicking on the "Create New File" icon.
+
+5. Type in `LICENSE` - note that a "Choose a License Template" icon has been activated.
+
+6. Click on the License Template icon and choose your preferred license.
 
 **Issue Tracking**
 ~~~~~~~~~~~~~~~~
