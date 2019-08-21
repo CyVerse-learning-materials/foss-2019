@@ -13,7 +13,7 @@ CyVerse data science workbench, the `Discovery Environment <https://de.cyverse.o
 
 VICE uses Docker containers to launch interactive programs, like RStudio, R Shiny Apps, Project Jupyter, Data Mining, and WebGL Applications that can be run in a browser. These programs allow users to interact with their data and do analyses in one place (i.e. view outputs in the same window code is executed). Researchers using VICE can explore their datasets interactively in the Discovery Environment while using the Data Store. 
 
-While VICE does require some coding experience, it is for anyone who wants to interact with data in an iteritative way. 
+While VICE does require some coding knowledge, it is for anyone who wants to interact with data in an iteritative way. 
 
 
 .. #### Comment: How to launch apps on VICE
@@ -32,7 +32,7 @@ While VICE does require some coding experience, it is for anyone who wants to in
 
   2. Select an application and start it
   
-  3. After a few seconds to a couple of minutes (<2) your app should be running, you'll see a notification icon (bell) in the upper right corner of the DE, or click on `Analyses` to view the apps that you are running.
+  3. After a few seconds to a couple of minutes, your app should be running, you'll see a notification icon (bell) in the upper right corner of the DE, or click on `Analyses` to view the apps that you are running.
 
 ..
 	#### Comment: Suggested style guide:
@@ -48,13 +48,16 @@ While VICE does require some coding experience, it is for anyone who wants to in
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *Python users*
+
 `Jupyter lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
 
 *R users*
+
 `Rstudio <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html>`_
 `Rshiny <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rshiny.html>`_
 
 *Other*
+
 `List of all VICE apps <https://learning.cyverse.org/projects/vice/en/latest/vice_apps/examples.html>`_
 
 
