@@ -11,7 +11,10 @@
 
 CyVerse data science workbench, the `Discovery Environment <https://de.cyverse.org/de/>`_, includes a feature called `VICE (Visual Interactive Computing Environment) <https://learning.cyverse.org/projects/vice/en/latest/>`_
 
-VICE uses Docker containers to launch interactive programs, like RStudio, R Shiny Apps, Project Jupyter, Data Mining, and WebGL Applications that can be run in a browser. 
+VICE uses Docker containers to launch interactive programs, like RStudio, R Shiny Apps, Project Jupyter, Data Mining, and WebGL Applications that can be run in a browser. These programs allow users to interact with their data and do analyses in one place (i.e. view outputs in the same window code is executed). Researchers using VICE can explore their datasets interactively in the Discovery Environment while using the Data Store. 
+
+While VICE does require some coding experience, it is for anyone who wants to interact with data in an iteritative way. 
+
 
 .. #### Comment: How to launch apps on VICE
 
@@ -40,6 +43,21 @@ VICE uses Docker containers to launch interactive programs, like RStudio, R Shin
 	4. Primary menu titles in double quotes: Under "Input" choose...
 	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
 	####
+
+*Specific instructions for launching VICE applications*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Python users*
+`Jupyter lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
+
+*R users*
+`Rstudio <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html>`_
+`Rshiny <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rshiny.html>`_
+
+*Other*
+`List of all VICE apps <https://learning.cyverse.org/projects/vice/en/latest/vice_apps/examples.html>`_
+
+
 
 
 ----
