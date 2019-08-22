@@ -6,8 +6,30 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
+
+
+
+
 **VICE**
 ========
+
+
+.. #### Comment: Learning outcomes:
+
+After reading this document, new users should be able to:
+
+1. Understand the types of computing problems for which VICE is a good solution
+
+2. How to start VICE to run a Jupyter Notebook, R Shiny App, and related applications
+
+3. How to connect VICE to the CyVerse Data Store to move data into and out of a running VICE instance
+
+4. How to use notebooks and R Shiny Apps created by other researchers.
+
+5. How to create a notebook and R Shiny App
+
+5. How to share a notebook/R Shiny App with other users/researchers
+
 
 CyVerse data science workbench, the `Discovery Environment <https://de.cyverse.org/de/>`_, includes a feature called `VICE (Visual Interactive Computing Environment) <https://learning.cyverse.org/projects/vice/en/latest/>`_
 
