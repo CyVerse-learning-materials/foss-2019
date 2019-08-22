@@ -14,7 +14,8 @@
 ========
 
 
-.. #### Comment: Learning outcomes:
+
+**Learning Outcomes**
 
 After reading this document, new users should be able to:
 
@@ -30,6 +31,7 @@ After reading this document, new users should be able to:
 
 5. How to share a notebook/R Shiny App with other users/researchers
 
+**About VICE**
 
 CyVerse data science workbench, the `Discovery Environment <https://de.cyverse.org/de/>`_, includes a feature called `VICE (Visual Interactive Computing Environment) <https://learning.cyverse.org/projects/vice/en/latest/>`_
 
