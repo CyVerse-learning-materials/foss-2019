@@ -71,13 +71,10 @@ While VICE does require some coding knowledge, it is for anyone who wants to int
 *Specific instructions for launching VICE applications*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Python users*
-
 `Jupyter lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
 
-*R users*
-
 `Rstudio <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html>`_
+
 `Rshiny <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rshiny.html>`_
 
 *Other*
