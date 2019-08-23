@@ -29,7 +29,7 @@ After reading this document, new users should be able to:
 
 5. How to create a notebook and R Shiny App
 
-5. How to share a notebook/R Shiny App with other users/researchers
+6. How to share a notebook/R Shiny App with other users/researchers
 
 **About VICE**
 
@@ -76,8 +76,6 @@ While VICE does require some coding knowledge, it is for anyone who wants to int
 `Rstudio <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html>`_
 
 `Rshiny <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rshiny.html>`_
-
-*Other*
 
 `List of all VICE apps <https://learning.cyverse.org/projects/vice/en/latest/vice_apps/examples.html>`_
 
