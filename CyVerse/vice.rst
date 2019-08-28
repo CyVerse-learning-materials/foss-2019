@@ -47,16 +47,10 @@ While VICE does require some coding knowledge, it is for anyone who wants to int
 - You can launch existing VICE images from the DE, or integrate your own using the Manage Tools. 
 - VICE apps are containers, and your data are in the container until you move them off of it. Your results will be saved when the app terminates in your ``/username/analyses`` directory, unless you specify that the app results be saved elsewhere.
 
+
+`List of all VICE apps <https://learning.cyverse.org/projects/vice/en/latest/vice_apps/examples.html>`_
+
 ----
-
-*Starting a VICE app*
-~~~~~~~~~~~~~~~~~~~~
-
-  1. Log into CyVerse `Discovery Environment <https://de.cyverse.org/de/>`_ or `CyVerse Run <https://cyverse.run>`_
-
-  2. Select an application and start it
-  
-  3. After a few seconds to a couple of minutes, your app should be running, you'll see a notification icon (bell) in the upper right corner of the DE, or click on `Analyses` to view the apps that you are running.
 
 ..
 	#### Comment: Suggested style guide:
@@ -71,15 +65,35 @@ While VICE does require some coding knowledge, it is for anyone who wants to int
 *Specific instructions for launching VICE applications*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Jupyter lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
+-`Jupyter lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
 
-`Rstudio <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html>`_
+-`Rstudio <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html>`_
 
-`Rshiny <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rshiny.html>`_
+-`Rshiny <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rshiny.html>`_
 
-`List of all VICE apps <https://learning.cyverse.org/projects/vice/en/latest/vice_apps/examples.html>`_
+----
 
+*Sharing VICE apps with collaborators*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+You can share your VICE workspace with colleagues (whith a CyVerse account) who can see and edit your notebooks, logs, and outputs. 
+
+To share your workspace
+
+|vice-share-1|
+
+|vice-share-2| 
+
+|vice-share-3|
+
+|vice-share-4|
+
+|vice-share-5|
+
+|vice-share-6|
+
+|vice-share-7|
+----
 
 
 ----
@@ -107,7 +121,21 @@ While VICE does require some coding knowledge, it is for anyone who wants to int
     :width: 25
     :height: 25
 
-
+.. |vice-share-1| image:: ../img/vice-share-1.png
+    :width: 750
+	
+.. |vice-share-2| image:: ../img/vice-share-2.png
+    :width: 750
+.. |vice-share-3| image:: ../img/vice-share-3.png
+    :width: 750
+.. |vice-share-4| image:: ../img/vice-share-4.png
+    :width: 750
+.. |vice-share-5| image:: ../img/vice-share-5.png
+    :width: 750
+.. |vice-share-6| image:: ../img/vice-share-6.png
+    :width: 750
+.. |vice-share-7| image:: ../img/vice-share-7.png
+    :width: 750
 
 .. Comment: Place URLS Below This Line
 
