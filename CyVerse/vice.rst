@@ -78,7 +78,7 @@ While VICE does require some coding knowledge, it is for anyone who wants to int
 
 You can share your VICE workspace with colleagues (whith a CyVerse account) who can see and edit your notebooks, logs, and outputs. 
 
-To share your workspace
+*To share your workspace*
 
 |vice-share-1|
 
@@ -89,6 +89,11 @@ To share your workspace
 |vice-share-4|
 
 |vice-share-5|
+
+
+**Opening workspaces shared with you**
+
+|vice-share-1|
 
 |vice-share-6|
 
