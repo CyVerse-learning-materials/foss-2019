@@ -1,6 +1,6 @@
 |foss-main|
 
-CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) 2019
+CyVerse Learning Institute - Foundational Open Science Skills (FOSS) 2019
 ------------------------------------
 
 Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
