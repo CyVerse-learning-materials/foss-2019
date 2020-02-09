@@ -1,3 +1,7 @@
+*****
+DEPRECATED: Visit `FOSS-2020 <https://cyverse-foss-2020.readthedocs-hosted.com/en/latest/>`_ for current pages
+*****
+
 |foss-main|
 
 CyVerse Learning Institute - Foundational Open Science Skills (FOSS) 2019
