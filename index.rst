@@ -1,3 +1,4 @@
+.. include:: cyverse_rst_defined_substitutions.txt
 *****
 DEPRECATED: Visit `FOSS-2020 <https://cyverse-foss-2020.readthedocs-hosted.com/en/latest/>`_ for current pages
 *****
@@ -152,10 +153,17 @@ Please cite CyVerse appropriately when you make use of our resources,
 
 ----
 
-**Fix or improve this documentation:**
+**Fix or improve this documentation**
 
-- On Github: |Github Repo Link|
+- Search for an answer:
+  |CyVerse Learning Center|
+- Ask us for help:
+  click |Intercom| on the lower right-hand side of the page
+- Report an issue or submit a change:
+  |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+
 
 ----
 
