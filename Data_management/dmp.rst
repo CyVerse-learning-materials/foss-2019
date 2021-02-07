@@ -87,6 +87,7 @@ References and Resources
  - https://dmptool.org/general_guidance
  - https://dmptool.org/public_templates
  - Professional and scholarly societies, e.g., theEcological Society of America http://www.esa.org/esa/science/data-sharing/resources-and-tools/
+ #ESA link is broken
  - DataOne - https://www.dataone.org/best-practices
  - Data Carpentry - http://datacarpentry.org/
  - The US Geological Survey http://www.usgs.gov/datamanagement/index.php
