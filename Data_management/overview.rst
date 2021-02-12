@@ -218,4 +218,4 @@ References and Resources
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/Data_management/overview.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss/blob/master/CyVerse/de-data-manage.rst" target="blank">Github Repo Link</a>
